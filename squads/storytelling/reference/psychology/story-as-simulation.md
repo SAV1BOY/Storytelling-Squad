@@ -12,14 +12,40 @@ The implications for marketing are significant. When a prospect reads a customer
 Stories function as mental simulations of social reality, allowing audiences to practice complex social and emotional scenarios without real-world risk. This simulation function explains both why humans are drawn to narrative and why stories produce measurable changes in social cognition, empathy, and decision-making.
 
 ## Key Concepts
-- **Fiction as Flight Simulator (Oatley)**: Stories provide a safe environment to simulate social experiences; readers mentally rehearse social scenarios, building competence without real-world consequences
-- **Simulation vs Information**: Stories do not merely transmit information — they create experiences; the reader is a participant in a simulation, not a passive recipient of data
-- **Social Cognition Enhancement**: Regular fiction reading improves Theory of Mind, empathy, and social prediction abilities; this improvement is causal, not merely correlational (Mar & Oatley, 2008)
-- **Emotional Simulation**: Readers experience genuine emotions during narrative simulation — fear, joy, sadness, triumph — which exercise and strengthen emotional processing capacities
-- **Mental Modeling**: During narrative comprehension, readers construct detailed mental models of the story world, including character motivations, spatial relationships, and causal chains
-- **Predictive Processing**: Readers constantly generate predictions about narrative outcomes, testing their social-prediction models against story events — each correct or incorrect prediction refines social cognition
-- **Transfer Effects**: Skills practiced in narrative simulation transfer to real-world social contexts; reading about negotiation improves actual negotiation; reading about empathic listening improves actual listening
-- **Embodied Simulation**: Brain imaging shows that reading about physical actions activates motor cortex, reading about sensory experiences activates sensory cortex — simulation is neurologically literal
+- **Fiction as Flight Simulator (Oatley)**: Stories provide a safe environment to simulate
+  social experiences. Readers mentally rehearse social scenarios, building competence without
+  real-world consequences. Each story is a new simulation run.
+- **Simulation vs Information**: Stories do not merely transmit information — they create
+  experiences. The reader is a participant in a simulation, not a passive recipient of data.
+  This distinction explains why stories change behavior when information alone does not.
+- **Social Cognition Enhancement**: Regular fiction reading improves Theory of Mind, empathy,
+  and social prediction abilities. Mar & Oatley (2008) showed this improvement is causal,
+  not merely correlational — reading fiction causes social cognition gains.
+- **Emotional Simulation**: Readers experience genuine emotions during narrative simulation —
+  fear, joy, sadness, triumph — which exercise and strengthen emotional processing capacities.
+  These are real emotions, not diminished approximations.
+- **Mental Modeling**: During narrative comprehension, readers construct detailed mental models
+  of the story world, including character motivations, spatial relationships, and causal chains.
+  These models update continuously as new story information arrives.
+- **Predictive Processing**: Readers constantly generate predictions about narrative outcomes,
+  testing their social-prediction models against story events. Each correct or incorrect
+  prediction refines the reader's real-world social cognition.
+- **Transfer Effects**: Skills practiced in narrative simulation transfer to real-world social
+  contexts. Reading about negotiation improves actual negotiation ability. Reading about
+  empathic listening improves actual listening skills.
+- **Embodied Simulation**: Brain imaging shows that reading about physical actions activates
+  motor cortex and reading about sensory experiences activates sensory cortex. Simulation
+  is neurologically literal, not metaphorical.
+
+## Key Research
+- Oatley (1999, 2008): Developed the "fiction as simulation" framework across multiple papers
+  and books. Core work in *Such Stuff as Dreams: The Psychology of Fiction*.
+- Mar, Oatley, Hirsh, dela Paz, & Peterson (2006): Demonstrated that fiction readers (not
+  nonfiction readers) scored higher on empathy and social cognition tests.
+- Kidd & Castano (2013): Published in *Science* — showed that reading literary fiction (vs
+  popular fiction or nonfiction) specifically improved Theory of Mind performance.
+- Speer, Reynolds, Swallow, & Zacks (2009): fMRI study demonstrating that readers simulate
+  described actions and sensations in corresponding brain regions during narrative comprehension.
 
 ## Application to Marketing
 - **Case Studies as Virtual Trials**: Design case studies so the reader simulates the experience of being the customer — include decision moments, doubts, implementation details, and emotional states, not just outcomes

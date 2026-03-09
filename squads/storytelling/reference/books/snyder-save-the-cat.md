@@ -60,6 +60,16 @@ The deeper argument is that story is fundamentally democratic—it belongs to th
 - "The audience doesn't care about your clever structure. They care about how the story makes them feel."
 - "Fun and Games is the promise of the premise—it's why people bought the ticket."
 
+## Critiques and Limitations
+
+- Critics argue the Beat Sheet encourages formulaic storytelling, producing movies that all feel the same. Snyder would counter that the beats describe what works, not what must be done identically.
+- The page-number specificity (Catalyst on page 12, Midpoint on page 55) can be overly rigid. Stories that deviate from these numbers can still succeed, and adherence to numbers alone does not ensure quality.
+- The system was designed for mainstream Hollywood feature films. It requires adaptation for other formats: television, short-form content, literary fiction, and marketing narratives.
+- Some screenwriters feel the Save the Cat moment is a crutch that substitutes for genuine character development. A single likable action is not the same as a complex, compelling character.
+- The ten-genre system, while useful, does not capture every story type. Some films blend genres in ways that resist clean classification.
+
+Despite these criticisms, the Beat Sheet remains one of the most practical and widely used tools in narrative structure, and its influence on marketing storytelling has been substantial.
+
 ## Cross-References
 
 - `../../frameworks/story-structure-models.md` — The Beat Sheet is one of the primary structural models in the framework

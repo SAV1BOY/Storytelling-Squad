@@ -63,6 +63,16 @@ The monomyth is not a formula to be mechanically applied but a map of psychic te
 - "Furthermore, we have not even to risk the adventure alone; for the heroes of all time have gone before us; the labyrinth is thoroughly known; we have only to follow the thread of the hero-path."
 - "It is by going down into the abyss that we recover the treasures of life."
 
+## Critiques and Limitations
+
+- Campbell's monomyth has been criticized for imposing a Western, male-centric lens on diverse mythological traditions. Not all myths fit the pattern, and forcing them into it can erase cultural specificity.
+- The seventeen stages are rarely all present in any single myth. Campbell acknowledged this but critics argue it weakens the "universal" claim.
+- Feminist scholars note that the monomyth centers male heroes and treats female figures primarily as symbols (goddess, temptress) rather than agents of their own journeys.
+- In marketing applications, the monomyth can become formulaic if applied mechanically. The power lies in understanding the psychological principles beneath the stages, not in rigidly reproducing them.
+- Some narrative theorists argue that Campbell's framework is better understood as one pattern among many rather than the single universal story structure.
+
+Despite these critiques, the monomyth remains the most influential narrative framework in modern storytelling and provides an indispensable starting point for anyone working with story structure.
+
 ## Cross-References
 
 - `../../agents/narrative-architect.md` — Uses the monomyth as a primary story structure template

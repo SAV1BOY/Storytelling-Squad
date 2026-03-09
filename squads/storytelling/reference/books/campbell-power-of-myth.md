@@ -57,6 +57,18 @@ The underlying message is that mythic awareness is not optional for human flouri
 - "Myths are clues to the spiritual potentialities of the human life."
 - "The experience of eternity right here and now is the function of life."
 - "Every religion is true one way or another. It is true when understood metaphorically. But when it gets stuck in its own metaphors, interpreting them as facts, then you are in trouble."
+- "Computers are like Old Testament gods; lots of rules and no mercy."
+- "The privilege of a lifetime is being who you are."
+
+## Critiques and Limitations
+
+- The conversational format, while accessible, sometimes sacrifices rigor. Campbell makes sweeping claims about "all myths" that his academic work treats with more nuance.
+- "Follow your bliss" has been widely misinterpreted as a license for self-indulgence. Campbell intended it as a call to purposeful sacrifice, but the phrase's surface simplicity invites shallow readings.
+- Campbell's treatment of non-Western traditions has been criticized as romanticizing and homogenizing diverse cultures under a single interpretive framework.
+- The book's influence on popular culture (particularly through George Lucas and the self-help industry) has sometimes flattened Campbell's sophisticated ideas into formulas.
+- For marketing applications, the risk is treating myth as a manipulation tool rather than a genuine communication framework. Campbell's ideas work best when applied with respect for the audience's intelligence and autonomy.
+
+Despite these limitations, *The Power of Myth* remains the most accessible entry point into Campbell's thinking and provides a rich vocabulary for discussing how narrative creates meaning.
 
 ## Cross-References
 

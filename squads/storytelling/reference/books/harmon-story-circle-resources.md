@@ -67,6 +67,15 @@ The practical implication is that storytelling is a learnable skill, not a mysti
 - "The top half of the circle is where you're comfortable. The bottom half is where you grow. Most people spend their whole lives trying not to cross the line."
 - "Every scene needs to go around the circle or it has no reason to exist."
 
+## Critiques and Limitations
+
+- The Story Circle's simplicity is both its strength and its weakness. Eight steps can feel too reductive for complex, multi-layered narratives that resist clean circular mapping.
+- Harmon's source material is scattered across blog posts, podcasts, and interviews rather than a single authoritative text. This makes the methodology harder to cite and easier to misinterpret.
+- The system was developed primarily for 22-minute television comedy. Adapting it to feature films, novels, or long-form marketing campaigns requires judgment about pacing and scale.
+- Embryo theory, while evocative, is more metaphorical than scientific. The claim that story structure is "biological" is suggestive but not empirically established.
+
+Despite these caveats, the Story Circle is one of the most practical and accessible narrative tools available, and its fractal applicability makes it uniquely suited to marketing contexts where content operates at multiple scales simultaneously.
+
 ## Cross-References
 
 - `../books/campbell-hero-with-a-thousand-faces.md` — The 17-stage monomyth that Harmon compressed into 8 steps

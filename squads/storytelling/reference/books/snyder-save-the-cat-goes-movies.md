@@ -67,6 +67,14 @@ You can then innovate within the genre's constraints rather than fumbling in the
 - "The road in a Golden Fleece story is never about the destination. The road is the teacher."
 - "Knowing your genre tells you what scenes you must write. That's not a constraint. That's a gift."
 
+## Critiques and Limitations
+
+- Some film critics argue that Snyder's beat-by-beat breakdowns are retrofitted—he finds the beats because he is looking for them, not because they were intentionally placed by the filmmakers.
+- The fifty films skew heavily toward mainstream American cinema. International films, experimental narratives, and non-Western storytelling traditions are underrepresented.
+- Some genre classifications feel like stretches. Not every film fits cleanly into one of the ten categories, and forcing the fit can obscure what makes a particular film unique.
+
+Despite these limitations, the book provides an unmatched library of structural analysis that is immediately useful for anyone building narrative content.
+
 ## Cross-References
 
 - `../books/snyder-save-the-cat.md` — The Beat Sheet and genre system introduced there are demonstrated in the fifty breakdowns

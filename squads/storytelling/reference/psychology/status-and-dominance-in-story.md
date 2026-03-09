@@ -12,14 +12,39 @@ Applied to storytelling and marketing, Johnstone's status theory explains why so
 Dramatic interest arises from status transactions — shifts in the relative behavioral status between characters. Effective stories continuously negotiate status, and effective brand narratives position the customer's status elevation as the central dramatic arc.
 
 ## Key Concepts
-- **Status as Behavior, Not Position**: Status in Johnstone's framework is performed through body language, speech patterns, and spatial behavior — it is independent of social rank or authority
-- **High-Status Behaviors**: Stillness, sustained eye contact, slow deliberate speech, economy of movement, taking up space, being at ease, not seeking approval
-- **Low-Status Behaviors**: Fidgeting, broken eye contact, rapid or apologetic speech, self-touching, physical contraction, excessive smiling, seeking approval
-- **Status Transactions**: The moments where relative status shifts between characters — these shifts are the fundamental unit of dramatic interest
-- **The Status Gap**: Drama increases as the gap between characters' status widens; comedy often arises from inappropriate status (high-status behavior in low-status situations and vice versa)
-- **Status Flexibility**: The most compelling characters (and speakers) can move fluidly between high and low status; rigidity in either direction reduces engagement
-- **Seesaw Principle**: When one character raises status, the other typically lowers — status operates as a seesaw between interacting characters
-- **Status in Pitch/Presentation**: Presenters who play too high (arrogant, dismissive) alienate; those who play too low (nervous, apologetic) lose credibility; the best presenters modulate status dynamically
+- **Status as Behavior, Not Position**: Status in Johnstone's framework is performed through
+  body language, speech patterns, and spatial behavior. It is independent of social rank or
+  authority. A janitor can play high status; a CEO can play low.
+- **High-Status Behaviors**: Stillness, sustained eye contact, slow deliberate speech, economy
+  of movement, taking up space, being at ease, not seeking approval. High status is about
+  comfort and control, not aggression.
+- **Low-Status Behaviors**: Fidgeting, broken eye contact, rapid or apologetic speech,
+  self-touching, physical contraction, excessive smiling, seeking approval. Low status signals
+  discomfort and deference.
+- **Status Transactions**: The moments where relative status shifts between characters. These
+  shifts are the fundamental unit of dramatic interest. Without status transactions, scenes
+  and stories feel flat.
+- **The Status Gap**: Drama increases as the gap between characters' status widens. Comedy
+  often arises from inappropriate status — high-status behavior in low-status situations
+  and vice versa.
+- **Status Flexibility**: The most compelling characters (and speakers) can move fluidly between
+  high and low status. Rigidity in either direction reduces engagement. The ability to
+  shift status intentionally is a core performance skill.
+- **Seesaw Principle**: When one character raises status, the other typically lowers. Status
+  operates as a seesaw between interacting characters. This dynamic creates the rhythm
+  of engaging dialogue and scene work.
+- **Status in Pitch/Presentation**: Presenters who play too high (arrogant, dismissive) alienate.
+  Those who play too low (nervous, apologetic) lose credibility. The best presenters modulate
+  status dynamically based on context and audience.
+
+## Key Research and Sources
+- Johnstone, Keith (1979): *Impro: Improvisation and the Theatre* — the foundational text
+  establishing status theory as a performance and storytelling framework.
+- Johnstone, Keith (1999): *Impro for Storytellers* — extended application of status principles
+  to narrative structure and audience engagement.
+- Henrich & Gil-White (2001): Evolutionary psychology research on prestige vs dominance as
+  two distinct status strategies — maps to Johnstone's high-status behaviors through
+  competence (prestige) vs intimidation (dominance).
 
 ## Application to Marketing
 - **Customer Status Elevation**: The core promise of any brand story should be customer status elevation — "before our product, you were struggling (low status); after, you are in command (high status)"

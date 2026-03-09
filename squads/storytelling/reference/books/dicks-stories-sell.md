@@ -58,6 +58,20 @@ He insists that authenticity is non-negotiable. Fabricated stories, exaggerated 
 - "The Rule of One: one story, one point, one emotion, one action. Everything else is noise."
 - "The first person who tells a real story in a meeting changes the entire culture of that meeting."
 
+## Strengths and Limitations
+
+The book's greatest strength is its insistence on authenticity. In a business environment saturated with manufactured narratives and performative vulnerability, Dicks's emphasis on true stories told with genuine emotion stands out. The techniques help people find stories they already have rather than fabricating ones they do not.
+
+The story archive concept is pragmatic and actionable. It transforms storytelling from a talent-dependent activity into a prepared one. Professionals who build and maintain a story archive consistently outperform those who rely on improvisation.
+
+The bridge technique solves a common problem elegantly: how do you transition from a personal story to a business point without sounding manipulative? The bridge provides a structured method for this transition that feels natural to both teller and audience.
+
+A limitation is that the book may overstate the universality of personal storytelling in business. Some cultures, industries, and contexts are less receptive to personal narrative, and the book could provide more guidance on reading these situations.
+
+The calibration of strategic vulnerability is addressed but remains challenging in practice. The line between "enough vulnerability to connect" and "too much vulnerability for the context" is different for every audience, and the book's guidelines are necessarily general.
+
+The book also assumes a level of self-awareness that not all professionals possess. Building a story archive requires knowing what experiences you have had and why they matter, which is itself a skill that some readers may need to develop first.
+
 ## Cross-References
 
 - `./dicks-storyworthy-book.md` — Foundation text for Dicks's storytelling methodology

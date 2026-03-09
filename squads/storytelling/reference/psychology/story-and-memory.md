@@ -12,14 +12,38 @@ The practical implication is stark: if you want people to remember your message,
 Stories are the brain's preferred format for memory encoding and retrieval. Narrative structure provides causal links, emotional engagement, and schema-based scaffolding that make story-embedded information dramatically more memorable than isolated facts or data.
 
 ## Key Concepts
-- **Schema Theory (Bartlett, 1932)**: We reconstruct memories by fitting them into pre-existing mental frameworks; narrative schemas are among the strongest and most universal, providing ready-made structure for encoding
-- **Episodic vs Semantic Memory (Tulving)**: Stories encode information as episodic memory (experienced events with spatial, temporal, and emotional context) rather than semantic memory (abstract facts), producing richer and more accessible memory traces
-- **Story Superiority Effect**: The empirical finding that information presented in narrative format is retained significantly better than the same information presented as expository text or data
-- **Causal Chain Structure**: Stories organize information into cause-and-effect sequences; each event cues the next, creating multiple retrieval pathways that isolated facts cannot offer
-- **Emotional Enhancement of Memory**: Emotional arousal during story exposure enhances memory consolidation through amygdala modulation of hippocampal processes (McGaugh, 2004)
-- **The Retelling Advantage**: Stories are inherently retellable — audiences who hear a story can retell it to others with reasonable fidelity, creating viral propagation impossible with raw data
-- **Gist vs Verbatim Memory**: Stories enhance gist memory (the essential meaning and structure) even when verbatim details fade; the message persists even as specific words are forgotten
-- **Spacing and Narrative**: Multi-part stories (serialized content) create natural spaced repetition through callbacks and recaps, further strengthening memory consolidation
+- **Schema Theory (Bartlett, 1932)**: We reconstruct memories by fitting them into pre-existing
+  mental frameworks. Narrative schemas are among the strongest and most universal, providing
+  ready-made structure for encoding new information efficiently.
+- **Episodic vs Semantic Memory (Tulving)**: Stories encode information as episodic memory
+  (experienced events with spatial, temporal, and emotional context) rather than semantic memory
+  (abstract facts). Episodic traces are richer and more accessible during retrieval.
+- **Story Superiority Effect**: The empirical finding that information presented in narrative
+  format is retained significantly better than the same information presented as expository
+  text or data. This effect holds across age groups, cultures, and media types.
+- **Causal Chain Structure**: Stories organize information into cause-and-effect sequences.
+  Each event cues the next, creating multiple retrieval pathways. Isolated facts lack these
+  interconnected cues and are therefore harder to retrieve.
+- **Emotional Enhancement of Memory**: Emotional arousal during story exposure enhances memory
+  consolidation through amygdala modulation of hippocampal processes (McGaugh, 2004).
+  High-emotion story moments are remembered with disproportionate clarity.
+- **The Retelling Advantage**: Stories are inherently retellable — audiences who hear a story
+  can retell it to others with reasonable fidelity. This creates viral propagation that is
+  impossible with raw data or bullet-pointed information.
+- **Gist vs Verbatim Memory**: Stories enhance gist memory (the essential meaning and structure)
+  even when verbatim details fade. The core message persists even as specific words are forgotten.
+- **Spacing and Narrative**: Multi-part stories (serialized content) create natural spaced
+  repetition through callbacks and recaps, strengthening memory consolidation over time.
+
+## Key Research
+- Bartlett (1932): *Remembering* — demonstrated that memory is reconstructive, not reproductive,
+  and that cultural schemas shape what is remembered and how.
+- Tulving (1972): Established the episodic/semantic memory distinction that explains why stories
+  create richer, more retrievable memory traces than abstract information.
+- Bower & Clark (1969): Classic study showing that participants who organized word lists into
+  narratives recalled 6-7x more words than those who memorized lists without narrative structure.
+- McGaugh (2004): Demonstrated the amygdala's role in modulating memory consolidation during
+  emotional arousal, explaining why emotional stories are remembered better.
 
 ## Application to Marketing
 - **Key Message Embedding**: Embed your core marketing message as the moral or turning point of a story, not as a standalone claim — story-embedded messages survive in memory when taglines fade

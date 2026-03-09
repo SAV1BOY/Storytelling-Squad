@@ -12,14 +12,40 @@ Morewedge and colleagues have shown that these three mechanisms recruit differen
 Suspense, curiosity, and surprise are distinct engagement mechanisms with different temporal orientations and cognitive profiles. Effective storytelling deliberately sequences all three — curiosity to hook, suspense to sustain, surprise to deliver — rather than relying on any single mechanism.
 
 ## Key Concepts
-- **Suspense (Future-Oriented)**: Arises from uncertain outcomes with known stakes; requires the audience to know enough to worry; sustained by delaying resolution while escalating consequences
-- **Curiosity (Past/Gap-Oriented)**: Arises from information gaps (Loewenstein, 1994); the audience senses missing information and is driven to close the gap; sustained by revealing information gradually
-- **Surprise (Present-Oriented)**: Arises from expectation violation; a momentary event that captures attention and forces cognitive reprocessing; most powerful when it recontextualizes prior information
-- **Temporal Sequencing**: Optimal narrative engagement follows a pattern — curiosity (hook), suspense (middle), surprise (climax), with micro-cycles of all three throughout
-- **Whodunit vs Thriller Structure**: Whodunits are curiosity-driven (who did it?); thrillers are suspense-driven (will the hero stop it?); twist endings are surprise-driven — each structure foregrounds a different mechanism
-- **The Suspense Paradox**: People re-watch movies even when they know the outcome, suggesting suspense is partly driven by emotional simulation, not just cognitive uncertainty (Gerrig, 1989)
-- **Surprise Requires Setup**: Surprise without setup is merely random; effective surprise requires establishing clear expectations first, then violating them in a meaningful way
-- **Micro-Loops**: Within any single narrative, all three mechanisms can operate at micro-scales — a paragraph can open a curiosity gap, sustain two sentences of suspense, and land on a surprise
+- **Suspense (Future-Oriented)**: Arises from uncertain outcomes with known stakes. Requires
+  the audience to know enough to worry. Sustained by delaying resolution while escalating
+  consequences. The audience must care about the outcome for suspense to operate.
+- **Curiosity (Past/Gap-Oriented)**: Arises from information gaps (Loewenstein, 1994). The
+  audience senses missing information and is driven to close the gap. Sustained by revealing
+  information gradually while maintaining the core gap.
+- **Surprise (Present-Oriented)**: Arises from expectation violation. A momentary event that
+  captures attention and forces cognitive reprocessing. Most powerful when it recontextualizes
+  prior information — the "twist" that makes you rethink everything.
+- **Temporal Sequencing**: Optimal narrative engagement follows a pattern — curiosity (hook),
+  suspense (middle), surprise (climax), with micro-cycles of all three throughout.
+  This sequencing applies to a 30-second ad or a 300-page novel equally.
+- **Whodunit vs Thriller Structure**: Whodunits are curiosity-driven (who did it?). Thrillers
+  are suspense-driven (will the hero stop it?). Twist endings are surprise-driven. Each
+  structure foregrounds a different mechanism while using the others as support.
+- **The Suspense Paradox**: People re-watch movies even when they know the outcome, suggesting
+  suspense is partly driven by emotional simulation, not just cognitive uncertainty (Gerrig, 1989).
+  This means suspense works even when the audience "knows" the ending.
+- **Surprise Requires Setup**: Surprise without setup is merely random. Effective surprise
+  requires establishing clear expectations first, then violating them in a meaningful way.
+  The violation must be unexpected yet retrospectively inevitable.
+- **Micro-Loops**: Within any single narrative, all three mechanisms can operate at micro-scales.
+  A single paragraph can open a curiosity gap, sustain two sentences of suspense, and land
+  on a surprise. Master writers cycle through all three constantly.
+
+## Key Research
+- Loewenstein (1994): Established the information gap theory of curiosity that explains why
+  hooks, open loops, and cliffhangers compel attention.
+- Gerrig (1989): Documented the suspense paradox — audiences feel suspense even on repeated
+  exposure — challenging purely cognitive models of suspense.
+- Zillmann (1996): Comprehensive model of suspense as a function of audience empathy for
+  characters combined with perceived outcome uncertainty.
+- Berlyne (1960): Early work on curiosity, surprise, and the "hedonic value" of optimal
+  information complexity — laying groundwork for modern engagement theory.
 
 ## Application to Marketing
 - **Headlines and Hooks (Curiosity)**: Open with information gaps — "The one metric we ignored for 3 years" triggers curiosity; the reader must click to close the gap

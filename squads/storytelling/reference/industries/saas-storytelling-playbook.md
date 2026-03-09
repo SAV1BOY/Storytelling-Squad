@@ -12,14 +12,41 @@ The SaaS storytelling lifecycle follows the customer journey: awareness-stage st
 In SaaS, where products are intangible and competition is fierce, storytelling is the primary mechanism for differentiation, trust-building, and customer retention. The companies that tell the best stories about why they exist and how they transform customers' lives will win, regardless of feature parity.
 
 ## Key Concepts
-- **The Origin Problem Story**: Every SaaS product was born from a specific pain point; the origin story should center the founder's experience of that pain, not the eureka moment of the solution
-- **Customer Transformation Arc**: Before (struggling with the old way) to After (thriving with the product); the transformation must be specific, measurable, and emotionally resonant
-- **The "Aha Moment" Narrative**: The specific moment when a user first experiences core value; identifying and storytelling around this moment accelerates adoption and reduces churn
-- **Feature-as-Story**: Instead of "We added AI-powered analytics," tell the story of the customer who needed it — "Maria spent 4 hours every Monday building reports manually. Now she spends 4 minutes"
-- **Anti-Story (What We're Against)**: Defining the enemy — complexity, wasted time, broken workflows — gives the brand narrative tension and positions the product as the hero's weapon
-- **Onboarding as Narrative Journey**: Structure onboarding as a story with a clear beginning (welcome, orientation), middle (challenges, learning), and end (first success, celebration)
-- **Churn Prevention Through Story**: Ongoing customer stories, success spotlights, and "what's possible" narratives combat the slow disengagement that leads to churn
-- **Community Narrative**: User communities become storytelling engines; facilitate and amplify user stories rather than only creating brand-authored content
+- **The Origin Problem Story**: Every SaaS product was born from a specific pain point. The
+  origin story should center the founder's experience of that pain, not the eureka moment
+  of the solution. Pain before product, always.
+- **Customer Transformation Arc**: Before (struggling with the old way) to After (thriving
+  with the product). The transformation must be specific, measurable, and emotionally resonant.
+  Vague transformations fail to produce identification.
+- **The "Aha Moment" Narrative**: The specific moment when a user first experiences core value.
+  Identifying and storytelling around this moment accelerates adoption and reduces churn.
+  Slack's aha moment: "The moment your team stops using email."
+- **Feature-as-Story**: Instead of "We added AI-powered analytics," tell the story of the
+  customer who needed it. "Maria spent 4 hours every Monday building reports manually.
+  Now she spends 4 minutes." Features are solutions to human problems.
+- **Anti-Story (What We're Against)**: Defining the enemy — complexity, wasted time, broken
+  workflows — gives the brand narrative tension and positions the product as the hero's weapon.
+  Every great SaaS brand has a clear villain.
+- **Onboarding as Narrative Journey**: Structure onboarding as a story with a clear beginning
+  (welcome, orientation), middle (challenges, learning), and end (first success, celebration).
+  Each step is a chapter in the user's transformation.
+- **Churn Prevention Through Story**: Ongoing customer stories, success spotlights, and
+  "what's possible" narratives combat the slow disengagement that leads to churn.
+  Story keeps the product emotionally relevant.
+- **Community Narrative**: User communities become storytelling engines. Facilitate and amplify
+  user stories rather than only creating brand-authored content. The community's stories
+  are more trusted than the brand's.
+
+## SaaS Storytelling Examples
+- **Slack**: Origin story — Stewart Butterfield built a game that failed but produced an
+  internal communication tool so good the team refused to stop using it. Pivot narrative
+  turned into one of the fastest-growing SaaS products in history.
+- **Basecamp**: Anti-story — against complexity, bloat, and overwork culture. The product
+  narrative is inseparable from the philosophical narrative about how work should feel.
+- **Mailchimp**: Customer-centered brand — early marketing focused entirely on small business
+  owner stories, making Mailchimp feel like the tool "for people like me."
+- **HubSpot**: Category creation — invented "inbound marketing" as a narrative and built
+  the product to serve it. The story came before the feature set.
 
 ## Application to Marketing
 - **Homepage**: Lead with the customer's problem story, not the product's feature list; "You're drowning in spreadsheets" before "We built a better way"

@@ -59,6 +59,20 @@ She frames this as an act of leadership. Presenting data without a recommendatio
 - "The curse of knowledge is the single biggest obstacle to clear data communication. You must unlearn what you know to teach it to others."
 - "A chart without annotation is a map without labels. The audience can see the territory but cannot navigate it."
 
+## Strengths and Limitations
+
+DataStory's greatest contribution is the DataPOV concept. By insisting that every data presentation include a clear recommendation, Duarte addresses the single most common failure in business data communication. The concept is simple, memorable, and immediately actionable.
+
+The before-and-after slide examples are exceptionally useful. They show the concrete difference between a confusing data slide and a clear one, making the abstract principles tangible. These examples alone justify the book for anyone who regularly presents data.
+
+The action titles technique is perhaps the highest-leverage single change anyone can make to a data presentation. Replacing topic titles with insight titles transforms the audience's experience from decoding to understanding.
+
+A limitation is that the book focuses primarily on presentation contexts (slides, decks, meetings) rather than other data communication formats like dashboards, reports, or interactive tools. The principles transfer, but the specific examples are deck-oriented.
+
+The audience segmentation guidance (executives vs. analysts vs. skeptics) is valuable but could go deeper. In practice, most presentations face mixed audiences with competing needs, and the book provides limited guidance on managing these tensions within a single presentation.
+
+The book also assumes the presenter has done the analytical work and knows what the data means. For situations where the analysis itself is uncertain or contested, the DataPOV framework can feel premature. Duarte addresses this somewhat through data humility but could go further.
+
 ## Cross-References
 
 - `./duarte-illuminate.md` — Companion volume on leading change through sustained narrative

@@ -12,14 +12,40 @@ The fundamental challenge of e-commerce storytelling is creating emotional conne
 In commoditized e-commerce markets, story is the primary differentiator. Brands that create compelling product origin stories, founder narratives, and customer-generated content transform purchasing decisions from price comparisons into identity expressions.
 
 ## Key Concepts
-- **Product Origin Narrative**: Where did this product come from? Who made it? What materials were chosen and why? Origin stories transform commodities into meaningful objects
-- **Brand Heritage**: Connecting the brand to a larger tradition, place, or philosophy; even young brands can establish heritage through deliberate founding mythology
-- **The Founder as Character**: DTC brands thrive when the founder is a visible, relatable character with a clear motivation story — not a corporate entity but a real person solving a real problem
-- **UGC as Narrative Engine**: User-generated photos, reviews, and stories are the most trusted form of e-commerce storytelling; the brand's role is to facilitate and curate, not create
-- **Unboxing as Story Experience**: The moment of package opening is a designed narrative experience — tissue paper, handwritten notes, surprise inserts — each element is a story beat
-- **Scarcity and Limited Edition Narratives**: Limited drops and seasonal collections create story urgency; the narrative of exclusivity drives both conversion and sharing
-- **Sustainability Narratives**: For conscious consumers, the story of how a product is made (ethically, sustainably, transparently) is as important as the product itself
-- **The Return-Proof Story**: Products sold with strong narratives have lower return rates because the customer's emotional investment survives the unboxing
+- **Product Origin Narrative**: Where did this product come from? Who made it? What materials
+  were chosen and why? Origin stories transform commodities into meaningful objects.
+  The story is what separates a $20 candle from a $200 candle.
+- **Brand Heritage**: Connecting the brand to a larger tradition, place, or philosophy. Even
+  young brands can establish heritage through deliberate founding mythology. Heritage
+  provides depth that new brands otherwise lack.
+- **The Founder as Character**: DTC brands thrive when the founder is a visible, relatable
+  character with a clear motivation story — not a corporate entity but a real person
+  solving a real problem they personally experienced.
+- **UGC as Narrative Engine**: User-generated photos, reviews, and stories are the most trusted
+  form of e-commerce storytelling. The brand's role is to facilitate and curate, not create.
+  Customer-authored content converts at higher rates than brand-authored content.
+- **Unboxing as Story Experience**: The moment of package opening is a designed narrative
+  experience — tissue paper, handwritten notes, surprise inserts — each element is a story
+  beat. The unboxing is the climax of the e-commerce customer journey.
+- **Scarcity and Limited Edition Narratives**: Limited drops and seasonal collections create
+  story urgency. The narrative of exclusivity drives both conversion and sharing. Each drop
+  is a chapter in the ongoing brand story.
+- **Sustainability Narratives**: For conscious consumers, the story of how a product is made
+  (ethically, sustainably, transparently) is as important as the product itself.
+  Supply chain transparency is a storytelling opportunity, not a compliance burden.
+- **The Return-Proof Story**: Products sold with strong narratives have lower return rates
+  because the customer's emotional investment survives the unboxing. The story keeps the
+  product valuable even when the novelty fades.
+
+## E-Commerce Brand Examples
+- **Warby Parker**: Founding story of $700 glasses being an injustice. The "buy one, give one"
+  narrative made purchase feel like participation in a movement, not a transaction.
+- **Allbirds**: Materials origin story — merino wool from New Zealand, eucalyptus fiber,
+  sugarcane soles. Every material has a story, and every story reinforces sustainability.
+- **Glossier**: Built entirely on community storytelling. Into The Gloss blog created the
+  audience before the product existed. Customer stories drove product development.
+- **Away**: Transformed luggage from a commodity into a travel lifestyle brand. The magazine
+  "Here" told travel stories that happened to feature Away products.
 
 ## Application to Marketing
 - **Product Pages**: Replace feature bullet points with micro-stories — "This leather is from a third-generation tannery in Tuscany" rather than "Italian leather construction"

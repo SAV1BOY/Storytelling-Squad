@@ -12,14 +12,42 @@ Ethical storytelling is particularly critical in the nonprofit sector. Stories o
 Nonprofits must tell specific, individual stories that preserve dignity and center beneficiary agency while connecting personal narratives to systemic change. Marshall Ganz's Self-Us-Now framework provides the structure for moving audiences from emotional connection to collective identity to urgent action.
 
 ## Key Concepts
-- **Public Narrative (Marshall Ganz)**: Story of Self (personal calling), Story of Us (shared identity and values), Story of Now (urgent moment requiring action) — the three-level framework for movement storytelling
-- **The Single Story Principle**: One specific, named individual's story is more motivating than statistics about millions; identified victim effect research confirms this consistently
-- **Dignity-Centered Storytelling**: Beneficiary stories must preserve agency and dignity; avoid reducing people to their suffering; show strength, choice, and agency alongside challenge
-- **The Anti-Savior Narrative**: Effective modern nonprofit storytelling positions the beneficiary as the hero, the organization as the enabler, and the donor as a partner — not savior
-- **Impact vs Activity Storytelling**: "We distributed 5,000 meals" is activity; "Maria's children ate dinner three nights this week for the first time in months" is impact; always choose impact
-- **Donor Journey Narrative**: Donors have their own story arc — from awareness to first gift to deepening engagement to legacy giving; each stage needs narrative appropriate to its emotional context
-- **Urgency Without Exploitation**: Creating genuine urgency (Story of Now) without exploiting suffering; framing urgency around opportunity and agency, not despair
-- **Annual Report as Narrative**: Transforming the annual report from a financial document into a story collection — the year's journey told through the people it affected
+- **Public Narrative (Marshall Ganz)**: Story of Self (personal calling), Story of Us (shared
+  identity and values), Story of Now (urgent moment requiring action). The three-level framework
+  for movement storytelling that moves audiences from connection to belonging to action.
+- **The Single Story Principle**: One specific, named individual's story is more motivating than
+  statistics about millions. The identified victim effect, documented extensively by Slovic
+  and colleagues, confirms this consistently across giving contexts.
+- **Dignity-Centered Storytelling**: Beneficiary stories must preserve agency and dignity. Avoid
+  reducing people to their suffering. Show strength, choice, and agency alongside challenge.
+  The person is more than their hardship.
+- **The Anti-Savior Narrative**: Effective modern nonprofit storytelling positions the beneficiary
+  as the hero, the organization as the enabler, and the donor as a partner — not savior.
+  Savior narratives are both ethically problematic and increasingly ineffective.
+- **Impact vs Activity Storytelling**: "We distributed 5,000 meals" is activity. "Maria's
+  children ate dinner three nights this week for the first time in months" is impact.
+  Always choose impact. Always choose the individual over the aggregate.
+- **Donor Journey Narrative**: Donors have their own story arc — from awareness to first gift
+  to deepening engagement to legacy giving. Each stage needs narrative appropriate to its
+  emotional context. First-time donors need different stories than major donors.
+- **Urgency Without Exploitation**: Creating genuine urgency (Story of Now) without exploiting
+  suffering. Frame urgency around opportunity and agency, not despair. "The window is open"
+  is more ethical and effective than "Children are dying."
+- **Annual Report as Narrative**: Transforming the annual report from a financial document into
+  a story collection — the year's journey told through the people it affected. The best
+  annual reports read like anthologies.
+
+## Ethical Storytelling Guidelines
+- Always obtain informed consent from beneficiaries before sharing their stories.
+  Consent must be ongoing — people can withdraw permission at any time.
+- Avoid "poverty porn" — images and narratives designed solely to provoke pity.
+  This exploits the very people the organization claims to serve.
+- Center the beneficiary's voice — use direct quotes, first-person narrative,
+  and the beneficiary's own framing of their experience.
+- Show the whole person — context, community, strengths, aspirations —
+  not just the dimension of their life touched by hardship.
+- Consider power dynamics — who benefits from this story being told?
+  If the answer is only the organization, reconsider.
 
 ## Application to Marketing
 - **Fundraising Appeals**: Structure every appeal around one specific person's story (not aggregate data); include the Ganz arc — why you care (Self), why we share this mission (Us), why now (Now)

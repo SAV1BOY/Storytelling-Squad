@@ -12,14 +12,39 @@ The corollary principle — duration neglect — is equally important. The lengt
 Audiences judge stories by their peak emotional moment and their ending, not by the sum of all moments. Story design should prioritize crafting one unforgettable peak and one resonant ending over maintaining consistent quality across the entire narrative.
 
 ## Key Concepts
-- **Peak-End Rule (Kahneman)**: Retrospective evaluation of experiences is dominated by two moments — the peak (highest intensity, positive or negative) and the end; all other moments contribute minimally to the remembered experience
-- **Duration Neglect**: The length of an experience has little effect on its retrospective evaluation; a short, intense story can be remembered more positively than a long, moderate one
-- **Peak Design**: The deliberate engineering of one moment of maximum emotional intensity in a narrative — the climax, the revelation, the transformation moment
-- **Ending Design**: The final moments of a story disproportionately shape overall evaluation; a weak ending can undermine an otherwise excellent narrative
-- **Remembered vs Experienced Utility**: The experience of living through a story moment by moment (experienced utility) diverges from the retrospective memory of the story (remembered utility); marketing must optimize for remembered utility
-- **Negative Peaks**: Painful or uncomfortable peaks (conflict, crisis, failure) are remembered as vividly as positive peaks; stories need valleys to create peaks
-- **The Recency Effect**: The ending operates partly through the recency effect — the most recently encountered information is most available in memory
-- **Peak-End in Series**: For serialized content, each installment has its own peak-end evaluation; the series as a whole is also evaluated by its overall peak and final installment
+- **Peak-End Rule (Kahneman)**: Retrospective evaluation of experiences is dominated by two
+  moments — the peak (highest intensity, positive or negative) and the end. All other moments
+  contribute minimally to the remembered experience. This is empirically robust.
+- **Duration Neglect**: The length of an experience has little effect on its retrospective
+  evaluation. A short, intense story can be remembered more positively than a long, moderate
+  one. More content does not equal better memory.
+- **Peak Design**: The deliberate engineering of one moment of maximum emotional intensity in
+  a narrative — the climax, the revelation, the transformation moment. Every story needs
+  one unmistakable peak that towers above the rest.
+- **Ending Design**: The final moments of a story disproportionately shape overall evaluation.
+  A weak ending can undermine an otherwise excellent narrative. A strong ending can redeem
+  an uneven middle.
+- **Remembered vs Experienced Utility**: The experience of living through a story moment by
+  moment (experienced utility) diverges from the retrospective memory of the story
+  (remembered utility). Marketing must optimize for remembered utility — what people
+  recall and retell.
+- **Negative Peaks**: Painful or uncomfortable peaks (conflict, crisis, failure) are remembered
+  as vividly as positive peaks. Stories need valleys to create peaks. Without low moments,
+  high moments have no contrast.
+- **The Recency Effect**: The ending operates partly through the recency effect — the most
+  recently encountered information is most available in memory. This is why closing lines
+  and final images matter disproportionately.
+- **Peak-End in Series**: For serialized content, each installment has its own peak-end
+  evaluation. The series as a whole is also evaluated by its overall peak and final installment.
+  Season finales matter more than mid-season episodes.
+
+## Key Research
+- Kahneman, Fredrickson, Schreiber, & Redelmeier (1993): The cold-water experiment demonstrating
+  that subjects preferred objectively worse experiences when the ending was slightly better.
+- Redelmeier & Kahneman (1996): Colonoscopy study showing patients rated longer procedures with
+  gentle endings as less painful than shorter procedures with abrupt endings.
+- Do, Rupert, & Wolford (2008): Extended peak-end findings to narrative evaluation, confirming
+  that story endings disproportionately influence overall story ratings.
 
 ## Application to Marketing
 - **Presentation Design**: Structure every presentation to build toward one unmistakable peak moment (the key insight, the dramatic reveal, the emotional story climax) and end with a resonant closing rather than a Q&A that dilutes the ending

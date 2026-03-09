@@ -12,15 +12,43 @@ The info product storytelling playbook has been refined through two decades of d
 Info products are sold on narrative trust. The creator's transformation story, student success stories, and launch sequence story arcs are not marketing supplements — they are the product's primary value proposition, because the customer is buying belief in a transformation before experiencing it.
 
 ## Key Concepts
-- **The Founder Transformation Story**: The creator's personal journey from struggle to mastery; this is the anchor narrative for the entire business; it must be specific, vulnerable, and verifiable
-- **The "Reluctant Hero" Pattern**: The most effective creator stories follow the reluctant hero arc — they did not set out to teach; they discovered something, it transformed their life, and demand from others compelled them to share it
-- **Student Success Stories**: Social proof through detailed student transformation narratives; these stories must follow the same structure as the founder story (specific before/after, emotional detail, verifiable outcomes)
-- **The Webinar Narrative Arc**: Effective webinars follow a three-act structure — Act 1: creator's story and problem identification; Act 2: method reveal and student proof; Act 3: offer and future vision
-- **Launch Sequence Story Arcs**: Multi-email launch sequences tell a progressive story — each email is a chapter: problem awareness, failed alternatives, the discovery, proof of concept, the opportunity, the decision
-- **Before/After/Bridge Framework**: The foundational info product storytelling structure — Before (the prospect's current painful state), After (the desired transformed state), Bridge (the product as the path between)
-- **The Epiphany Bridge (Brunson)**: Russell Brunson's adaptation — the story of the specific moment of insight that changed everything for the creator, designed to create the same epiphany in the prospect
-- **Objection Narratives**: Stories specifically designed to address and resolve the prospect's top objections — "I thought I was too old/busy/inexperienced until..."
-- **The Stack and Close**: The final section of a webinar or sales page where individual components are "stacked" with their value, often accompanied by the story of how each component was developed
+- **The Founder Transformation Story**: The creator's personal journey from struggle to mastery.
+  This is the anchor narrative for the entire business. It must be specific, vulnerable, and
+  verifiable. Vague transformation stories fail to build trust.
+- **The "Reluctant Hero" Pattern**: The most effective creator stories follow the reluctant hero
+  arc. They did not set out to teach. They discovered something, it transformed their life,
+  and demand from others compelled them to share it. Reluctance signals authenticity.
+- **Student Success Stories**: Social proof through detailed student transformation narratives.
+  These stories must follow the same structure as the founder story: specific before/after,
+  emotional detail, and verifiable outcomes. Volume and variety both matter.
+- **The Webinar Narrative Arc**: Effective webinars follow a three-act structure. Act 1: creator's
+  story and problem identification. Act 2: method reveal and student proof. Act 3: offer
+  and future vision. The ratio should be approximately 40/40/20.
+- **Launch Sequence Story Arcs**: Multi-email launch sequences tell a progressive story. Each
+  email is a chapter: problem awareness, failed alternatives, the discovery, proof of concept,
+  the opportunity, the decision. Each email must stand alone yet advance the arc.
+- **Before/After/Bridge Framework**: The foundational info product storytelling structure.
+  Before (the prospect's current painful state). After (the desired transformed state).
+  Bridge (the product as the path between). Simple, universal, effective.
+- **The Epiphany Bridge (Brunson)**: Russell Brunson's adaptation — the story of the specific
+  moment of insight that changed everything for the creator. Designed to create the same
+  epiphany in the prospect. The bridge from belief to action.
+- **Objection Narratives**: Stories specifically designed to address and resolve the prospect's
+  top objections. "I thought I was too old/busy/inexperienced until..." Each major objection
+  needs its own dedicated story with a specific character.
+- **The Stack and Close**: The final section of a webinar or sales page where individual
+  components are "stacked" with their value, often accompanied by the story of how each
+  component was developed and what specific problem it solves.
+
+## Common Info Product Story Patterns
+- **The Accidental Discovery**: "I stumbled onto this method while trying to solve my own
+  problem, and the results shocked me." Creates curiosity and authenticity simultaneously.
+- **The Contrarian Truth**: "Everything the industry teaches about X is wrong. Here's what
+  actually works." Challenges the status quo and positions the creator as an iconoclast.
+- **The Student Who Had Every Excuse**: "Meet [name] who was [busier/older/more broke/less
+  experienced] than you, and still succeeded." Systematically dismantles objections.
+- **The Near-Failure Recovery**: "I almost gave up in month three. Here's what happened next."
+  Humanizes the creator and creates hope for struggling prospects.
 
 ## Application to Marketing
 - **Sales Page Structure**: Open with the prospect's pain story (2-3 paragraphs), transition to the creator's story (the shared struggle), introduce the method through the transformation narrative, provide student proof stories, present the offer as the bridge

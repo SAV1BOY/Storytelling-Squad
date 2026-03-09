@@ -7,44 +7,45 @@ Pitch Anything presents a neuroscience-informed framework for persuasion, negoti
 
 Klaff's framework rests on what he calls "crocodile brain theory," a simplified model of how the brain processes incoming information. New information first passes through the primitive brain (the "croc brain"), which filters for threat, novelty, and relevance. If the message does not pass the croc brain's filter, it never reaches the neocortex where analytical reasoning and decision-making occur. Most pitches fail at this first gate because they are structured for the presenter's analytical brain, not for the audience's primitive brain. They lead with complexity, data, and abstraction when they should lead with novelty, tension, and concrete stakes.
 
-The book introduces four types of frames that operate in every interaction: the Power Frame (used by authority figures to dominate), the Time Frame (used to create artificial urgency), the Analyst Frame (used by detail-oriented people to slow things down), and the Prize Frame (used to position yourself as the reward rather than the supplicant). Klaff provides specific techniques for recognizing which frame is being deployed against you and for flipping the dynamic in your favor.
+The book introduces four types of frames that operate in every interaction: the Power Frame (used by authority figures to dominate), the Time Frame (used to create artificial urgency or delay), the Analyst Frame (used by detail-oriented people to slow things down and avoid emotional engagement), and the Prize Frame (used to position yourself as the reward rather than the supplicant). Klaff provides specific techniques for recognizing which frame is being deployed against you and for flipping the dynamic in your favor.
 
-Klaff also introduces the STRONG method, a step-by-step pitch structure: Set the frame, Tell the story, Reveal the intrigue, Offer the prize, Nail the hookpoint, and Get the decision. Each step is designed to work with the brain's natural processing sequence rather than against it.
+Klaff also introduces the STRONG method, a step-by-step pitch structure: Set the frame, Tell the story, Reveal the intrigue, Offer the prize, Nail the hookpoint, and Get the decision. Each step is designed to work with the brain's natural processing sequence rather than against it. The method provides a complete architecture for a persuasive presentation.
 
-The book is aggressive, competitive, and unapologetically focused on winning. It is not a book about collaborative communication or empathetic storytelling. It is a book about controlling the dynamics of high-stakes persuasion. This makes it polarizing but also deeply practical for anyone who needs to pitch, negotiate, or present in adversarial or high-pressure contexts.
+The book is aggressive, competitive, and unapologetically focused on winning. It is not a book about collaborative communication or empathetic storytelling. It is a book about controlling the dynamics of high-stakes persuasion. This makes it polarizing but also deeply practical for anyone who needs to pitch, negotiate, or present in adversarial or high-pressure contexts where the stakes are real and the competition is fierce.
 
 ## Central Thesis
 
 Klaff's central argument is that persuasion is a game of frames, not facts. The person who sets and holds the frame controls the interaction. Most presenters lose not because their idea is weak but because they accept the audience's frame (typically a power frame that positions the presenter as supplicant and the audience as judge). The solution is to understand frame dynamics, set your own frame before the audience imposes theirs, and use specific techniques to maintain frame control throughout the interaction.
 
-He further argues that all incoming information is filtered through the primitive brain before reaching the analytical brain. Pitches that fail to pass the croc brain's filter, by being too complex, too abstract, or too long, are rejected before they are ever evaluated on their merits. Effective pitching requires structuring information for the croc brain first and the neocortex second.
+He further argues that all incoming information is filtered through the primitive brain before reaching the analytical brain. Pitches that fail to pass the croc brain's filter, by being too complex, too abstract, or too long, are rejected before they are ever evaluated on their merits. Effective pitching requires structuring information for the croc brain first and the neocortex second. This means leading with novelty, tension, and high-level concepts rather than details, evidence, and analysis.
 
 ## Key Concepts
 
-- **Frame Control**: The fundamental skill of persuasion. Whoever sets the frame (the lens through which the interaction is interpreted) controls the outcome. Frames clash when two people bring different frames to the same interaction, and only one frame can win.
-- **The Power Frame**: The frame of authority and dominance. "I am the boss; you are the supplicant." Klaff teaches how to disrupt power frames without being aggressive or disrespectful.
-- **The Time Frame**: The frame of artificial urgency or delay. "We need to make a decision quickly" or "Let's take our time." Klaff teaches how to set your own time frame and resist others'.
-- **The Analyst Frame**: The frame of endless detail and analysis. "Let me see the spreadsheet." This frame is a deal-killer because it pulls the interaction out of emotional engagement and into the neocortex. Klaff teaches how to redirect from analysis to story.
-- **The Prize Frame**: The most important reframe. Instead of pursuing the audience, you position yourself as the prize. The audience must qualify themselves to you. This shifts the entire power dynamic.
-- **Crocodile Brain Theory**: A simplified model of brain processing. The primitive brain (croc brain) filters all incoming information for threat, novelty, and relevance. If the message does not pass this filter, it is rejected or ignored before reaching the analytical brain.
-- **Hot Cognition vs. Cold Cognition**: Hot cognition is emotional, immediate, and decisive. Cold cognition is analytical, slow, and indecisive. Pitches succeed when they engage hot cognition and fail when they trigger cold cognition.
-- **The STRONG Method**: Set the frame, Tell the story, Reveal the intrigue, Offer the prize, Nail the hookpoint, Get the decision. A six-step pitch structure.
-- **Novelty and Tension**: The croc brain pays attention to things that are novel (new and unexpected) and tense (carrying stakes and uncertainty). Pitches must deliver both.
-- **Status Alignment**: The presenter must establish status parity with the audience. Too high and you alienate. Too low and you become a supplicant. Alignment creates the conditions for genuine engagement.
-- **The Hookpoint**: The moment in a pitch when the audience shifts from passive listening to active wanting. Everything before the hookpoint is setup; everything after is closing.
-- **Push-Pull Dynamics**: Alternating between drawing the audience in (pull) and creating distance (push). This tension cycle maintains engagement and prevents the interaction from becoming one-sided.
+- **Frame Control**: The fundamental skill of persuasion. Whoever sets the frame (the lens through which the interaction is interpreted) controls the outcome. Frames clash when two people bring different frames to the same interaction, and only one frame can survive.
+- **The Power Frame**: The frame of authority and dominance. "I am the boss; you are the supplicant." Klaff teaches how to disrupt power frames without being aggressive, rude, or disrespectful.
+- **The Time Frame**: The frame of artificial urgency or delay. "We need to make a decision quickly" or "Let's take our time and think about this." Klaff teaches how to set your own time frame and resist others' attempts to control the pace.
+- **The Analyst Frame**: The frame of endless detail and analysis. "Let me see the spreadsheet." This frame is a deal-killer because it pulls the interaction out of emotional engagement and into the neocortex. Klaff teaches how to redirect from analysis back to story and emotional engagement.
+- **The Prize Frame**: The most important reframe. Instead of pursuing the audience, you position yourself as the prize. The audience must qualify themselves to you. This shifts the entire power dynamic of the interaction.
+- **Crocodile Brain Theory**: A simplified model of brain processing. The primitive brain (croc brain) filters all incoming information for threat, novelty, and relevance. If the message does not pass this filter, it is rejected or ignored before reaching the analytical brain where decisions are made.
+- **Hot Cognition vs. Cold Cognition**: Hot cognition is emotional, immediate, and decisive. Cold cognition is analytical, slow, and indecisive. Pitches succeed when they engage hot cognition and fail when they trigger cold cognition. The goal is to keep the audience in hot cognition throughout the pitch.
+- **The STRONG Method**: Set the frame, Tell the story, Reveal the intrigue, Offer the prize, Nail the hookpoint, Get the decision. A six-step pitch structure designed to work with the brain's natural processing sequence.
+- **Novelty and Tension**: The croc brain pays attention to things that are novel (new and unexpected) and tense (carrying stakes and uncertainty). Pitches must deliver both to pass the primitive brain's filter.
+- **Status Alignment**: The presenter must establish status parity with the audience. Too high and you alienate. Too low and you become a supplicant. Alignment creates the conditions for genuine engagement and mutual respect.
+- **The Hookpoint**: The moment in a pitch when the audience shifts from passive listening to active wanting. Everything before the hookpoint is setup; everything after is closing. Identifying and engineering this moment is a core skill.
+- **Push-Pull Dynamics**: Alternating between drawing the audience in (pull) and creating distance (push). This tension cycle maintains engagement and prevents the interaction from becoming one-sided or predictable.
+- **The Intrigue Element**: A story or anecdote used in the middle of the pitch to re-engage the croc brain when attention begins to fade. The intrigue must be genuinely interesting, not a transparent tactic.
 
 ## Application to Marketing
 
-1. **Landing Page Design as Frame Control**: Every landing page sets a frame. Klaff's framework helps marketers design pages that set a prize frame (the product is the reward, not the visitor) rather than a supplicant frame (please buy from us). This manifests in copy, design hierarchy, and call-to-action positioning.
+1. **Landing Page Design as Frame Control**: Every landing page sets a frame. Klaff's framework helps marketers design pages that set a prize frame (the product is the reward, not the visitor) rather than a supplicant frame (please buy from us). This manifests in copy tone, design hierarchy, social proof placement, and call-to-action positioning.
 
 2. **Pitch Deck Structure**: The STRONG method provides a direct template for pitch decks, whether for investors, clients, or internal stakeholders. Starting with the frame, moving to story, creating intrigue, and ending with a clear hookpoint and decision request structures the deck for maximum persuasive impact.
 
-3. **Overcoming the Analyst Frame in B2B Marketing**: B2B buyers often deploy the analyst frame, requesting endless data, specs, and case studies to delay decision-making. Marketing materials can be designed to acknowledge analytical needs while redirecting to narrative and emotional engagement.
+3. **Overcoming the Analyst Frame in B2B Marketing**: B2B buyers often deploy the analyst frame, requesting endless data, specs, and case studies to delay decision-making. Marketing materials can be designed to acknowledge analytical needs while redirecting to narrative and emotional engagement, keeping the buyer in hot cognition.
 
-4. **Novelty in Content Marketing**: The croc brain theory explains why most content marketing fails to get attention. Content that is familiar, expected, and safe does not pass the primitive brain's filter. Klaff's emphasis on novelty challenges marketers to lead with surprising, counterintuitive, or tension-creating openings.
+4. **Novelty in Content Marketing**: The croc brain theory explains why most content marketing fails to get attention. Content that is familiar, expected, and safe does not pass the primitive brain's filter. Klaff's emphasis on novelty challenges marketers to lead with surprising, counterintuitive, or tension-creating openings that earn the audience's attention.
 
-5. **Prize Frame Positioning in Premium Brands**: Premium and luxury brands naturally deploy the prize frame. Klaff's framework helps articulate why this works and how to implement it across brand touchpoints, including selective availability, aspirational messaging, and qualification-based sales processes.
+5. **Prize Frame Positioning in Premium Brands**: Premium and luxury brands naturally deploy the prize frame, and Klaff's framework helps articulate why this works and how to implement it across brand touchpoints, including selective availability, aspirational messaging, qualification-based sales processes, and exclusive access.
 
 ## Notable Quotes
 
@@ -57,10 +58,25 @@ He further argues that all incoming information is filtered through the primitiv
 - "Status alignment is not about domination. It is about parity. You need to be seen as an equal for the interaction to work."
 - "The hookpoint is the moment the audience stops evaluating and starts wanting. Everything you do is designed to reach that moment."
 
+## Strengths and Limitations
+
+The book's greatest strength is its specificity about frame dynamics. Most persuasion books discuss influence in general terms; Klaff identifies the specific frames that operate in business interactions and provides concrete techniques for managing each one. The four-frame model (Power, Time, Analyst, Prize) is immediately recognizable to anyone who has sat through a meeting or pitch.
+
+Crocodile brain theory, while a simplification of neuroscience, provides an intuitive and useful model for understanding why certain communication approaches fail. Leading with complexity, abstraction, or length is a common mistake that the croc brain model helps prevent.
+
+The STRONG method provides a complete pitch structure that works as a practical template. Many people report that simply following the six steps produces dramatically better pitches.
+
+A limitation is the book's adversarial tone. Not every business interaction is a frame battle, and treating every meeting as a dominance contest can damage relationships and trust. The framework works best in genuinely competitive, high-stakes contexts and may be counterproductive in collaborative ones.
+
+The crocodile brain model is a simplification that neuroscientists would challenge. The triune brain model it draws on has been largely superseded in neuroscience. However, the practical implications (lead with simple, novel, high-stakes messaging) remain sound even if the underlying model is simplified.
+
+The prize frame, while powerful, can tip into arrogance if applied without sensitivity to context. Status alignment requires genuine calibration, not just the assumption that you should always position yourself as the prize.
+
 ## Cross-References
 
 - `./klaff-flip-the-script-book.md` — Klaff's follow-up on inception patterns and non-confrontational persuasion
-- `../frameworks/frame-control-framework.md` — Practical guide to frame recognition and deployment in marketing
+- `../frameworks/frame-control-framework.md` — Practical guide to frame recognition and deployment in marketing contexts
 - `./johnstone-impro-book.md` — Johnstone's status analysis provides the theatrical foundation for Klaff's status alignment concepts
 - `../agents/pitch-strategist-agent.md` — Agent that applies STRONG method and frame control to pitch development
 - `../checklists/pitch-preparation-checklist.md` — Pre-pitch checklist covering frame, status, and structure
+- `./hall-stories-that-stick-book.md` — Hall's story formula provides the narrative content that fits within Klaff's structural framework

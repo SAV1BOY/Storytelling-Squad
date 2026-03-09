@@ -57,6 +57,20 @@ She contends that storytelling is not about talent but about method. Anyone can 
 - "Vulnerability in a business story is not weakness. It is the signal that you are telling the truth."
 - "You do not need a Hollywood script. You need a specific moment, a real emotion, and a character your audience can recognize."
 
+## Strengths and Limitations
+
+The book's primary strength is its systematization. The four story types and the story formula give teams a shared vocabulary and a repeatable process. This solves the scalability problem: storytelling is no longer dependent on individual talent but becomes an organizational capability that anyone can learn.
+
+The story collection systems are a standout contribution. Most storytelling books focus on crafting stories but ignore the upstream problem of finding them. Hall's interview templates and discovery prompts address this gap directly and have proven valuable for marketing teams that feel "story-poor."
+
+The Normal-Explosion-New Normal structure is elegantly simple. It is easy to teach, easy to remember, and robust enough to work across contexts from a tweet to a keynote.
+
+A limitation is that the four story types, while useful as a typology, may lead teams to force stories into categories rather than letting the story lead. Some of the most powerful business stories defy clean categorization or combine elements of multiple types.
+
+The story formula (Identifiable Character + Authentic Emotion + Significant Moment) is effective as a diagnostic tool but could benefit from more guidance on degree. How much emotion is enough? How significant must the moment be? These calibration questions are addressed through examples but could use more explicit guidance.
+
+The book is oriented toward medium to large organizations. Solopreneurs and very small teams may find some of the systematization unnecessary, though the structural frameworks apply at any scale.
+
 ## Cross-References
 
 - `./hall-choose-your-story.md` — Hall's follow-up on internal narratives and self-story

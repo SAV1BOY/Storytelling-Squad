@@ -12,15 +12,43 @@ Student transformation stories are the most powerful asset in education marketin
 Education marketing is transformation marketing. The most effective educational storytelling centers specific student transformation journeys — from enrollment to graduation to career impact — providing prospective students with narrative simulations of their own potential futures.
 
 ## Key Concepts
-- **Student Transformation Arc**: The core narrative structure of education storytelling — where the student started (before), what they experienced (during), and who they became (after); specificity in each stage is critical
-- **The Methodology Narrative**: The story of how the educational approach was developed and why it works differently; particularly important for EdTech and alternative education where the method itself needs credibility
-- **Outcome-Based Storytelling**: Shifting from input stories ("world-class faculty, beautiful campus") to outcome stories ("here's what our graduates do and who they become"); outcomes are the story prospects actually care about
-- **Alumni Success Stories**: The longest and most compelling version of the transformation arc; showing career trajectories over 5, 10, 20 years demonstrates the institution's lasting impact
-- **Faculty Calling Stories**: Why did this professor choose this field? What drives their research? What do they believe about teaching? Faculty passion stories differentiate institutions and build trust
-- **Institutional Heritage Narrative**: The founding story, pivotal moments, and evolving mission of the institution; heritage stories create a sense of belonging to something larger than a program
-- **Peer Community Stories**: Stories about the student community — study groups, collaborations, lifelong friendships — address the social and belonging dimensions of the education decision
-- **The "Moment of Decision" Story**: The specific moment a prospective student decided to enroll; these stories provide identification points for prospects in the same decision moment
-- **Lifelong Learner Narrative**: For continuing education and professional development, stories must address the adult learner's unique context — career transitions, family obligations, self-doubt about returning to school
+- **Student Transformation Arc**: The core narrative structure of education storytelling.
+  Where the student started (before), what they experienced (during), and who they became
+  (after). Specificity in each stage is critical — vague arcs fail to produce identification.
+- **The Methodology Narrative**: The story of how the educational approach was developed and
+  why it works differently. Particularly important for EdTech and alternative education where
+  the method itself needs credibility. "Here's why we teach this way."
+- **Outcome-Based Storytelling**: Shifting from input stories ("world-class faculty, beautiful
+  campus") to outcome stories ("here's what our graduates do and who they become"). Outcomes
+  are the story prospects actually care about. Inputs are institutional ego.
+- **Alumni Success Stories**: The longest and most compelling version of the transformation arc.
+  Showing career trajectories over 5, 10, 20 years demonstrates the institution's lasting
+  impact and makes the investment feel worthwhile.
+- **Faculty Calling Stories**: Why did this professor choose this field? What drives their
+  research? What do they believe about teaching? Faculty passion stories differentiate
+  institutions and build trust that credentials alone cannot.
+- **Institutional Heritage Narrative**: The founding story, pivotal moments, and evolving mission
+  of the institution. Heritage stories create a sense of belonging to something larger than
+  a program. Students join traditions, not just classrooms.
+- **Peer Community Stories**: Stories about the student community — study groups, collaborations,
+  lifelong friendships — address the social and belonging dimensions of the education decision.
+  Community often matters more than curriculum.
+- **The "Moment of Decision" Story**: The specific moment a prospective student decided to
+  enroll. These stories provide identification points for prospects in the same decision
+  moment. "I was sitting at my desk at 11pm and realized I couldn't keep doing this."
+- **Lifelong Learner Narrative**: For continuing education and professional development, stories
+  must address the adult learner's unique context — career transitions, family obligations,
+  self-doubt about returning to school. "Am I too old?" needs a story answer.
+
+## Education Storytelling Examples
+- **Stanford d.school**: Tells the story of design thinking as a methodology narrative —
+  not what students learn but how they learn to think differently.
+- **Lambda School (now Bloom Institute)**: ISA model told as a "skin in the game" narrative —
+  "We only succeed when you succeed." Alignment as story.
+- **Khan Academy**: Sal Khan's origin story — tutoring his cousin remotely, recording videos,
+  discovering millions needed the same help. Accidental discovery pattern.
+- **MasterClass**: Celebrity instructor stories reframe education as aspiration — "Learn
+  cooking from Gordon Ramsay." The instructor IS the story.
 
 ## Application to Marketing
 - **Admissions Pages**: Replace program descriptions with student journey stories; for each program, feature 2-3 detailed student transformation narratives that span the full arc from application to career

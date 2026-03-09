@@ -12,15 +12,44 @@ This is not to say System 2 is entirely dormant during storytelling — it activ
 Stories bypass System 2's analytical defenses by entering through System 1's intuitive, emotional processing pathway. This makes narrative the most effective communication medium for reaching skeptical, resistant, or analytically-minded audiences — precisely the audiences that logical arguments fail to persuade.
 
 ## Key Concepts
-- **System 1 (Fast Thinking)**: Automatic, effortless, emotional, associative, pattern-recognizing; the default mode of cognition; processes stories, faces, emotions, and familiar situations
-- **System 2 (Slow Thinking)**: Deliberate, effortful, analytical, logical, rule-following; activated for complex calculations, unfamiliar problems, and explicit evaluation; processes arguments, data, and comparisons
-- **Cognitive Ease**: System 1 favors information that is easy to process (fluent, familiar, vivid); stories create cognitive ease through concrete imagery and familiar narrative structures
-- **The Skepticism Bypass**: System 2 generates counter-arguments against persuasive claims; stories processed through System 1 bypass this counter-arguing mechanism, reducing resistance
-- **Affect Heuristic**: System 1 evaluates options based on emotional associations rather than analytical assessment; stories create emotional associations that shape subsequent decisions
-- **WYSIATI ("What You See Is All There Is")**: System 1 constructs the best possible story from available information without seeking what is missing; narratives exploit this by controlling which information is available
-- **Anchoring Through Narrative**: System 1 is highly susceptible to anchoring; the first emotional impression created by a story anchors all subsequent evaluation
-- **Cognitive Load and System Switching**: When System 2 is occupied (multitasking, time pressure, decision fatigue), System 1 dominates; audiences under cognitive load are even more susceptible to narrative persuasion
-- **The Fluency Effect**: Stories feel easier to process than data; this processing fluency is misattributed to truth — if it feels easy to understand, System 1 tags it as likely true
+- **System 1 (Fast Thinking)**: Automatic, effortless, emotional, associative, pattern-recognizing.
+  The default mode of cognition. Processes stories, faces, emotions, and familiar situations.
+  Always active, always first.
+- **System 2 (Slow Thinking)**: Deliberate, effortful, analytical, logical, rule-following.
+  Activated for complex calculations, unfamiliar problems, and explicit evaluation.
+  Processes arguments, data, and comparisons. Often lazy — avoids activation when possible.
+- **Cognitive Ease**: System 1 favors information that is easy to process (fluent, familiar,
+  vivid). Stories create cognitive ease through concrete imagery and familiar narrative
+  structures. Ease is misattributed to truth.
+- **The Skepticism Bypass**: System 2 generates counter-arguments against persuasive claims.
+  Stories processed through System 1 bypass this counter-arguing mechanism entirely,
+  reducing resistance to embedded messages.
+- **Affect Heuristic**: System 1 evaluates options based on emotional associations rather than
+  analytical assessment. Stories create emotional associations that shape subsequent decisions
+  without conscious deliberation.
+- **WYSIATI ("What You See Is All There Is")**: System 1 constructs the best possible story
+  from available information without seeking what is missing. Narratives exploit this by
+  controlling which information is available and in what order.
+- **Anchoring Through Narrative**: System 1 is highly susceptible to anchoring. The first
+  emotional impression created by a story anchors all subsequent evaluation. Opening
+  emotions set the frame for everything that follows.
+- **Cognitive Load and System Switching**: When System 2 is occupied (multitasking, time
+  pressure, decision fatigue), System 1 dominates completely. Audiences under cognitive
+  load are even more susceptible to narrative persuasion.
+- **The Fluency Effect**: Stories feel easier to process than data. This processing fluency
+  is misattributed to truth — if it feels easy to understand, System 1 tags it as likely true.
+  Well-told stories literally feel more credible.
+
+## Key Research
+- Kahneman (2011): *Thinking, Fast and Slow* — the definitive popular synthesis of dual-process
+  theory, establishing the System 1/System 2 framework in public consciousness.
+- Slovic et al. (2007): Demonstrated the affect heuristic — emotional reactions guide judgment
+  and decision-making, often overriding analytical processing.
+- Petty & Cacioppo (1986): The Elaboration Likelihood Model — a parallel dual-process model
+  showing that persuasion follows central (analytical) or peripheral (heuristic) routes.
+  Narrative persuasion operates primarily through the peripheral route.
+- Alter & Oppenheimer (2009): Research on processing fluency showing that easy-to-process
+  information is judged as more truthful, more beautiful, and more trustworthy.
 
 ## Application to Marketing
 - **Lead with Story, Follow with Data**: Open every persuasive communication with narrative to engage System 1 and create emotional receptivity; introduce data afterward as confirmation, not as the primary persuasive mechanism

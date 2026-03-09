@@ -59,6 +59,20 @@ He further contends that storytelling is a learnable skill, not a gift. The dail
 - "But and therefore are the engines of story. And then is the enemy."
 - "You do not need something extraordinary to happen to you. You need to notice the extraordinary in the ordinary."
 
+## Strengths and Limitations
+
+Storyworthy's greatest strength is its specificity. Where many storytelling books offer general principles, Dicks provides concrete, testable techniques. The five-second moment concept alone transforms how people think about story selection. It is the single most useful diagnostic question in personal storytelling: what is the moment of change?
+
+Homework for Life is a genuinely transformative practice for those who commit to it. It works not because it generates story ideas (though it does) but because it trains the storytelling muscle of noticing, which changes how practitioners experience their own lives.
+
+The stakes techniques (elephant, backpack, breadcrumbs, hourglass, crystal ball) are unusually specific and immediately applicable. Most storytelling books tell you that stakes matter; Dicks tells you exactly how to build them.
+
+A limitation is that the book is rooted in the personal storytelling tradition (The Moth, live stage performance) and requires adaptation for business contexts. Dicks addresses this somewhat, but the transition from stage story to boardroom story is left largely to the reader.
+
+The book's emphasis on the five-second moment can occasionally feel reductive. Not every effective story hinges on a single instant of transformation; some stories derive their power from gradual accumulation. However, as a teaching tool, the concept's simplicity is more feature than bug.
+
+The Dinner Test, while useful as a general principle, may lead some practitioners to underestimate the difference between casual conversation and structured performance. A great dinner story and a great stage story share principles but differ in craft.
+
 ## Cross-References
 
 - `./dicks-stories-sell.md` — Dicks's application of personal storytelling to business and sales contexts

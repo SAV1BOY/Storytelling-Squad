@@ -12,15 +12,41 @@ The implications for marketing storytelling are direct: the protagonist of a bra
 Character identification is the bridge between narrative and persuasion. When audiences identify with a story's protagonist, they experience the narrative from inside rather than outside — adopting the character's emotions, perspectives, and conclusions as their own.
 
 ## Key Concepts
-- **Similarity Identification**: Audiences identify more readily with characters who share their demographics, experiences, struggles, or values; the most basic and reliable form of identification
-- **Wishful Identification**: Audiences identify with characters they aspire to become, regardless of current similarity; drives identification with aspirational figures, mentors, and success stories
-- **Empathic Identification (Cohen)**: Feeling the character's emotions as one's own; the emotional dimension of identification that drives attitude change
-- **Cognitive Identification**: Understanding and adopting the character's perspective and worldview; enables audiences to see problems through the character's eyes
-- **Motivational Identification**: Sharing the character's goals and desires; creates alignment between character outcomes and audience hopes
-- **Absorption**: Loss of self-awareness and merging with the character; the deepest level of identification, closely related to narrative transportation
-- **Theory of Mind**: The cognitive ability to attribute beliefs, desires, and intentions to others; the neural infrastructure that enables identification; exercised and strengthened through narrative exposure
-- **Parasocial Identification**: Identification with characters across repeated exposures (series, recurring content); creates increasingly deep pseudo-relationships between audience and character
-- **Identification vs Empathy**: Empathy is feeling for a character (external); identification is feeling as a character (internal); identification produces stronger persuasive effects
+- **Similarity Identification**: Audiences identify more readily with characters who share their
+  demographics, experiences, struggles, or values. This is the most basic and reliable form
+  of identification. It requires specific, recognizable details.
+- **Wishful Identification**: Audiences identify with characters they aspire to become, regardless
+  of current similarity. This drives identification with aspirational figures, mentors, and
+  success stories. Particularly powerful for premium brand positioning.
+- **Empathic Identification (Cohen)**: Feeling the character's emotions as one's own. The
+  emotional dimension of identification that most directly drives attitude change and
+  persuasion. Requires access to the character's inner emotional life.
+- **Cognitive Identification**: Understanding and adopting the character's perspective and
+  worldview. Enables audiences to see problems through the character's eyes. Can operate
+  even without emotional alignment.
+- **Motivational Identification**: Sharing the character's goals and desires. Creates alignment
+  between character outcomes and audience hopes. The audience roots for the character because
+  they want the same things.
+- **Absorption**: Loss of self-awareness and merging with the character. The deepest level
+  of identification, closely related to narrative transportation. The audience forgets they
+  are an observer and experiences the narrative from within.
+- **Theory of Mind**: The cognitive ability to attribute beliefs, desires, and intentions to
+  others. The neural infrastructure that enables all forms of identification. Exercised and
+  measurably strengthened through narrative exposure.
+- **Parasocial Identification**: Identification with characters across repeated exposures
+  (series, recurring content). Creates increasingly deep pseudo-relationships between
+  audience and character that mimic real social bonds.
+- **Identification vs Empathy**: Empathy is feeling for a character (external perspective).
+  Identification is feeling as a character (internal perspective). Identification produces
+  stronger persuasive effects because the audience adopts the character's conclusions as their own.
+
+## Key Research
+- Cohen (2001): Established the four-dimension model of identification (empathic, cognitive,
+  motivational, absorption) that remains the standard framework in media psychology.
+- Horton & Wohl (1956): Pioneered the concept of parasocial relationships — the one-sided
+  bonds audiences form with media figures and fictional characters.
+- Mar, Oatley, & Peterson (2009): Demonstrated that fiction reading improves Theory of Mind
+  and empathy through repeated identification practice.
 
 ## Application to Marketing
 - **Customer as Hero**: In brand storytelling, make the customer the protagonist — not the brand; audiences identify with characters in the hero role, not the helper role

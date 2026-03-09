@@ -57,6 +57,20 @@ Hall contends that self-story editing is a leadership skill. Leaders who are awa
 - "The impostor story is the most expensive narrative in business. It keeps talented people small, silent, and safe when they should be bold, vocal, and creative."
 - "Every self-story was once useful. The question is whether it is still useful. If not, it is time to edit."
 
+## Strengths and Limitations
+
+The book's greatest strength is its practical methodology. Unlike many personal development books that stop at insight ("your thoughts create your reality"), Hall provides a concrete, repeatable process: Catch, Analyze, Choose. This makes the work actionable rather than aspirational.
+
+The integration of psychology research gives the book credibility beyond the self-help genre. The connections to cognitive behavioral therapy, narrative identity theory, and self-determination theory ground the advice in established science.
+
+The four categories of self-stories provide a useful diagnostic framework. Practitioners can quickly identify which category their limiting narratives fall into and apply the appropriate editing techniques.
+
+A limitation is that deeply entrenched self-stories often have roots in trauma or early childhood experience that may require therapeutic support to address. The book is clear that it is not a substitute for therapy, but some readers may need more than story editing can provide.
+
+The business applications, while valuable, feel secondary to the personal development focus. Marketing professionals looking for direct business applications may need to do more of their own translation work compared to Stories That Stick.
+
+The book could go deeper on the social and systemic dimensions of self-stories. Some limiting narratives are not just personal constructions but reflections of cultural messages about gender, race, class, and age. Addressing these requires more than individual story editing.
+
 ## Cross-References
 
 - `./hall-stories-that-stick-book.md` — Hall's framework for external business storytelling

@@ -12,14 +12,41 @@ The B2B storytelling toolkit includes case studies structured as transformation 
 B2B decisions are deeply emotional despite appearing rational. Effective B2B storytelling equips internal champions with retellable narratives that build consensus across multiple stakeholders, reduce perceived career risk, and make complex solutions feel inevitable rather than risky.
 
 ## Key Concepts
-- **The Internal Champion**: The person inside the buying organization who discovers and advocates for the solution; the central protagonist of B2B storytelling; all content should be designed to make this person effective
-- **Retellable Stories**: B2B stories must survive being retold by non-marketers in internal meetings; if the champion cannot retell it from memory, it is too complex
-- **The Buying Committee Narrative**: Enterprise purchases involve 6-10 decision-makers; stories must address each stakeholder's concerns — CFO cares about ROI, CTO about integration, end users about ease
-- **Career Risk Narrative**: B2B decisions carry personal career risk; stories must explicitly or implicitly reduce the perceived risk of choosing the solution ("No one ever got fired for choosing...")
-- **ROI as Story**: Raw ROI numbers are System 2 content; ROI embedded in narrative ("They recovered their investment in 6 weeks when the VP of Sales noticed...") engages System 1
-- **Thought Leadership as Trust Narrative**: Executive thought leadership builds trust not by demonstrating expertise (everyone claims that) but by demonstrating vulnerability, contrarian thinking, and genuine insight
-- **The Complex Sale Arc**: Long B2B sales cycles are themselves narratives — discovery, evaluation, pilot, expansion — each phase needs its own story type
-- **Category Creation Stories**: The most powerful B2B narrative positions the company as creating a new category rather than competing in an existing one — Salesforce created "cloud CRM," not "better CRM"
+- **The Internal Champion**: The person inside the buying organization who discovers and advocates
+  for the solution. The central protagonist of B2B storytelling. All content should be designed
+  to make this person effective in rooms where the vendor is not present.
+- **Retellable Stories**: B2B stories must survive being retold by non-marketers in internal
+  meetings. If the champion cannot retell it from memory in 60 seconds, it is too complex.
+  Simplicity is not dumbing down — it is strategic clarity.
+- **The Buying Committee Narrative**: Enterprise purchases involve 6-10 decision-makers. Stories
+  must address each stakeholder's concerns. CFO cares about ROI. CTO cares about integration.
+  End users care about ease. One story cannot serve all; create persona-specific versions.
+- **Career Risk Narrative**: B2B decisions carry personal career risk. Stories must explicitly
+  or implicitly reduce the perceived risk of choosing the solution. "No one ever got fired
+  for choosing..." is the emotional undercurrent of every B2B purchase.
+- **ROI as Story**: Raw ROI numbers are System 2 content that invites scrutiny. ROI embedded
+  in narrative ("They recovered their investment in 6 weeks when the VP of Sales noticed...")
+  engages System 1 and makes the numbers feel real.
+- **Thought Leadership as Trust Narrative**: Executive thought leadership builds trust not by
+  demonstrating expertise (everyone claims that) but by demonstrating vulnerability,
+  contrarian thinking, and genuine insight. The best thought leaders tell stories of failure.
+- **The Complex Sale Arc**: Long B2B sales cycles are themselves narratives — discovery,
+  evaluation, pilot, expansion. Each phase needs its own story type: awareness stories,
+  consideration stories, decision stories, and expansion stories.
+- **Category Creation Stories**: The most powerful B2B narrative positions the company as
+  creating a new category rather than competing in an existing one. Salesforce created
+  "cloud CRM," not "better CRM." Category creation is narrative work.
+
+## B2B Storytelling Examples
+- **Salesforce**: Created the "No Software" narrative — a story about the end of installed
+  software, not about a better CRM. Category creation through narrative.
+- **Slack**: "We're not replacing email. We're replacing miscommunication." Reframed the
+  competitive narrative from feature comparison to problem redefinition.
+- **IBM Watson**: Used the Jeopardy story (Watson vs human champions) to make AI tangible
+  and memorable for enterprise buyers who could not evaluate the technology directly.
+- **Deloitte and McKinsey**: Built entire practices on narrative-driven thought leadership.
+  Their reports tell stories about the future of industries, positioning their consulting
+  as the bridge to that future.
 
 ## Application to Marketing
 - **Case Studies**: Abandon the problem/solution/results template. Use three-act narrative structure: Act 1 (the champion's world, the growing problem, failed previous attempts); Act 2 (discovery, internal sell, implementation challenges); Act 3 (measurable results AND the champion's personal outcome — promotion, recognition, relief)

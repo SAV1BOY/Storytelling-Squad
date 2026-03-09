@@ -59,6 +59,18 @@ The book frames the leader not as the hero of the story but as the mentor or tor
 - "Every audience is asking the same question: What does this mean for me? Answer it at every stage."
 - "The torchbearer does not walk the path for the traveler. The torchbearer illuminates the path so the traveler can walk it with confidence."
 
+## Strengths and Limitations
+
+The book's greatest strength is the communication map, a tool that no other storytelling book provides at this level of detail. It transforms change communication from a series of ad hoc speeches into a planned narrative campaign with specific tactics for each stage. This is immensely practical for anyone leading a multi-month or multi-year initiative.
+
+The five-stage model is also well-grounded in narrative theory while remaining accessible to non-storytellers. Leaders who have never studied narrative structure can immediately understand the Dream-Leap-Fight-Climb-Arrive progression and see where their current initiative sits on the arc.
+
+A limitation is that the book is heavily weighted toward top-down organizational change. It assumes a leader with authority and a defined audience of employees or stakeholders. The framework requires adaptation for peer-to-peer influence, bottom-up change movements, or external marketing campaigns where the audience is not a captive organizational constituency.
+
+The case studies, while detailed, skew toward large enterprises. Small businesses and startups will need to adapt the scale of the tactics while retaining the structural principles.
+
+The emphasis on symbols and ceremonies may feel unfamiliar to leaders trained in analytical or data-driven communication. However, this is precisely why the book is valuable: it fills a gap in most leaders' communication repertoire.
+
 ## Cross-References
 
 - `../frameworks/story-arc-framework.md` — The five-stage venture maps to classic narrative arc structures

@@ -12,16 +12,36 @@ Ethical marketers recognize these mechanisms and use them responsibly — activa
 Stories systematically activate cognitive biases that lower analytical defenses and shape judgment. Understanding which biases stories trigger — and how — enables marketers to design narratives that align with natural cognitive patterns, ethically guiding audiences toward beneficial decisions.
 
 ## Key Concepts
-- **Narrative Bias**: The fundamental tendency to organize experience as stories with characters, causation, and resolution; we impose narrative structure even on random events
-- **Anchoring**: The first piece of information in a story sets the reference point for all subsequent judgments; a story opening with a $50,000 problem makes a $5,000 solution feel trivial
-- **Availability Heuristic**: Vivid, easily recalled stories make events seem more probable; one dramatic customer success story makes success seem more likely than dry statistics
-- **Confirmation Bias**: Audiences seek and remember stories that confirm existing beliefs; stories aligned with audience worldview are received with less resistance
-- **Halo Effect**: Liking a story's character creates positive spillover to everything associated with them — their conclusions, their brand, their recommendations
-- **Loss Aversion (Kahneman & Tversky)**: Stories emphasizing what can be lost are 2-2.5x more motivating than equivalent stories about what can be gained; "before" states showing loss are more powerful than "after" states showing gain
-- **Social Proof Bias**: Stories about others' behavior (testimonials, case studies) trigger conformity instincts; "everyone is doing this" narratives activate herd behavior
-- **The IKEA Effect**: When audiences participate in constructing a story's meaning (open loops, fill-in-the-blank implications), they value the conclusion more — because they helped build it
-- **Sunk Cost Through Narrative**: Once audiences invest time in a story (reading a long email, watching a video), the sunk cost bias makes them more likely to continue to the call-to-action
-- **Bandwagon Effect**: Stories featuring growing movements, trending adoption, or community membership activate the desire to join what others are joining
+- **Narrative Bias**: The fundamental tendency to organize experience as stories with characters,
+  causation, and resolution. We impose narrative structure even on random events. This bias
+  makes us receptive to stories and simultaneously vulnerable to oversimplified ones.
+- **Anchoring**: The first piece of information in a story sets the reference point for all
+  subsequent judgments. A story opening with a $50,000 problem makes a $5,000 solution feel
+  trivial. Narrative sequence determines perceived value.
+- **Availability Heuristic**: Vivid, easily recalled stories make events seem more probable.
+  One dramatic customer success story makes success seem more likely than dry statistics
+  showing the same probability. Vividness trumps base rates.
+- **Confirmation Bias**: Audiences seek and remember stories that confirm existing beliefs.
+  Stories aligned with audience worldview are received with less resistance and remembered
+  more accurately than stories that challenge existing beliefs.
+- **Halo Effect**: Liking a story's character creates positive spillover to everything associated
+  with them — their conclusions, their brand, their recommendations. Character likability
+  is a shortcut to message credibility.
+- **Loss Aversion (Kahneman & Tversky)**: Stories emphasizing what can be lost are 2-2.5x
+  more motivating than equivalent stories about what can be gained. "Before" states showing
+  loss are more powerful than "after" states showing gain.
+- **Social Proof Bias**: Stories about others' behavior (testimonials, case studies) trigger
+  conformity instincts. "Everyone is doing this" narratives activate herd behavior even in
+  individualistic audiences.
+- **The IKEA Effect**: When audiences participate in constructing a story's meaning (open loops,
+  fill-in-the-blank implications), they value the conclusion more — because they helped build it.
+  Self-generated conclusions are held with more conviction.
+- **Sunk Cost Through Narrative**: Once audiences invest time in a story (reading a long email,
+  watching a video), the sunk cost bias makes them more likely to continue to the call-to-action
+  rather than "waste" their investment.
+- **Bandwagon Effect**: Stories featuring growing movements, trending adoption, or community
+  membership activate the desire to join what others are joining. Momentum narratives are
+  among the most powerful conversion drivers.
 
 ## Application to Marketing
 - **Anchoring in Pricing Stories**: Tell the story of the expensive problem before revealing the affordable solution; the problem cost anchors the value perception

@@ -12,14 +12,40 @@ Trust is the central currency of financial storytelling. Financial institutions 
 Financial storytelling must humanize money — the most emotionally charged and least emotionally communicated subject in marketing. By telling human stories about financial decisions, challenges, and transformations within regulatory boundaries, financial brands build the deep trust required for people to hand over their financial futures.
 
 ## Key Concepts
-- **Money as Emotional Subject**: Money is connected to security, freedom, identity, family, shame, and aspiration; effective financial storytelling acknowledges these emotions rather than hiding behind jargon
-- **Trust Through Transparency Narrative**: Financial trust is built by showing the human side of the institution — the advisors, the decision-making process, the values — not by claiming trustworthiness
-- **Regulatory Compliance in Narrative**: SEC/FINRA regulations govern performance claims and guarantees; client experience stories and educational narratives operate in a different regulatory space; always involve compliance review in story production
-- **Simplifying Complexity Through Analogy**: Financial concepts (compound interest, diversification, risk tolerance) are abstract; storytelling makes them concrete through analogy and specific human examples
-- **Client Success Narratives**: Stories of real clients (with consent) who achieved financial goals humanize the institution and provide social proof; the arc should include the client's emotional state, not just financial outcomes
-- **Financial Literacy as Story**: Educational content framed as narrative ("How the Johnsons learned to budget") outperforms instructional content ("5 Steps to Better Budgeting") in engagement and retention
-- **The Advisor as Character**: For wealth management and advisory services, the advisor's personal story — why they chose this work, what they believe about money — is a primary trust-building asset
-- **Overcoming Financial Shame**: Money carries enormous shame for many people; stories that normalize financial struggle and mistakes create connection and reduce barriers to engagement
+- **Money as Emotional Subject**: Money is connected to security, freedom, identity, family,
+  shame, and aspiration. Effective financial storytelling acknowledges these emotions rather
+  than hiding behind jargon. The emotional dimension is the real decision driver.
+- **Trust Through Transparency Narrative**: Financial trust is built by showing the human side
+  of the institution — the advisors, the decision-making process, the values. Not by claiming
+  trustworthiness, which paradoxically reduces trust.
+- **Regulatory Compliance in Narrative**: SEC/FINRA regulations govern performance claims and
+  guarantees. Client experience stories and educational narratives operate in a different
+  regulatory space. Always involve compliance review in story production.
+- **Simplifying Complexity Through Analogy**: Financial concepts (compound interest,
+  diversification, risk tolerance) are abstract. Storytelling makes them concrete through
+  analogy and specific human examples. "Think of diversification as..."
+- **Client Success Narratives**: Stories of real clients (with consent) who achieved financial
+  goals humanize the institution and provide social proof. The arc should include the client's
+  emotional state, not just financial outcomes.
+- **Financial Literacy as Story**: Educational content framed as narrative ("How the Johnsons
+  learned to budget") outperforms instructional content ("5 Steps to Better Budgeting") in
+  engagement and retention. Story teaches better than instruction.
+- **The Advisor as Character**: For wealth management and advisory services, the advisor's
+  personal story — why they chose this work, what they believe about money — is a primary
+  trust-building asset. Credentials inform; stories connect.
+- **Overcoming Financial Shame**: Money carries enormous shame for many people. Stories that
+  normalize financial struggle and mistakes create connection and reduce barriers to
+  engagement. Shame is the biggest barrier to financial services marketing.
+
+## Finance Brand Examples
+- **Wealthsimple**: "Investing for Humans" campaign told real stories about people's complicated
+  relationships with money — not returns, not features, just human truth about finances.
+- **Dave Ramsey**: Built a financial education empire on his personal bankruptcy story.
+  The founder's failure narrative became the brand's most powerful trust asset.
+- **Nubank (Brazil)**: Told the story of financial democratization — making banking human in
+  a market dominated by bureaucratic institutions. Story of rebellion against complexity.
+- **NerdWallet**: Content-first approach — built trust through educational narrative content
+  before ever selling financial products. The story earned the transaction.
 
 ## Application to Marketing
 - **Website and Brand Narrative**: Lead with human stories, not product descriptions; "Meet Sarah, who started investing with $50" before "Open an account with no minimum balance"

@@ -57,6 +57,20 @@ He further argues that most brand storytelling fails because it is superficial, 
 - "The ritual is how the story continues after the sale. It is the ongoing relationship, not the transaction."
 - "People do not buy products. They buy the story of who they become when they use those products."
 
+## Strengths and Limitations
+
+The ten-step Story Cycle provides more narrative granularity than simpler frameworks like StoryBrand's seven-step model. This makes it particularly valuable for brands with complex stories, multi-stage customer journeys, or audiences that require deeper narrative engagement.
+
+The ABT framework is genuinely one of the most useful micro-tools in the storytelling world. Its simplicity makes it teachable to anyone in minutes, and its versatility means it applies to every communication format. The combination of ABT (micro-structure) and Story Cycle (macro-structure) gives practitioners tools at both scales.
+
+The book benefits from Howell's decades of agency experience. The examples feel real and grounded in actual brand challenges, not theoretical scenarios.
+
+A limitation is that the ten-step system can feel heavy for small businesses or solopreneurs who need a quicker path to a brand story. Not every brand needs all ten steps fully developed, and the book could provide clearer guidance on which steps are essential versus optional for different contexts.
+
+The Hero's Journey foundation, while powerful, carries the risk of formulaic storytelling. Brands that follow the system too literally may produce narratives that feel archetypal but generic. The best results come from using the system as a discovery tool rather than a template.
+
+The book's tone occasionally veers toward the promotional, reflecting Howell's marketing background. Readers looking for academic rigor may find it lacking, though the practical utility compensates.
+
 ## Cross-References
 
 - `./howell-business-of-story-podcast.md` — Companion resource with episode index and extended ABT examples

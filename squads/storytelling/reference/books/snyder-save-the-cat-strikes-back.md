@@ -58,6 +58,17 @@ The deeper message is that mastery of structure is liberating, not constraining.
 - "Your theme is stated on page 5 and proved on page 110. Everything in between is the argument."
 - "The B Story is not a subplot. It is the story's soul wearing a disguise."
 - "The shard of glass is what makes your hero specific. Without it, they are everyone and therefore no one."
+- "If the audience cannot articulate the stakes, neither can your character—and a character who doesn't know what they stand to lose cannot fight hard enough to win."
+
+## Critiques and Limitations
+
+- The "immutable laws" framing can feel dogmatic. While the principles are sound, presenting them as laws rather than strong guidelines risks discouraging legitimate experimentation.
+- The book assumes the reader has already internalized the first book's Beat Sheet system. It is not a standalone resource and can be confusing without that foundation.
+- Snyder's focus on Hollywood commercial filmmaking means that some laws apply less cleanly to indie film, literary fiction, documentary, or short-form marketing content.
+- The professional advice sections, while heartfelt, are specific to the Hollywood spec script market of the early 2000s and may not translate directly to current industry conditions or other creative markets.
+- The "Shard of Glass" concept, while useful, can lead to oversimplified character psychology if applied mechanically. Real people and well-drawn characters have multiple wounds, not just one.
+
+Despite these caveats, the diagnostic framework is exceptionally useful for anyone troubleshooting narrative content—whether a screenplay, a brand video, or a marketing campaign.
 
 ## Cross-References
 
