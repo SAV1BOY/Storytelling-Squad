@@ -1,143 +1,66 @@
-# Always #LikeAGirl — Transformation Narrative Analysis
+# Always #LikeAGirl — Narrative Reframe Analysis
 
 ## Overview
+Launched in 2014, Always (a Procter and Gamble brand) created the #LikeAGirl campaign to redefine the phrase "like a girl" from an insult to an expression of strength. The campaign won numerous awards including the Emmy, Cannes Grand Prix, and D&AD Black Pencil.
 
-In June 2014, Procter & Gamble's feminine hygiene brand Always launched the #LikeAGirl
-campaign, created by agency Leo Burnett. The campaign centered on a three-minute documentary
-film that exposed how the phrase "like a girl" functions as an insult and then reframed it
-as an expression of strength. The film asked people of various ages to demonstrate actions
-"like a girl" — running, throwing, fighting — and captured the stark difference between how
-young girls and older participants interpreted the phrase.
+---
 
-The campaign video has been viewed over 90 million times on YouTube. It won the Emmy for
-Outstanding Commercial, the Grand Prix at Cannes Lions, and a D&AD Black Pencil. More
-significantly, it shifted cultural conversation: research showed that after viewing the
-film, 76% of viewers said they would no longer use "like a girl" as an insult.
-
-## Historical Context
-
-### The Feminine Hygiene Marketing Problem
-
-Feminine hygiene advertising has historically been constrained by euphemism, embarrassment,
-and avoidance. For decades, the category relied on blue liquid demonstrations, whispered
-conversations, and abstract messaging about freshness and confidence. The storytelling was
-almost entirely product-functional, and the emotional territory was limited to relief from
-discomfort or embarrassment.
-
-Always, as a brand within this category, faced the additional challenge of relevance. Its
-core audience — girls entering puberty — was encountering the brand at a moment of
-vulnerability and identity formation. The brand needed a narrative that acknowledged this
-moment without being condescending or clinical.
-
-### The Cultural Context
-
-By 2014, conversations about gender equality and representation were gaining mainstream
-momentum. The term "feminist" was being reclaimed in popular culture. Lean In had been
-published the previous year. The cultural moment was receptive to narratives that
-challenged gender stereotypes — but consumers were also skeptical of brands attempting
-to co-opt social movements for commercial gain.
+## The Narrative Strategy
 
 ### The Insight
+The phrase "like a girl" is used as an insult — "You throw like a girl," "You run like a girl." This linguistic convention teaches girls that their gender is synonymous with weakness. Always identified this cultural lie and built a campaign around shattering it.
 
-Always' research team discovered that girls' confidence drops dramatically during puberty.
-The phrase "like a girl" was identified as a specific linguistic mechanism through which
-this confidence erosion occurs. The insight was not that girls lack confidence — it was
-that language actively undermines it.
+### The Central Experiment
+Filmmaker Lauren Greenfield asked people of various ages to demonstrate actions "like a girl" — running, throwing, fighting. Older participants performed exaggerated, weak, mocking versions. Young girls performed with full strength and confidence. The contrast revealed the moment self-doubt is culturally installed.
 
-## Narrative Analysis
+---
 
-### Documentary as Brand Storytelling
+## Narrative Techniques
 
-The campaign chose documentary format over scripted advertising. Real people, unscripted
-reactions, and genuine emotional moments created authenticity that a scripted commercial
-could not achieve. The format signaled: this is real, this matters, and we are showing
-you truth rather than selling you a product.
+### The Mirror Revelation
+By showing the contrast between how young girls interpret "like a girl" (with confidence) and how older people interpret it (as mockery), the campaign held up a mirror to the audience. The audience sees themselves in the older group — and is confronted with the damage of the assumption.
 
-### The Three-Act Transformation
+### The Reframe Twist
+The campaign doesn't argue against the phrase. It redefines it. "What does it mean to do something like a girl? It means to be amazing." This is a narrative reframe — the same words, new meaning.
 
-**Act One — Revealing the Problem**
-Adults and teenage boys are asked to "run like a girl," "throw like a girl," and "fight
-like a girl." They perform exaggerated, mocking versions — flailing arms, weak throws,
-helpless gestures. The audience laughs, recognizing the stereotype. Then the discomfort
-sets in: we all know this insult. Many of us have used it.
+### Participant-Driven Story
+The campaign uses real people's reactions as the story. The participants are not actors; their surprise, discomfort, and realization are genuine. Authenticity is the proof.
 
-**Act Two — The Contrast**
-Young girls — approximately 5 to 12 years old — are asked to do the same actions "like
-a girl." They run as fast as they can. They throw with full force. They fight with
-determination. For them, "like a girl" simply means "the way I do it." The contrast
-is devastating and immediate.
+### The Question Hook
+The campaign opens with a question: "What does it mean to run like a girl?" Every viewer has an immediate, instinctive answer — and the campaign challenges that answer.
 
-**Act Three — The Reframing**
-The older participants are confronted with the contrast. Their reactions — shame,
-recognition, resolve — are the emotional climax. The film ends with a direct question:
-"When did doing something 'like a girl' become an insult?" The audience is invited to
-reconsider their own use of the phrase.
+---
 
-### Key Narrative Techniques
+## Why It Worked
 
-**The Mirror Technique**: By showing adults performing the stereotype and then showing
-girls contradicting it, the film holds a mirror up to the audience. The viewer recognizes
-their own complicity in the insult and is motivated to change without being lectured.
+1. **Cultural tension:** The campaign addressed a genuine, widely recognized cultural problem
+2. **Emotional specificity:** The moment when girls lose confidence is specific and documented
+3. **Audience self-reflection:** Viewers had to confront their own use of the phrase
+4. **Empowerment, not shame:** The campaign inspired change rather than guilt
+5. **Brand fit:** Always serves girls and women — the cause aligned authentically with the brand
 
-**Unscripted Authenticity**: The power of the film comes from genuine reactions. The
-moment when a teenage girl realizes what she just did — mocked her own gender — is
-unscripted and visually evident. This authenticity is impossible to manufacture.
+---
 
-**The Question, Not the Answer**: The campaign does not tell the audience what to think.
-It asks a question — "When did 'like a girl' become an insult?" — and lets the viewer
-arrive at the answer independently. This participatory structure increases persuasion
-because the conclusion feels self-generated.
+## Results
+- 85+ million YouTube views in the first three months
+- Confidence among girls aged 16-24 increased from 19% to 76% after seeing the ad (campaign research)
+- Phrase "like a girl" was used positively across social media
+- Always brand sentiment improved significantly among target demographic
+- Won 19 awards at Cannes Lions 2015
 
-**Linguistic Reframing**: The campaign takes an existing phrase and changes its meaning.
-This is a sophisticated narrative technique because it does not require learning new
-language — it requires re-hearing familiar language. The phrase "like a girl" becomes
-a trigger for the campaign's message every time someone encounters it in daily life.
+---
 
-### The Brand Connection
+## Lessons for Business Storytelling
 
-Always appears only at the end of the film, with the line: "Always wants to change that."
-The brand connection is a commitment to action rather than a product pitch. This
-positioning — brand as ally in a cultural fight — creates deeper loyalty than any
-product-focused message could achieve.
+- The most powerful stories challenge assumptions the audience holds without realizing it
+- Real people's authentic reactions are more persuasive than scripted performances
+- Reframing an existing phrase or concept is more sticky than creating new language
+- Empowerment narratives outperform shame-based narratives for long-term brand building
+- The best cause marketing addresses a genuine cultural problem, not a manufactured one
 
-## Marketing Application
-
-### Principles for Modern Storytellers
-
-1. **Find the cultural tension your brand can authentically address.** Always connects
-   to girlhood confidence because its product is present at the moment of puberty. The
-   connection must be genuine or audiences will reject it.
-
-2. **Use documentary formats for authenticity.** When your insight is about real human
-   experience, let real humans tell the story. Unscripted truth is more persuasive than
-   polished fiction.
-
-3. **Ask questions instead of making statements.** Questions invite participation.
-   Statements invite resistance. The audience that answers your question for themselves
-   will believe the answer more deeply.
-
-4. **Reframe language, not just perception.** If you can change how people hear a common
-   word or phrase, you create a narrative trigger that activates every time that language
-   is used — far beyond your media spend.
-
-5. **Show the transformation, not just the ideal state.** The power of #LikeAGirl comes
-   from the visible shift in awareness. Showing people changing their minds is more
-   persuasive than showing people who already agree.
-
-6. **Brand as ally, not hero.** Always positions itself as supporting girls, not saving
-   them. This distinction matters for audience trust.
-
-### Risks and Considerations
-
-Cause-based campaigns carry significant risk if the brand's actions do not align with the
-campaign's message. Audiences will investigate whether the company practices what it
-preaches — in hiring, in supply chain, in corporate behavior. The narrative must be backed
-by genuine organizational commitment.
+---
 
 ## Cross-References
-
-- `archive/iconic-stories/nike-just-do-it-evolution.md` — Nike's parallel evolution toward social narrative
-- `archive/failures-and-lessons/pepsi-kendall-jenner.md` — What happens when cause-based storytelling lacks authenticity
-- `archive/deprecated-frameworks/hero-brand-narrative.md` — Why brand-as-ally works better than brand-as-hero
-- `archive/industry-shifts/social-media-storytelling.md` — How #LikeAGirl leveraged hashtag as narrative device
-- `archive/speech-evolution/i-have-a-dream.md` — Reframing techniques in aspirational narratives
+- See `lib/patterns/revelation-patterns.md` for the reframe technique
+- See `lib/components/hook-component.md` for the question hook
+- See `lib/taxonomies/emotion-taxonomy.md` for recognition and indignation emotions
