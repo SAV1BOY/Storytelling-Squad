@@ -1,62 +1,84 @@
-# Business of Story Podcast — Swipe Source Guide
-> Hosted by Park Howell
+# Business of Story Podcast — Source Guide for Business Narrative Study
 
 ## Source Overview
 
-The Business of Story podcast, hosted by Park Howell, is dedicated to helping business leaders
-and marketers use storytelling to grow their brands. Each episode features interviews with
-storytelling practitioners, brand strategists, and marketing leaders who share real-world
-examples of narrative-driven business growth.
+The Business of Story podcast, hosted by Park Howell, focuses on the
+strategic application of storytelling to business communication, marketing,
+and leadership. Howell, a brand strategist with decades of advertising
+experience, brings a practitioner's perspective to narrative theory, drawing
+on frameworks from mythology, screenwriting, and behavioral science.
+
+Episodes typically run 20 to 45 minutes and feature interviews with
+marketing leaders, authors, entrepreneurs, and communication experts. The
+show has produced hundreds of episodes, creating a deep archive of applied
+business narrative thinking.
+
+What distinguishes this podcast from other storytelling resources is its
+breadth. While some shows focus narrowly on one framework, Business of Story
+explores multiple narrative models and adapts them to business contexts.
+Howell's background in advertising gives the show a practical edge — the
+focus is always on how story drives measurable outcomes, not just how it
+makes people feel.
+
+The podcast is available on all major platforms, and the show's website
+organizes episodes by topic, making it easy to find discussions relevant
+to specific storytelling challenges.
 
 ## What to Study
 
-- **ABT (And, But, Therefore) Framework** — Howell's core methodology appears in nearly every
-  episode, showing how to structure business narratives using the simplest possible story logic
-- **Brand Narrative Strategy** — How companies use story to differentiate in crowded markets
-- **Story Cycle Applications** — Real examples of the 10-step Story Cycle System applied to
-  marketing campaigns, product launches, and brand positioning
-- **Business Storytelling Mistakes** — Common anti-patterns in corporate storytelling and how
-  practitioners fixed them
+- **The ABT framework**: "And, But, Therefore" — a simple narrative structure borrowed from screenwriting that clarifies any message
+- **Story cycle methodology**: How Howell maps Joseph Campbell's hero's journey to business communication
+- **Brand narrative strategy**: How to build a cohesive story across all touchpoints, not just individual campaigns
+- **Storytelling for leadership**: How executives use narrative to align teams, communicate vision, and drive change
+- **Data and story integration**: How to wrap numbers in narrative so they persuade rather than just inform
+- **Competitive differentiation through story**: How brands use narrative positioning to stand apart
+- **The neuroscience of story**: Episodes that explore why brains are wired for narrative and how marketers can leverage that wiring
+- **Story in organizational culture**: How internal storytelling shapes company identity and employee engagement
+- **Ethical storytelling**: How to tell compelling stories without manipulation or misrepresentation
 
-## Key Episodes to Study
+## Key Episodes/Examples
 
-1. **"The ABT Framework for Business"** — Foundation episode explaining And/But/Therefore
-   structure. Study how a three-word framework creates narrative momentum in any context.
-2. **"Story Strategy Canvas Deep Dive"** — How to map an entire brand narrative using Howell's
-   canvas tool. Study the relationship between audience, problem, and brand promise.
-3. **"Storytelling for B2B Brands"** — Demonstrates that even "boring" industries can tell
-   compelling stories. Study techniques for finding narrative in technical products.
-4. **"The Science of Story"** — Episodes exploring neuroscience behind narrative persuasion.
-   Study the biological mechanisms that make stories more persuasive than facts.
-5. **"Brand Story Turnarounds"** — Case studies of brands that transformed their narrative.
-   Study the before/after of narrative strategy changes.
-6. **"Nonprofit Storytelling"** — How mission-driven organizations use story for fundraising
-   and advocacy. Study the intersection of purpose and narrative.
-7. **"Crisis Communication Through Story"** — How to use narrative structure during brand
-   crises. Study the difference between defensive messaging and narrative leadership.
+1. **Episodes introducing the ABT framework** — The "And, But, Therefore" structure is the show's foundational tool; start here to understand how it simplifies complex messaging
+2. **Interviews with brand strategists** — These episodes show how large organizations build narrative infrastructure, not just individual stories
+3. **Episodes on storytelling in sales** — Study how narrative thinking transforms sales conversations from pitching to problem-solving
+4. **Interviews with scientists and researchers** — These episodes reveal how story makes technical and data-heavy content accessible
+5. **Episodes on content marketing strategy** — Study how story arcs can structure entire content calendars, not just individual posts
+6. **Interviews with nonprofit leaders** — Nonprofits depend on story for fundraising and awareness; these episodes show narrative at its most essential
+7. **Episodes about crisis communication** — Study how narrative framing helps organizations navigate difficult public moments
+8. **Episodes featuring authors of storytelling books** — These provide condensed summaries of major narrative methodologies
+9. **Episodes on personal branding** — How individuals use story to build professional identity and thought leadership
+10. **Episodes about storytelling measurement** — How to connect narrative efforts to business metrics and demonstrate ROI
 
 ## Narrative Techniques to Watch For
 
-- ABT micro-structure applied to everything from elevator pitches to annual reports
-- The "Story Cycle System" 10-step process in real-world applications
-- How guests identify the "but" (conflict) in their business context
-- Transition from features/benefits language to narrative language
-- Use of customer-as-hero positioning in brand strategy
-- Integration of data and story (proof-in-narrative technique)
+- **The ABT in action**: Listen for how guests naturally use "and, but, therefore" patterns when describing their work — it is everywhere once you hear it
+- **Problem-first framing**: Nearly every effective business story on the show begins with a problem, not a solution — study the consistency of this pattern
+- **The "so what" test**: Howell regularly pushes guests to articulate why their story matters to the listener — notice how this sharpens every narrative
+- **Metaphor as strategy**: Many episodes feature brands that use a central metaphor to organize their entire narrative identity
+- **The tension-resolution loop**: Business stories that cycle through multiple small tensions and resolutions rather than building to a single climax
+- **Authenticity markers**: Study how guests signal genuine experience versus rehearsed talking points — audiences detect the difference
+- **Story stacking**: Layering multiple short stories to build a cumulative argument rather than relying on one long narrative
+- **The perspective shift**: Retelling the same business situation from the customer's point of view versus the company's to reveal different narrative possibilities
 
 ## How to Use in Marketing
 
-- **Framework Practice**: Listen to episodes and identify the ABT structure in guest stories
-- **Brand Audit**: Use Howell's Story Strategy Canvas to audit your own brand narrative
-- **B2B Storytelling**: Extract techniques specific to B2B and technical product marketing
-- **Swipe File Building**: Note specific phrases, frameworks, and story structures that can
-  be adapted for client work
-- **Workshop Content**: Episodes provide excellent case studies for storytelling workshops
+- **Message clarification**: Use the ABT framework to pressure-test any piece of marketing copy — if you cannot express it as "and, but, therefore," it is not clear enough
+- **Content strategy**: Plan editorial calendars around narrative arcs — each quarter tells a chapter of your brand's ongoing story
+- **Executive communications**: Train leadership to frame company updates as stories with stakes, not just status reports
+- **Pitch preparation**: Structure investor or client pitches using the story cycle — situation, complication, resolution, new reality
+- **Brand audits**: Evaluate whether your brand tells a consistent story across all touchpoints by mapping each to the same core narrative
+- **Crisis response**: Use narrative framing principles to shape public communication during difficult moments
+- **Team alignment**: Use shared stories to build culture and align distributed teams around common purpose
+- **Sales enablement**: Equip sales teams with customer stories structured using ABT rather than feature-benefit lists
+- **Competitive positioning**: Use narrative contrast (your story vs. the old way) to differentiate without direct competitor attacks
 
 ## Cross-References
 
-- `agents/park-howell.md` — Park Howell agent profile
-- `frameworks/howell-abt-framework.md` — ABT framework details
-- `frameworks/howell-story-strategy-canvas.md` — Story Strategy Canvas
-- `frameworks/howell-story-cycle-for-brands.md` — Story Cycle System
-- `swipe.config` — Swipe file curation rules
+- See `storybrand-podcast.md` for a more prescriptive, single-framework approach to brand messaging
+- See `ted-talks.md` for how business narratives translate into presentation format
+- See `brand-manifestos.md` for how sustained brand narrative shows up in long-form identity documents
+- See `pitch-deck-databases.md` for visual applications of business storytelling principles
+- See `moth-radio-hour.md` for how personal narrative skills feed into business storytelling authenticity
+- See `story-grid-podcast.md` for deeper structural analysis of why certain story patterns work
+- The ABT framework from this show complements StoryBrand's 7-part framework — use ABT for quick clarity, StoryBrand for comprehensive messaging architecture
+- The neuroscience episodes pair well with the commencement speech analysis — see `commencement-speeches.md`
