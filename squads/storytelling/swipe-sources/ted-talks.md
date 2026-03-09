@@ -17,6 +17,12 @@ TED also enforces strict time limits, which forces speakers to distill their
 message — a discipline directly applicable to pitch decks, brand presentations,
 and sales conversations.
 
+Beyond the flagship TED conference, the TEDx program produces thousands of
+independently organized local events each year. These talks vary widely in
+production quality but often feature speakers tackling niche or unconventional
+topics, making them rich territory for studying how presenters frame unfamiliar
+ideas for general audiences.
+
 ## What to Study
 
 - **Talk structure**: How speakers organize ideas into a narrative arc rather than a list of points
@@ -27,6 +33,8 @@ and sales conversations.
 - **The call to action**: How speakers close by connecting their idea to the audience's life
 - **Transitions**: How speakers move between sections without losing momentum
 - **Credibility building**: How speakers establish authority without arrogance
+- **Audience calibration**: How speakers read the room and adjust tone, pace, and complexity
+- **The "aha moment"**: How the best talks build toward a single insight that reframes the topic
 
 ## Key Episodes/Examples
 
@@ -51,6 +59,8 @@ and sales conversations.
 - **The pause after a key point**: Silence is used strategically to let important ideas land
 - **Repetition of a key phrase**: Many memorable talks use a repeated phrase as a structural anchor
 - **The unexpected turn**: The best talks include a moment that challenges the audience's assumptions
+- **Layered evidence**: Combining personal anecdote, data, and expert citation in the same argument
+- **The metaphor that carries**: The strongest talks introduce a central metaphor early and extend it throughout
 
 ## How to Use in Marketing
 
@@ -61,6 +71,8 @@ and sales conversations.
 - **Sales presentations**: Adopt the TED practice of opening with a story or question rather than a company overview slide
 - **Video content**: TED demonstrates that a single person speaking clearly with minimal production can outperform expensive video — substance over spectacle
 - **Training materials**: Use TED's structure to teach internal teams how to present ideas clearly
+- **Product launches**: Frame new product announcements using the TED pattern of problem, insight, solution, and invitation to act
+- **Thought leadership**: Executives can model their public speaking on TED structure to build personal and brand authority simultaneously
 
 ## Cross-References
 
@@ -68,4 +80,6 @@ and sales conversations.
 - See `commencement-speeches.md` for longer-form inspirational narrative with similar persuasive goals
 - See `pitch-deck-databases.md` for the visual complement to TED's spoken presentation style
 - See `storybrand-podcast.md` for how to distill your brand message to a single throughline
+- See `story-grid-podcast.md` for editorial tools to analyze why certain talk structures work better than others
 - TED's "throughline" concept parallels StoryBrand's "one-liner" — both demand clarity about a single message
+- The contrast-pairs technique is a staple in brand manifestos — see `brand-manifestos.md`

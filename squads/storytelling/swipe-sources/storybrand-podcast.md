@@ -18,6 +18,13 @@ intersection of story structure and marketing execution. Rather than
 storytelling as an abstract art, StoryBrand treats narrative as an
 operational tool for business growth.
 
+The show has evolved over the years, expanding from pure framework explanation
+to include live coaching sessions, real-time website reviews, and guest
+interviews that pressure-test the methodology across industries. This
+evolution makes the archive especially valuable — early episodes teach the
+foundation, later episodes show the framework bending and adapting to
+real-world complexity.
+
 ## What to Study
 
 - **The 7-part StoryBrand framework**: Character, problem, guide, plan, call to action, success, failure
@@ -27,6 +34,8 @@ operational tool for business growth.
 - **Problem articulation**: How to name the customer's external, internal, and philosophical problems
 - **Guide positioning**: How to establish authority and empathy simultaneously
 - **Clear calls to action**: Why vague invitations fail and direct asks convert
+- **The gap between clarity and cleverness**: Why brands that prioritize being clever over being clear lose customers
+- **Revenue-focused messaging**: How story structure connects directly to conversion metrics
 
 ## Key Episodes/Examples
 
@@ -38,6 +47,8 @@ operational tool for business growth.
 6. **Episodes featuring nonprofit organizations** — Nonprofits face unique storytelling challenges (who is the hero?); these episodes stretch the framework in useful ways
 7. **Episodes on lead generators** — Study how story-based thinking shapes the creation of free resources that attract customers
 8. **Episodes where the framework is critiqued or adapted** — These reveal the framework's edges and how to modify it for unusual use cases
+9. **Live website review episodes** — Real-time application of the grunt test to actual business websites; study what passes and what fails
+10. **Episodes on internal messaging** — How to use the framework to align teams, not just attract customers
 
 ## Narrative Techniques to Watch For
 
@@ -49,6 +60,8 @@ operational tool for business growth.
 - **Repetition of core language**: StoryBrand practitioners use the same words across all channels; notice the consistency
 - **Negative stakes framing**: The framework uses potential failure as a motivator — study how this is done without fear-mongering
 - **The plan as reassurance**: Giving customers a simple 3-step plan reduces anxiety and increases action
+- **The aspirational identity**: Connecting your product to who the customer wants to become, not just what they want to have
+- **Language of invitation vs. language of pressure**: Study how effective calls to action feel like opportunities rather than demands
 
 ## How to Use in Marketing
 
@@ -59,6 +72,8 @@ operational tool for business growth.
 - **Lead magnets**: Design lead generators that solve a specific piece of the customer's problem, demonstrating guide competence
 - **Social media bios**: Use StoryBrand clarity principles to rewrite every profile and bio across platforms
 - **Internal alignment**: Use the framework to align marketing, sales, and product teams around a shared narrative
+- **Proposal documents**: Structure client proposals using the 7-part framework so the client sees themselves as the hero of the engagement
+- **Onboarding sequences**: Apply the plan and success elements of the framework to post-purchase communication
 
 ## Cross-References
 
@@ -66,5 +81,7 @@ operational tool for business growth.
 - See `brand-manifestos.md` for how brand clarity translates into longer-form brand identity documents
 - See `ted-talks.md` for how to deliver your clarified brand story in a presentation format
 - See `pitch-deck-databases.md` for visual examples of clear, story-driven business messaging
+- See `moth-radio-hour.md` for how raw personal narrative can inform the empathy side of guide positioning
+- See `story-grid-podcast.md` for structural analysis tools that complement StoryBrand's framework
 - The StoryBrand one-liner maps to TED's throughline concept — both demand radical simplicity
 - The guide/hero distinction from StoryBrand applies to every customer story sourced from Moth-style techniques

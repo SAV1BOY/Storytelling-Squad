@@ -16,7 +16,14 @@ framework and authentic material.
 
 The show is freely available as a podcast on all major platforms and through
 themoth.org. Archives stretch back years, giving you hundreds of examples
-to study.
+to study. New episodes are released weekly, and the back catalog is organized
+by theme, making it easy to find stories relevant to specific emotional
+territories or narrative structures you want to practice.
+
+For marketers, the Moth is essentially a masterclass in earning attention
+without a budget. No visuals, no slides, no effects — just a person and
+a story. If you can understand why these stories work, you can apply those
+same principles to any medium.
 
 ## What to Study
 
@@ -28,6 +35,8 @@ to study.
 - **Stakes escalation**: How tellers raise the stakes progressively throughout
 - **The "moment of change"**: How every great Moth story pivots on a transformation
 - **Audience awareness**: How tellers adjust for a live room (applicable to presentations)
+- **Scene setting with minimal words**: How tellers establish place and time in one sentence
+- **Endings that reframe the beginning**: How the best closings make you reconsider the opening
 
 ## Key Episodes/Examples
 
@@ -39,6 +48,8 @@ to study.
 6. **Stories under 5 minutes** — The shortest stories demand the tightest craft; study these for brevity and precision
 7. **Stories about family and relationships** — These tend to have the strongest emotional arcs; study them for vulnerability technique
 8. **Moth Mainstage stories** — Curated and coached stories that represent the highest production quality; study their narrative architecture
+9. **Stories tagged "adventure" or "travel"** — These often feature strong scene-setting and physical stakes, useful for studying how to ground abstract ideas in concrete experience
+10. **Stories from themed events** — When every story must relate to a single theme, tellers must find unique angles; study how constraints produce creativity
 
 ## Narrative Techniques to Watch For
 
@@ -50,6 +61,8 @@ to study.
 - **Tonal shifts**: Watch how humor and gravity alternate to prevent emotional fatigue
 - **The specificity principle**: General statements bore; specific moments captivate. Notice how the best tellers never say "I was sad" — they show you the moment
 - **Time compression**: Stories that span years get told in minutes by focusing on 2-3 key scenes
+- **Withholding information**: Skilled tellers let the audience wonder before revealing a key fact
+- **Physical gesture as narrative**: Even in audio, you can hear when a teller uses physicality — the voice changes, the pacing shifts
 
 ## How to Use in Marketing
 
@@ -59,6 +72,9 @@ to study.
 - **Video testimonials**: Coach customers to tell their stories using Moth principles: start with a specific moment, focus on one transformation, end with what changed
 - **Presentation openings**: Begin any pitch or keynote with a 60-second personal story using Moth structure to establish rapport before making your argument
 - **Social media content**: Short-form Moth-style stories (under 280 words) perform exceptionally well on LinkedIn and in newsletters
+- **Podcast episodes**: If you produce a branded podcast, Moth-style segments featuring real customer or team member stories create authentic content that audiences share
+- **Internal communications**: Use the personal narrative format for company all-hands, team updates, and culture-building moments
+- **About pages**: Rewrite your company's about page as a Moth-style origin story with a clear transformation moment
 
 ## Cross-References
 
@@ -66,4 +82,6 @@ to study.
 - See `ted-talks.md` for how personal stories function within a persuasive presentation framework
 - See `story-grid-podcast.md` for editorial analysis of what makes stories work structurally
 - See `storybrand-podcast.md` for how to adapt personal narrative techniques to brand messaging
+- See `business-of-story-podcast.md` for how personal story integrates into broader business strategy
 - The Moth's approach to "one transformation per story" maps directly to the StoryBrand principle of a single customer transformation
+- The sensory anchoring technique appears in strong brand manifestos — see `brand-manifestos.md`

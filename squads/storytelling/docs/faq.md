@@ -1,100 +1,114 @@
 # Frequently Asked Questions
 
 ## Purpose
-Answers to common questions about the Storytelling Squad, its tools, processes, and outputs.
 
----
+Answer the most common questions about the Storytelling Squad — its purpose, processes, tools, and collaboration model. This FAQ is organized by audience: new squad members, cross-squad partners, and leadership.
 
-## General Questions
+## For New Squad Members
 
-### What is the Storytelling Squad?
-A systematic approach to business narrative that provides frameworks, components, scripts, and processes for creating compelling stories across all channels. It is not a creative writing workshop — it is an operational system for producing narrative at quality and at scale.
+### Q: Where do I start?
+Read `docs/getting-started.md` for a quick orientation, then follow the full onboarding checklist at `scripts/onboard-new-storyteller.md`. Your first week covers tool access, framework introduction, and shadowing a discovery session.
 
-### Who is this for?
-Anyone who needs to create business narratives: marketers, founders, sales teams, content creators, brand managers, and agencies. The squad is designed for practitioners who value repeatable process over one-off inspiration.
+### Q: How many frameworks do I need to learn?
+Start with two: StoryBrand (for brand messaging) and Before-After-Bridge (for case studies). These cover the majority of initial projects. As you take on more varied work, expand your repertoire using `docs/framework-selection-guide.md`.
 
-### Do I need to be a "good writer" to use this?
-No. The squad provides structures that guide you through narrative creation step by step. Good storytelling is a craft that can be learned through frameworks and practice, not a mystical talent.
+### Q: What is the difference between an agent and a framework?
+A **framework** is a narrative structure (e.g., Hero's Journey, PAS). An **agent** is an AI assistant specialized for a specific storytelling task (e.g., Story Architect, Clarity Editor). You choose a framework for the story's structure and an agent to help you build it. See `docs/agent-guide.md`.
 
----
+### Q: How do I know which agent to use?
+Consult the quick-reference table in `docs/agent-guide.md`. Match your current task (e.g., "make a character feel real") to the right agent (Character Designer). Most projects use 2-4 agents in sequence.
 
-## Framework Questions
+### Q: What is the quality gate and how do I pass it?
+The quality gate is a peer review process that scores your story across 7 dimensions (structure, emotion, voice, relevance, accuracy, CTA, craft). You need a total score of 25+ out of 35 to pass. See `scripts/story-quality-gate-process.md` and `docs/quality-standards.md`.
 
-### Which framework should I start with?
-Start with StoryBrand (Donald Miller) for messaging clarity. It is the most immediately applicable framework and provides the foundation all other frameworks build on. See `framework-selection-guide.md` for a full decision matrix.
+### Q: What if my story fails the quality gate?
+It happens. Read the reviewer's feedback carefully — it includes specific notes with line references. Address the flagged dimensions and resubmit. Most stories pass on the second review. If a story does not pass after 3 cycles, the squad lead will help determine next steps.
 
-### Can I use multiple frameworks on one project?
-Yes — most projects require 2-3 frameworks. For example, a pitch deck might use Duarte sparklines for structure and Klaff frame control for delivery. The frameworks are complementary, not competing.
+### Q: How often do I need to contribute to the swipe file?
+Each squad member contributes at least 2 annotated entries per month. New members contribute 3 entries during their first month as a learning exercise. See `docs/swipe-file-curation.md`.
 
-### What if my content does not fit any framework?
-Every piece of business content fits at least one framework. If you think yours does not, you are likely looking at the wrong level — try a different framework or check the framework selection guide for your specific context.
+### Q: What is the improv workshop and is it mandatory?
+The improv workshop is a monthly session that builds storytelling instincts through improvisation exercises. It is strongly encouraged but not formally mandatory. However, attending at least one session during your first month is part of onboarding. See `scripts/run-improv-workshop.md`.
 
----
+### Q: How do I access the story bank?
+The story bank is on the shared drive. You should have full read/write access as a squad member. If not, ask the squad lead or IT. See `docs/story-bank-operations.md` for navigation and entry instructions.
 
-## Process Questions
+### Q: What does the operating rhythm look like?
+- **Daily:** Async Slack updates.
+- **Weekly:** 30-minute standup.
+- **Bi-weekly:** Peer review sessions.
+- **Monthly:** Story bank maintenance and improv workshop.
+- **Quarterly:** Full narrative review with targets and retrospective.
 
-### How long does it take to create a story?
-Depends on the format. A social media micro-story: 1-2 hours. A case study: 1-2 weeks (including interview). A brand narrative: 2-4 weeks. A pitch deck narrative: 3-7 days. See project templates in `projects/` for detailed timelines.
+## For Cross-Squad Partners
 
-### What is the minimum viable story?
-A story with: (1) a named character, (2) a specific conflict, (3) a measurable transformation, and (4) at least one proof point. Without all four, you have content — not a story.
+### Q: How do I request a story from the Storytelling Squad?
+Submit a brief in the `#storytelling-requests` Slack channel or through the project management tool. Include: business objective, target audience, desired format, key messages, deadline, and any existing materials. The squad lead triages within 1 business day.
 
-### How do I score my story?
-Use `story-scoring-rubric.md` in `lib/utilities/`. Score each of the 8 categories independently. A score of 70+ is ready for delivery with minor refinements. Below 60 needs significant revision.
+### Q: How long does it take to get a story?
+Turnaround depends on the type: micro-stories take 3-5 days, customer stories 2-3 weeks, brand narratives 3-4 weeks. Provide as much lead time as possible. Rush requests are possible but may reduce scope.
 
-### How often should I audit my narrative assets?
-Monthly spot-checks. Full quarterly audits. After any rebrand or major market shift, do an immediate full audit. See `narrative-consistency-rules.md` for the maintenance schedule.
+### Q: Can I edit the story after handoff?
+Minor adaptations (word swaps, length adjustments) are expected. Changes to the core narrative — the character, conflict, or transformation — must be reviewed by the Storytelling Squad. See `scripts/cross-squad-handoff.md` for the full protocol.
 
----
+### Q: What is the Handoff Brief?
+A one-page document that accompanies every narrative asset when it transfers to your squad. It contains the story summary, framework, audience, key quotes, constraints, and supporting materials. See `scripts/cross-squad-handoff.md`.
 
-## Technical Questions
+### Q: How do I give feedback on a story?
+Use the structured feedback form provided in the handoff. Focus on: factual accuracy, audience fit, and adaptability for your channel. Feedback is due within 5 business days of handoff.
 
-### How do I use the scripts?
-Scripts are operational guides, not software. Each script describes a process with inputs, steps, and outputs. Follow the steps manually or adapt them into automated workflows as appropriate for your tooling.
+### Q: Can I access the story bank directly?
+Yes, with read access to the `/approved` and `/published` folders. You can browse available stories filtered by persona, product, and journey stage. For write access or custom queries, contact the squad lead.
 
-### How do I build a story bank from scratch?
-1. Start with `story-bank-tagger.md` to define your tagging dimensions
-2. Collect existing stories from across your organization (website, case studies, sales materials)
-3. Tag each story using the tagging system
-4. Run `story-bank-gap-detector.md` to find what is missing
-5. Create a collection plan to fill gaps
-6. See `story-bank-build-project.md` in projects for the full project template
+### Q: What if I need a story urgently and the pipeline is full?
+Check the story bank for approved assets that might fit your need with minor adaptation. If nothing fits, submit an urgent request in `#storytelling-requests` with the deadline clearly marked. The squad lead will assess capacity.
 
-### How do I maintain narrative consistency?
-1. Create a master narrative document (BrandScript + brand story + key messages)
-2. Check with `narrative-consistency-checker.md` quarterly
-3. Brief all content creators on the master narrative
-4. Gate-check high-stakes content before publication
+### Q: How does the Storytelling Squad differ from the Copy Squad?
+The Storytelling Squad creates narrative foundations — the story arcs, characters, emotional frameworks, and proof points. The Copy Squad adapts these into channel-specific copy (ads, emails, landing pages). Storytelling is upstream; Copy is downstream. See `docs/cross-squad-integration.md`.
 
----
+## For Leadership
 
-## Quality Questions
+### Q: How do we measure storytelling ROI?
+Three levels: production metrics (volume and velocity), quality metrics (gate scores and consistency), and impact metrics (engagement, conversion, brand recall). See `docs/metrics-and-measurement.md` for the full framework.
 
-### What is a "good" clarity score?
-90+ is excellent. 80-89 is good. 70-79 is adequate. Below 70 needs work. Most first drafts score between 50-70. Editing typically raises scores by 15-25 points.
+### Q: What does the quarterly review cover?
+The quarterly narrative review assesses: output volume vs. targets, average quality scores, story bank health, voice consistency, cross-squad satisfaction, top and bottom performers, and strategic alignment for the next quarter. See `scripts/quarterly-narrative-review.md`.
 
-### What makes a story retellable?
-Simplicity (one core message), specificity (concrete details), surprise (at least one unexpected moment), and emotion (the audience felt something). Test with the retelling test rubric.
+### Q: How many people does the squad need?
+A minimum viable squad has 3 people: a squad lead, a story architect, and a storyteller. A fully resourced squad has 6-8 people with specialization across research, writing, and analysis. Agent tooling amplifies the output of each person.
 
-### How many proof blocks does a story need?
-Depends on format. Short-form: 1-2. Medium-form: 3-4. Long-form: 5-7. At minimum, every major claim needs one proof block within 500 words.
+### Q: How does storytelling connect to revenue?
+Through narrative-driven content that improves engagement (time on page, completion rate), conversion (landing page and email performance), and brand recall (unaided awareness). Stories also accelerate sales cycles when used in pitch narratives and case studies. Track lead attribution tied to story-driven assets.
 
----
+### Q: What are the biggest risks?
+1. **Voice drift:** Without regular calibration, the brand voice becomes inconsistent. Mitigated by the quality gate and quarterly recalibration.
+2. **Story bank decay:** Without maintenance, the bank fills with stale entries. Mitigated by monthly reviews and quarterly gap analysis.
+3. **Cross-squad friction:** Without clear handoff protocols, narratives get modified beyond recognition. Mitigated by the Handoff Brief and adaptation review.
+4. **Measurement gaps:** Without consistent metric tracking, ROI is anecdotal. Mitigated by the metrics dashboard and quarterly reporting.
 
-## Collaboration Questions
+### Q: How does this squad use AI agents?
+The squad uses 12 specialized AI agents for specific tasks: structuring narratives, designing characters, curating proof, crafting hooks, and more. Agents accelerate production but do not replace human judgment. Every agent output is reviewed by a squad member before it enters the pipeline. See `docs/agent-guide.md`.
 
-### How does the Storytelling Squad work with other squads?
-See `cross-squad-integration-guide.md` for full details. The short version: we create narrative frameworks and story assets; Copy adapts them to channels; Brand translates them to visual identity; Traffic distributes them.
+### Q: How do we scale the squad's impact?
+1. Build the story bank to cover all personas, products, and journey stages — this creates a reusable asset library.
+2. Improve cross-squad adoption so narratives flow efficiently into copy, brand, and traffic outputs.
+3. Train other squads on basic storytelling principles so they can self-serve for simpler needs.
+4. Automate metric collection for faster feedback loops.
 
-### Can other squads use our templates?
-Yes. All components, patterns, and rubrics are available to any squad. We encourage cross-squad use of the clarity linter and scoring rubrics in particular.
+## Maintaining This FAQ
 
-### How do I request work from the Storytelling Squad?
-Submit a story brief including: business objective, target audience, desired format, key messages, deadline, and any existing materials. See `getting-started.md` for the full request process.
+- Add new questions as they recur in Slack, meetings, or onboarding.
+- Review quarterly for accuracy and relevance.
+- Remove questions that are no longer asked.
+- Cross-reference answers with the latest docs to avoid drift.
 
----
+## Related Documents
 
-## Cross-References
-- See `getting-started.md` for first-time orientation
-- See `squad-overview.md` for philosophy and structure
-- See `framework-selection-guide.md` for choosing frameworks
+- `docs/getting-started.md` — Quick start orientation
+- `docs/agent-guide.md` — Agent usage guide
+- `docs/framework-selection-guide.md` — Framework selection
+- `docs/cross-squad-integration.md` — Cross-squad collaboration
+- `docs/metrics-and-measurement.md` — Measurement framework
+- `docs/quality-standards.md` — Quality rubrics
+- `scripts/onboard-new-storyteller.md` — Onboarding checklist
+- `docs/glossary.md` — Term definitions
