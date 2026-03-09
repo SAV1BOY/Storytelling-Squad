@@ -1,74 +1,90 @@
-# Commencement Speeches — Swipe Source Guide
-> Best Commencement Speeches for Narrative Study
+# Commencement Speeches — Source Guide for Narrative Study
 
 ## Source Overview
 
-Commencement speeches represent some of the finest examples of personal narrative applied to
-universal meaning. The format demands that a speaker take their own experience (Story of Self)
-and connect it to shared values and future action (Story of Us and Story of Now). The best
-commencement speeches are masterclasses in the hero's journey, vulnerability, five-second
-moments, and public narrative.
+Commencement speeches are addresses delivered to graduating classes at
+colleges and universities. They represent one of the last remaining public
+forums where a speaker is given 15 to 25 minutes to deliver a sustained,
+personal, narrative-driven argument to a large audience. The best commencement
+speeches blend personal story, philosophical reflection, humor, and
+direct advice into a form that is both intimate and universal.
+
+Notable commencement speeches are widely available online. Many universities
+publish full transcripts and video recordings on their websites. Curated
+collections can be found on platforms dedicated to public speaking, and
+major media outlets regularly publish lists of noteworthy speeches from
+each graduation season.
+
+What makes commencement speeches invaluable for marketing study is their
+unique constraint: the speaker must be deeply personal while addressing
+a massive, diverse audience. The speaker must be honest without being
+pessimistic, aspirational without being hollow, and authoritative without
+being condescending. This balancing act mirrors the challenge every brand
+faces when communicating with its audience.
+
+Unlike most public speaking formats, commencement speeches are expected to
+reveal something genuine about the speaker. This makes them a rich source
+for studying how established, successful people construct vulnerability
+in a public context — a skill that translates directly to founder stories,
+brand narratives, and executive communications.
 
 ## What to Study
 
-- **Personal Story as Universal Truth** — How speakers use specific personal experiences to
-  illuminate universal principles
-- **Three-Act Structure** — Most great commencement speeches follow a clear narrative arc
-- **Vulnerability as Authority** — How sharing failure and doubt builds credibility
-- **The Five-Second Moment** — How speakers identify and build to a single pivotal moment
-- **Call to Action** — How speeches transition from reflection to inspiration to action
+- **Personal story as evidence**: How speakers use their own experience to support broader arguments
+- **Failure narratives**: How successful people frame their past failures as essential to their growth
+- **Advice framing**: How speakers give direct advice without sounding prescriptive or preachy
+- **Humor as a bridge**: How jokes and self-deprecation create permission for the audience to receive serious messages
+- **Structural variety**: How different speakers organize their talks — some use three lessons, some tell one long story, some build an argument
+- **The shift from "I" to "you"**: How speakers transition from personal narrative to audience-directed guidance
+- **Memorable closing lines**: How the final 60 seconds crystallize everything that came before
+- **Tone management**: How speakers balance gravity with lightness across 20 minutes without losing the audience
+- **Cultural reference and context**: How speakers connect personal stories to larger social and historical moments
 
-## Key Speeches to Study
+## Key Episodes/Examples
 
-1. **Steve Jobs, Stanford 2005** — "Stay Hungry, Stay Foolish." Three stories (dots, love/loss,
-   death) form a triptych. Study how each story has its own five-second moment and how they
-   build to a unified message. Masterful use of simple language for profound ideas.
-
-2. **J.K. Rowling, Harvard 2008** — "The Fringe Benefits of Failure." Study how she uses
-   her lowest moment (poverty, single motherhood, near-suicidal depression) as the foundation
-   for her message about imagination and empathy. Vulnerability at its most powerful.
-
-3. **David Foster Wallace, Kenyon College 2005** — "This Is Water." Study how he rejects
-   the expected commencement format and uses a parable to challenge assumptions. The fish
-   story is a masterclass in opening hooks.
-
-4. **Brené Brown, Various** — Study how she applies research narrative to personal story,
-   making data feel human and vice versa.
-
-5. **Oprah Winfrey, Harvard 2013** — Study how she weaves multiple stories into a single
-   narrative thread about purpose and service.
-
-6. **Admiral McRaven, UT Austin 2014** — "Make Your Bed." Study how military anecdotes
-   become universal life principles through radical specificity.
-
-7. **Sheryl Sandberg, UC Berkeley 2016** — Study how she uses grief and loss as the
-   foundation for resilience narrative. Raw vulnerability in a formal context.
-
-8. **Chimamanda Ngozi Adichie, Various** — Study her "Danger of a Single Story" framework
-   applied to personal narrative. How specificity combats stereotypes.
+1. **Speeches by writers and artists** — These speakers tend to have the strongest command of language and narrative structure; study their word choices and pacing
+2. **Speeches by business leaders and entrepreneurs** — These offer direct parallels to brand storytelling; notice how they frame commercial success within a values-driven narrative
+3. **Speeches by scientists and researchers** — These demonstrate how to make technical careers relatable through personal story; useful for B2B and technical marketing
+4. **Speeches that went viral** — Study what structural and emotional elements made these speeches shareable beyond the graduating class
+5. **Speeches from small colleges** — Without the pressure of a famous platform, these speakers often take greater creative risks; study the unconventional approaches
+6. **Speeches that center on a single story** — Rather than offering a list of lessons, some speakers tell one extended narrative; study how a single story can carry an entire argument
+7. **Speeches that open with humor** — Notice how early laughter relaxes the audience and creates receptivity for the serious message that follows
+8. **Speeches given during times of crisis or uncertainty** — These require speakers to acknowledge reality while still offering hope; study the balance of honesty and aspiration
+9. **Speeches that include direct, practical advice** — Some speakers offer concrete recommendations; study how they make practical guidance feel narrative rather than instructional
+10. **Speeches with strong philosophical frameworks** — Some speakers organize their talks around a central concept or metaphor; study how this creates coherence
 
 ## Narrative Techniques to Watch For
 
-- Opening hooks that break expectations (not "It's an honor to be here")
-- Rule of three in story selection (Jobs uses exactly three stories)
-- Vulnerability calibration — honest without being therapy, specific without oversharing
-- Callback structure (returning to an earlier image or phrase for the close)
-- Time compression — entire life arcs in 2-3 minutes through selective detail
-- Sensory specificity in pivotal moments
-- The shift from "I" to "you" to "we" (Self → Us → Now)
+- **The confession opening**: Many powerful speeches begin with an admission of fear, doubt, or imposter syndrome
+- **Rule of three**: Lists of three examples, three lessons, or three stories appear consistently in the strongest speeches
+- **The pivot from personal to universal**: The moment when a speaker's specific experience becomes a principle that applies to everyone
+- **Escalating vulnerability**: Starting with safe, humorous stories and gradually revealing deeper, more personal material
+- **The reframe**: Taking a common assumption and inverting it — "success is not what you think it is" — to create a fresh perspective
+- **Callback structure**: Returning to an image, phrase, or story from the opening to create closure
+- **Direct address**: Shifting from storytelling to speaking directly to the audience — "Here is what I want you to know" — for emotional emphasis
+- **The pause before the point**: Skilled speakers let silence do the work after a key statement
+- **Parallel construction**: Using grammatically identical sentence structures to build rhythm and memorability
+- **The unexpected admission**: Revealing something the audience does not expect from someone of the speaker's stature
 
 ## How to Use in Marketing
 
-- **Founder Stories**: Study speech structure for crafting founder narratives
-- **Keynote Preparation**: Use as templates for conference presentations
-- **Video Content**: Speech techniques translate directly to video testimonials and brand films
-- **Narrative Training**: Use as workshop examples for teaching story structure
-- **Public Narrative**: Study the Self/Us/Now transitions for movement-building content
+- **Founder and CEO communications**: Use commencement speech structure for annual letters, company milestone announcements, and public statements
+- **Brand storytelling**: The failure-to-growth arc common in commencement speeches maps directly to brand origin stories
+- **Keynote preparation**: Model conference presentations on commencement speech structure — personal opening, core insight, audience-directed close
+- **Employee onboarding**: Use commencement-style messaging to welcome new team members with purpose and vision
+- **Milestone communications**: Product launches, company anniversaries, and team achievements can be framed using the aspirational narrative of commencement speeches
+- **Newsletter writing**: The personal-to-universal arc of a commencement speech works exceptionally well as a long-form newsletter format
+- **Social media series**: Break a commencement-style narrative into a multi-post series — each post covers one lesson or story
+- **Video content**: Record short videos using commencement speech principles — personal story, single insight, direct address to the viewer
+- **Crisis communications**: The balance of honesty and aspiration in commencement speeches during difficult times provides a model for how brands should communicate during challenges
 
 ## Cross-References
 
-- `agents/matthew-dicks.md` — Five-second moment methodology
-- `agents/marshall-ganz.md` — Public narrative framework
-- `frameworks/ganz-story-of-self.md` — Story of Self framework
-- `archive/speech-evolution/commencement-speech-patterns.md` — Common patterns analysis
-- `reference/talks/steve-jobs-stanford-commencement.md` — Detailed Jobs speech analysis
+- See `moth-radio-hour.md` for deeper personal narrative technique in a shorter, more focused format
+- See `ted-talks.md` for how similar persuasive goals are achieved in a more structured, idea-driven format
+- See `brand-manifestos.md` for how the declarative, belief-driven language of commencement speeches appears in brand identity documents
+- See `storybrand-podcast.md` for how the audience-as-hero principle applies even when a speaker is telling their own story
+- See `business-of-story-podcast.md` for how the narrative techniques in commencement speeches connect to business communication strategy
+- See `story-grid-podcast.md` for structural tools to analyze why certain speech architectures resonate more than others
+- The rule of three in commencement speeches connects to the plan element in StoryBrand — three steps, three ideas, three stories
+- The confession opening parallels the vulnerability technique central to Moth storytelling
