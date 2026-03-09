@@ -48,6 +48,32 @@ Public narrative is storytelling for mobilization. Using Marshall Ganz's methodo
 10. **Draft strategy document** — Compile: Self outline, Us outline, Now outline, emotional map, delivery plan, counter-narrative responses.
 11. **Register outputs** — Save to `data/registries/public-narratives-registry`.
 
+
+## Quality Gates
+- Strategy must pass the Grunt Test: anyone can state the core direction in one sentence
+- Every strategic recommendation must be tied to a research finding or business objective
+- Strategy must include clear "do this / not that" guidance — vague direction is not strategy
+- All agent and framework assignments must be justified by the specific need
+- Strategy must be reviewed by the chief agent (donald-miller) before creation tasks begin
+
+## Success Criteria
+- Creation tasks can begin immediately after strategy approval without asking clarifying questions
+- All stakeholders agree on the narrative direction before execution begins
+- Strategy is specific enough to evaluate — you can tell if the resulting story follows the strategy or not
+- Strategy addresses the top 3 audience objections identified in research
+
+## Common Pitfalls
+- **Strategy as aspiration**: Saying "we want to be the thought leader" is not a strategy. Define the specific narrative moves.
+- **Skipping the villain**: Every strategy needs a clear antagonist (problem, competitor, status quo). Without a villain, the strategy has no tension.
+- **Too many messages**: Strategy that tries to communicate 7 things communicates none. Prioritize ruthlessly.
+- **Ignoring constraints**: Strategy must account for budget, timeline, team capacity, and available stories.
+- **Copying competitors**: Strategy based on what competitors do produces undifferentiated narratives.
+
+## Dependencies
+- Requires completed research tasks (audience beliefs, competitor audit, archetype alignment) for optimal output
+- Strategy approval is a gate for all creation tasks — nothing is created without strategic direction
+- Cross-squad alignment must be confirmed before strategy is finalized
+
 ## Cross-Squad
 - **Brand Squad**: Public narrative must align with brand values and positioning, especially for cause marketing.
 - **Copy Squad**: Public narrative language and themes inform social copy, email campaigns, and manifesto writing.

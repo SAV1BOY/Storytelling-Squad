@@ -8,6 +8,13 @@ its place, there are no dead spots where momentum dies, the causal chain holds, 
 matches the channel and audience attention window. Structure is the skeleton; without it, even
 great content collapses.
 
+## When to Use
+- After a full draft exists and basic clarity has been confirmed
+- When a narrative "feels long" or "drags" but the content seems necessary
+- Before presenting a narrative to stakeholders for structural approval
+- When converting between formats (article to presentation, video to email)
+- During structural revision after initial feedback
+
 ## Prerequisites
 - A complete narrative draft exists
 - Narrative clarity checklist has been passed or is being run concurrently
@@ -46,8 +53,14 @@ great content collapses.
 - [ ] **Climax is the highest-tension moment** — The most intense or important moment occurs in the final third, not the middle, unless the structure deliberately and effectively subverts this
 - [ ] **Resolution is satisfying** — The ending resolves the central tension and does not introduce new unresolved threads that leave the audience frustrated
 
+### Structural Testing
+- [ ] **Beat sheet documented** — The narrative's beats can be written as a single-page outline where each beat is one sentence; if a beat cannot be summarized, it is unfocused
+- [ ] **Structure survives the shuffle test** — If sections were accidentally reordered, the audience would notice immediately because the causal and emotional logic would break
+- [ ] **Framework is invisible** — The chosen structural framework (3-act, Sparkline, Hero's Journey) serves the content without being obvious to the audience; the story feels natural, not formulaic
+- [ ] **Parallel structures used where appropriate** — Repeated patterns (three examples, alternating perspectives, recurring motifs) create rhythm and reinforce the narrative's architecture
+
 ## Scoring
-Must pass **16/21 minimum**. The following items are CRITICAL and must all pass:
+Must pass **18/25 minimum**. The following items are CRITICAL and must all pass:
 - Structure is identifiable
 - Each beat changes value
 - No dead spots

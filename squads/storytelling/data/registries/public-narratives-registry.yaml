@@ -1,0 +1,128 @@
+# Public Narratives Registry
+# Versioned Self/Us/Now narrative sets following Marshall Ganz's public narrative framework.
+# Each entry represents a complete narrative ecosystem for a cause, campaign, or movement.
+
+schema:
+  narrative_id: "Unique identifier (format: PN-YYYY-NNN)"
+  title: "Narrative title or campaign name"
+  purpose: "brand-launch | advocacy | community | movement | campaign | internal-culture"
+  leader: "The spokesperson or leader delivering the narrative"
+  audience: "Primary community or audience"
+  version: "Version number (semver)"
+  story_of_self:
+    choice_point: "The personal moment of values-tested commitment"
+    theme: "The personal value being demonstrated"
+    versions:
+      short: "Duration or word count of short version"
+      full: "Duration or word count of full version"
+  story_of_us:
+    shared_experience: "The experience that binds the community"
+    shared_values: "The values that make this group distinct"
+    versions:
+      short: "Duration or word count of short version"
+      full: "Duration or word count of full version"
+  story_of_now:
+    urgent_choice: "The decision the community faces right now"
+    first_action: "The specific, immediate action requested"
+    deadline: "Why action is needed now"
+    versions:
+      short: "Duration or word count of short version"
+      full: "Duration or word count of full version"
+  asset_locations:
+    keynote_script: "Path to the keynote delivery script"
+    video_script: "Path to the video version"
+    manifesto: "Path to the written manifesto"
+    social_series: "Path to the social media series"
+    email_sequence: "Path to the email launch sequence"
+  status: "draft | rehearsed | approved | active | archived"
+  created_date: "ISO 8601 date"
+  last_delivered: "Date of most recent live delivery"
+  performance:
+    deliveries: "Number of live presentations"
+    audience_reached: "Total audience across all channels"
+    action_taken: "Number of people who took the requested action"
+    community_stories: "Number of community members who shared their own stories"
+  notes: "Strategic context and adaptation guidance"
+
+entries:
+  - narrative_id: "PN-2026-001"
+    title: "Reimagining Patient Experience — Company Mission Narrative"
+    purpose: "brand-launch"
+    leader: "CEO"
+    audience: "Healthcare professionals, patients, partners, investors"
+    version: "2.0.0"
+    story_of_self:
+      choice_point: "Watching my grandmother wait 3 hours in an ER hallway — the moment I realized the system wasn't broken, it was never built for people"
+      theme: "The belief that every patient deserves a system that respects their time and dignity"
+      versions:
+        short: "90 seconds"
+        full: "5 minutes"
+    story_of_us:
+      shared_experience: "Every healthcare worker has watched a patient suffer because the system couldn't keep up"
+      shared_values: "We believe operations should serve people, not the other way around"
+      versions:
+        short: "2 minutes"
+        full: "7 minutes"
+    story_of_now:
+      urgent_choice: "Healthcare systems are choosing between patching old tools and rebuilding for real-time intelligence"
+      first_action: "Join the pilot program and see what real-time operations looks like in your facility"
+      deadline: "Patient experience scores are now tied to reimbursement — waiting is costing you money and trust"
+      versions:
+        short: "90 seconds"
+        full: "5 minutes"
+    asset_locations:
+      keynote_script: "/narratives/mission-keynote-v2.md"
+      video_script: "/narratives/mission-video-2min.md"
+      manifesto: "/narratives/mission-manifesto-800w.md"
+      social_series: "/narratives/mission-social-series/"
+      email_sequence: "/narratives/mission-email-sequence/"
+    status: "active"
+    created_date: "2026-01-05"
+    last_delivered: "2026-02-28"
+    performance:
+      deliveries: 5
+      audience_reached: 2400
+      action_taken: 186
+      community_stories: 23
+    notes: "Core company narrative. Updated to v2.0 after Series A feedback. The grandmother story is the emotional anchor — never cut it."
+
+  - narrative_id: "PN-2026-002"
+    title: "The Builders — Internal Culture Narrative"
+    purpose: "internal-culture"
+    leader: "CTO"
+    audience: "Current employees, prospective hires, partners"
+    version: "1.0.0"
+    story_of_self:
+      choice_point: "Leaving a comfortable Big Tech role because I realized I was building features, not futures"
+      theme: "The drive to build something that changes outcomes, not just optimizes metrics"
+      versions:
+        short: "60 seconds"
+        full: "4 minutes"
+    story_of_us:
+      shared_experience: "Every builder here left something comfortable because they wanted their work to matter"
+      shared_values: "We value impact over pedigree, curiosity over certainty, and shipping over perfection"
+      versions:
+        short: "2 minutes"
+        full: "5 minutes"
+    story_of_now:
+      urgent_choice: "We're scaling from startup to growth-stage — the culture we build now is the culture we'll live with"
+      first_action: "Share your builder story in the team channel this week"
+      deadline: "We're hiring 30 people in Q2 — they need to know who we are before they join"
+      versions:
+        short: "60 seconds"
+        full: "3 minutes"
+    asset_locations:
+      keynote_script: "/narratives/builders-allhands-v1.md"
+      video_script: "/narratives/builders-recruiting-video.md"
+      manifesto: "/narratives/builders-manifesto.md"
+      social_series: "/narratives/builders-linkedin-series/"
+      email_sequence: "/narratives/builders-onboarding-emails/"
+    status: "active"
+    created_date: "2026-02-15"
+    last_delivered: "2026-03-01"
+    performance:
+      deliveries: 2
+      audience_reached: 340
+      action_taken: 47
+      community_stories: 31
+    notes: "Internal narrative driving culture during growth phase. 31 team members shared builder stories — strong adoption signal."

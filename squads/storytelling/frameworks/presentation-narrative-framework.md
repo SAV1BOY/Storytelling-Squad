@@ -84,12 +84,21 @@ The Presentation Narrative Framework is built on three interlocking systems:
 - Board of directors updates
 - Any scenario where you have 10+ minutes and an audience that needs to be moved to action
 
+### Presentation Narrative Pitfalls
+- **Slide reading**: Writing full sentences on slides and reading them aloud. Slides are visual aids, not scripts. Use images, single words, or short phrases.
+- **Missing the sparkline**: Staying in "what is" for too long without showing "what could be." The audience sinks into the current reality and disengages. Alternate regularly.
+- **Proof-free claims**: Making bold "what could be" statements without immediately backing them up. Every aspirational claim needs evidence within 60 seconds.
+- **The agenda slide**: Opening with an outline of what you will discuss. Outlines kill curiosity. Start with a hook, not a table of contents.
+- **The "thank you" ending**: Closing with "Thank you" or "Questions?" instead of a call to action. The final slide and final words should be the CTA. Thank the audience after they respond.
+- **Information overload**: Including everything you know about the topic instead of everything the audience needs to know. A 20-minute presentation should contain 20 minutes of content, not 40 minutes compressed into 20.
+
 ## When NOT to Use
 - Quick status updates or stand-up meetings (too much structure for a 5-minute update)
 - Written documents or reports (use Content Marketing or Data Storytelling frameworks)
 - One-on-one conversations (use Sales Story or Pitch Story frameworks)
 - When the audience just needs information, not persuasion
 - Highly technical audiences who want depth over narrative (supplement with appendix)
+- Virtual meetings under 15 minutes where a shared document would be more efficient
 
 ## Integration
 - Uses the **Brand Story Framework** for narrative consistency with company story
@@ -106,3 +115,9 @@ The Presentation Narrative Framework is built on three interlocking systems:
 - **Editing Agent**: Removes excess content, sharpens transitions, tightens timing
 - **Performance Agent**: Coaches delivery, rehearsal, and audience engagement
 - Route to this framework when the task involves creating a multi-slide, multi-minute presentation for a live or recorded audience
+
+### Presentation Quality Checklist
+- Does the opening create curiosity or tension within the first 30 seconds?
+- Are there at least 3 sparkline cycles alternating between "what is" and "what could be"?
+- Is proof placed immediately after each major claim?
+- Does the final slide contain the CTA, not "Thank you" or "Questions?"

@@ -73,18 +73,30 @@ The Data Storytelling Framework operates on four sequential beats:
 - **So What**: "LinkedIn is expensive per lead but produces the highest quality leads. When we calculate cost per SQL instead of cost per lead, LinkedIn is actually our most efficient channel at $622/SQL versus Google at $633/SQL and Meta at $1,200/SQL."
 - **Action**: "I recommend shifting $20K from Meta to LinkedIn in Q2. We project this will generate 15 additional SQLs at the same total budget. I also recommend eliminating CPL as our primary metric and replacing it with cost per SQL, which better reflects actual business impact."
 
+### Common Data Storytelling Pitfalls
+- **Cherry-picking**: Selecting only data that supports a predetermined conclusion while ignoring contradictory evidence. Always present the full picture, then interpret it.
+- **Correlation as causation**: "Sales increased after we launched the campaign" does not mean the campaign caused the increase. Be precise about what the data proves and what it suggests.
+- **Anchor bias**: Presenting a large number first to make subsequent numbers seem small (or vice versa). Ensure your context frames are honest, not manipulative.
+- **Visual distortion**: Truncated Y-axes, misleading scales, or 3D charts that distort proportions. Data visualizations should clarify, not deceive.
+- **Over-precision**: Reporting "a 14.7% increase" when the margin of error is plus or minus 5%. Match precision to confidence level.
+- **Missing denominators**: "500 customers complained" sounds alarming until you learn you have 2 million customers. Always provide the base number.
+- **Survivorship bias**: Analyzing only successful outcomes without examining failures. Include both sides of the data story.
+
 ## When to Use
 - Quarterly business reviews and board presentations
 - Campaign performance reports and marketing analytics
 - Strategy presentations where data informs the recommendation
 - Any presentation where the audience must make a decision informed by data
 - Financial reviews, investor updates, and operational dashboards
+- Product development prioritization based on usage data
+- Market analysis and competitive intelligence presentations
 
 ## When NOT to Use
 - When the audience needs raw data for their own analysis (provide a data export, not a narrative)
 - When the data is preliminary and not yet reliable enough for interpretation
 - When the data does not actually support a meaningful insight (do not force a narrative on inconclusive data)
 - When the audience has explicitly requested a data dump without interpretation
+- When the data involves sensitive information that requires restricted access rather than narrative distribution
 
 ## Integration
 - Context and insight inform the **Presentation Narrative Framework** for data-heavy presentations
@@ -101,3 +113,12 @@ The Data Storytelling Framework operates on four sequential beats:
 - **Design Agent**: Creates data visualizations aligned with the narrative arc
 - **Editing Agent**: Ensures the narrative is rigorous, the data supports the claims, and the recommendation is actionable
 - Route to this framework when the task involves presenting data in a way that drives a specific decision or action
+
+### Data Story Quality Checklist
+- Is the decision the audience needs to make clearly identified before the analysis begins?
+- Does the context frame make the data meaningful to this specific audience?
+- Are insights interpretations, not just data points? ("Sales grew 15%" is data. "Organic demand is strengthening, suggesting we can reduce paid spend" is insight.)
+- Does each "so what" connect the insight to the audience's priorities and vocabulary?
+- Is the recommendation specific enough to be implemented without further analysis?
+- Are all visualizations titled with narrative insights, not descriptions?
+- Has every quantitative claim been verified against the source data?

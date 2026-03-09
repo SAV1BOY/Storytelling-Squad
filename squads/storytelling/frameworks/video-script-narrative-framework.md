@@ -87,11 +87,20 @@ The Video Script Narrative Framework operates on four sequential beats, each ali
 - Testimonial videos and customer story videos
 - Sales videos and VSLs (video sales letters)
 
+### Video Narrative Pitfalls
+- **The Slow Start**: Spending 10-15 seconds on intro music, logos, or "Hey everyone, welcome back to the channel." The audience is gone before the content begins. Start with the hook, not the branding.
+- **The Monotone Delivery**: Reading a script without vocal variety. Video is a performance medium. Energy, pacing, and emphasis matter as much as the words.
+- **The Missing Text**: Not designing for sound-off viewing. On social platforms, 85% of video is watched without sound. If your video relies entirely on audio, you are invisible to most viewers.
+- **The Long Wind-Up**: Taking 60 seconds to get to the promised content. If the promise says "3 tips," deliver the first tip within 20 seconds. Front-load value to justify the viewer's time investment.
+- **The Invisible CTA**: Mumbling the call to action in the last 3 seconds while the viewer is already scrolling away. Make the CTA visual (on-screen text), verbal (spoken clearly), and early enough that most viewers see it (before the natural drop-off point).
+- **Ignoring retention data**: Publishing videos without reviewing the retention curve. YouTube and social platforms provide second-by-second retention data. Use it to identify where viewers leave and fix those moments in future videos.
+
 ## When NOT to Use
 - When the content is purely informational and does not require narrative structure (screen recordings, tutorials)
 - When the audience will watch regardless of retention design (internal training, compliance videos)
 - When audio/video production quality is too low to execute the script — a great script with bad production underperforms a simple script with good production
 - When the message is too complex for video and would be better served by written content
+- When the target audience does not consume video content on the intended platform
 
 ## Integration
 - Hook techniques connect to the **Ad Storytelling Framework** for paid video
@@ -108,3 +117,8 @@ The Video Script Narrative Framework operates on four sequential beats, each ali
 - **Production Agent**: Provides shot list, B-roll suggestions, and editing notes
 - **Measurement Agent**: Analyzes retention curves and identifies drop-off points for future optimization
 - Route to this framework when the task involves scripting video content of any length for any platform
+
+### Video Script Quality Checklist
+- Does the hook stop the scroll within the first 3 seconds?
+- Is the promise specific enough to create a viewing contract?
+- Are there retention mechanics (open loops, progress indicators) every 30-60 seconds?

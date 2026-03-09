@@ -1,0 +1,149 @@
+# Improv Games Registry
+# Catalog of improvisational exercises and drills for storytelling skill development.
+# Each entry includes instructions, skill targets, and effectiveness tracking.
+
+schema:
+  game_id: "Unique identifier (format: IG-YYYY-NNN)"
+  name: "Game or drill name"
+  category: "warm-up | listening | building | emotion | structure | spontaneity | presence | advanced"
+  skill_target: "Primary skill developed: listening, yes-and, narrative-structure, emotional-range, quick-thinking, physical-presence, character-voice"
+  participants: "Minimum and maximum participants"
+  duration: "Time in minutes"
+  difficulty: "beginner | intermediate | advanced"
+  instructions: "Step-by-step instructions for running the exercise"
+  variations: "Modifications to increase or decrease difficulty"
+  coaching_notes: "What to watch for and how to guide participants"
+  times_used: "Number of sessions where this game was used"
+  avg_effectiveness: "Average effectiveness rating from session debriefs (1-10)"
+  best_for: "Specific situations or skill gaps where this game excels"
+  status: "active | needs-refresh | retired"
+  source: "Origin of the game: traditional improv, adapted, original"
+  notes: "Tips, warnings, and facilitation guidance"
+
+entries:
+  - game_id: "IG-2026-001"
+    name: "Yes, And Story Chain"
+    category: "warm-up"
+    skill_target: "yes-and"
+    participants: "4-8"
+    duration: 10
+    difficulty: "beginner"
+    instructions: |
+      1. Participants stand in a circle.
+      2. First person starts a story with one sentence.
+      3. Next person says "Yes, and..." then adds one sentence that builds on what came before.
+      4. Continue around the circle for 3-4 full rotations.
+      5. The last person must find a satisfying ending.
+    variations:
+      - "Limit to 5 words per turn for faster pace"
+      - "Add a theme constraint: the story must involve a specific setting or character"
+      - "Advanced: each person must incorporate the previous person's last word"
+    coaching_notes: "Watch for 'Yes, but...' responses that block rather than build. Gently redirect. Celebrate unexpected additions that take the story in surprising directions."
+    times_used: 12
+    avg_effectiveness: 8.2
+    best_for: "Opening sessions, building psychological safety, warming up creative muscles"
+    status: "active"
+    source: "traditional improv"
+    notes: "Most reliable warm-up game. Never skip this if the group is new to improv."
+
+  - game_id: "IG-2026-002"
+    name: "Emotional Replay"
+    category: "emotion"
+    skill_target: "emotional-range"
+    participants: "2-6"
+    duration: 15
+    difficulty: "intermediate"
+    instructions: |
+      1. Two participants perform a simple 2-minute scene (ordering coffee, giving directions).
+      2. After the scene, the group names an emotion (joy, rage, grief, fear, awe).
+      3. The same two participants replay the EXACT same scene but with the new emotion driving every line.
+      4. Repeat with 2-3 different emotions.
+      5. Discuss how the same story changes when the emotional engine changes.
+    variations:
+      - "Switch emotions mid-scene on a signal from the coach"
+      - "One participant changes emotion while the other stays neutral"
+      - "Use business scenarios instead of casual scenes for sales team training"
+    coaching_notes: "Push participants past surface-level emotion. 'Angry' should change their body, voice, pacing, and word choice — not just volume. Look for physical commitment to the emotion."
+    times_used: 8
+    avg_effectiveness: 8.7
+    best_for: "Developing emotional range in presentations and pitches, helping monotone speakers"
+    status: "active"
+    source: "adapted from Viola Spolin"
+    notes: "This game is transformative for people who present in a flat, informational style. The replay structure makes the impact of emotion impossible to ignore."
+
+  - game_id: "IG-2026-003"
+    name: "Story Spine Relay"
+    category: "structure"
+    skill_target: "narrative-structure"
+    participants: "3-8"
+    duration: 15
+    difficulty: "intermediate"
+    instructions: |
+      1. Teach the Pixar Story Spine: Once upon a time... Every day... Until one day... Because of that... Because of that... Until finally... And ever since then...
+      2. First participant delivers "Once upon a time..." and "Every day..." (the setup).
+      3. Second participant delivers "Until one day..." (the disruption).
+      4. Third participant delivers two "Because of that..." beats (the consequences).
+      5. Fourth participant delivers "Until finally..." and "And ever since then..." (the resolution).
+      6. Rotate roles and run 3-4 rounds with different starting premises.
+    variations:
+      - "Use business scenarios: 'Once upon a time, there was a company that...'"
+      - "Speed round: 10 seconds per beat"
+      - "Advanced: After completing the spine, retell the same story in 30 seconds as a pitch"
+    coaching_notes: "Watch for 'Because of that' beats that don't actually follow from the previous beat. The causal chain is the whole point — each consequence must be earned."
+    times_used: 10
+    avg_effectiveness: 8.5
+    best_for: "Teaching narrative structure quickly, helping people who ramble find an arc"
+    status: "active"
+    source: "adapted from Kenn Adams / Pixar"
+    notes: "One of the highest-value exercises. The story spine is the fastest path to narrative competence."
+
+  - game_id: "IG-2026-004"
+    name: "Expert Interview"
+    category: "spontaneity"
+    skill_target: "quick-thinking"
+    participants: "2-8"
+    duration: 15
+    difficulty: "advanced"
+    instructions: |
+      1. One participant is the "expert" on a completely made-up topic (given by the audience).
+      2. Another participant is the interviewer who asks probing questions.
+      3. The expert must answer confidently and consistently, building a coherent world.
+      4. The interviewer's job is to ask follow-up questions that test the expert's consistency.
+      5. Run for 3-5 minutes per pair, then switch roles.
+      6. Debrief: what techniques did the expert use to stay coherent under pressure?
+    variations:
+      - "Three experts must agree on the same made-up topic without pre-planning"
+      - "The audience can shout corrections that the expert must incorporate"
+      - "Use real product topics but have a non-expert present — tests how well they listen"
+    coaching_notes: "This game reveals who can think narratively under pressure. Watch for specificity — vague experts get caught. Celebrate bold, specific claims that the expert then has to live with."
+    times_used: 6
+    avg_effectiveness: 7.9
+    best_for: "Preparing for hostile Q&A, building confidence in ambiguous situations, sales pitch agility"
+    status: "active"
+    source: "traditional improv"
+    notes: "Challenging but high-reward. Some participants freeze initially — pair nervous players with supportive interviewers first."
+
+  - game_id: "IG-2026-005"
+    name: "One-Word-At-A-Time Presentation"
+    category: "listening"
+    skill_target: "listening"
+    participants: "3-5"
+    duration: 10
+    difficulty: "beginner"
+    instructions: |
+      1. 3-5 participants stand side by side facing the audience.
+      2. They deliver a "presentation" on a given topic, but each person says only ONE word at a time.
+      3. They go in order, left to right, each adding one word to build coherent sentences.
+      4. The goal is to sound like one speaker — smooth, natural, and intentional.
+      5. Run for 2-3 minutes, then switch topics.
+    variations:
+      - "Two words at a time for beginners"
+      - "Random order instead of left-to-right (requires eye contact to coordinate)"
+      - "Add a slide deck of random images they must incorporate"
+    coaching_notes: "This game is entirely about listening and surrendering control. Watch for participants who try to steer the sentence toward their idea instead of supporting the emerging direction."
+    times_used: 9
+    avg_effectiveness: 7.6
+    best_for: "Teaching deep listening, breaking the habit of planning your next line while someone else talks"
+    status: "active"
+    source: "traditional improv"
+    notes: "Hilarious and deeply instructive. The failure moments teach as much as the successes."

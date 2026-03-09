@@ -1,0 +1,101 @@
+# Brand Scripts Registry
+# StoryBrand BrandScripts organized by brand, product, or campaign.
+# Each script follows the SB7 framework: character, problem, guide, plan, CTA, success, failure.
+
+schema:
+  script_id: "Unique identifier (format: BS-YYYY-NNN)"
+  title: "BrandScript title"
+  brand: "Brand or product this script represents"
+  audience: "Primary audience or persona"
+  version: "Version number (semver)"
+  sb7:
+    character: "Who is the hero and what do they want"
+    problem:
+      external: "The tangible, visible problem"
+      internal: "The emotional frustration or fear"
+      philosophical: "Why this situation is fundamentally wrong"
+      villain: "The root cause or antagonist"
+    guide:
+      empathy: "How the brand demonstrates understanding"
+      authority: "What credentials establish the brand as qualified to help"
+    plan:
+      step_1: "First clear action the hero takes"
+      step_2: "Second clear action"
+      step_3: "Third clear action"
+    cta:
+      direct: "The primary call to action"
+      transitional: "The lower-commitment alternative"
+    success: "What life looks like when the hero succeeds"
+    failure: "What the hero risks if they don't act"
+  one_liner: "The one-liner derived from this BrandScript"
+  story_refs: "Story Bank entries aligned with this script"
+  status: "draft | reviewed | approved | active | retired"
+  created_date: "ISO 8601 date"
+  last_updated: "ISO 8601 date"
+  author: "Creator"
+  notes: "Usage guidance and adaptation instructions"
+
+entries:
+  - script_id: "BS-2026-001"
+    title: "Core Company BrandScript"
+    brand: "Company — Healthcare Operations Platform"
+    audience: "Hospital operations leaders (VP Ops, CMO, COO)"
+    version: "2.0.0"
+    sb7:
+      character: "Hospital operations leaders who want their facilities to run smoothly so patients get care faster and staff aren't burned out"
+      problem:
+        external: "Patient wait times are too long and operational waste drains resources"
+        internal: "They feel powerless watching patients suffer because the system can't keep up"
+        philosophical: "No one should wait for care because a system was designed for paper workflows"
+        villain: "Legacy operations tools that were built for a slower, simpler era"
+      guide:
+        empathy: "We've sat in those control rooms and watched the same frustration you feel every shift"
+        authority: "12 hospitals trust us. 40% average wait-time reduction. Named Strong Performer by Forrester."
+      plan:
+        step_1: "Schedule a 30-minute assessment to map your current operational bottlenecks"
+        step_2: "Deploy our platform in a 30-day pilot on one unit — see real results, no risk"
+        step_3: "Roll out facility-wide with dedicated onboarding support and real-time optimization"
+      cta:
+        direct: "Start your free 30-day pilot"
+        transitional: "Download the Healthcare Operations Playbook"
+      success: "Patients flow smoothly through your facility. Staff focus on care instead of logistics. Satisfaction scores climb. Costs drop."
+      failure: "Wait times keep growing. Staff burnout accelerates. Patient satisfaction tanks. Reimbursement penalties hit the bottom line."
+    one_liner: "Hospital operations leaders struggle with long wait times and wasted resources. We provide real-time operations intelligence that cuts wait times by 40% — so patients get care faster and staff aren't fighting the system."
+    story_refs: ["STY-2026-001", "STY-2026-002"]
+    status: "active"
+    created_date: "2026-01-10"
+    last_updated: "2026-02-20"
+    author: "M. Chen"
+    notes: "Core script. All messaging should align with this BrandScript. Update quarterly with new proof points."
+
+  - script_id: "BS-2026-002"
+    title: "Recruiting BrandScript"
+    brand: "Company — Employer Brand"
+    audience: "Senior engineers and product managers considering joining"
+    version: "1.0.0"
+    sb7:
+      character: "Talented builders who want their work to directly improve people's lives, not just optimize engagement metrics"
+      problem:
+        external: "Most tech roles build features for products that don't change outcomes"
+        internal: "They feel their skills are wasted on problems that don't matter"
+        philosophical: "The best engineers should work on the hardest human problems, not the most profitable ad algorithms"
+        villain: "The gravitational pull of Big Tech comfort and golden handcuffs"
+      guide:
+        empathy: "Our CTO left a comfortable Big Tech role for the same reason you're reading this"
+        authority: "Backed by top-tier VCs. Serving 12 hospitals. Growing 3x year-over-year."
+      plan:
+        step_1: "Explore our open roles and the real problems you'd solve"
+        step_2: "Meet the team in a casual conversation — no whiteboard hazing"
+        step_3: "Join us and ship code that changes patient outcomes within your first sprint"
+      cta:
+        direct: "Apply for an open role"
+        transitional: "Subscribe to our engineering blog"
+      success: "You build products that save people time and stress every single day. You grow fast because hard problems demand it. You look back and know your work mattered."
+      failure: "You stay comfortable but unfulfilled. Another year passes where your skills serve shareholders, not patients."
+    one_liner: "Talented builders feel their skills are wasted on problems that don't matter. We're building the real-time intelligence layer for healthcare — where your code directly improves patient outcomes from day one."
+    story_refs: ["STY-2026-003"]
+    status: "active"
+    created_date: "2026-02-15"
+    last_updated: "2026-02-28"
+    author: "R. Patel"
+    notes: "Used in recruiting pages, job descriptions, and LinkedIn outreach. Keep the anti-Big-Tech tone honest, not bitter."

@@ -11,6 +11,10 @@ The formula works because it contains the four elements that trigger narrative c
 
 For storytelling squads, the logline is both a planning tool (clarify the story before writing it) and a compression tool (distill existing stories to their essence). If you cannot write a logline for your narrative, you do not yet understand your narrative.
 
+The discipline of logline writing also reveals whether a story has genuine narrative energy or is merely a description of events. A description can be summarized but not compressed into a logline, because descriptions lack the four elements (hero, goal, obstacle, stakes) that create dramatic tension. When a writer struggles to write a logline, the problem is almost never the logline—it is the story itself, which may lack a clear protagonist, a concrete goal, a formidable obstacle, or meaningful stakes.
+
+In practice, the logline is the first deliverable in any storytelling task. Before outlines, before drafts, before beat sheets—the logline. It takes five minutes to write and saves hours of structural revision. It also serves as the ultimate alignment tool: if the stakeholder and the writer cannot agree on the logline, they will not agree on the content, and that disagreement is better discovered in five minutes than in five days.
+
 ## Core Methodology
 
 1. **Identify the Hero**: Who is the protagonist? Be specific about what makes them compelling or relatable.
@@ -87,6 +91,26 @@ For storytelling squads, the logline is both a planning tool (clarify the story 
 - **Basic**: "A veteran CMO argues that the marketing industry's obsession with attribution is destroying the creativity that makes marketing work."
 - **With irony**: "The executive who pioneered data-driven marketing now argues that data is killing marketing—and she has the data to prove it."
 
+## Common Pitfalls
+
+### Pitfall 1: The Generic Hero
+"A business owner" or "a marketer" is too generic. The hero needs at least one specific, differentiating detail. "A first-time founder with a PhD in biochemistry" or "a marketing director who has never run a paid campaign" gives the audience something to latch onto.
+
+### Pitfall 2: The Vague Goal
+"Wants to succeed" or "wants to grow their business" is not a goal—it is an aspiration. Goals must be specific, concrete, and achievable: "wants to close her first enterprise client before the seed funding runs out." Specificity creates mental images; vagueness creates nothing.
+
+### Pitfall 3: The Missing Obstacle
+A logline without an obstacle is a summary, not a story hook. "A talented designer builds a thriving freelance business" has a hero and a goal but no tension. Add the obstacle: "A talented designer must build a thriving freelance business despite a non-compete clause that bars her from contacting any of her former clients."
+
+### Pitfall 4: Stakes That Do Not Scale
+"Or things will get worse" is not a stake. Stakes must be specific and proportional. They should name what is actually lost: a relationship, a business, a reputation, a dream. "Or the company will miss payroll for the first time in its history" is a stake that creates genuine dread.
+
+### Pitfall 5: Overlong Loglines
+If the logline exceeds 50 words, it has lost its compression power. The whole point is to distill the story's engine into a single breath. Trim modifiers, cut subplots, remove secondary characters. A logline serves one story—the central one.
+
+### Pitfall 6: Loglines That Tell the Ending
+A logline should create a question, not answer it. "A struggling founder discovers a new approach and becomes successful" resolves the tension in the logline itself. "A struggling founder makes a desperate bet on an approach no one in her industry has tried" leaves the outcome uncertain—and makes the audience want to find out.
+
 ## When to Use
 
 - Pitch development—loglines are the skeleton of any pitch, investor deck, or proposal.
@@ -120,3 +144,27 @@ For storytelling squads, the logline is both a planning tool (clarify the story 
   - Copywriter Agent — polishes logline language for maximum impact in specific formats (headlines, subject lines, hooks).
   - Brand Strategist Agent — ensures loglines align with brand positioning and Controlling Idea.
   - Editor Agent — tests loglines for compression, clarity, and uniqueness.
+
+## Quick Reference: Logline Templates
+
+Use these templates as starting points, then customize for the specific story:
+
+**Template 1 — The Standard**:
+"A [adjective] [hero] must [goal] against [obstacle], or [stakes]."
+
+**Template 2 — The Inciting Incident**:
+"When [inciting incident], a [hero] must [goal] before [deadline/consequence]."
+
+**Template 3 — The Discovery**:
+"A [hero] who [defining trait] discovers [revelation] and must [goal] despite [obstacle]."
+
+**Template 4 — The Ironic**:
+"A [hero] who [trait that contradicts the situation] must [goal that their trait makes harder]."
+
+**Template 5 — The Versus**:
+"[Hero] wants [goal], but [obstacle] threatens [stakes]—and the only solution requires [sacrifice/risk]."
+
+**Template 6 — The Compressed**:
+"[Number] [people/companies] who [did something unexpected] reveal [what they learned]—and why [implication for the audience]."
+
+Each template works for different contexts. Templates 1-3 work for case studies and brand stories. Template 4 works for thought leadership and contrarian content. Template 5 works for competitive narratives. Template 6 works for roundup content and research-driven pieces.

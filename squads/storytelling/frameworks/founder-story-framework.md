@@ -90,12 +90,20 @@ The Founder Story Framework follows six sequential beats that create escalating 
 - Keynote presentations and conference talks
 - Customer-facing content that needs to establish trust and mission alignment
 
+### Founder Story Pitfalls
+- **The Humble Brag**: Disguising boasts as vulnerability. "I left my $500K job at Google because I could not bear to see people suffer" is not vulnerability; it is status signaling with a compassion wrapper. Genuine vulnerability is admitting fear, failure, or uncertainty.
+- **The Sanitized Origin**: Removing all struggle and uncertainty from the founding story. Investors, employees, and customers connect with the messy truth. A perfect founding story is not believable.
+- **The Solo Hero**: Telling the founder story as if one person did everything alone. Every company is built by a team. The founder story should acknowledge the people who made the journey possible.
+- **The Disconnected Origin**: Telling a compelling personal story that has no connection to the current product or market. If the origin does not explain why THIS company solves THIS problem, it is just an interesting anecdote.
+- **The Time Capsule**: Telling the same founding story for years without updating the current impact or future vision. The origin stays the same, but the impact and vision should evolve as the company grows.
+
 ## When NOT to Use
 - When the founder's story is not genuinely connected to the company's mission
 - When the founder prefers to remain private and the story would feel forced
 - When the company has pivoted so far from the original mission that the founder story creates confusion
 - When the audience cares more about outcomes than origins (use Case Study Framework instead)
 - When multiple founders have conflicting origin narratives that have not been resolved
+- When the founder's personal brand overshadows the company brand and the story would exacerbate the imbalance
 
 ## Integration
 - Feeds into the **Brand Story Framework** as the origin component of the brand narrative

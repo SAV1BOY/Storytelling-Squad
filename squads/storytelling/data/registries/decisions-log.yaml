@@ -1,0 +1,100 @@
+# Decisions Log
+# Record of narrative strategy decisions with context, rationale, and outcomes.
+# This log provides institutional memory for why storytelling choices were made.
+
+schema:
+  decision_id: "Unique identifier (format: DEC-YYYY-NNN)"
+  date: "ISO 8601 date of the decision"
+  title: "Short description of the decision"
+  category: "strategy | brand | process | resource | framework | content | crisis | handoff"
+  context: "What situation or question prompted this decision"
+  options_considered:
+    - option: "Description of the option"
+      pros: "Arguments in favor"
+      cons: "Arguments against"
+  decision: "What was decided"
+  rationale: "Why this option was chosen over alternatives"
+  decided_by: "Who made or approved the decision"
+  stakeholders: "Who was consulted or affected"
+  outcome: "What happened as a result (filled in retrospectively)"
+  outcome_date: "When the outcome was assessed"
+  status: "active | superseded | reversed"
+  superseded_by: "Decision ID that replaced this one (if applicable)"
+  related_refs: "Story Bank, Proof Bank, or other registry references"
+  notes: "Additional context or lessons learned"
+
+entries:
+  - decision_id: "DEC-2026-001"
+    date: "2026-01-08"
+    title: "Adopted StoryBrand SB7 as primary brand narrative framework"
+    category: "framework"
+    context: "Company needed a unified framework for all brand messaging. Multiple frameworks were in use across teams, creating inconsistency."
+    options_considered:
+      - option: "StoryBrand SB7"
+        pros: "Clear structure, widely understood, positions customer as hero, proven at scale"
+        cons: "Can feel formulaic, doesn't cover all narrative types (e.g., data stories)"
+      - option: "Hero's Journey (Campbell/Vogler)"
+        pros: "Deep narrative structure, rich emotional arc"
+        cons: "Complex, requires significant training, overkill for short-form content"
+      - option: "Duarte Sparkline only"
+        pros: "Excellent for presentations and live delivery"
+        cons: "Not designed for written content or brand messaging"
+    decision: "StoryBrand SB7 as primary framework for brand and marketing narratives, supplemented by Duarte Sparkline for presentations and Hero's Journey for long-form stories"
+    rationale: "SB7 provides the most accessible entry point for non-storytellers across the organization. It keeps the customer as hero, which aligns with our brand values. Supplementary frameworks handle the use cases SB7 doesn't cover."
+    decided_by: "Story Strategist + CMO"
+    stakeholders: ["Copy Squad", "Brand Squad", "Sales Squad", "Marketing"]
+    outcome: "Brand message consistency improved from 4/10 to 7/10 in Q1 audit. Sales team adopted SB7 language within 3 weeks."
+    outcome_date: "2026-03-01"
+    status: "active"
+    superseded_by: ""
+    related_refs: ["BS-2026-001", "BS-2026-002"]
+    notes: "Training sessions were critical. The framework only works if people know how to use it."
+
+  - decision_id: "DEC-2026-002"
+    date: "2026-01-20"
+    title: "Prioritized healthcare vertical for all Q1 storytelling"
+    category: "strategy"
+    context: "Limited resources required focus on one vertical for initial story asset development. Company serves healthcare, logistics, and retail."
+    options_considered:
+      - option: "Healthcare focus"
+        pros: "Strongest proof points (Meridian), largest pipeline, Forrester recognition"
+        cons: "Narrows the brand perception, misses cross-vertical opportunities"
+      - option: "Cross-vertical approach"
+        pros: "Broader market appeal, more diverse story bank"
+        cons: "Dilutes proof strength, spreads thin across audiences"
+      - option: "Logistics focus"
+        pros: "Growing segment, less competitive narrative space"
+        cons: "Weaker proof points, no analyst recognition yet"
+    decision: "Healthcare-first storytelling for Q1, with plans to expand to logistics in Q2"
+    rationale: "Healthcare has the strongest proof portfolio and the highest-value pipeline. Concentrating storytelling effort here maximizes ROI and creates a replicable playbook for other verticals."
+    decided_by: "Story Strategist + CEO"
+    stakeholders: ["Sales Squad", "Marketing", "Product"]
+    outcome: "Q1 story production exceeded targets. Healthcare pipeline grew 28%. Playbook ready for logistics adaptation."
+    outcome_date: "2026-03-07"
+    status: "active"
+    superseded_by: ""
+    related_refs: ["STY-2026-001", "PRF-2026-003", "PRF-2026-007"]
+    notes: "The focus paid off. Resist the temptation to spread across verticals before the playbook is proven."
+
+  - decision_id: "DEC-2026-003"
+    date: "2026-02-10"
+    title: "Published the first-outage story as a transparency narrative"
+    category: "content"
+    context: "Debate about whether to publicly share the story of our first major outage. Some stakeholders worried it would undermine trust."
+    options_considered:
+      - option: "Publish transparently"
+        pros: "Builds trust, demonstrates engineering culture, differentiates from competitors who hide incidents"
+        cons: "Draws attention to a failure, could be used by competitors"
+      - option: "Keep internal only"
+        pros: "Avoids public acknowledgment of failure"
+        cons: "Misses a powerful trust-building narrative, feels inauthentic"
+    decision: "Publish the outage story externally with focus on response speed, transparency, and improvements made"
+    rationale: "In a space where every vendor claims 99.99% uptime, being honest about an incident and demonstrating excellent response builds more trust than pretending it never happened. The story shows character."
+    decided_by: "Story Strategist + CTO + CEO"
+    stakeholders: ["Engineering", "Sales", "Customer Success"]
+    outcome: "Engagement rate of 11.2% — highest of any Q1 content. Multiple customers cited it as a trust signal. Zero negative press."
+    outcome_date: "2026-03-01"
+    status: "active"
+    superseded_by: ""
+    related_refs: ["STY-2026-003", "PRF-2026-009"]
+    notes: "Vulnerability in narrative works when paired with competence. The response time metrics were essential — vulnerability without proof of competence backfires."

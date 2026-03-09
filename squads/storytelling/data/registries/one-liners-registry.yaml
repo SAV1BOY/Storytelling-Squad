@@ -1,0 +1,110 @@
+# One-Liners Registry
+# Versioned one-liners for use across channels: website headers, email signatures, social bios, ad copy.
+# Each one-liner follows the StoryBrand formula: problem + solution + result.
+
+schema:
+  liner_id: "Unique identifier (format: OL-YYYY-NNN)"
+  text: "The one-liner text"
+  context: "website-header | email-signature | social-bio | ad-copy | event-intro | elevator | voicemail"
+  audience: "Target audience or persona"
+  brand_script_ref: "Brand Scripts Registry entry this one-liner derives from"
+  version: "Version number (semver)"
+  structure:
+    problem: "The problem component"
+    solution: "The solution component"
+    result: "The result or transformation component"
+  tested: "true | false"
+  performance:
+    channel: "Where this was tested"
+    metric: "What was measured (CTR, recall, preference)"
+    result: "The measurement result"
+    test_date: "Date of test"
+  status: "draft | testing | approved | active | retired"
+  created_date: "ISO 8601 date"
+  author: "Creator"
+  notes: "Usage guidance and channel-specific adaptation notes"
+
+entries:
+  - liner_id: "OL-2026-001"
+    text: "Hospital operations leaders struggle with long wait times and wasted resources. We provide real-time operations intelligence that cuts wait times by 40% — so patients get care faster and staff aren't fighting the system."
+    context: "website-header"
+    audience: "hospital-operations-leaders"
+    brand_script_ref: "BS-2026-001"
+    version: "2.0.0"
+    structure:
+      problem: "Hospital operations leaders struggle with long wait times and wasted resources"
+      solution: "We provide real-time operations intelligence"
+      result: "Patients get care faster and staff aren't fighting the system"
+    tested: true
+    performance:
+      channel: "website-header"
+      metric: "time-on-page"
+      result: "23% increase in average time on page vs. previous header"
+      test_date: "2026-02-15"
+    status: "active"
+    created_date: "2026-01-10"
+    author: "M. Chen"
+    notes: "Core one-liner. All other versions should derive from this. Too long for social bios — use OL-2026-002 for character-limited contexts."
+
+  - liner_id: "OL-2026-002"
+    text: "We turn hospital chaos into patient flow — 40% faster, zero guesswork."
+    context: "social-bio"
+    audience: "all-segments"
+    brand_script_ref: "BS-2026-001"
+    version: "1.0.0"
+    structure:
+      problem: "Hospital chaos (implied)"
+      solution: "We turn it into patient flow"
+      result: "40% faster, zero guesswork"
+    tested: true
+    performance:
+      channel: "social-bio"
+      metric: "profile-click-rate"
+      result: "12% higher profile click rate than previous bio"
+      test_date: "2026-02-28"
+    status: "active"
+    created_date: "2026-01-15"
+    author: "J. Torres"
+    notes: "Fits Twitter/X bio character limit. Punchy and metric-driven. Use this for all short-form contexts."
+
+  - liner_id: "OL-2026-003"
+    text: "Your code changes patient outcomes from day one. Build healthcare's real-time intelligence layer with us."
+    context: "email-signature"
+    audience: "engineering-candidates"
+    brand_script_ref: "BS-2026-002"
+    version: "1.0.0"
+    structure:
+      problem: "Implied: your current work doesn't change outcomes"
+      solution: "Build healthcare's real-time intelligence layer"
+      result: "Patient outcomes change from day one"
+    tested: false
+    performance:
+      channel: ""
+      metric: ""
+      result: ""
+      test_date: ""
+    status: "approved"
+    created_date: "2026-02-20"
+    author: "R. Patel"
+    notes: "For use in recruiting email signatures and job posting headers. Test in Q2 against generic recruiting language."
+
+  - liner_id: "OL-2026-004"
+    text: "Patients shouldn't wait because systems weren't designed for speed. We fix that."
+    context: "ad-copy"
+    audience: "healthcare-decision-makers"
+    brand_script_ref: "BS-2026-001"
+    version: "1.0.0"
+    structure:
+      problem: "Patients wait because systems weren't designed for speed"
+      solution: "We fix that"
+      result: "Implied: patients stop waiting"
+    tested: false
+    performance:
+      channel: ""
+      metric: ""
+      result: ""
+      test_date: ""
+    status: "testing"
+    created_date: "2026-03-01"
+    author: "M. Chen"
+    notes: "Short-form variant for paid social ads. The blunt 'We fix that' ending is intentionally bold — test whether confidence or specificity wins."

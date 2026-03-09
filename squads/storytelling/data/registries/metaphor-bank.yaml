@@ -1,0 +1,137 @@
+# =============================================================================
+# Metaphor Bank Registry
+# =============================================================================
+# Collection of metaphors, analogies, and figurative language used across
+# storytelling assets. Metaphors are indexed by theme and audience fit so
+# agents can pull the right comparison for any narrative context.
+# =============================================================================
+
+schema_version: "1.0"
+registry: metaphor-bank
+description: >
+  Curated library of metaphors and analogies available for reuse in stories,
+  hooks, decks, and ad copy. Each entry tracks where the metaphor has been
+  used, how well it resonates with target audiences, and which themes it
+  supports. Agents should check this bank before inventing new metaphors to
+  ensure consistency and avoid overuse.
+
+# ---------------------------------------------------------------------------
+# Field Definitions
+# ---------------------------------------------------------------------------
+fields:
+  id:
+    type: string
+    format: "META-{YYYYMMDD}-{SEQ}"
+    description: Unique identifier for the metaphor entry.
+    required: true
+
+  metaphor:
+    type: string
+    description: The metaphor or analogy in its canonical phrasing.
+    required: true
+
+  theme:
+    type: list
+    items: string
+    description: Thematic categories (e.g., transformation, speed, simplicity, growth, trust).
+    required: true
+
+  source:
+    type: enum
+    values: [original, literature, customer-quote, industry-common, swipe-file]
+    description: Origin of the metaphor.
+    required: true
+
+  usage_count:
+    type: integer
+    description: Number of published assets that have used this metaphor.
+    required: true
+    default: 0
+
+  audience_fit:
+    type: list
+    items: string
+    description: Audience segments where this metaphor tested well or is appropriate.
+    required: true
+
+  channel_fit:
+    type: list
+    items: string
+    description: Channels where this metaphor works best (e.g., blog, deck, ad, social).
+    required: false
+
+  status:
+    type: enum
+    values: [active, overused, retired, candidate]
+    description: Current availability status.
+    required: true
+
+  story_refs:
+    type: list
+    items: string
+    description: Story Bank IDs where this metaphor appears.
+    required: false
+
+  notes:
+    type: string
+    description: Guidance on usage, context, or limitations.
+    required: false
+
+# ---------------------------------------------------------------------------
+# Example Entries
+# ---------------------------------------------------------------------------
+entries:
+  - id: "META-20260110-001"
+    metaphor: "Your data is a river, not a lake — it only has value when it flows."
+    theme: [data, movement, integration]
+    source: original
+    usage_count: 4
+    audience_fit: [ctos, ops-managers, data-engineers]
+    channel_fit: [blog, deck, webinar]
+    status: active
+    story_refs: ["STY-2026-001"]
+    notes: "Works well for integration and real-time analytics narratives. Avoid in ad copy — too long."
+
+  - id: "META-20260110-002"
+    metaphor: "Like replacing the engine while the plane is in the air."
+    theme: [transformation, risk, continuity]
+    source: industry-common
+    usage_count: 2
+    audience_fit: [engineering-leaders, ctos, startup-founders]
+    channel_fit: [blog, social, pitch]
+    status: active
+    story_refs: ["STY-2026-002", "STY-2026-003"]
+    notes: "Common in tech — use sparingly. Pair with specific proof to avoid cliche."
+
+  - id: "META-20260215-003"
+    metaphor: "The GPS recalculates the route; it does not stop the car."
+    theme: [resilience, adaptability, automation]
+    source: original
+    usage_count: 1
+    audience_fit: [ops-managers, healthcare-ops-director]
+    channel_fit: [email, deck, blog]
+    status: active
+    story_refs: ["STY-2026-001"]
+    notes: "Strong for explaining how the platform handles exceptions without halting workflows."
+
+  - id: "META-20260301-004"
+    metaphor: "They were reading a map printed in 2015 to navigate a 2026 landscape."
+    theme: [outdated-process, urgency, modernization]
+    source: customer-quote
+    usage_count: 0
+    audience_fit: [c-suite, ops-managers]
+    channel_fit: [ad, social, email]
+    status: candidate
+    story_refs: []
+    notes: "Captured from customer interview. Test in Q2 ad campaign."
+
+  - id: "META-20260301-005"
+    metaphor: "A single pane of glass instead of twenty browser tabs."
+    theme: [simplicity, consolidation, clarity]
+    source: swipe-file
+    usage_count: 6
+    audience_fit: [all-segments]
+    channel_fit: [landing-page, deck, ad]
+    status: overused
+    story_refs: ["STY-2026-001", "STY-2026-003"]
+    notes: "High recognition but overused in industry. Find fresh alternatives."

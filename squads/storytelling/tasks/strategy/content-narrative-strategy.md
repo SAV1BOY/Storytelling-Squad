@@ -48,6 +48,32 @@ Content without narrative is noise. This task designs the overarching story arc 
 11. **Draft strategy document** — Compile: content story arc, episodic structure, channel roles, narrative threads, serialization plan, consistency rules.
 12. **Register outputs** — Save to `data/registries/decisions-log`.
 
+
+## Quality Gates
+- Strategy must pass the Grunt Test: anyone can state the core direction in one sentence
+- Every strategic recommendation must be tied to a research finding or business objective
+- Strategy must include clear "do this / not that" guidance — vague direction is not strategy
+- All agent and framework assignments must be justified by the specific need
+- Strategy must be reviewed by the chief agent (donald-miller) before creation tasks begin
+
+## Success Criteria
+- Creation tasks can begin immediately after strategy approval without asking clarifying questions
+- All stakeholders agree on the narrative direction before execution begins
+- Strategy is specific enough to evaluate — you can tell if the resulting story follows the strategy or not
+- Strategy addresses the top 3 audience objections identified in research
+
+## Common Pitfalls
+- **Strategy as aspiration**: Saying "we want to be the thought leader" is not a strategy. Define the specific narrative moves.
+- **Skipping the villain**: Every strategy needs a clear antagonist (problem, competitor, status quo). Without a villain, the strategy has no tension.
+- **Too many messages**: Strategy that tries to communicate 7 things communicates none. Prioritize ruthlessly.
+- **Ignoring constraints**: Strategy must account for budget, timeline, team capacity, and available stories.
+- **Copying competitors**: Strategy based on what competitors do produces undifferentiated narratives.
+
+## Dependencies
+- Requires completed research tasks (audience beliefs, competitor audit, archetype alignment) for optimal output
+- Strategy approval is a gate for all creation tasks — nothing is created without strategic direction
+- Cross-squad alignment must be confirmed before strategy is finalized
+
 ## Cross-Squad
 - **Copy Squad**: Content narrative strategy directly governs copy briefs, blog outlines, and email sequences.
 - **Brand Squad**: Content narrative must reinforce brand positioning; inconsistencies weaken the brand.

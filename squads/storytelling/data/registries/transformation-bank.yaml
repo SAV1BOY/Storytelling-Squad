@@ -1,0 +1,144 @@
+# =============================================================================
+# Transformation Bank Registry
+# =============================================================================
+# FROM-TO transformation pairs that form the backbone of narrative arcs.
+# Every compelling story shows a before state transforming into an after state.
+# This bank catalogues those shifts with supporting proof and framework context.
+# =============================================================================
+
+schema_version: "1.0"
+registry: transformation-bank
+description: >
+  Registry of documented before-and-after transformations used in brand
+  narratives. Each entry defines a FROM state, a TO state, the proof points
+  that substantiate the shift, and the storytelling framework best suited to
+  convey it. Agents reference this bank when constructing narratives that
+  require a clear transformation arc.
+
+# ---------------------------------------------------------------------------
+# Field Definitions
+# ---------------------------------------------------------------------------
+fields:
+  id:
+    type: string
+    format: "TRANS-{YYYYMMDD}-{SEQ}"
+    description: Unique identifier for the transformation.
+    required: true
+
+  from_state:
+    type: string
+    description: Description of the starting condition, pain, or status quo.
+    required: true
+
+  to_state:
+    type: string
+    description: Description of the desired outcome or new reality.
+    required: true
+
+  proof_points:
+    type: list
+    items: string
+    description: Proof Bank IDs that substantiate this transformation.
+    required: true
+
+  stories:
+    type: list
+    items: string
+    description: Story Bank IDs that feature this transformation.
+    required: true
+
+  framework:
+    type: string
+    description: Recommended storytelling framework (e.g., Before-After-Bridge, PAS, StoryBrand).
+    required: true
+
+  audience:
+    type: list
+    items: string
+    description: Audience segments most likely to identify with this transformation.
+    required: false
+
+  emotion_arc:
+    type: list
+    items: string
+    description: Sequence of emotions the transformation should evoke (e.g., [frustration, hope, confidence]).
+    required: false
+
+  channel_fit:
+    type: list
+    items: string
+    description: Best channels for this transformation narrative.
+    required: false
+
+  status:
+    type: enum
+    values: [active, draft, needs-proof, retired]
+    description: Whether this transformation is ready for use.
+    required: true
+
+  created:
+    type: datetime
+    format: ISO-8601
+    description: When this entry was created.
+    required: true
+
+  notes:
+    type: string
+    description: Usage guidance or context.
+    required: false
+
+# ---------------------------------------------------------------------------
+# Example Entries
+# ---------------------------------------------------------------------------
+entries:
+  - id: "TRANS-20260115-001"
+    from_state: "Patients waiting an average of 47 minutes; staff overwhelmed by complaints."
+    to_state: "Average wait time of 28 minutes; patient satisfaction up 44%."
+    proof_points: ["PRF-2026-003", "PRF-2026-007"]
+    stories: ["STY-2026-001"]
+    framework: "Before-After-Bridge"
+    audience: [healthcare-ops-director, c-suite]
+    emotion_arc: [frustration, curiosity, relief, confidence]
+    channel_fit: [case-study, email, deck, landing-page]
+    status: active
+    created: "2026-01-15T09:00:00Z"
+    notes: "Flagship customer transformation. Approved for named use."
+
+  - id: "TRANS-20260203-001"
+    from_state: "Three founders, no funding, no customers — just a whiteboard sketch."
+    to_state: "120-person team serving thousands of customers across healthcare and operations."
+    proof_points: ["PRF-2026-001"]
+    stories: ["STY-2026-002"]
+    framework: "Hero's Journey"
+    audience: [startup-founders, investors, all-segments]
+    emotion_arc: [vulnerability, determination, pride, belonging]
+    channel_fit: [about-page, pitch, video, social]
+    status: active
+    created: "2026-02-03T11:00:00Z"
+    notes: "Core origin transformation. Requires founder approval for new variations."
+
+  - id: "TRANS-20260210-001"
+    from_state: "Monitoring gaps invisible until every dashboard went dark at 2:47 AM."
+    to_state: "Company-wide incident playbook; 99.97% uptime in the 12 months since."
+    proof_points: ["PRF-2026-009"]
+    stories: ["STY-2026-003"]
+    framework: "StoryBrand"
+    audience: [engineering-leaders, security-teams]
+    emotion_arc: [shock, urgency, determination, trust]
+    channel_fit: [blog, social, internal]
+    status: active
+    created: "2026-02-10T11:00:00Z"
+    notes: "Transparency narrative. Handle carefully — acknowledges a failure."
+
+  - id: "TRANS-20260301-001"
+    from_state: "14 spreadsheets, 3 dashboards, a shared inbox — reporting takes longer than doing."
+    to_state: "Single platform, real-time visibility, team reclaims 12 hours per week."
+    proof_points: []
+    stories: []
+    framework: "PAS"
+    audience: [ops-managers, ctos, saas-leaders]
+    emotion_arc: [overwhelm, recognition, clarity, confidence]
+    channel_fit: [ad, landing-page, email]
+    status: needs-proof
+    created: "2026-03-01T14:00:00Z"
+    notes: "Composite transformation from 8 interviews. Needs quantified proof before publishing."

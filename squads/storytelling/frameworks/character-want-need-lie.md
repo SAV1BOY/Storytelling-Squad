@@ -11,6 +11,10 @@ In marketing storytelling, this framework is transformative. Every customer avat
 
 This framework is the difference between "we sell project management software" (Want) and "we help teams reclaim the creative energy that bureaucracy stole from them" (Need, addressing the Lie that more process equals more control).
 
+The Want-Need-Lie triad also explains why so many products fail to retain customers after acquisition. Products that only address the Want achieve transactional relationships: the customer uses the product, gets the surface-level result, and leaves when a cheaper or shinier alternative appears. Products that address the Need through the Lie create transformational relationships: the customer uses the product and undergoes a genuine shift in how they see themselves and their work. Transformational relationships generate loyalty, advocacy, and lifetime value that transactional relationships cannot match.
+
+For content strategists, the Lie is an inexhaustible content engine. Every Lie the audience holds can be explored, challenged, and gently dismantled across dozens of pieces of content—blog posts, emails, social media, videos. Each piece addresses the Lie from a different angle, building the audience's readiness to accept the Need and, ultimately, to take action.
+
 ## Core Methodology
 
 1. **Identify the External Want**: What does the character (customer) say they're looking for? What would they type into a search bar?
@@ -88,6 +92,23 @@ This framework is the difference between "we sell project management software" (
 - **Lie**: "I'm the only one who can maintain the quality, so I need to be involved in everything."
 - **Story**: A founder works 80-hour weeks and revenue plateaus at $3M because he's the bottleneck. He hires consultants to optimize processes (Want-driven). Marginal improvement. The shattering moment: a key employee quits and says, "I came here to build something, but you won't let me." He realizes the Lie—his control isn't protecting quality, it's preventing growth. The consulting firm helps him build systems that transfer his judgment to the team. Revenue hits $10M, but more importantly, he takes his first real vacation in five years.
 
+## Common Pitfalls
+
+### Pitfall 1: The Want IS the Need
+If there is no gap between want and need, there is no character arc and no story depth. "She wants more customers and she needs more customers" is not a want-need split. Dig deeper: "She wants more customers [Want] because she believes revenue validates her decision to leave her corporate job [Lie], but what she actually needs is confidence in her own judgment regardless of revenue [Need]."
+
+### Pitfall 2: A Lie Nobody Believes
+The Lie must resonate with the audience's actual experience. If the target audience does not recognize the Lie in themselves, the framework fails. The Lie should come from audience research—interviews, support conversations, social media discussions—not from the marketer's assumptions about what the audience "should" believe.
+
+### Pitfall 3: Shaming the Audience for the Lie
+The Lie is not stupidity. It is a reasonable conclusion from the character's experience. Treating the Lie as an obvious mistake ("Can you believe people still think this?") alienates the audience who currently holds that belief. Instead, honor the Lie: "This is what the evidence seemed to suggest. Here is why it is incomplete."
+
+### Pitfall 4: The Brand as Hero
+In the Want-Need-Lie framework, the brand should never be the protagonist. The brand is the mentor, the tool, or the catalyst—the force that helps the character see past the Lie. If the brand story is about the brand's own Want, Need, and Lie, it risks narcissism. The customer is always the hero.
+
+### Pitfall 5: Resolving the Lie Too Easily
+The Lie should not shatter at the first contact with truth. In real life, deeply held beliefs resist evidence. The narrative should show the Lie cracking under accumulated pressure—multiple experiences, multiple pieces of evidence, and ultimately a moment so undeniable that the Lie cannot survive. This gradual shattering feels authentic.
+
 ## When to Use
 
 - Customer avatar development and audience research synthesis.
@@ -121,3 +142,18 @@ This framework is the difference between "we sell project management software" (
   - Brand Strategist Agent — translates the Want/Need/Lie into positioning and messaging.
   - Story Architect Agent — embeds the arc into the narrative structure.
   - Copywriter Agent — crafts the language that names the Lie without alienating the audience.
+
+## Quick Reference: Common Want-Need-Lie Patterns by Category
+
+| Product Category | Typical Want | Typical Need | Typical Lie |
+|---|---|---|---|
+| Productivity tools | "Get more done" | Feel in control, reduce anxiety | "More output = more value" |
+| Marketing platforms | "Get more leads/traffic" | Confidence in their strategy | "Volume solves everything" |
+| Business coaching | "Scale to $X revenue" | Autonomy and purpose alignment | "Revenue = validation" |
+| Health/fitness | "Lose X pounds / gain muscle" | Self-acceptance, energy, vitality | "Appearance = worthiness" |
+| Education platforms | "Learn X skill" | Career confidence, identity shift | "Credentials = competence" |
+| Project management | "Ship faster" | Team trust and collaboration | "Speed = management quality" |
+| CRM / Sales tools | "Close more deals" | Predictability and strategic clarity | "More activity = more results" |
+| Financial services | "Grow wealth / reduce debt" | Security and freedom | "Net worth = self-worth" |
+
+These are patterns, not prescriptions. Always validate against real audience research before building narratives on assumed Wants, Needs, and Lies.

@@ -13,6 +13,10 @@ This distinction is the difference between a story and a list. A blog post where
 
 The framework has roots deeper than comedy writing. Aristotle's concept of "necessity and probability" in *Poetics* makes the same argument: events in a plot should follow from each other, not merely follow after each other. Every screenwriting teacher from Syd Field to Blake Snyder to John Truby reinforces this principle. Parker and Stone simply gave it the catchiest formulation.
 
+The test is deceptively simple. Applying it reveals that the majority of first-draft marketing content—especially case studies, email sequences, and brand timelines—is episodic rather than causal. Events are arranged chronologically ("We founded the company, then we raised money, then we launched, then we grew") rather than causally ("We founded the company on a specific thesis, which led us to raise from investors who shared that thesis, but the market responded differently than expected, therefore we had to pivot before launch"). Chronology is not story. Causality is story.
+
+The power of this test is in its diagnostic speed. A writer can audit a 2,000-word draft in under five minutes by extracting beats and testing connectors. No other editing tool provides this much structural insight this quickly.
+
 ## Core Methodology
 
 1. **Draft the Narrative**: Write the story in whatever form feels natural.
@@ -92,6 +96,23 @@ The framework has roots deeper than comedy writing. Aristotle's concept of "nece
 - Weak: "In the last email I shared case studies. Now let me tell you about our offer." (And then.)
 - Strong: "You've seen the results three companies achieved with this framework. But those results required something most teams don't have—a structured implementation process. Therefore, we built one. And for the next 48 hours, it's available to you." (But + therefore.)
 
+## Common Pitfalls
+
+### Pitfall 1: Forcing False Causality
+Not every sequence of events has a genuine causal connection. Forcing a "therefore" where the connection is coincidental or weak is worse than an honest "and then." If two events are genuinely unrelated, either cut one or restructure so they connect through an intermediate beat.
+
+### Pitfall 2: All "But," No "Therefore"
+A story where every transition is a complication ("but... but... but...") creates a sense of chaos without progress. The audience needs to feel the story moving forward, not just bouncing between obstacles. Alternate between "but" (complication) and "therefore" (consequence) to create forward motion with resistance.
+
+### Pitfall 3: Using the Test Too Early
+Applying But-Therefore during brainstorming or first-draft writing can create paralysis. The test is an editing tool. Draft freely, then diagnose with the test. Writers who try to maintain perfect causality in the first draft often produce stilted, overthought prose.
+
+### Pitfall 4: Ignoring Emotional Causality
+Not all causality is logical. Emotional causality is equally valid: "She got the promotion [therefore] she felt guilty about leaving her team behind [but] the guilt made her a more empathetic leader." The But-Therefore test should account for emotional consequences, not just practical ones.
+
+### Pitfall 5: Applying to Non-Narrative Content
+The test is designed for narrative content—stories with characters, events, and progression. Applying it to listicles, reference guides, or modular content creates confusion. In non-narrative formats, sections are deliberately independent, and "and then" connections between them are appropriate and expected.
+
 ## When to Use
 
 - Editing and revising ANY narrative content—this is the single most efficient story diagnostic tool.
@@ -123,3 +144,25 @@ The framework has roots deeper than comedy writing. Aristotle's concept of "nece
   - Copywriter Agent — applies the test at the sentence level for transitions and connective tissue.
   - Quality Assurance Agent — uses the test as a final check before content is approved.
   - Training Agent — teaches the framework to new team members and content creators.
+
+## Quick Reference: The But-Therefore Audit Template
+
+Use this template to audit any narrative content in under five minutes:
+
+1. Extract each major beat as a one-sentence description.
+2. Between each pair of consecutive beats, write the most honest connector:
+   - **THEREFORE** = consequence (this happened as a direct result)
+   - **BUT** = complication (this happened unexpectedly, disrupting the expected path)
+   - **AND THEN** = chronology (this happened next, but without causal connection)
+3. For each "AND THEN" connection, diagnose the problem:
+   - [ ] Missing cause — the connection exists but is not shown
+   - [ ] Missing conflict — the events proceed without complication
+   - [ ] Irrelevant beat — one of the two beats does not belong
+4. Apply the fix:
+   - Missing cause → add a sentence showing the causal link
+   - Missing conflict → add a "but" by introducing an obstacle or surprise
+   - Irrelevant beat → cut it entirely
+5. Re-test until every connection is "but" or "therefore."
+6. Check the but/therefore ratio. Target: roughly 50/50 with natural variation.
+
+This audit is the single fastest way to improve any piece of narrative content. Teach it to every writer on the team.

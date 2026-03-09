@@ -104,6 +104,23 @@ The six types of narrative proof, in order of persuasive power when embedded in 
 - SELLER: "I made more in October than I made the entire previous year on Amazon. And I kept all of it."
 - *Cut to: TechCrunch headline: "The Platform Giving Independent Sellers Their Margins Back."*
 
+## Common Pitfalls
+
+### Pitfall 1: The Data Dump
+Inserting a block of statistics mid-narrative because "we need proof here." Data dumps break narrative flow and signal that the writer could not figure out how to integrate evidence naturally. Every data point should be delivered through a mechanism—character, scene, demonstration, or comparison.
+
+### Pitfall 2: Unattributed Claims
+"Results were incredible" or "Customers love it" with no attribution, no name, no context. Unattributed proof is worse than no proof—it signals that the evidence is fabricated or that real evidence does not exist. Every claim needs a source. Every quote needs a speaker. Every number needs a context.
+
+### Pitfall 3: Proof That Contradicts the Tone
+A warm, personal brand story interrupted by "In a study conducted by McKinsey in 2023, 67% of respondents indicated..." The academic register destroys the emotional tone. The same proof, delivered differently: "When McKinsey asked companies what mattered most, two-thirds gave the same answer—an answer that would have surprised nobody in Elena's office." Same data, same credibility, preserved tone.
+
+### Pitfall 4: Over-Proofing
+Including every available data point, testimonial, and citation because more proof seems safer. The result: the audience drowns in evidence and remembers none of it. Select the three to five strongest proof elements and embed them strategically. Leave the rest for an appendix, a follow-up piece, or a FAQ.
+
+### Pitfall 5: Proof Without Emotional Context
+"Revenue increased 40%." So what? Numbers without emotional framing are inert. "Revenue increased 40%—enough to fund the engineering hires they had been deferring for two years. The first person they called was the senior developer who had left because the company 'could not afford to grow.'" Now the number means something because it is connected to a human consequence.
+
 ## When to Use
 
 - Every piece of persuasive narrative content. There is no marketing story that does not benefit from proof.

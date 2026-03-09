@@ -50,6 +50,35 @@ Webinars that feel like lectures lose audiences within minutes. This task builds
 11. **Run all checklists** — Apply Webinar Narrative Quality and Structure and Pacing Quality. Fix failures.
 12. **Register outputs** — Save to `data/registries/story-bank`.
 
+
+## Quality Gates
+- Every creation output must pass the story-review quality gate before deployment
+- The Grunt Test is mandatory: if the audience cannot understand who, what, and why in 5 seconds, revise
+- All stories must have an identifiable 5-second moment or transformation point
+- Proof must be embedded in narrative, not appended — the proof-in-story quality gate applies
+- The hook must pass the "scroll test": would you stop scrolling for this opening?
+- Minimum quality score of 3/5 across all applicable checklist dimensions
+
+## Success Criteria
+- The story achieves the objective defined in the story brief
+- Target audience members who read/hear the story can retell the core message unprompted
+- The story generates the intended emotional response (validated through testing or feedback)
+- All checklist criteria are met at the "pass" level before handoff
+- The story is deployable without further revision by receiving squad
+
+## Common Pitfalls
+- **Starting with the brand**: The biggest creation mistake is opening with the brand's history. Start with the customer's world.
+- **Feature-listing disguised as story**: Listing benefits in narrative order is not storytelling. There must be conflict and transformation.
+- **Skipping the draft stage**: Trying to write a perfect first draft produces paralysis. Write badly first, then refine.
+- **Neglecting the ending**: Most creation effort goes into the opening. The ending is what the audience remembers. Invest equally.
+- **Forgetting the CTA**: Beautiful stories that do not tell the audience what to do next are art, not marketing.
+
+## Dependencies
+- Requires completed strategy task for narrative direction
+- May require research outputs (audience beliefs, story bank inventory, testimonial material)
+- Creation outputs feed into refinement, extraction, and review tasks
+- Cross-squad handoff follows review approval
+
 ## Cross-Squad
 - **Copy Squad**: Webinar narrative informs registration page copy, email reminders, and follow-up sequences.
 - **Brand Squad**: Webinar narrative must align with brand voice and positioning.

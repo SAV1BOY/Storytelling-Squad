@@ -99,10 +99,18 @@ The Strategy Layer operates through five decision frameworks:
 - When current storytelling feels scattered or reactive
 - When entering a new market segment and need a narrative entry strategy
 
+### Strategy Pitfalls
+- **Strategy without discovery**: Making story selection decisions based on internal preferences rather than audience research. The CEO's favorite customer story may not be the most effective story for the target audience.
+- **Over-planning, under-executing**: Spending weeks on a perfect strategy document while competitors publish daily. Strategy should take days, not months. A good strategy executed quickly beats a perfect strategy executed slowly.
+- **Channel obsession**: Choosing channels based on where the company wants to be present rather than where the audience actually spends time. If your audience is not on TikTok, a TikTok strategy is a waste.
+- **Narrative fragmentation**: Assigning stories to so many channels that no single channel gets enough content to build narrative momentum. Better to dominate one channel than to be invisible on five.
+- **Ignoring measurement feedback**: Planning the next quarter's strategy without reviewing the previous quarter's performance data. Every strategy cycle should begin with a retrospective.
+
 ## When NOT to Use
 - When you have not completed the Discovery Layer — strategy without discovery is assumptions dressed as plans
 - When the task is a single, standalone story that does not require strategic context
 - When rapid response is needed (crisis communication, trending topic) — act first, strategize later
+- When the team lacks the resources to execute on the strategy — a plan without capacity is a wish list
 
 ## Integration
 - Receives inputs from the **Discovery Layer**: story bank, belief maps, objection catalog, competitive landscape

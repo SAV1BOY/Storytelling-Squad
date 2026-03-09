@@ -37,7 +37,14 @@ The key insight is that the hero must be *changed* by the journey. Static charac
 11. **The Resurrection** — A final test purifies the hero. They must prove that the transformation is permanent. In marketing, this is the loyalty-building moment: renewal, upgrade, or advocacy.
 12. **Return with the Elixir** — The hero shares the benefits of their journey with the ordinary world. In marketing, this is the referral or testimonial phase where the customer becomes an evangelist.
 
-Stages 13-17 of Campbell's original (Rescue from Without, The Magic Flight, Crossing the Return Threshold, Master of Two Worlds, Freedom to Live) can be condensed into stages 10-12 for marketing purposes.
+Stages 13-17 of Campbell's original expand on the Return:
+- **Rescue from Without (13):** Sometimes the hero needs help returning. In marketing, this maps to customer success intervention when users stall.
+- **The Magic Flight (14):** The return journey has its own complications. In marketing, implementation hurdles that require ongoing support.
+- **Crossing the Return Threshold (15):** The hero must reconcile the two worlds. In marketing, integrating the new solution into existing workflows and culture.
+- **Master of Two Worlds (16):** The hero can move freely between old and new. In marketing, the customer who becomes a power user capable of training others.
+- **Freedom to Live (17):** The hero is liberated from the original fear. In marketing, the customer who has fully transformed and cannot imagine returning to the old way.
+
+These five stages can be condensed into stages 10-12 for most marketing purposes, but the full detail is valuable for long-form customer journey mapping.
 
 ## Examples
 
@@ -69,6 +76,17 @@ A project management tool maps a 7-email onboarding sequence to the Hero's Journ
 - Any narrative where transformation is the core message
 - Campaign arcs that unfold across multiple touchpoints
 - Content marketing editorial calendars (each piece maps to a stage)
+- Annual reports or year-in-review narratives where the company or customer went through a clear transformation
+- Recruitment marketing that frames joining the company as an adventure with growth potential
+- Thought leadership content structured as an intellectual or professional journey
+
+## Common Pitfalls
+
+- **Making the brand the hero instead of the customer.** The brand is the mentor. Always. The moment the brand becomes the hero, the customer becomes a spectator.
+- **Skipping the Refusal stage.** Without hesitation, the commitment feels cheap. Honor your audience's objections—they make the eventual "yes" more powerful.
+- **Rushing the Ordeal.** The trial is where trust is built. If the product solves everything instantly, the audience suspects the story is fabricated. Show struggle.
+- **Forgetting the Return.** Many marketing narratives end at the Reward. But the Return—where the hero brings the benefit back to their world—is where referral and advocacy live.
+- **Applying the full 17 stages to short content.** Use the Condensed Monomyth for formats under 3 minutes or 1000 words. The full journey requires space to breathe.
 
 ## When NOT to Use
 

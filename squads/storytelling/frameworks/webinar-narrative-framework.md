@@ -82,11 +82,19 @@ The three arcs operate in parallel, each serving a distinct psychological functi
 - Nurturing existing leads who need more information before deciding
 - Any scenario where the audience needs to understand the problem before they will value the solution
 
+### Webinar Anti-Patterns
+- **The Bait-and-Switch**: Promising education but delivering a 45-minute sales pitch. If the teach arc does not deliver genuine standalone value, the audience will feel deceived and never attend another webinar.
+- **The Info Dump**: Cramming too much teaching content without narrative tension. If the teach arc has no embedded tension, the audience gets value but has no motivation to buy.
+- **The Late Offer**: Waiting until the final 5 minutes to mention the product. The offer arc should begin at the two-thirds mark and build naturally from the teaching.
+- **The Missing Engagement**: Running a webinar as a one-way broadcast. Without polls, questions, and chat interaction, webinars have 40-60% higher drop-off rates.
+- **The Generic Follow-Up**: Sending the same follow-up to all attendees. Segment by engagement: active participants get one sequence, passive viewers get another, non-attenders get a summary.
+
 ## When NOT to Use
 - When the audience is already educated and ready to buy (skip to demo or sales conversation)
 - When the topic does not lend itself to genuine teaching (some products are too simple to warrant a webinar)
 - When you cannot deliver real value — a thinly veiled sales pitch disguised as a webinar destroys trust
 - When the audience is too broad — webinars work best with a specific, defined segment
+- When the speaker lacks the presentation skills to hold attention for 30-45 minutes (train first, then present)
 
 ## Integration
 - Teaching content draws from the **Content Marketing Story Framework** for narrative structure
@@ -104,3 +112,11 @@ The three arcs operate in parallel, each serving a distinct psychological functi
 - **Performance Agent**: Coaches delivery, pacing, and audience interaction technique
 - **Measurement Agent**: Tracks registration-to-attendance, engagement during webinar, and conversion to CTA
 - Route to this framework when the task involves creating a live or recorded educational presentation with an integrated sales or action component
+
+### Webinar Performance Benchmarks
+- **Registration to attendance**: 35-45% is average. Below 30% suggests weak anticipation building or poor timing.
+- **Attendance to completion**: 55-70% is average. Below 50% suggests the teach arc is not delivering enough value early enough.
+- **Engagement rate**: 20-30% of attendees should interact with at least one poll, question, or chat prompt.
+- **CTA conversion**: 5-15% of attendees should take the desired action (trial signup, demo booking, purchase).
+- **Replay views**: Replays should generate 30-50% of live attendance in additional views within 7 days.
+- **Follow-up email open rate**: Post-webinar email sequences should achieve 40-60% open rates among attendees.

@@ -85,11 +85,20 @@ The Launch Narrative Framework operates in four sequential phases:
 - Major company milestones or pivots
 - Any scenario where something new enters the market and needs narrative momentum
 
+### Launch Narrative Pitfalls
+- **Premature revelation**: Revealing the product during the anticipation phase because you are excited. The tension of anticipation is an asset. Do not spend it early.
+- **Skipping anticipation**: Going directly to launch day without building awareness of the problem. The audience must feel the gap before they can appreciate the solution.
+- **False urgency**: Creating a deadline that does not hold. If the "limited time" offer reappears next month, every future launch loses credibility.
+- **Single-channel launch**: Putting all energy into one channel (usually email) and neglecting the multi-channel amplification that makes launches feel like events.
+- **No proof phase**: Moving directly from revelation to urgency without demonstrating results. The audience needs evidence before they need deadlines.
+- **Post-launch silence**: Treating the launch as the end instead of the beginning. The weeks after launch are when proof, stories, and momentum build. Plan for them.
+
 ## When NOT to Use
 - Minor updates or bug fixes that do not warrant a multi-phase narrative
 - Internal-only changes that do not affect the customer
 - When the product is not ready — launching a narrative for a product that underdelivers destroys more trust than a quiet release
 - When the audience is too small for multi-channel activation (focus on direct outreach instead)
+- When the market is not ready for the product and education must precede launch (extend the anticipation phase into a multi-month education campaign)
 
 ## Integration
 - Anticipation phase content uses the **Content Marketing Story Framework** for problem-awareness pieces
@@ -107,3 +116,8 @@ The Launch Narrative Framework operates in four sequential phases:
 - **Editing Agent**: Ensures narrative consistency across all launch content
 - **Measurement Agent**: Tracks phase performance and conversion metrics
 - Route to this framework when the task involves planning or executing a multi-phase launch narrative for a product, service, or program
+
+### Launch Narrative Success Metrics
+- **Waitlist conversion**: What percentage of waitlist subscribers convert on launch day?
+- **Launch day traffic spike**: How much did traffic increase compared to the 30-day average?
+- **Proof phase engagement**: Are early adopter stories generating shares and comments?

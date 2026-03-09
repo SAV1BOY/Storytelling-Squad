@@ -82,11 +82,20 @@ The Product Narrative Framework operates on four story beats:
 - Feature announcement content
 - Investor presentations focused on the product
 
+### Product Narrative Pitfalls
+- **Feature masquerading as story**: "Our product has AI-powered analytics" is a feature. "Our product shows you the one number that matters before your morning coffee" is a narrative. Always translate features into experiences.
+- **Origin without connection**: Telling a founding story that has no relationship to the product's current value proposition. The origin must explain why the product is the way it is.
+- **Transformation without proof**: Describing life-changing outcomes without any evidence. Every transformation claim needs at least one specific customer who experienced it.
+- **Vision without credibility**: Casting a grand future vision when the product is still in its early stages. The vision should be proportional to the current trajectory — ambitious but believable.
+- **Ignoring the competition**: Telling the product story as if alternatives do not exist. The audience is comparing. Acknowledge the category and differentiate through narrative, not by pretending competitors do not exist.
+- **Inconsistency across touchpoints**: The landing page tells one product story, the sales deck tells another, and the onboarding tells a third. The four beats must be consistent everywhere.
+
 ## When NOT to Use
 - When the product is a commodity with no meaningful differentiation (narrative cannot create differentiation that does not exist)
 - When the audience only cares about specifications and pricing (technical procurement)
 - When the product is too early for a transformation narrative (pre-product-market-fit)
 - When the product story would reveal competitive advantages that should remain confidential
+- When the product has pivoted significantly and the narrative needs to be rebuilt from the Discovery Layer
 
 ## Integration
 - Origin story connects to the **Founder Story Framework** when they are intertwined
@@ -102,3 +111,12 @@ The Product Narrative Framework operates on four story beats:
 - **Drafting Agent**: Writes product copy, landing pages, and feature announcements in narrative form
 - **Editing Agent**: Ensures consistency across all product narrative touchpoints
 - Route to this framework when the task involves telling the story of a product — why it exists, what it does, and where it is going
+
+### Product Narrative Audit Questions
+- Can every team member articulate the product's origin in 2-3 sentences?
+- Does the landing page hero copy address the customer's need, or the product's features?
+- Can a new user experience the transformation promise within their first session?
+- Is the product vision communicated to customers, or only discussed internally?
+- Do feature announcements reference the origin and vision, or are they isolated updates?
+- Are competitor narratives monitored for positioning shifts that affect your product story?
+- Is there a single narrative owner who ensures consistency across all product touchpoints?

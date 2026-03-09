@@ -1,0 +1,155 @@
+# =============================================================================
+# Swipe File Index
+# =============================================================================
+# Master index of external storytelling examples collected for inspiration,
+# analysis, and pattern extraction. Each entry is a reference to a piece of
+# content that demonstrates a technique worth studying or adapting.
+# =============================================================================
+
+schema_version: "1.0"
+registry: swipe-file-index
+description: >
+  Catalogued collection of external content examples — ads, articles, emails,
+  landing pages, videos, and social posts — that exhibit notable storytelling
+  techniques. Each entry is tagged with the framework it employs, an analysis
+  link, and classification tags for retrieval during creative sessions.
+
+# ---------------------------------------------------------------------------
+# Field Definitions
+# ---------------------------------------------------------------------------
+fields:
+  id:
+    type: string
+    format: "SWIPE-{YYYYMMDD}-{SEQ}"
+    description: Unique identifier for the swipe file entry.
+    required: true
+
+  source:
+    type: string
+    description: Company, publication, or author that created the original content.
+    required: true
+
+  source_url:
+    type: string
+    format: url
+    description: Link to the original content (may expire).
+    required: false
+
+  type:
+    type: enum
+    values: [ad, blog-post, email, landing-page, video, social-post, case-study, pitch-deck, podcast, newsletter]
+    description: Format of the original content.
+    required: true
+
+  framework_used:
+    type: list
+    items: string
+    description: Storytelling frameworks identified in the analysis (e.g., PAS, Hero's Journey).
+    required: true
+
+  tags:
+    type: list
+    items: string
+    description: Descriptive tags for search and filtering.
+    required: true
+
+  analysis_link:
+    type: string
+    description: Path or URL to the internal analysis document for this swipe.
+    required: false
+
+  captured_by:
+    type: string
+    description: Team member who added this entry.
+    required: false
+
+  captured_date:
+    type: datetime
+    format: ISO-8601
+    description: When the entry was added to the swipe file.
+    required: true
+
+  key_takeaway:
+    type: string
+    description: One-sentence summary of why this example is worth studying.
+    required: true
+
+  status:
+    type: enum
+    values: [active, archived, pending-analysis]
+    description: Whether analysis is complete and the entry is usable.
+    required: true
+
+  notes:
+    type: string
+    description: Additional context or observations.
+    required: false
+
+# ---------------------------------------------------------------------------
+# Example Entries
+# ---------------------------------------------------------------------------
+entries:
+  - id: "SWIPE-20260110-001"
+    source: "Stripe"
+    source_url: "https://stripe.com/customers/notion"
+    type: case-study
+    framework_used: ["Before-After-Bridge", "StoryBrand"]
+    tags: [fintech, saas, customer-story, simplicity, developer-audience]
+    analysis_link: "/data/research/competitor-narratives/stripe-case-study-analysis.md"
+    captured_by: "M. Chen"
+    captured_date: "2026-01-10T10:00:00Z"
+    key_takeaway: "Uses the customer as hero and keeps the product invisible — pure outcome storytelling."
+    status: active
+    notes: "Excellent example of letting the customer's transformation carry the narrative."
+
+  - id: "SWIPE-20260118-002"
+    source: "Patagonia"
+    source_url: "https://www.patagonia.com/stories/"
+    type: blog-post
+    framework_used: ["Hero's Journey"]
+    tags: [brand-values, sustainability, long-form, emotional, culture]
+    analysis_link: "/data/research/competitor-narratives/patagonia-stories-analysis.md"
+    captured_by: "J. Torres"
+    captured_date: "2026-01-18T14:30:00Z"
+    key_takeaway: "Brand never sells product directly — stories are about people and planet first."
+    status: active
+    notes: "Aspirational model for culture and values storytelling."
+
+  - id: "SWIPE-20260205-003"
+    source: "Morning Brew"
+    source_url: null
+    type: newsletter
+    framework_used: ["Curiosity Gap", "Pattern Interrupt"]
+    tags: [newsletter, hooks, subject-lines, conversational-tone, media]
+    analysis_link: null
+    captured_by: "R. Patel"
+    captured_date: "2026-02-05T08:00:00Z"
+    key_takeaway: "Subject lines consistently use curiosity gaps that feel conversational, not clickbait."
+    status: pending-analysis
+    notes: "Collected 20 subject lines. Need to extract patterns and add to hook bank."
+
+  - id: "SWIPE-20260220-004"
+    source: "Apple"
+    source_url: "https://www.apple.com/apple-vision-pro/"
+    type: landing-page
+    framework_used: ["Sparkline", "Before-After-Bridge"]
+    tags: [product-launch, visual, aspirational, premium, hardware]
+    analysis_link: "/data/research/competitor-narratives/apple-vision-pro-analysis.md"
+    captured_by: "M. Chen"
+    captured_date: "2026-02-20T16:00:00Z"
+    key_takeaway: "Alternates between emotional aspiration and technical proof — classic sparkline rhythm."
+    status: active
+    notes: "Study the pacing: emotion, proof, emotion, proof. Applicable to our landing pages."
+
+  - id: "SWIPE-20260301-005"
+    source: "Gong.io"
+    source_url: null
+    type: social-post
+    framework_used: ["PAS", "Data Storytelling"]
+    tags: [sales, data-driven, linkedin, b2b, short-form]
+    analysis_link: null
+    captured_by: "J. Torres"
+    captured_date: "2026-03-01T11:00:00Z"
+    key_takeaway: "Leads with a surprising data point, then reframes it as a story — hooks instantly."
+    status: pending-analysis
+    notes: "LinkedIn posts consistently get 500+ reactions. Analyze hook-to-CTA structure."

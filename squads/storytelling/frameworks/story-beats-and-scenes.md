@@ -11,6 +11,10 @@ In marketing storytelling, beat analysis prevents two fatal problems: (1) sequen
 
 The concept originates from theater and music, where a "beat" is a rhythmic unit of action or emotion. In screenwriting, it evolved to mean any exchange that changes the dynamic between characters or between a character and their situation.
 
+Understanding beats is what separates structural storytellers from instinctive ones. Instinctive storytellers can produce good work but cannot reliably diagnose why a piece fails or replicate why a piece succeeds. Beat analysis makes the invisible mechanics of narrative visible and manipulable. It is the difference between a musician who plays by ear and one who can also read and write notation—both can make music, but only one can consistently engineer specific effects.
+
+In practice, beat analysis serves two purposes in a storytelling squad: construction (planning beats before writing) and diagnosis (mapping beats after drafting to identify structural problems). Both uses are essential. Construction prevents wasted drafting time. Diagnosis prevents publishing content that feels off without understanding why.
+
 ## Core Methodology
 
 1. **Identify the Core Value at Stake**: Every story has a central value—trust/distrust, success/failure, clarity/confusion, freedom/constraint. Name it explicitly.
@@ -86,6 +90,23 @@ The concept originates from theater and music, where a "beat" is a rhythmic unit
 - **Beat 7** (1:30-1:50): Montage of diverse users experiencing the same transformation. (Possibility becomes universal ↑)
 - **Beat 8** (1:50-2:00): Final frame—the user from Beat 1, now confident. CTA. (Limitation fully transformed to possibility ↑)
 
+## Common Pitfalls
+
+### Pitfall 1: Confusing Activity with Value Shift
+A character doing something is not automatically a beat. "She opened her laptop" is activity, not a beat—unless opening the laptop reveals something that shifts a value. The test is always: did a value change? If no value shifted, no beat occurred.
+
+### Pitfall 2: Monotonous Polarity
+If every beat shifts the value in the same direction (all positive or all negative), the story feels like either a relentless success montage or a misery parade. Audiences need oscillation. Even in a story with an overall positive trajectory, individual beats should include setbacks, doubts, and complications.
+
+### Pitfall 3: Missing the Gap
+McKee's "gap" is the space between what a character expects and what actually happens. Beats without gaps are predictable and forgettable. If the protagonist tries something and it works exactly as expected, that is a non-event. The gap—the unexpected twist—is what makes beats memorable. In marketing, this means case studies where everything goes perfectly are less compelling than case studies where surprises, setbacks, and unexpected benefits create a real narrative.
+
+### Pitfall 4: Beat Bloat
+Adding too many beats to demonstrate thoroughness or complexity. A 1,000-word blog post with 25 beats feels frenetic—the reader never settles into any moment. Fewer, stronger beats with room to breathe between them create a better experience than a rapid-fire sequence of value changes.
+
+### Pitfall 5: Skipping the Turn
+Every scene should end with a turning point—a beat that is stronger than the others and that changes the story's direction. Scenes without turning points feel like they end arbitrarily. The turning point is what propels the audience into the next scene.
+
 ## When to Use
 
 - Analyzing existing content to diagnose why it feels flat or doesn't hold attention.
@@ -118,3 +139,18 @@ The concept originates from theater and music, where a "beat" is a rhythmic unit
   - Tension & Conflict Agent — ensures beat oscillation patterns maintain engagement.
   - Emotional Intelligence Agent — validates that beat-level value shifts create the intended emotional experience.
   - Quality Assurance Agent — audits beat density against format-appropriate targets.
+
+## Quick Reference: Beat Density by Format
+
+| Format | Target Beat Count | Avg Words per Beat | Notes |
+|---|---|---|---|
+| Tweet / social post | 1-2 beats | 15-30 words | A single value shift, maximum two |
+| Email (short) | 3-5 beats | 40-70 words | Enough for a mini-arc |
+| Email (long) | 5-8 beats | 50-80 words | Full arc with oscillation |
+| Blog post (1,000 words) | 8-15 beats | 70-125 words | Clear scenes and turning points |
+| Sales page (3,000 words) | 20-40 beats | 75-150 words | Dense, high-value beats throughout |
+| Webinar (60 min) | 40-80 beats | 45-90 seconds each | Requires grouping into clear scenes |
+| Video script (2 min) | 6-10 beats | 12-20 seconds each | Every beat must be visually distinct |
+| Keynote (20 min) | 15-30 beats | 40-80 seconds each | Fewer, stronger beats with room to land |
+
+The right beat density depends on pacing goals: higher density creates urgency and excitement; lower density creates depth and gravitas.

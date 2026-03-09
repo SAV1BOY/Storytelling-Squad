@@ -1,0 +1,149 @@
+# =============================================================================
+# Industry Story Index
+# =============================================================================
+# Stories indexed by industry vertical. Enables agents to quickly find
+# narratives relevant to a specific industry for campaigns, sales
+# enablement, or vertical-specific content.
+# =============================================================================
+
+schema_version: "1.0"
+registry: industry-story-index
+description: >
+  Cross-reference index that groups Story Bank entries by industry vertical.
+  Each industry entry tracks which stories are available, which narrative
+  archetypes have been used, and which emotions dominate. Use this index to
+  identify coverage gaps and plan vertical-specific content.
+
+# ---------------------------------------------------------------------------
+# Field Definitions
+# ---------------------------------------------------------------------------
+fields:
+  industry:
+    type: string
+    description: Industry vertical name.
+    required: true
+
+  industry_code:
+    type: string
+    description: Short code for the industry (e.g., HLTH, FINSERV, MFGR).
+    required: true
+
+  story_ids:
+    type: list
+    items: string
+    description: Story Bank IDs relevant to this industry.
+    required: true
+
+  archetypes_used:
+    type: list
+    items: string
+    description: Narrative archetypes present in the stories (e.g., customer, transformation, founder).
+    required: true
+
+  top_emotions:
+    type: list
+    items: string
+    description: Dominant emotions across the stories for this industry.
+    required: true
+
+  coverage_score:
+    type: float
+    range: [0.0, 10.0]
+    description: >
+      How well-covered this industry is across story types and channels.
+      10 = full coverage; below 5 = significant gaps.
+    required: false
+
+  gaps:
+    type: list
+    items: string
+    description: Missing story types, channels, or archetypes for this vertical.
+    required: false
+
+  priority:
+    type: enum
+    values: [high, medium, low]
+    description: Content creation priority based on pipeline and revenue alignment.
+    required: true
+
+  last_reviewed:
+    type: datetime
+    format: ISO-8601
+    description: When coverage for this industry was last audited.
+    required: true
+
+  notes:
+    type: string
+    description: Strategic notes on the vertical's narrative needs.
+    required: false
+
+# ---------------------------------------------------------------------------
+# Example Entries
+# ---------------------------------------------------------------------------
+entries:
+  - industry: "Healthcare"
+    industry_code: "HLTH"
+    story_ids: ["STY-2026-001"]
+    archetypes_used: [customer, transformation]
+    top_emotions: [relief, trust, confidence]
+    coverage_score: 6.5
+    gaps:
+      - "No founder-angle story for healthcare audience"
+      - "No video-format story"
+      - "Missing thought-leadership piece"
+    priority: high
+    last_reviewed: "2026-03-01T00:00:00Z"
+    notes: "Largest revenue vertical. Meridian story performs well but a single case study is insufficient. Need 2-3 more customer stories by Q3."
+
+  - industry: "Technology / SaaS"
+    industry_code: "TECH"
+    story_ids: ["STY-2026-002", "STY-2026-003"]
+    archetypes_used: [founder, culture]
+    top_emotions: [belonging, trust, determination]
+    coverage_score: 5.0
+    gaps:
+      - "No customer success story in SaaS vertical"
+      - "No data / ROI-driven story"
+      - "No ad-ready short-form narrative"
+    priority: high
+    last_reviewed: "2026-03-01T00:00:00Z"
+    notes: "Strong origin and culture stories. Need a customer transformation story to support sales."
+
+  - industry: "Financial Services"
+    industry_code: "FINSERV"
+    story_ids: []
+    archetypes_used: []
+    top_emotions: []
+    coverage_score: 0.0
+    gaps:
+      - "No stories for this vertical"
+      - "Need compliance-safe customer case study"
+      - "Need proof points from financial industry"
+    priority: medium
+    last_reviewed: "2026-03-01T00:00:00Z"
+    notes: "Pipeline is growing in FINSERV. Begin customer interviews in Q2."
+
+  - industry: "Manufacturing & Operations"
+    industry_code: "MFGR"
+    story_ids: []
+    archetypes_used: []
+    top_emotions: []
+    coverage_score: 0.0
+    gaps:
+      - "No stories for this vertical"
+      - "Need transformation story focusing on operational efficiency"
+    priority: low
+    last_reviewed: "2026-03-01T00:00:00Z"
+    notes: "Small pipeline today. Monitor for growth signals before investing in content."
+
+  - industry: "Education"
+    industry_code: "EDU"
+    story_ids: []
+    archetypes_used: []
+    top_emotions: []
+    coverage_score: 0.0
+    gaps:
+      - "No stories for this vertical"
+    priority: low
+    last_reviewed: "2026-03-01T00:00:00Z"
+    notes: "Exploratory. Not currently a target vertical but inbound interest is rising."

@@ -85,12 +85,20 @@ The Case Study Story Framework follows a five-beat narrative arc designed to mov
 - When a prospect is in the consideration or decision stage of the buyer's journey
 - When building a library of proof that supports the brand promise
 
+### Case Study Pitfalls
+- **The Corporate Gloss**: Letting the customer's PR team sanitize the story until all humanity is removed. Push back on corporate editing that eliminates emotional language, specific details, and honest struggle. The messy truth is more persuasive than polished fiction.
+- **The Feature Tour**: Turning the case study into a product walkthrough instead of a customer story. The customer is the protagonist, not the product. The product is the tool the protagonist used to succeed.
+- **Missing the "Before"**: Rushing through the context and friction to get to the result. The "before" state is where reader identification lives. Without it, the result has no contrast and no emotional weight.
+- **Vague Metrics**: "The customer saw significant improvement" is not proof. "Close rate increased from 18% to 34% in 90 days" is proof. Push for specific numbers on every result claim.
+- **One-Dimensional Stories**: Only telling success stories about revenue or efficiency. The most compelling case studies include unexpected benefits: team morale improved, the customer's own customers noticed the change, the customer's career advanced because of the results.
+
 ## When NOT to Use
 - When the customer's results are preliminary or unverified
 - When the customer is unwilling to be named or provide specific data
 - When the story requires so much context about the customer's industry that the narrative loses momentum
 - When you have fewer than three months of post-implementation data
 - When the customer's success depended on factors unrelated to your product
+- When the customer relationship is under strain and a case study request could worsen it
 
 ## Integration
 - Draws from the **Testimonial Interview Framework** for the interview process
@@ -108,3 +116,9 @@ The Case Study Story Framework follows a five-beat narrative arc designed to mov
 - **Editing Agent**: Refines for clarity, emotional impact, and proof density
 - **Distribution Agent**: Creates derivative assets and maps distribution plan
 - Route to this framework when the task involves turning a specific customer's experience into a marketing asset
+
+### Case Study Quality Checklist
+- Does the opening drop the reader into a scene, not a company description?
+- Is the "before" state vivid enough that the reader identifies with the customer's pain?
+- Are results quantified with at least 2 specific metrics?
+- Does the story include at least 3 direct customer quotes?

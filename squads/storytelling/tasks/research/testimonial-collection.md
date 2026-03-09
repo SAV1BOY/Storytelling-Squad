@@ -45,6 +45,32 @@ This task manages the end-to-end process of collecting customer testimonials —
 11. **Register in story bank** — Add to `data/research/testimonial-raw-material` with full metadata and status.
 12. **Flag high-potential stories** — Mark testimonials that could become full case studies, video scripts, or ad stories.
 
+
+## Quality Gates
+- All research must cite specific sources (interviews, data, competitor assets) — no unsupported assertions
+- Every finding must connect to a narrative implication — data without story direction is incomplete
+- Research outputs must pass the "actionable test": could a creation task use this output directly?
+- Minimum 3 proof points per major finding
+- All audience language must use verbatim quotes, not paraphrased interpretations
+
+## Success Criteria
+- Research directly informs at least one downstream creation or strategy task
+- Stakeholders can identify 3 new narrative opportunities they did not know before
+- Findings are specific enough to write a story brief without further research
+- Time from research start to usable output does not exceed the project timeline
+
+## Common Pitfalls
+- **Analysis paralysis**: Research that never concludes because there is always more to find. Set a deadline and ship.
+- **Confirmation bias**: Finding only what supports existing assumptions. Actively seek disconfirming evidence.
+- **Abstract findings**: Research that produces insights like "the audience values quality." That is not a finding — everyone values quality. Be specific.
+- **Ignoring outliers**: The most interesting stories often come from edge cases, not averages.
+- **Skipping primary sources**: Secondary research is a starting point, not a destination. Talk to real people.
+
+## Dependencies
+- Requires access to audience data, competitor materials, and/or interview subjects
+- May require coordination with Brand Squad for positioning context
+- Output feeds into strategy and creation tasks — delays here cascade downstream
+
 ## Cross-Squad
 - **Copy Squad**: Processed testimonials feed directly into testimonial pages, review sections, and social proof copy.
 - **Brand Squad**: Customer language from testimonials refines brand voice and messaging.

@@ -1,0 +1,146 @@
+# =============================================================================
+# Objection-to-Story Map
+# =============================================================================
+# Maps common buyer objections to the stories and proof points that address
+# them. Sales, marketing, and content agents use this registry to find the
+# right narrative response to resistance.
+# =============================================================================
+
+schema_version: "1.0"
+registry: objection-story-map
+description: >
+  Lookup table that connects sales and marketing objections to the stories,
+  proof points, and channels best suited to overcome them. When an objection
+  surfaces in a deal, campaign, or content brief, agents query this map to
+  find pre-validated narrative responses.
+
+# ---------------------------------------------------------------------------
+# Field Definitions
+# ---------------------------------------------------------------------------
+fields:
+  objection:
+    type: string
+    description: The buyer objection in plain language.
+    required: true
+
+  objection_category:
+    type: enum
+    values: [price, timing, trust, complexity, competition, inertia, authority, relevance]
+    description: Classification of the objection type.
+    required: true
+
+  story_ids:
+    type: list
+    items: string
+    description: Story Bank entries that address this objection.
+    required: true
+
+  proof_ids:
+    type: list
+    items: string
+    description: Proof Bank entries that substantiate the counter-narrative.
+    required: true
+
+  channel_fit:
+    type: list
+    items: string
+    description: Channels where this objection response works best.
+    required: true
+
+  hook_ids:
+    type: list
+    items: string
+    description: Hook Bank entries effective for leading with this response.
+    required: false
+
+  recommended_framework:
+    type: string
+    description: Storytelling framework recommended for addressing this objection.
+    required: false
+
+  effectiveness_rating:
+    type: float
+    range: [0.0, 10.0]
+    description: How effectively stories have addressed this objection (based on sales feedback).
+    required: false
+
+  last_reviewed:
+    type: datetime
+    format: ISO-8601
+    description: Date this mapping was last validated by sales or marketing.
+    required: true
+
+  notes:
+    type: string
+    description: Tactical guidance for using these stories against the objection.
+    required: false
+
+# ---------------------------------------------------------------------------
+# Example Entries
+# ---------------------------------------------------------------------------
+entries:
+  - objection: "We are not sure your platform can handle our scale."
+    objection_category: trust
+    story_ids: ["STY-2026-001"]
+    proof_ids: ["PRF-2026-003", "PRF-2026-007"]
+    channel_fit: [sales-deck, email, case-study]
+    hook_ids: ["HK-2026-012"]
+    recommended_framework: "Before-After-Bridge"
+    effectiveness_rating: 8.5
+    last_reviewed: "2026-03-01T00:00:00Z"
+    notes: "Lead with the Meridian Health 12-clinic rollout. Emphasize scale across all locations."
+
+  - objection: "We have never heard of you — why should we trust a smaller vendor?"
+    objection_category: trust
+    story_ids: ["STY-2026-002", "STY-2026-003"]
+    proof_ids: ["PRF-2026-001", "PRF-2026-011"]
+    channel_fit: [pitch, about-page, social]
+    hook_ids: ["HK-2026-001"]
+    recommended_framework: "Hero's Journey"
+    effectiveness_rating: 7.8
+    last_reviewed: "2026-03-01T00:00:00Z"
+    notes: "Pair the founder origin story with the Forrester mention for credibility."
+
+  - objection: "The timing is not right — we have too many initiatives in flight."
+    objection_category: timing
+    story_ids: ["STY-2026-001"]
+    proof_ids: ["PRF-2026-003"]
+    channel_fit: [email, sales-call, deck]
+    hook_ids: []
+    recommended_framework: "PAS"
+    effectiveness_rating: 6.2
+    last_reviewed: "2026-02-15T00:00:00Z"
+    notes: "Emphasize the 90-day time-to-value. Show that waiting costs more than starting."
+
+  - objection: "We tried something similar before and it did not work."
+    objection_category: inertia
+    story_ids: ["STY-2026-003"]
+    proof_ids: ["PRF-2026-009"]
+    channel_fit: [sales-call, email, blog]
+    hook_ids: ["HK-2026-015"]
+    recommended_framework: "StoryBrand"
+    effectiveness_rating: 7.0
+    last_reviewed: "2026-02-28T00:00:00Z"
+    notes: "Use the outage recovery story to show resilience and learning from failure."
+
+  - objection: "Your solution looks too complex for our team to adopt."
+    objection_category: complexity
+    story_ids: []
+    proof_ids: []
+    channel_fit: [demo, deck, landing-page]
+    hook_ids: []
+    recommended_framework: "Before-After-Bridge"
+    effectiveness_rating: null
+    last_reviewed: "2026-03-05T00:00:00Z"
+    notes: "GAP: No story currently addresses this. Create a simplicity-focused customer story in Q2."
+
+  - objection: "A larger competitor offers a similar feature set."
+    objection_category: competition
+    story_ids: ["STY-2026-002"]
+    proof_ids: ["PRF-2026-011"]
+    channel_fit: [sales-call, pitch, battlecard]
+    hook_ids: ["HK-2026-001"]
+    recommended_framework: "StoryBrand"
+    effectiveness_rating: 6.8
+    last_reviewed: "2026-03-01T00:00:00Z"
+    notes: "Lead with agility and founder commitment. Analyst mention adds third-party validation."

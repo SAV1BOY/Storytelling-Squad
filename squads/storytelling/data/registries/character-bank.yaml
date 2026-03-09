@@ -1,0 +1,148 @@
+# =============================================================================
+# Character Bank Registry
+# =============================================================================
+# Registry of customer personas, founder characters, and composite archetypes
+# used as protagonists in brand narratives. Each character is a reusable
+# narrative asset with a defined transformation arc.
+# =============================================================================
+
+schema_version: "1.0"
+registry: character-bank
+description: >
+  Library of named and anonymized characters that appear in stories. Characters
+  represent real customers, founders, or composite personas built from research.
+  Each entry tracks the archetype, industry context, and transformation arc so
+  agents can match the right protagonist to the right narrative.
+
+# ---------------------------------------------------------------------------
+# Field Definitions
+# ---------------------------------------------------------------------------
+fields:
+  id:
+    type: string
+    format: "CHAR-{YYYYMMDD}-{SEQ}"
+    description: Unique identifier for the character.
+    required: true
+
+  name:
+    type: string
+    description: Display name (real or anonymized, e.g., "Sarah, VP of Ops at Meridian").
+    required: true
+
+  archetype:
+    type: enum
+    values: [reluctant-hero, visionary-leader, pragmatic-operator, scrappy-founder, patient-advocate, data-skeptic, change-champion, accidental-innovator]
+    description: Narrative archetype that defines the character's role in the story.
+    required: true
+
+  industry:
+    type: string
+    description: Industry or vertical the character operates in.
+    required: true
+
+  role:
+    type: string
+    description: Job title or functional role.
+    required: false
+
+  story_ids:
+    type: list
+    items: string
+    description: Story Bank entries featuring this character.
+    required: true
+
+  transformation_arc:
+    type: object
+    fields:
+      from_state: "Description of the character's starting situation or mindset."
+      turning_point: "The moment or decision that initiated change."
+      to_state: "Description of the character's end situation or mindset."
+    description: The before-to-after arc this character embodies.
+    required: true
+
+  audience_alignment:
+    type: list
+    items: string
+    description: Target audience segments this character resonates with.
+    required: false
+
+  consent_status:
+    type: enum
+    values: [full-name-approved, anonymized, composite, internal-only]
+    description: Level of consent granted for using this character publicly.
+    required: true
+
+  created:
+    type: datetime
+    format: ISO-8601
+    description: When the character entry was created.
+    required: true
+
+  notes:
+    type: string
+    description: Additional context, interview notes, or usage restrictions.
+    required: false
+
+# ---------------------------------------------------------------------------
+# Example Entries
+# ---------------------------------------------------------------------------
+entries:
+  - id: "CHAR-20260101-001"
+    name: "Alex Navarro, Co-Founder & CEO"
+    archetype: scrappy-founder
+    industry: technology
+    role: "CEO and Co-Founder"
+    story_ids: ["STY-2026-002"]
+    transformation_arc:
+      from_state: "Three co-founders with a whiteboard, no funding, and a hunch."
+      turning_point: "Landed first paying customer after 47 cold demos."
+      to_state: "Leading a team of 120 people serving thousands of customers."
+    audience_alignment: [startup-founders, investors, all-segments]
+    consent_status: full-name-approved
+    created: "2026-01-01T10:00:00Z"
+    notes: "Core brand character. All story variations require founder review."
+
+  - id: "CHAR-20260115-002"
+    name: "Sarah, VP of Operations at Meridian Health"
+    archetype: pragmatic-operator
+    industry: healthcare
+    role: "VP of Operations"
+    story_ids: ["STY-2026-001"]
+    transformation_arc:
+      from_state: "Drowning in complaints about 47-minute average wait times."
+      turning_point: "Piloted the platform in one clinic despite board skepticism."
+      to_state: "Rolled out to all 12 clinics; wait times down 40% in 90 days."
+    audience_alignment: [healthcare-ops-director, c-suite]
+    consent_status: full-name-approved
+    created: "2026-01-15T09:00:00Z"
+    notes: "Customer approved for named case study. Annual review required."
+
+  - id: "CHAR-20260210-003"
+    name: "Dev Team Lead (anonymous)"
+    archetype: reluctant-hero
+    industry: technology
+    role: "Senior Engineering Lead"
+    story_ids: ["STY-2026-003"]
+    transformation_arc:
+      from_state: "Confident that monitoring coverage was sufficient."
+      turning_point: "Woke at 2:47 AM to every dashboard going dark."
+      to_state: "Built the incident playbook that became a company-wide standard."
+    audience_alignment: [engineering-leaders, security-teams]
+    consent_status: anonymized
+    created: "2026-02-10T11:00:00Z"
+    notes: "Kept anonymous per employee request. Do not attempt to identify."
+
+  - id: "CHAR-20260301-004"
+    name: "Composite: The Overwhelmed Ops Manager"
+    archetype: change-champion
+    industry: cross-industry
+    role: "Director of Operations"
+    story_ids: []
+    transformation_arc:
+      from_state: "Managing 14 spreadsheets, 3 dashboards, and a shared inbox."
+      turning_point: "Realized the team spent more time reporting than doing."
+      to_state: "Single platform, real-time visibility, weekends back."
+    audience_alignment: [ops-managers, ctos, saas-leaders]
+    consent_status: composite
+    created: "2026-03-01T14:00:00Z"
+    notes: "Built from 8 customer interviews. Use for top-of-funnel content."

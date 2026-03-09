@@ -8,6 +8,13 @@ grasp the core message within seconds and follow the logic without re-reading. C
 the same as simplicity; a clear narrative can handle complex ideas by presenting them in a
 structured, jargon-free, logically connected sequence.
 
+## When to Use
+- After the first complete draft of any narrative is written
+- Before sending a draft to design, production, or stakeholder review
+- When a draft receives feedback like "I'm not sure what the point is" or "this is confusing"
+- During revision passes to systematically improve comprehension
+- When adapting expert-written content for a general audience
+
 ## Prerequisites
 - A complete narrative draft exists (not an outline or bullet points)
 - The story brief has passed the Story Brief Quality checklist
@@ -42,12 +49,18 @@ structured, jargon-free, logically connected sequence.
 ### Noise Removal
 - [ ] **No tangential anecdotes** — Every story or example directly illustrates or proves the central message; entertaining-but-irrelevant asides are cut
 - [ ] **No redundant sections** — No idea is stated more than twice in the full draft (once to introduce, once to reinforce at the close); a third instance is always cut
-- [ ] **Qualifier words minimized** — Words like "just," "really," "very," "quite," "somewhat," "actually," "basically" appear fewer than 3 times total
+- [ ] **Qualifier words minimized** — Words like "just," "really," "very," "quite," "somewhat," "actually," "basically" appear fewer than 3 times total across the entire draft
 - [ ] **No throat-clearing opening** — The draft does not begin with preamble, background history, or "In today's rapidly changing world..." style filler
-- [ ] **Every sentence earns its place** — Removing any single sentence would create a noticeable gap in meaning or flow; if removing it changes nothing, it must go
+- [ ] **Every sentence earns its place** — Removing any single sentence would create a noticeable gap in meaning or flow; if removing it changes nothing, the sentence must go
+
+### Comprehension Verification
+- [ ] **Naive reader test conducted** — At least one person unfamiliar with the topic has read the draft and accurately summarized the central message in their own words
+- [ ] **Scan test passed** — A reader scanning only headings, bold text, and the first sentence of each paragraph gets an accurate sense of the full message
+- [ ] **No ambiguous references** — Every "this," "that," "it," and "they" has an unambiguous referent; readers never have to guess what a pronoun refers to
+- [ ] **Technical accuracy verified** — All facts, figures, claims, and references have been checked by someone with domain knowledge; clarity must not come at the cost of accuracy
 
 ## Scoring
-Must pass **16/21 minimum**. The following items are CRITICAL and must all pass:
+Must pass **18/25 minimum**. The following items are CRITICAL and must all pass:
 - One central message identifiable
 - Grunt Test passed
 - No unexplained jargon

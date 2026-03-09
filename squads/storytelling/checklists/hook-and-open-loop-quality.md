@@ -8,6 +8,13 @@ or first sentence (text) determines whether the audience stays. Critical for con
 competitive-attention environments: social media, email subject lines, presentation openings,
 pitch meetings, and any context where the audience has an easy exit.
 
+## When to Use
+- After drafting any content where the audience can easily disengage (social, email, video, web)
+- When open rates, click rates, or retention metrics indicate weak openings
+- Before finalizing subject lines, video intros, presentation openings, or social post first lines
+- When A/B testing opening strategies across variants
+- During revision of underperforming content
+
 ## Prerequisites
 - A complete or near-complete narrative draft exists
 - The target audience and channel are defined
@@ -43,9 +50,16 @@ pitch meetings, and any context where the audience has an easy exit.
 - [ ] **Hook connects to the body** — The attention-grabbing opening flows naturally into the narrative; there is no jarring shift in topic, tone, or register between the hook and the main content
 - [ ] **Promise aligns with delivery** — What the hook promises is actually delivered in the body of the content; no bait-and-switch where the opening suggests one topic and the body covers another
 - [ ] **Second hook within first 20%** — A reinforcing hook or new tension point appears before the audience reaches the first quarter of the content, providing a second reason to stay
+- [ ] **Escalation follows the hook** — The story does not plateau after the opening; stakes, information, or tension continue to build immediately following the initial hook
+
+### Hook Testing and Validation
+- [ ] **Multiple hook variants considered** — At least 3 different hook strategies were drafted and the strongest was selected based on audience fit and strategic alignment
+- [ ] **Hook tested on a naive reader** — Someone unfamiliar with the content has read or viewed only the opening and reported whether they would continue; their response informed revision
+- [ ] **Hook is channel-optimized** — The hook format accounts for how the audience encounters it: subject line + preview text for email, first frame for video, first line before "see more" for social
+- [ ] **Hook does not require prior knowledge** — A first-time visitor encountering this content with no previous relationship to the brand can still understand and be engaged by the opening
 
 ## Scoring
-Must pass **15/19 minimum**. The following items are CRITICAL and must all pass:
+Must pass **17/23 minimum**. The following items are CRITICAL and must all pass:
 - Hook appears in first sentence or first 3 seconds
 - Curiosity gap established
 - Promise aligns with delivery

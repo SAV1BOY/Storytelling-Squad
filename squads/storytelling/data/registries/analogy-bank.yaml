@@ -1,0 +1,89 @@
+# Analogy Bank Registry
+# Repository of analogies and metaphors organized by category for reuse across storytelling.
+# Good analogies make complex ideas instantly understandable. This bank prevents reinventing the wheel.
+
+schema:
+  analogy_id: "Unique identifier (format: ANG-YYYY-NNN)"
+  analogy: "The analogy or metaphor text"
+  explains: "What concept or idea this analogy clarifies"
+  category: "technology | process | strategy | growth | risk | change | complexity | speed | scale | trust"
+  audience_fit: "Which audiences this analogy works best for: technical, executive, general, creative"
+  strength: "How well this analogy holds up under scrutiny: strong (survives extension) | moderate (works at surface) | fragile (breaks if extended)"
+  used_in: "List of story IDs or contexts where this analogy has been used"
+  source: "Original or adapted — who created or popularized this analogy"
+  status: "active | overused | retired"
+  created_date: "ISO 8601 date"
+  notes: "When to use, when to avoid, and known limitations"
+
+entries:
+  - analogy_id: "ANG-2026-001"
+    analogy: "Our platform is the air traffic control system for your patient flow — it doesn't fly the planes, but nothing lands safely without it."
+    explains: "The platform's role in orchestrating healthcare operations without replacing clinical staff"
+    category: "technology"
+    audience_fit: ["executive", "general"]
+    strength: "strong"
+    used_in: ["STY-2026-001"]
+    source: "original — J. Torres"
+    status: "active"
+    created_date: "2026-01-15"
+    notes: "Works well with healthcare audiences who understand the complexity of patient flow. Avoid with audiences who might take 'planes' literally."
+
+  - analogy_id: "ANG-2026-002"
+    analogy: "Trying to scale a company without storytelling is like trying to build a cathedral by describing it in spreadsheets."
+    explains: "Why narrative is essential for organizational alignment and growth"
+    category: "strategy"
+    audience_fit: ["executive", "creative"]
+    strength: "moderate"
+    used_in: ["STY-2026-002"]
+    source: "original — M. Chen"
+    status: "active"
+    created_date: "2026-01-08"
+    notes: "Good for executive buy-in conversations. Don't extend — the spreadsheet/cathedral comparison breaks if you push it too far."
+
+  - analogy_id: "ANG-2026-003"
+    analogy: "Data without narrative is like ingredients without a recipe — technically everything you need is there, but nobody's eating."
+    explains: "Why raw data needs storytelling to drive action"
+    category: "complexity"
+    audience_fit: ["general", "executive", "technical"]
+    strength: "strong"
+    used_in: []
+    source: "adapted — common in data storytelling circles"
+    status: "active"
+    created_date: "2026-02-01"
+    notes: "Universally understood. Can be extended: the recipe is the narrative structure, the chef is the storyteller, the meal is the insight."
+
+  - analogy_id: "ANG-2026-004"
+    analogy: "Your brand story is the operating system — every piece of content is an app running on it. If the OS is broken, no app works properly."
+    explains: "Why foundational brand narrative must be strong before channel-specific content can succeed"
+    category: "strategy"
+    audience_fit: ["technical", "executive"]
+    strength: "strong"
+    used_in: []
+    source: "original — R. Patel"
+    status: "active"
+    created_date: "2026-02-15"
+    notes: "Resonates strongly with technical founders. Can extend: updates to the OS (brand refresh), compatibility (brand consistency), crashes (narrative contradictions)."
+
+  - analogy_id: "ANG-2026-005"
+    analogy: "A pitch without a story is like a trial without witnesses — you're asking the jury to convict on argument alone."
+    explains: "Why pitches need narrative evidence, not just logical claims"
+    category: "trust"
+    audience_fit: ["executive", "general"]
+    strength: "moderate"
+    used_in: []
+    source: "original — J. Torres"
+    status: "active"
+    created_date: "2026-02-20"
+    notes: "Effective for convincing salespeople and founders to invest in narrative. Avoid with legal audiences who may overthink the courtroom metaphor."
+
+  - analogy_id: "ANG-2026-006"
+    analogy: "Every customer interaction is a scene in an ongoing series — you don't get to skip to the finale without earning each episode."
+    explains: "Why customer journey touchpoints must build narrative continuity"
+    category: "process"
+    audience_fit: ["general", "creative"]
+    strength: "moderate"
+    used_in: []
+    source: "original — M. Chen"
+    status: "active"
+    created_date: "2026-03-01"
+    notes: "Works well with marketing teams. Can extend: binge-watching (compressed sales cycle), season finale (conversion moment), spin-offs (upsell journeys)."

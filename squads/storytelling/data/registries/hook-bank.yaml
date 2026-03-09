@@ -1,0 +1,119 @@
+# Hook Bank Registry
+# Repository of tested and candidate hooks for use across storytelling channels.
+# Hooks are the opening moments that earn attention — subject lines, headlines, opening lines, visual hooks.
+
+schema:
+  hook_id: "Unique identifier (format: HK-YYYY-NNN)"
+  text: "The hook text or description"
+  type: "question | bold-claim | contradiction | statistic | mid-scene | before-after | curiosity-gap | pattern-interrupt"
+  channel: "Primary channel: email-subject, social-post, ad-headline, deck-slide, video-open, blog-title, pitch-open"
+  format: "text | visual | video-open | audio"
+  tested: "true | false"
+  performance:
+    impressions: "Number of times the hook was served"
+    engagement_rate: "Click-through or attention rate"
+    best_channel: "Channel where this hook performed best"
+    test_date: "Date of last performance measurement"
+  story_ref: "Story Bank entry this hook was derived from (STY-YYYY-NNN)"
+  audience: "Target audience or segment"
+  emotion: "Primary emotional trigger: curiosity, fear, surprise, recognition, urgency"
+  status: "candidate | testing | winner | retired"
+  created_date: "ISO 8601 date"
+  author: "Creator"
+  notes: "Context, variations, or usage guidance"
+
+entries:
+  - hook_id: "HK-2026-001"
+    text: "The idea that almost killed our company saved it instead."
+    type: "contradiction"
+    channel: "blog-title"
+    format: "text"
+    tested: true
+    performance:
+      impressions: 18500
+      engagement_rate: 0.074
+      best_channel: "blog-title"
+      test_date: "2026-02-15"
+    story_ref: "STY-2026-002"
+    audience: "startup-founders"
+    emotion: "curiosity"
+    status: "winner"
+    created_date: "2026-01-08"
+    author: "M. Chen"
+    notes: "Strong performer as blog title. Test as email subject line next."
+
+  - hook_id: "HK-2026-002"
+    text: "What if everything your team believes about [X] is exactly backward?"
+    type: "question"
+    channel: "email-subject"
+    format: "text"
+    tested: true
+    performance:
+      impressions: 24000
+      engagement_rate: 0.038
+      best_channel: "email-subject"
+      test_date: "2026-02-28"
+    story_ref: "STY-2026-002"
+    audience: "all-segments"
+    emotion: "curiosity"
+    status: "testing"
+    created_date: "2026-01-10"
+    author: "M. Chen"
+    notes: "Requires [X] personalization per segment. Open rate above average but below target."
+
+  - hook_id: "HK-2026-012"
+    text: "Their patients were waiting 47 minutes. Then they changed one thing."
+    type: "curiosity-gap"
+    channel: "social-post"
+    format: "text"
+    tested: true
+    performance:
+      impressions: 9200
+      engagement_rate: 0.091
+      best_channel: "social-post"
+      test_date: "2026-03-01"
+    story_ref: "STY-2026-001"
+    audience: "healthcare-ops-director"
+    emotion: "curiosity"
+    status: "winner"
+    created_date: "2026-01-20"
+    author: "J. Torres"
+    notes: "Top performing social hook in Q1. Adapt for ad headline testing."
+
+  - hook_id: "HK-2026-015"
+    text: "At 2:47 AM, every dashboard in the building went black."
+    type: "mid-scene"
+    channel: "blog-title"
+    format: "text"
+    tested: true
+    performance:
+      impressions: 6100
+      engagement_rate: 0.082
+      best_channel: "blog-title"
+      test_date: "2026-03-01"
+    story_ref: "STY-2026-003"
+    audience: "engineering-leaders"
+    emotion: "surprise"
+    status: "winner"
+    created_date: "2026-02-12"
+    author: "R. Patel"
+    notes: "Strong engagement from technical audience. Mid-scene entry works well for incident narratives."
+
+  - hook_id: "HK-2026-018"
+    text: "3 customers. $0 revenue. 1 whiteboard. Here's what happened next."
+    type: "before-after"
+    channel: "ad-headline"
+    format: "text"
+    tested: false
+    performance:
+      impressions: 0
+      engagement_rate: 0.0
+      best_channel: ""
+      test_date: ""
+    story_ref: "STY-2026-002"
+    audience: "startup-founders"
+    emotion: "recognition"
+    status: "candidate"
+    created_date: "2026-03-05"
+    author: "M. Chen"
+    notes: "Candidate for paid social testing in Q2. Combines origin story with founder audience."

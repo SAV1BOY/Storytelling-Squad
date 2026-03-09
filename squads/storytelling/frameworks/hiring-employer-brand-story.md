@@ -87,11 +87,20 @@ The Employer Brand Story Framework operates on five narrative beats:
 - Interview process design
 - Onboarding materials that reinforce the employer brand promise
 
+### Employer Brand Pitfalls
+- **The Culture Lie**: Presenting a culture that does not match reality. Candidates who join based on a false employer brand story leave within 6 months and leave bitter Glassdoor reviews that make future recruiting harder.
+- **The Perk Parade**: Leading with ping pong tables, free snacks, and unlimited PTO instead of meaningful stories about work, growth, and impact. Perks attract tourists. Stories attract missionaries.
+- **The Generic Career Page**: "We are a fast-growing company with a great culture" describes every company's career page. Without specific stories, names, and details, the employer brand is invisible.
+- **Ignoring the Hard Parts**: Pretending the job has no challenges. The best candidates want to know what is hard about the role so they can decide if it is their kind of hard. Honesty about difficulty attracts resilient people.
+- **One-Size-Fits-All**: Using the same employer brand narrative for every role and every audience. An engineering candidate needs a different story than a sales candidate. Customize by role and seniority.
+- **No Employee Voice**: Telling the company story exclusively through the founder or marketing team. Candidates trust employee voices more than corporate voices. Let employees tell their own stories.
+
 ## When NOT to Use
 - When the internal culture does not match the external narrative — fabricated employer brand stories backfire spectacularly on Glassdoor
 - When the company is in active turmoil (layoffs, leadership changes) and a polished story would feel tone-deaf
 - When the role is purely transactional and the candidate cares only about compensation
 - When the company is too early to have meaningful culture or growth stories
+- When leadership has not committed to the culture the employer brand promises
 
 ## Integration
 - Origin draws from the **Founder Story Framework**
@@ -107,3 +116,8 @@ The Employer Brand Story Framework operates on five narrative beats:
 - **Editing Agent**: Ensures authenticity, removes corporate jargon, strengthens emotional impact
 - **Distribution Agent**: Plans employer brand content across LinkedIn, career page, and recruiting channels
 - Route to this framework when the task involves attracting talent through narrative — career pages, job posts, recruiting content, or employer brand strategy
+
+### Employer Brand Effectiveness Metrics
+- **Application quality**: Are candidates referencing the company story in their cover letters or interviews? This indicates narrative resonance.
+- **Offer acceptance rate**: Do candidates who engage with employer brand content accept offers at a higher rate?
+- **Time to fill**: Are story-rich job postings filling faster than standard postings?

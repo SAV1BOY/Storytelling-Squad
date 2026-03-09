@@ -1,0 +1,113 @@
+# Proof Bank Registry
+# Repository of evidence assets: case studies, statistics, testimonials, and third-party validation.
+# Every proof is tagged for reuse across stories, decks, pitches, and ads.
+
+schema:
+  proof_id: "Unique identifier (format: PRF-YYYY-NNN)"
+  title: "Short descriptive title for the proof point"
+  type: "case-study | statistic | testimonial | third-party | award | certification | media-mention | benchmark"
+  claim: "The specific claim this proof supports"
+  evidence: "The proof itself — the number, quote, result, or reference"
+  source: "Where this proof comes from — customer, research, publication, internal data"
+  source_date: "When the evidence was collected or published"
+  verified: "true | false"
+  verification_method: "How this was verified: internal-data, customer-confirmed, published-source, third-party-audit"
+  strength: "anecdotal | statistical | authoritative | experiential"
+  story_refs: "List of Story Bank entries that use this proof"
+  audience: "Which audiences this proof resonates with most"
+  channel_approved: "Channels approved for use: website, email, ad, pitch, press, social"
+  expiry_date: "When this proof should be re-verified or retired"
+  status: "active | needs-refresh | expired | retired"
+  tags: "Free-form classification tags"
+  notes: "Usage guidance, limitations, or context"
+
+entries:
+  - proof_id: "PRF-2026-001"
+    title: "Company founding date and original team size"
+    type: "benchmark"
+    claim: "We started with 3 people and a whiteboard in 2019"
+    evidence: "Company incorporation records show founding date of March 12, 2019 with 3 co-founders"
+    source: "internal-records"
+    source_date: "2019-03-12"
+    verified: true
+    verification_method: "internal-data"
+    strength: "authoritative"
+    story_refs: ["STY-2026-002"]
+    audience: ["startup-founders", "investors", "all-segments"]
+    channel_approved: ["website", "email", "ad", "pitch", "press", "social"]
+    expiry_date: "2030-01-01"
+    status: "active"
+    tags: ["founding", "origin", "team-size"]
+    notes: "Foundational fact. Evergreen proof — does not expire. Use in origin stories."
+
+  - proof_id: "PRF-2026-003"
+    title: "Meridian Health patient wait time reduction"
+    type: "case-study"
+    claim: "Our platform reduces patient wait times significantly"
+    evidence: "Meridian Health reduced average patient wait time from 47 minutes to 28 minutes (40% reduction) within 90 days of deployment"
+    source: "customer-confirmed"
+    source_date: "2025-11-15"
+    verified: true
+    verification_method: "customer-confirmed"
+    strength: "statistical"
+    story_refs: ["STY-2026-001"]
+    audience: ["healthcare-ops-director", "c-suite"]
+    channel_approved: ["website", "email", "deck", "social", "pitch"]
+    expiry_date: "2026-11-15"
+    status: "active"
+    tags: ["healthcare", "wait-times", "efficiency", "90-day-result"]
+    notes: "Customer approved for named use. Refresh metrics at annual review."
+
+  - proof_id: "PRF-2026-007"
+    title: "Meridian Health patient satisfaction score increase"
+    type: "statistic"
+    claim: "Reduced wait times lead to higher patient satisfaction"
+    evidence: "Patient satisfaction scores rose from 3.2 to 4.6 out of 5.0 (44% increase) in the 6 months following deployment"
+    source: "customer-confirmed"
+    source_date: "2026-01-10"
+    verified: true
+    verification_method: "customer-confirmed"
+    strength: "statistical"
+    story_refs: ["STY-2026-001"]
+    audience: ["healthcare-ops-director", "c-suite", "patient-experience"]
+    channel_approved: ["website", "email", "deck", "social"]
+    expiry_date: "2027-01-10"
+    status: "active"
+    tags: ["healthcare", "satisfaction", "NPS", "patient-experience"]
+    notes: "Pairs well with PRF-2026-003 for complete Meridian story. Not approved for ad use."
+
+  - proof_id: "PRF-2026-009"
+    title: "First outage response and recovery time"
+    type: "benchmark"
+    claim: "We handle incidents with transparency and speed"
+    evidence: "Detected outage within 4 minutes, communicated to all customers within 12 minutes, full service restored in 2 hours 17 minutes"
+    source: "internal-data"
+    source_date: "2025-09-23"
+    verified: true
+    verification_method: "internal-data"
+    strength: "authoritative"
+    story_refs: ["STY-2026-003"]
+    audience: ["engineering-leaders", "security-teams", "c-suite"]
+    channel_approved: ["website", "social", "internal"]
+    expiry_date: "2026-09-23"
+    status: "active"
+    tags: ["reliability", "incident-response", "transparency", "uptime"]
+    notes: "Use carefully — acknowledges an outage. Frame within resilience narrative only."
+
+  - proof_id: "PRF-2026-011"
+    title: "Industry analyst favorable mention"
+    type: "third-party"
+    claim: "Independent analysts recognize our platform's value"
+    evidence: "Named a 'Strong Performer' in the Q4 2025 Forrester Wave for Healthcare Operations Platforms"
+    source: "Forrester Research"
+    source_date: "2025-10-30"
+    verified: true
+    verification_method: "published-source"
+    strength: "authoritative"
+    story_refs: []
+    audience: ["c-suite", "healthcare-ops-director", "investors"]
+    channel_approved: ["website", "deck", "pitch", "press"]
+    expiry_date: "2026-10-30"
+    status: "active"
+    tags: ["analyst", "forrester", "healthcare", "recognition"]
+    notes: "Subject to Forrester citation guidelines. Must include proper attribution."

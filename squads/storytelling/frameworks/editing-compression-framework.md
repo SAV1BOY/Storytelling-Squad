@@ -13,6 +13,8 @@ In marketing storytelling, compression is especially critical because attention 
 
 Compression targets vary by format: social media posts should be compressed to near-maximum density, while long-form thought leadership can afford more breathing room. The framework provides specific ratios and techniques for each context.
 
+The distinction between compression and shortening is critical. Shortening removes content indiscriminately—the result is often a shorter piece that is also weaker. Compression removes only what does not serve the story's spine, increasing the density of meaning per word. A well-compressed piece feels more powerful than the original, not thinner.
+
 ## Core Methodology
 
 1. **Complete the First Draft**: Write generously. Get everything out. Compression is an editing act, not a drafting constraint.
@@ -98,6 +100,23 @@ Target ratios by format:
 
 **Compressed (42 words):**
 "Meridian had tried everything to fix onboarding: an internal tool, more support staff, a knowledge base. Nothing worked. Customers still took 21 days to get started, and the churn rate proved it—they were losing people before they ever experienced the product."
+
+## Common Pitfalls
+
+### Pitfall 1: Compressing During Drafting
+The most damaging compression mistake is applying it too early. Writers who self-edit during the first draft produce thin, cautious content. Write generously first. Compress aggressively second. These are different cognitive modes and must be separated.
+
+### Pitfall 2: Killing Voice Along with Fat
+Compression that removes personality along with padding produces content that is efficient but lifeless. The goal is surgery, not amputation. Preserve the lines that carry voice, humor, or surprise—even if they are not strictly necessary for the argument.
+
+### Pitfall 3: Uniform Compression
+Compressing every section equally results in content that feels uniformly dense. Better approach: compress setup and transitions aggressively, preserve key scenes and proof moments at fuller length. The variation in density creates rhythm.
+
+### Pitfall 4: Removing Breathing Room
+A reader needs occasional moments of lower density to process what they have just read. Compressing away all "breathing room" creates exhausting content. Strategic repetition, brief pauses, and transitional sentences serve a pacing function even if they do not advance the argument.
+
+### Pitfall 5: Compressing Proof
+When under pressure to shorten content, proof elements are often the first to be cut—a data point here, a quote there. This is backwards. Proof is the most persuasive element of marketing content. Cut narrative filler, cut exposition, cut setup—but protect the proof.
 
 ## When to Use
 

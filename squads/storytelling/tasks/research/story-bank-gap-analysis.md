@@ -45,6 +45,32 @@ A story bank is only as strong as its coverage. This task audits the current inv
 10. **Draft gap analysis report** — Compile the matrix, gap list, and recommendations into the Story Bank Status Report template.
 11. **Register outputs** — Save to `data/registries/story-bank` registry.
 
+
+## Quality Gates
+- All research must cite specific sources (interviews, data, competitor assets) — no unsupported assertions
+- Every finding must connect to a narrative implication — data without story direction is incomplete
+- Research outputs must pass the "actionable test": could a creation task use this output directly?
+- Minimum 3 proof points per major finding
+- All audience language must use verbatim quotes, not paraphrased interpretations
+
+## Success Criteria
+- Research directly informs at least one downstream creation or strategy task
+- Stakeholders can identify 3 new narrative opportunities they did not know before
+- Findings are specific enough to write a story brief without further research
+- Time from research start to usable output does not exceed the project timeline
+
+## Common Pitfalls
+- **Analysis paralysis**: Research that never concludes because there is always more to find. Set a deadline and ship.
+- **Confirmation bias**: Finding only what supports existing assumptions. Actively seek disconfirming evidence.
+- **Abstract findings**: Research that produces insights like "the audience values quality." That is not a finding — everyone values quality. Be specific.
+- **Ignoring outliers**: The most interesting stories often come from edge cases, not averages.
+- **Skipping primary sources**: Secondary research is a starting point, not a destination. Talk to real people.
+
+## Dependencies
+- Requires access to audience data, competitor materials, and/or interview subjects
+- May require coordination with Brand Squad for positioning context
+- Output feeds into strategy and creation tasks — delays here cascade downstream
+
 ## Cross-Squad
 - **Copy Squad**: Gaps in customer stories often mean gaps in testimonial copy and case study pages.
 - **Brand Squad**: Missing founder or purpose stories signal brand narrative gaps.

@@ -1,0 +1,145 @@
+# =============================================================================
+# Voice Calibration Registry
+# =============================================================================
+# Defines voice and tone settings for each brand context and channel.
+# Agents consult this registry before generating any copy to ensure tonal
+# consistency across all narrative outputs.
+# =============================================================================
+
+schema_version: "1.0"
+registry: voice-calibration-registry
+description: >
+  Central source of truth for brand voice parameters. Each entry specifies
+  formality level, emotional range, channel-specific defaults, and explicit
+  do's and don'ts. Agents must load the relevant voice profile before
+  drafting any content.
+
+# ---------------------------------------------------------------------------
+# Field Definitions
+# ---------------------------------------------------------------------------
+fields:
+  brand:
+    type: string
+    description: Brand or sub-brand this voice profile applies to.
+    required: true
+
+  voice_id:
+    type: string
+    format: "VOICE-{SEQ}"
+    description: Unique identifier for this voice profile.
+    required: true
+
+  formality:
+    type: enum
+    values: [casual, conversational, professional, formal, academic]
+    description: Baseline formality level for this brand voice.
+    required: true
+
+  personality_traits:
+    type: list
+    items: string
+    description: Core personality descriptors (e.g., confident, warm, direct, witty).
+    required: true
+
+  emotion_range:
+    type: object
+    fields:
+      primary: "Emotions the brand leans into most often."
+      allowed: "Full set of emotions permitted in brand content."
+      avoid: "Emotions that are off-brand and should never be used."
+    description: Emotional guardrails for tone calibration.
+    required: true
+
+  channel_defaults:
+    type: list
+    items:
+      channel: "Channel name."
+      tone_adjustment: "How the base voice shifts for this channel."
+      max_length: "Recommended maximum word count or character count."
+    description: Channel-specific tone and length guidance.
+    required: true
+
+  dos_donts:
+    type: object
+    fields:
+      dos: "List of encouraged voice behaviors."
+      donts: "List of prohibited voice behaviors."
+    description: Explicit behavioral guardrails for agents.
+    required: true
+
+  vocabulary:
+    type: object
+    fields:
+      preferred_terms: "Words and phrases to use."
+      banned_terms: "Words and phrases to never use."
+    description: Lexical guardrails for word choice.
+    required: false
+
+  updated:
+    type: datetime
+    format: ISO-8601
+    description: Last time this voice profile was reviewed.
+    required: true
+
+  owner:
+    type: string
+    description: Person or role responsible for maintaining this profile.
+    required: false
+
+  notes:
+    type: string
+    description: Additional context or calibration history.
+    required: false
+
+# ---------------------------------------------------------------------------
+# Example Entries
+# ---------------------------------------------------------------------------
+entries:
+  - brand: "Primary Brand"
+    voice_id: "VOICE-001"
+    formality: conversational
+    personality_traits: [confident, warm, clear, pragmatic, occasionally-witty]
+    emotion_range:
+      primary: [trust, confidence, clarity]
+      allowed: [trust, confidence, clarity, curiosity, hope, determination, empathy, relief]
+      avoid: [fear, guilt, shame, aggression, sarcasm]
+    channel_defaults:
+      - channel: blog
+        tone_adjustment: "Slightly more narrative and exploratory. OK to be longer."
+        max_length: "1500 words"
+      - channel: email
+        tone_adjustment: "Direct and scannable. One idea per email."
+        max_length: "300 words"
+      - channel: social
+        tone_adjustment: "Punchier. Lead with the hook. Conversational."
+        max_length: "280 characters (X) / 3000 characters (LinkedIn)"
+      - channel: sales-deck
+        tone_adjustment: "Confident and outcome-focused. Minimal jargon."
+        max_length: "50 words per slide"
+      - channel: ad
+        tone_adjustment: "Bold and concise. Emotion first, proof second."
+        max_length: "90 characters headline / 150 characters body"
+      - channel: landing-page
+        tone_adjustment: "Benefit-led. Scannable. Clear CTAs."
+        max_length: "800 words"
+    dos_donts:
+      dos:
+        - "Use active voice."
+        - "Lead with the customer's outcome, not the product's features."
+        - "Show, do not tell — use specific examples and numbers."
+        - "Write at an 8th-grade reading level for clarity."
+        - "Use contractions to sound human."
+        - "Vary sentence length for rhythm."
+      donts:
+        - "Do not use jargon without defining it."
+        - "Do not use superlatives without proof (never say 'best' without data)."
+        - "Do not use passive voice unless emphasizing the receiver."
+        - "Do not use exclamation marks in professional content."
+        - "Do not use 'leverage' as a verb — say 'use' instead."
+        - "Do not start sentences with 'So,' or 'Basically,'."
+    vocabulary:
+      preferred_terms: ["platform", "team", "customers", "outcomes", "insights", "real-time"]
+      banned_terms: ["synergy", "leverage", "disrupt", "pivot", "guru", "ninja", "best-in-class", "world-class"]
+    updated: "2026-03-01T00:00:00Z"
+    owner: "Brand Lead"
+    notes: "Reviewed quarterly. Last major update added social channel defaults."

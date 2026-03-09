@@ -113,6 +113,23 @@ The brief also serves as an accountability tool. When stakeholders request chang
 - **Channel**: YouTube (primary), Instagram Reels cut (secondary), homepage embed (tertiary).
 - **Logline**: "Three independent sellers who were told the platform economy would crush them reveal how they built something the platforms can't replicate—and why thousands more are following."
 
+## Common Pitfalls
+
+### Pitfall 1: The Brief as Bureaucracy
+If the brief takes longer to complete than the content takes to create, the process is broken. Briefs should be proportional: a social media post needs a 5-minute mental brief, a blog post needs a one-page written brief, a brand campaign needs a comprehensive document. Scale the brief to the stakes.
+
+### Pitfall 2: Multiple Objectives
+Stakeholders often want a single piece of content to do five things: build awareness, generate leads, establish thought leadership, support SEO, and announce a product feature. This guarantees mediocrity across all five. The brief must have one primary objective. Push back diplomatically but firmly.
+
+### Pitfall 3: Skipping the Belief Change
+The "core belief to change" field is the most frequently skipped and the most important. Without it, the writer does not know what the content is arguing. Content without a belief-change target informs without persuading. Every marketing narrative should shift a belief, even slightly.
+
+### Pitfall 4: Vague Audience Definition
+"Business owners" is not an audience. "Series A SaaS founders who have just hired their first dedicated marketer and are overwhelmed by the number of channels they could be investing in" is an audience. The more specific the audience definition, the more specific (and effective) the content will be.
+
+### Pitfall 5: No Approval Before Execution
+Writers who skip brief approval to save time often lose far more time in revision cycles. A brief approved by the stakeholder creates a shared contract. Changes after approval are scope changes, not creative feedback. This distinction protects everyone.
+
 ## When to Use
 
 - Before every narrative content task, without exception.

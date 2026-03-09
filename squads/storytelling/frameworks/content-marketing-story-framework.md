@@ -80,11 +80,19 @@ The Content Marketing Story Framework operates on three levels:
 - Launching a content series to build authority on a specific topic
 - Any content that must educate and build audience loyalty simultaneously
 
+### Content Narrative Pitfalls
+- **The Listicle Trap**: Producing list-format content ("7 Tips for...") that has no narrative arc. Lists inform but do not transform. If using a list format, wrap it in a story: open with a scene, use the list as the journey, close with a resolution.
+- **The Expert Lecture**: Writing from a position of authority without vulnerability or story. Expert content without narrative is a textbook. Expert content with narrative is a mentor.
+- **Inconsistent publishing**: Starting a content series with enthusiasm and abandoning it after 3 pieces. Serial storytelling requires commitment. Better to plan a 4-piece arc and finish it than to start a 12-piece arc and leave readers hanging.
+- **Content without CTA**: Producing valuable content that does not invite the reader to take a next step. Every piece should connect to something: the next piece in the series, an email signup, a resource download, or a product trial.
+- **Ignoring the reader's journey**: Publishing content randomly instead of sequencing it to build the reader's understanding progressively. Content strategy is narrative strategy.
+
 ## When NOT to Use
 - Quick-hit content like product updates, feature announcements, or news reactions
 - SEO-driven content where the primary goal is ranking and the topic does not support narrative
 - Technical documentation or how-to guides that need to be purely functional
 - When the audience is looking for a quick answer, not a narrative journey
+- When you do not have enough expertise on the topic to deliver genuine value beyond what already exists
 
 ## Integration
 - Individual piece structure uses the **Three-Act Structure** and **Five-Act Structure**
@@ -103,3 +111,11 @@ The Content Marketing Story Framework operates on three levels:
 - **Distribution Agent**: Plans cross-platform promotion and content repurposing
 - **Measurement Agent**: Tracks readership, engagement, and progression through content series
 - Route to this framework when the task involves creating educational content that builds audience through narrative, not just information
+
+### Content Narrative Performance Metrics
+- **Series completion rate**: What percentage of readers who start a content series reach the final piece?
+- **Return visitor rate**: Are readers coming back for the next installment? Returning readers indicate narrative investment.
+- **Content-to-conversion path**: Which content pieces appear most frequently in the journey of customers who convert?
+- **Share-to-read ratio**: Are readers sharing content with their networks? High share rates indicate emotional resonance.
+- **Email signup rate**: Is story-driven content converting readers into subscribers at a higher rate than non-narrative content?
+- **Time on page**: Story-structured content should generate higher average time on page than list-format or instructional content.

@@ -106,6 +106,23 @@ The narrator states information flatly, without scene, dialogue, or voice.
 
 **Shown**: "Friday afternoon. Your competitors are still wrestling with spreadsheets, trying to get the weekly report out before everyone leaves. You hit one button at 3:15. By 3:16, the report is in every stakeholder's inbox. By 3:17, you are closing your laptop."
 
+## Common Pitfalls
+
+### Pitfall 1: Showing Everything
+Taking "show don't tell" as an absolute rule rather than a hierarchy. Showing everything results in bloated content where trivial details get the same immersive treatment as critical moments. Context, transitions, and background information should be told efficiently so that shown moments have room to breathe and impact.
+
+### Pitfall 2: Telling Disguised as Showing
+"She looked angry" is telling disguised as showing. The verb "looked" is a report, not a scene. "She slammed the laptop shut and left the meeting without a word" is genuine showing—the audience infers the anger from observable action. The test: could a camera capture this? If yes, it is showing. If it requires mind-reading, it is telling.
+
+### Pitfall 3: Over-Written Showing
+Showing that tries too hard—piling on sensory details until the prose becomes purple and self-conscious. "She opened her laptop, the blue glow casting ethereal shadows across her furrowed brow as her trembling fingers navigated to the dashboard that would change everything." This is not showing; it is performing. Good showing is precise and economical.
+
+### Pitfall 4: Ignoring Format Constraints
+Email copy has limited space. Trying to show everything in a 200-word email results in an email that is either too long or too cryptic. Match the show/tell ratio to the format. Emails can tell more. Long-form blog posts can show more. Video should show almost everything.
+
+### Pitfall 5: Showing Without Purpose
+A beautifully rendered scene that does not serve the narrative or the argument is a distraction, not an asset. Every shown moment should advance the story, reveal character, or deliver proof. If the scene exists only because the writer enjoyed writing it, apply the editing compression framework.
+
 ## When to Use
 
 - Every narrative content task benefits from conscious show/tell decisions.

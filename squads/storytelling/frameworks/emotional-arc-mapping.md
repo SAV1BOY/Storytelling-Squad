@@ -99,6 +99,23 @@ For marketing storytelling, emotional arc mapping prevents the two most common f
 - Section 5: Greater success built on deeper understanding — PEAK (SECOND RISE)
 - Closing: Warm connection (speaker addresses audience directly with hard-won insight) — END
 
+## Common Pitfalls
+
+### Pitfall 1: The Flat Arc
+Content that maintains the same emotional tone throughout—consistently positive, consistently negative, or consistently neutral. Flat arcs fail because the brain responds to change, not to steady states. Even a piece that is fundamentally optimistic needs valleys to make the peaks feel meaningful.
+
+### Pitfall 2: The Manipulative Arc
+Designing extreme emotional swings purely for attention—manufacturing tragedy to make the product seem more important, or creating false urgency to force action. Audiences detect emotional manipulation, and it destroys trust faster than any other form of inauthenticity. The emotional arc should reflect genuine stakes and real transformations.
+
+### Pitfall 3: Ignoring the Peak-End Rule
+Investing most of the emotional energy in the middle of the content and letting the ending trail off. Because the peak and the end disproportionately determine memory, a weak ending can ruin an otherwise strong piece. Design the peak and the end first, then build backward.
+
+### Pitfall 4: Too Many Peaks
+A content piece with four or five emotional peaks has no peak at all—it has a jagged line that creates fatigue rather than engagement. One clear peak, supported by the build-up before it and the resolution after it, is far more effective than multiple competing emotional climaxes.
+
+### Pitfall 5: Mismatch Between Arc and CTA
+An emotional arc that builds to inspiration but ends with a fear-based CTA ("Do not miss out!"). Or an arc that builds urgency but ends with a passive CTA ("Learn more when you are ready"). The CTA must match the closing emotion of the arc. Inspirational close = aspirational CTA. Urgent close = time-bound CTA. Connection close = community CTA.
+
 ## When to Use
 
 - Planning any narrative content before writing begins—the arc is a blueprint.

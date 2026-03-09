@@ -1,0 +1,121 @@
+# Data to Story
+> End-to-end flow from raw data through insight extraction, narrative construction, to visualization
+
+## Overview
+This workflow transforms raw data — metrics, research findings, survey results, analytics —
+into compelling narratives that make data meaningful and actionable. Numbers alone don't change
+minds; stories built on numbers do. Use this for data-driven content pieces, report narratives,
+investor updates, performance reviews, research publications, or any context where data needs
+to be understood, remembered, and acted upon. The workflow ensures data integrity while
+maximizing narrative impact.
+
+## Prerequisites
+- Raw data set identified and accessible (spreadsheets, dashboards, databases, research reports)
+- Data owner identified who can validate interpretations and approve narrative claims
+- Target audience defined: what is their data literacy level and what decisions will they make
+- Output format determined: report, presentation, infographic, blog post, social content
+- Context established: what question is this data answering, what action should it drive
+
+## Steps
+1. **Data Exploration** — Story Researcher: Examine the data for narrative potential → Data Exploration Notes
+   - Framework: Exploratory data analysis for storytelling
+   - Checklist: cl-data-exploration
+   - Review the complete data set for patterns, outliers, trends, and surprises
+   - Look for the "so what": what in this data would make someone lean forward
+   - Identify contrasts: before/after, expected/actual, us/them, then/now
+   - Find the human element: what do these numbers represent in lived experience
+   - Note data limitations: what can and cannot be concluded from this data
+   - Document initial hypotheses for narrative angles worth developing
+
+2. **Insight Extraction** — Story Strategist: Distill data into narrative-ready insights → Insight Set
+   - Framework: Data insight hierarchy (observation → insight → implication → action)
+   - Checklist: cl-insight-extraction
+   - For each pattern found, move up the hierarchy: What happened → What it means → Why it matters → What to do
+   - Prioritize insights by audience relevance and narrative potential
+   - Select the 3-5 strongest insights that form a coherent story together
+   - Test each insight: is it surprising, is it significant, is it actionable
+   - Verify each insight with the data owner — no narrative embellishment of data
+   - Articulate each insight as a clear, jargon-free sentence
+
+3. **Narrative Architecture** — Story Architect: Structure the data story → Data Story Blueprint
+   - Framework: Data storytelling structure (context → conflict → resolution)
+   - Checklist: cl-data-narrative-architecture
+   - Open with context: what was the world before this data existed (the baseline)
+   - Introduce conflict: what the data reveals that challenges assumptions or reveals a problem
+   - Build through insights: each data point is a scene in the story, not a bullet in a list
+   - Resolve with implication: what this means for the audience's decisions or beliefs
+   - Close with action: what should happen now that we know this
+   - Plan the "aha moment": the single visualization or data point that makes everything click
+
+4. **Narrative Draft** — Story Writer: Write the data story → Data Story Draft
+   - Framework: Selected structure from Step 3
+   - Checklist: cl-data-story-draft
+   - Write for the audience's data literacy level — translate jargon, provide context for metrics
+   - Use analogies to make abstract numbers concrete: "That's the equivalent of..."
+   - Lead with the story, support with the data — not the reverse
+   - Humanize the data: include specific examples or anecdotes that bring numbers to life
+   - Be honest about limitations: acknowledge what the data doesn't show
+   - Use the "grandparent test": would someone outside the field understand and care
+
+5. **Visualization Design** — Story Architect: Plan how data will be seen → Visualization Brief
+   - Framework: Data visualization storytelling principles
+   - Checklist: cl-visualization-design
+   - Choose chart types that serve the narrative, not just display the data accurately
+   - Design the "aha chart": the single visualization that delivers the story's climax
+   - Annotate visualizations: add narrative context directly on the charts
+   - Use progressive revelation: show data in stages that build understanding
+   - Ensure accessibility: color-blind safe palettes, clear labels, readable at all sizes
+   - Brief the design team with narrative intent for each visualization
+   - Plan interactive elements if the format supports them (hover states, filters, drill-downs)
+
+6. **Data Validation** — Story Researcher + Data Owner: Verify all claims → Validated Data Story
+   - Framework: Data claim validation checklist
+   - Checklist: cl-data-validation
+   - Verify every number cited in the narrative against the source data
+   - Confirm all calculations: percentages, comparisons, trends, rankings
+   - Check that visualizations accurately represent the underlying data
+   - Validate that narrative interpretations are supported by the data (no overclaiming)
+   - Confirm the data owner approves all claims and the narrative framing
+   - Document the data sources and methodology for transparency
+
+7. **Narrative Review** — Story Editor: Evaluate story quality and data integrity → Review Notes
+   - Framework: Data narrative quality rubric
+   - Checklist: cl-data-story-review
+   - Does the story make the data meaningful to the intended audience
+   - Is the narrative arc clear: context, conflict, insight, implication, action
+   - Are analogies accurate and helpful (not misleading)
+   - Does the story maintain intellectual honesty — no cherry-picking or misrepresentation
+   - Is the "aha moment" positioned for maximum impact
+   - Would a skeptic be convinced by the data-narrative combination
+
+8. **Production and Registration** — Story Ops: Finalize and archive → Published Data Story
+   - Framework: Content production and archival process
+   - Checklist: cl-data-story-production
+   - Produce the final asset in the determined format (report, deck, infographic, blog, social)
+   - Create derivative formats: executive summary, social snippets, slide-ready charts
+   - Register in Story Bank with tags: type (data story), channel, audience, data source
+   - Register key data points in Proof Bank for reuse in other narratives
+   - Add strongest analogies to analogy-bank.yaml
+   - Initialize performance tracking in content-narrative-metrics.md
+   - Schedule a data refresh review: when should this story be updated with new data
+
+## Quality Gates
+- After Step 2: Each insight must pass the hierarchy test (observation → insight → implication → action)
+- After Step 4: Story must pass the "grandparent test" for clarity and accessibility
+- After Step 5: "Aha chart" must be identified and designed for narrative climax
+- After Step 6: Data owner must sign off on all claims and narrative framing
+- After Step 7: Story must score 7+ on data narrative quality rubric
+
+## Outputs
+- Published data story in primary format with derivative assets
+- Visualization set designed for narrative impact
+- Proof Bank entries for reusable data points
+- Analogy Bank entries for effective data analogies
+- Performance tracking initialized
+- Data refresh schedule documented
+
+## Cross-Squad Handoffs
+- **To Copy Squad**: Key data insights and analogies for integration into broader content
+- **To Brand Squad**: Data-backed brand claims for guideline substantiation
+- **To Traffic Squad**: Data visualizations and proof points formatted for ad and social use
+- **To Analytics Squad**: Narrative interpretation feedback for future data analysis focus

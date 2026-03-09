@@ -81,11 +81,20 @@ The Pitch Story Framework operates on five sequential beats, each with a specifi
 - Conference talks with a call to action
 - Any scenario where you must persuade someone to take a specific action within a limited time
 
+### Common Pitch Mistakes
+- **Feature dumping**: Listing every capability instead of telling a transformation story. The audience does not need to know everything your product does — they need to know what it does for them.
+- **Weak opening**: Starting with "Thanks for having me" or "A little about our company." Start with the frame. The first 30 seconds determine whether you have 10 more minutes.
+- **Stacking urgency**: Using multiple urgency mechanisms simultaneously ("limited time AND limited spots AND price increase"). One honest urgency mechanism is more persuasive than three that feel manufactured.
+- **Missing the CTA**: Ending with "any questions?" instead of a specific next step. The pitch should culminate in a clear, low-friction action.
+- **Ignoring the audience**: Delivering the same pitch regardless of who is in the room. A CFO cares about different proof than a VP of Engineering. Customize the proof layers for every audience.
+- **Apologizing for selling**: Prefacing the ask with "I know this might seem pushy but..." Confidence in your value proposition is not arrogance — it is respect for the audience's intelligence.
+
 ## When NOT to Use
 - When the goal is education, not persuasion (use Webinar or Content Marketing frameworks)
 - When the audience is already convinced and needs implementation guidance, not a pitch
 - When you are exploring a relationship and a pitch would feel premature
 - When you lack sufficient proof to back claims — pitching without proof destroys credibility
+- When the audience has explicitly asked for a different format (demo, Q&A, technical deep dive)
 
 ## Integration
 - Draws from the **Brand Story Framework** for the value proposition and enemy definition
@@ -101,3 +110,14 @@ The Pitch Story Framework operates on five sequential beats, each with a specifi
 - **Drafting Agent**: Writes the pitch script or talking points
 - **Editing Agent**: Sharpens language, eliminates filler, ensures every sentence advances the narrative
 - Route to this framework when the task involves a time-constrained persuasive narrative with a specific audience and desired action
+
+### Pitch Preparation Checklist
+- Audience research complete: decision-making style, priorities, objections, and competitors identified
+- Frame selected and opening rehearsed (deliver in under 60 seconds)
+- Value proposition articulated in audience's language, not yours
+- 3+ proof layers prepared and sequenced from emotional to rational
+- Urgency mechanism identified and verified as truthful
+- Next step defined: specific date, time, format, and participants
+- Backup plan prepared for 50% time reduction
+- Objection responses prepared for top 3 expected objections
+- Practice delivery timed and within allocated slot

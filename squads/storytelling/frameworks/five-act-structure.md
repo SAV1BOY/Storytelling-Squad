@@ -9,6 +9,10 @@ While the Three-Act Structure is the workhorse of short-form marketing, the Five
 
 The key insight of Freytag's model is that the climax is not the end—it is the middle. What happens after the peak is just as important as the ascent. In marketing, this means the transformation moment should land in the center of the narrative, with deliberate time spent on implications, proof, and the new reality before the call to action.
 
+This structural model is particularly valuable for webinars and presentations, where audience attention data reveals predictable drop-off patterns. The five-act framework, properly executed, anticipates and counteracts these drops by placing structural turning points at the moments where attention is most vulnerable. Each act transition is a re-engagement opportunity—a chance to reset the audience's commitment to the narrative.
+
+The Five-Act Structure also naturally accommodates the evidence-heavy demands of B2B marketing, where audiences expect proof before action. The Falling Action (Act IV) provides a dedicated structural home for case studies, data, and testimonials—something the Three-Act Structure, with its rapid move from climax to resolution, handles less gracefully.
+
 ## Core Methodology
 
 1. **Exposition (Act I — ~15%)**: Establish the world, the characters, the status quo, and the tone. Plant the seeds of the conflict without yet engaging it.
@@ -18,7 +22,10 @@ The key insight of Freytag's model is that the climax is not the end—it is the
 5. **Denouement (Act V — ~15%)**: The new equilibrium is established. Loose ends are tied. The audience is oriented toward action with a clear understanding of the transformed state.
 
 ### Proportional Guidance
+
 The percentages above are starting points. For a 60-minute webinar: Exposition = 9 min, Rising Action = 15 min, Climax = 12 min, Falling Action = 15 min, Denouement = 9 min.
+
+Each act should feel distinct in tone and pacing. The Exposition is grounding and relatable. The Rising Action is energetic and increasingly urgent. The Climax is intense and focused. The Falling Action is expansive and evidence-rich. The Denouement is warm, resolute, and forward-looking.
 
 ## Detailed Steps
 
@@ -78,6 +85,23 @@ The percentages above are starting points. For a 60-minute webinar: Exposition =
 - **Falling Action**: Product-market fit emerges. Early adopters become evangelists. Revenue graph inflects upward. Team grows. The departed team member returns.
 - **Denouement**: Founder back in the same neighborhood, now with a team. Final line connects the opening belief to where they've arrived. Brand statement appears.
 
+## Common Pitfalls
+
+### Pitfall 1: Skipping the Falling Action
+This is the number one structural failure in marketing content that attempts five acts. Writers rush from climax to denouement, skipping the act where proof, consequences, and secondary resolutions live. The result: a dramatic peak followed by a jarring sales pitch. The Falling Action is where credibility is built. Protect it.
+
+### Pitfall 2: Identical Pacing Across Acts
+Each act should have its own internal rhythm. Exposition can be slow and atmospheric. Rising Action should accelerate. The Climax should be intense and compressed. Falling Action can breathe and expand. Denouement should be warm and decisive. If all five acts feel the same speed, the audience cannot sense the shape of the story.
+
+### Pitfall 3: Too Many Climaxes
+Some writers, afraid of losing the audience, place mini-climaxes throughout. This dilutes the real climax. Each act can have a turning point, but only Act III should have the climax—the singular moment of maximum tension and transformation.
+
+### Pitfall 4: The Denouement as Summary
+The Denouement is not a recap. It is the new world. Do not summarize what the audience just experienced. Instead, show them the future that the climax made possible. End with a forward-looking image, not a backward-looking summary.
+
+### Pitfall 5: Forcing Five Acts on a Three-Act Story
+Not every narrative has enough material for five distinct acts. If the story feels padded—if the Rising Action drags or the Falling Action repeats the Climax—the story may be a natural three-act narrative being forced into a five-act container. Let the content determine the structure, not the other way around.
+
 ## When to Use
 
 - Webinars, masterclasses, and live presentations over 30 minutes.
@@ -113,3 +137,16 @@ The percentages above are starting points. For a 60-minute webinar: Exposition =
   - Research & Proof Agent — prepares evidence for strategic placement in Falling Action.
   - Editor Agent — enforces proportional discipline across all five acts.
   - Performance Analyst Agent — tracks audience engagement data by act to refine future five-act implementations.
+
+## Quick Reference: Act Timing by Format
+
+| Format | Exposition | Rising Action | Climax | Falling Action | Denouement |
+|---|---|---|---|---|---|
+| 60-min webinar | 9 min | 15 min | 12 min | 15 min | 9 min |
+| 90-min keynote | 14 min | 22 min | 18 min | 22 min | 14 min |
+| 20-min VSL | 3 min | 5 min | 4 min | 5 min | 3 min |
+| 5,000-word article | 750 words | 1,250 words | 1,000 words | 1,250 words | 750 words |
+| 10-email sequence | Emails 1-2 | Emails 3-5 | Email 6 | Emails 7-8 | Emails 9-10 |
+| 30-slide deck | Slides 1-5 | Slides 6-12 | Slides 13-18 | Slides 19-25 | Slides 26-30 |
+
+These proportions are starting points. Adjust based on audience data, content complexity, and the density of proof available for the Falling Action. For webinars, consider that audience attention typically dips at the 20-minute and 40-minute marks—align act transitions with these moments to re-engage attention through structural novelty.

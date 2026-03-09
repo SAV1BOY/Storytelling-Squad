@@ -7,12 +7,20 @@ Use this checklist every time a new brief is submitted or revised. This prevents
 creative cycles on underspecified or misaligned briefs. A strong brief is the single most
 important predictor of a strong final narrative.
 
+## When to Use
+- Before assigning any narrative to a writer or content creator
+- When a stakeholder requests a new piece of content (video, email, presentation, post)
+- When revising a brief that previously failed this checklist
+- At the start of every campaign, launch, or content sprint
+- When onboarding a new agency, freelancer, or team member to a project
+
 ## Prerequisites
-- A draft story brief document exists
-- The requesting stakeholder has been identified
+- A draft story brief document exists (even if incomplete)
+- The requesting stakeholder has been identified and available for questions
 - Business context or campaign context is available
 - Target audience has been at least loosely identified
 - Any relevant brand guidelines or style guides are accessible
+- Previous content performance data is available if this is an iteration
 
 ## Checklist
 

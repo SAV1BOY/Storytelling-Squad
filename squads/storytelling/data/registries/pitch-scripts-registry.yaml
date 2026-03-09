@@ -1,0 +1,116 @@
+# Pitch Scripts Registry
+# Versioned pitch scripts organized by purpose, audience, and duration.
+# Each script is a complete narrative ready for delivery with timing and performance tracking.
+
+schema:
+  pitch_id: "Unique identifier (format: PT-YYYY-NNN)"
+  title: "Pitch title"
+  purpose: "investor | sales | partnership | recruiting | media | conference | elevator"
+  audience: "Target audience description"
+  duration: "Delivery time in seconds or minutes"
+  framework: "Narrative framework: sparkline, storybrand, problem-solution, self-us-now"
+  version: "Version number (semver)"
+  script_location: "Path to the full script file"
+  structure:
+    - beat: "Beat name"
+      timing: "Time allocation"
+      key_line: "The essential line that must be delivered"
+  objection_playbook: "Path to the associated objection responses"
+  story_refs: "Story Bank entries used"
+  proof_refs: "Proof Bank entries used"
+  hook_refs: "Hook Bank entries used for the opening"
+  status: "draft | rehearsed | approved | active | retired"
+  created_date: "ISO 8601 date"
+  last_delivered: "Date of most recent delivery"
+  performance:
+    deliveries: "Number of times delivered"
+    win_rate: "Percentage of pitches achieving the objective"
+    avg_audience_score: "Average audience feedback score (1-10)"
+    common_objections: "Most frequently raised objections"
+  author: "Primary writer"
+  presenter: "Primary presenter"
+  notes: "Delivery guidance and customization instructions"
+
+entries:
+  - pitch_id: "PT-2026-001"
+    title: "60-Second Elevator Pitch"
+    purpose: "elevator"
+    audience: "Healthcare executives and investors at conferences"
+    duration: "60 seconds"
+    framework: "problem-solution"
+    version: "3.0.0"
+    script_location: "/pitches/elevator-60s-v3.md"
+    structure:
+      - beat: "Hook"
+        timing: "10s"
+        key_line: "Every hour, 2,400 patients in the US wait longer than they should because hospital operations run on intuition, not intelligence."
+      - beat: "Problem"
+        timing: "15s"
+        key_line: "The tools that run hospital ops were designed for a world that moves at paper speed."
+      - beat: "Solution"
+        timing: "15s"
+        key_line: "We built the real-time operations layer that turns patient flow from chaos into choreography."
+      - beat: "Proof"
+        timing: "10s"
+        key_line: "Meridian Health cut wait times 40% in 90 days — and that's just one of twelve hospitals using us."
+      - beat: "CTA"
+        timing: "10s"
+        key_line: "I'd love 15 minutes to show you what this looks like for your organization."
+    objection_playbook: "/pitches/elevator-objections.md"
+    story_refs: ["STY-2026-001"]
+    proof_refs: ["PRF-2026-003"]
+    hook_refs: ["HK-2026-012"]
+    status: "active"
+    created_date: "2026-01-10"
+    last_delivered: "2026-03-05"
+    performance:
+      deliveries: 22
+      win_rate: 0.409
+      avg_audience_score: 7.5
+      common_objections: ["How is this different from existing EHR tools?", "What's the implementation timeline?"]
+    author: "M. Chen"
+    presenter: "CEO"
+    notes: "Adjust the patient stat for international audiences. The 2,400 figure is US-specific."
+
+  - pitch_id: "PT-2026-002"
+    title: "15-Minute Investor Pitch"
+    purpose: "investor"
+    audience: "Series A healthcare VCs"
+    duration: "15 minutes"
+    framework: "sparkline"
+    version: "2.1.0"
+    script_location: "/pitches/investor-15min-v2.1.md"
+    structure:
+      - beat: "Opening Story"
+        timing: "2 min"
+        key_line: "Three of us stood around a whiteboard in a converted garage, staring at a question nobody in healthcare was asking."
+      - beat: "The Problem (What Is)"
+        timing: "3 min"
+        key_line: "Hospital operations consume 30% of total healthcare spend — and most of it is invisible waste."
+      - beat: "The Vision (What Could Be)"
+        timing: "2 min"
+        key_line: "Imagine every patient journey orchestrated in real time, the way air traffic control manages a busy airport."
+      - beat: "The Product"
+        timing: "3 min"
+        key_line: "This is the dashboard — live, right now, showing real patient flow at Meridian Health."
+      - beat: "The Proof"
+        timing: "3 min"
+        key_line: "40% wait time reduction. 44% satisfaction increase. 90 days. One hospital. Now multiply."
+      - beat: "The Ask"
+        timing: "2 min"
+        key_line: "We're raising $8M to go from 12 hospitals to 120. This is the team and this is the moment."
+    objection_playbook: "/pitches/investor-objections.md"
+    story_refs: ["STY-2026-001", "STY-2026-002"]
+    proof_refs: ["PRF-2026-001", "PRF-2026-003", "PRF-2026-007", "PRF-2026-011"]
+    hook_refs: ["HK-2026-001"]
+    status: "active"
+    created_date: "2026-01-20"
+    last_delivered: "2026-03-03"
+    performance:
+      deliveries: 8
+      win_rate: 0.375
+      avg_audience_score: 8.1
+      common_objections: ["Competitive moat?", "Why not build within existing EHR?", "Path to profitability?"]
+    author: "M. Chen"
+    presenter: "CEO"
+    notes: "Customize slide 4 demo for each VC's portfolio. Keep live demo under 90 seconds."

@@ -90,11 +90,20 @@ The Testimonial Interview follows four phases, each with distinct objectives:
 - Creating content for social media, email, and ad campaigns
 - Any time you need authentic, detailed customer stories
 
+### Interview Pitfalls
+- **Leading questions**: "How amazing was the improvement?" leads the witness. "What changed?" lets the customer describe the reality, which is always more persuasive.
+- **Accepting surface answers**: When a customer says "It was great," do not move on. Probe: "Can you give me a specific example of what was great?" Surface answers produce surface testimonials.
+- **Rushing the before state**: Interviewers often rush to the "happy ending." The before state is where the prospect identifies with the customer. Spend 60% of the interview there.
+- **Recording without permission**: Always get explicit consent before recording. Some jurisdictions require it legally. All relationships require it ethically.
+- **Ignoring negative feedback**: If the customer mentions a problem or frustration during the interview, do not skip it. Acknowledge it, and consider including it in the story — customers who overcame doubts about your product are more persuasive than customers who had a perfectly smooth experience.
+- **Single-use extraction**: Conducting a 45-minute interview and producing only one case study. A good interview should yield: a case study, 5-8 pull quotes, a video testimonial script, 3-5 social proof snippets, and a sales reference brief.
+
 ## When NOT to Use
 - When the customer relationship is strained or the outcome is ambiguous
 - When the customer cannot speak publicly due to compliance or contractual restrictions
 - When you need quantitative data collection at scale (use surveys instead)
 - When the customer agreed reluctantly — forced testimonials always sound forced
+- When the customer's results are too early or too unusual to be representative
 
 ## Integration
 - Feeds directly into the **Case Study Story Framework** for narrative construction

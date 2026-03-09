@@ -6,7 +6,16 @@ Gates the tension engine of the narrative. Without conflict and stakes, stories 
 recitations of events that audiences politely ignore. Use this checklist after a draft is
 structurally sound to ensure the audience has a genuine reason to care about the outcome.
 Essential for any narrative format: pitch, case study, brand story, video, email sequence,
-presentation, or campaign. Conflict is not optional; it is the fuel of attention.
+presentation, or campaign. Conflict is not optional; it is the fuel of attention. Even
+informational or educational content benefits from framing the knowledge gap as a conflict
+between what the audience knows and what they need to know.
+
+## When to Use
+- After structural review confirms the narrative has a clear architecture
+- When feedback indicates the narrative is "flat," "boring," or "doesn't grab me"
+- For any persuasive narrative where the audience must be moved to action
+- When a case study reads like a product spec sheet instead of a story
+- Before finalizing pitch narratives, brand stories, or campaign content
 
 ## Prerequisites
 - A complete narrative draft exists
@@ -41,13 +50,15 @@ presentation, or campaign. Conflict is not optional; it is the fuel of attention
 - [ ] **Tension is sustained, not just spiked** — Between major tension points, a baseline level of unresolved conflict keeps the audience engaged
 
 ### Consequences and Resolution
-- [ ] **Consequences are shown, not just claimed** — The narrative demonstrates what happened (or could happen) as a result of the conflict, using specific details and evidence
-- [ ] **Resolution earns the stakes** — The way the conflict is resolved is proportional to the difficulty established; easy wins after hard setups feel hollow and undermine trust
+- [ ] **Consequences are shown, not just claimed** — The narrative demonstrates what happened (or could happen) as a result of the conflict, using specific details, evidence, and vivid description
+- [ ] **Resolution earns the stakes** — The way the conflict is resolved is proportional to the difficulty established; easy wins after hard setups feel hollow and undermine audience trust
 - [ ] **Audience can map conflict to their own situation** — The conflict and stakes are framed so the audience thinks "this is my problem too" or "this could happen to me"
-- [ ] **Residual tension directed toward CTA** — Any unresolved tension at the narrative's end is channeled toward the call to action, not left floating
+- [ ] **Residual tension directed toward CTA** — Any unresolved tension at the narrative's end is channeled toward the call to action, not left floating without purpose
+- [ ] **Victory has a cost** — The resolution acknowledges that overcoming the conflict required sacrifice, effort, or trade-offs; nothing was free
+- [ ] **Lessons are embedded, not lectured** — The conflict teaches the audience something through the story's events rather than through explicit moralizing or instructional tone
 
 ## Scoring
-Must pass **16/21 minimum**. The following items are CRITICAL and must all pass:
+Must pass **18/23 minimum**. The following items are CRITICAL and must all pass:
 - Antagonist or obstacle is named
 - Stakes are explicit
 - Tension increases across the narrative
@@ -59,10 +70,11 @@ Any CRITICAL failure requires a conflict revision pass.
 ## Next Steps
 - **On Pass:** Advance to character transformation review (character-transformation-quality.md)
   and proof-in-story review (proof-in-story-quality.md).
-- **On Fail:** Return to the narrative architect. Map the conflict arc explicitly: what is the
-  obstacle, when does it appear, how does it escalate, where are the setbacks, how is it
-  resolved? Reference Campbell's Hero's Journey (squads/storytelling/checklists/campbell/) for
-  archetypal conflict structures, Klaff's frame control (squads/storytelling/checklists/klaff/)
-  for pitch-specific tension, Coyne's Story Grid (squads/storytelling/checklists/coyne/) for
-  genre-specific conflict conventions, or Snyder's Beat Sheet
-  (squads/storytelling/checklists/snyder/) for beat-level tension pacing.
+- **On Fail:** Return to the narrative architect. Map the conflict arc explicitly on one page:
+  what is the obstacle, when does it appear, how does it escalate, where are the setbacks,
+  and how is it resolved? Reference Campbell's Hero's Journey
+  (squads/storytelling/checklists/campbell/) for archetypal conflict structures, Klaff's frame
+  control (squads/storytelling/checklists/klaff/) for pitch-specific tension, Coyne's Story
+  Grid (squads/storytelling/checklists/coyne/) for genre-specific conflict conventions, or
+  Snyder's Beat Sheet (squads/storytelling/checklists/snyder/) for beat-level tension pacing.
+  The most common failure is not a lack of conflict but a lack of specificity in describing it.

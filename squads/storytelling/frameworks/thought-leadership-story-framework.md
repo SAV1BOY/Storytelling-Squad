@@ -83,11 +83,19 @@ The Thought Leadership Story Framework operates on four sequential beats:
 - Content marketing that aims to shift industry conversation
 - Positioning before a product launch or major announcement
 
+### Thought Leadership Pitfalls
+- **Manufactured contrarianism**: Taking the opposite position on a topic just to be different, without genuine evidence or conviction. The audience can tell the difference between someone who has discovered something real and someone who is performing disagreement for attention.
+- **All insight, no action**: Presenting a brilliant observation without telling the audience what to do about it. Thought leadership without implications is intellectually satisfying but commercially useless.
+- **Punching down**: Attacking smaller competitors or less experienced practitioners to make your point. Thought leadership should challenge systems, assumptions, and conventions — not individuals.
+- **One and done**: Publishing a single thought leadership piece and expecting lasting impact. Genuine authority requires sustained, evolving contribution to the conversation over months and years.
+- **Arrogant tone**: Delivering contrarian insights with condescension. The best thought leaders are generous with their ideas and humble about their certainty. "Here is what I have found" is more persuasive than "Everyone else is wrong."
+
 ## When NOT to Use
 - When you do not have a genuinely contrarian insight — forced contrarianism is transparent and embarrassing
 - When you cannot defend the insight with evidence — thought leadership without proof is just opinion
 - When the audience is not sophisticated enough to appreciate contrarian thinking (some audiences want confirmation, not challenge)
 - When the company's position is too fragile to take a public stand that invites debate
+- When the insight has already been widely published by others — you are not leading if you are following
 
 ## Integration
 - The contrarian insight often becomes the enemy in the **Brand Story Framework**
@@ -104,3 +112,12 @@ The Thought Leadership Story Framework operates on four sequential beats:
 - **Editing Agent**: Ensures the argument is rigorous, the proof is solid, and the tone avoids arrogance
 - **Distribution Agent**: Plans multi-format, multi-channel rollout of the insight
 - Route to this framework when the task involves establishing authority through original thinking that challenges industry norms
+
+### Thought Leadership Validation Checklist
+- Is the insight genuinely contrarian? Would at least half of industry peers disagree?
+- Can you prove the insight with at least two types of evidence (data, case study, logic, historical precedent)?
+- If the insight is true, does it change at least one meaningful decision for the audience?
+- Is the insight stated in a single, clear sentence that a non-expert could understand?
+- Have you articulated specific, actionable implications — not just "this changes everything"?
+- Is the invitation generous (sharing the methodology) rather than extractive (selling the solution)?
+- Are you prepared to defend the insight publicly against informed critics?

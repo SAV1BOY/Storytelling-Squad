@@ -80,12 +80,20 @@ The Sales Story Framework operates through five sequential narrative beats:
 - Discovery calls when transitioning from questions to positioning
 - Renewal and upsell conversations with existing customers
 
+### Sales Story Anti-Patterns
+- **The Feature Recital**: Listing capabilities instead of telling customer experiences. Features are ingredients; stories are meals. Serve the meal.
+- **The Premature Close**: Jumping to the CTA before the prospect has felt the pain, crossed the empathy bridge, and heard the solution narrative. Closing without narrative investment feels like a trap.
+- **The Competitor Bash**: Spending story time attacking competitors instead of elevating the customer. Never make the competitor the villain — make the problem the villain.
+- **The Desperate Testimonial**: Using a quote from a customer the prospect has never heard of, in an industry they do not relate to. Proof must be relevant, not just available.
+- **The Monologue**: Telling the sales story without checking in. Every 2-3 minutes, pause and ask: "Does this resonate with what you are seeing?" The sales conversation is a dialogue, not a presentation.
+
 ## When NOT to Use
 - Cold outreach (too long and personal for a first touch — use Ad Storytelling Framework)
 - When the prospect has already decided and just needs pricing or logistics
 - When selling commodity products where the buyer only cares about price
 - Group presentations with mixed audiences (use Presentation Narrative Framework instead)
 - When you lack genuine customer proof — selling without proof is manipulation
+- When the sales cycle is transactional and self-serve (e-commerce, low-cost SaaS)
 
 ## Integration
 - Draws proof from the **Case Study Story Framework** for customer narratives
@@ -101,3 +109,12 @@ The Sales Story Framework operates through five sequential narrative beats:
 - **Editing Agent**: Refines sales scripts for natural language and eliminates jargon
 - **Performance Agent**: Coaches delivery technique, pacing, and conversational flexibility
 - Route to this framework when the task involves a direct, one-to-one persuasive conversation aimed at moving a prospect toward a purchase decision
+
+### Sales Story Performance Metrics
+- **Story adoption rate**: What percentage of sales reps actively use the narrative framework in their conversations?
+- **Win rate by story**: Which customer stories, when used in sales conversations, correlate with higher close rates?
+- **Time to close**: Do prospects who receive the full narrative arc close faster than those who receive a feature-only pitch?
+- **Objection resolution**: Which proof layers most effectively resolve which objections? Track by objection type.
+- **Prospect engagement**: Do prospects who hear the empathy bridge stay in the conversation longer and ask more questions?
+- **Story freshness**: Are reps using current stories or relying on outdated narratives? Refresh the story bank quarterly.
+- **Proof layer effectiveness**: Which type of proof (social, data, quote, risk-reversal) most frequently precedes a positive outcome in the conversation?

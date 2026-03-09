@@ -84,11 +84,20 @@ The Brand Story Framework operates on five pillars that work together as a unifi
 - Preparing for a funding round where the brand story is central to the pitch
 - Launching into a new market segment that requires narrative adaptation
 
+### Brand Story Audit Checklist
+Before finalizing the brand story, validate each pillar:
+- **Promise audit**: Can 5 random employees articulate the brand promise consistently? If not, the promise is not clear enough or has not been communicated internally.
+- **Enemy audit**: Is the enemy real and recognized by customers? Or is it a fabrication that sounds clever but does not resonate? Test with 10 prospects — do they nod or look confused?
+- **Proof audit**: Is every proof point verifiable? Could a journalist fact-check every claim? If not, the proof is not strong enough.
+- **Ritual audit**: Do the rituals happen naturally, or do they require constant enforcement? Healthy rituals are ones the team and customers look forward to, not ones that feel like obligations.
+- **Consistency audit**: Read the homepage, the latest email, the most recent social post, and the sales deck. Do they tell the same story? If not, the brand story is fragmenting.
+
 ## When NOT to Use
 - When you need a quick tagline or campaign concept (use the Ad Storytelling Framework instead)
 - When the product or market is still in rapid flux and the promise cannot yet be validated
 - When the company has not yet served enough customers to build genuine proof
 - When leadership is not aligned on company direction — a brand story built on shaky internal consensus will collapse
+- When the exercise would be purely theoretical — the brand story must be grounded in real customer relationships and real business outcomes
 
 ## Integration
 - Feeds directly into the **Strategy Layer** for channel-specific narrative planning
@@ -104,3 +113,10 @@ The Brand Story Framework operates on five pillars that work together as a unifi
 - **Editing Agent**: Reviews all content for narrative consistency with the brand story framework
 - **Measurement Agent**: Tracks brand sentiment, message recall, and narrative consistency scores across channels
 - Route to this framework when the task involves brand-level narrative, not campaign-level or content-level storytelling
+
+### Brand Story Health Metrics
+- **Promise recognition**: When surveyed, can 70%+ of customers articulate the brand's core promise in their own words?
+- **Enemy resonance**: Do customers identify with the enemy/antagonist when presented with it? Does it match their lived experience?
+- **Proof recall**: Can customers name at least one specific proof point (customer story, metric, endorsement) from brand materials?
+- **Ritual adoption**: Are customers engaging with brand rituals voluntarily and consistently?
+- **Narrative consistency score**: Audit 10 random brand touchpoints. How many tell the same core story?

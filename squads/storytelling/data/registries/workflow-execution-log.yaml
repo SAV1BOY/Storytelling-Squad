@@ -1,0 +1,157 @@
+# =============================================================================
+# Workflow Execution Log
+# =============================================================================
+# Tracks every storytelling workflow run — from research through publication.
+# Provides an audit trail of what was produced, who (which agents) were
+# involved, and the quality outcome of each run.
+# =============================================================================
+
+schema_version: "1.0"
+registry: workflow-execution-log
+description: >
+  Chronological log of workflow executions within the Storytelling Squad.
+  Each entry records the workflow type, start and end times, participating
+  agents, quality score of the output, and links to deliverables. Used for
+  performance tracking, retrospectives, and capacity planning.
+
+# ---------------------------------------------------------------------------
+# Field Definitions
+# ---------------------------------------------------------------------------
+fields:
+  workflow_id:
+    type: string
+    format: "WF-{YYYYMMDD}-{SEQ}"
+    description: Unique identifier for this workflow run.
+    required: true
+
+  workflow_type:
+    type: enum
+    values: [story-creation, hook-generation, proof-collection, content-repurpose, narrative-audit, swipe-analysis, campaign-narrative, interview-processing]
+    description: Classification of the workflow.
+    required: true
+
+  started:
+    type: datetime
+    format: ISO-8601
+    description: Timestamp when the workflow began.
+    required: true
+
+  completed:
+    type: datetime
+    format: ISO-8601
+    description: Timestamp when the workflow finished (null if still running).
+    required: false
+
+  status:
+    type: enum
+    values: [running, completed, failed, paused, cancelled]
+    description: Current state of the workflow.
+    required: true
+
+  agents_used:
+    type: list
+    items: string
+    description: Agent IDs that participated in this workflow run.
+    required: true
+
+  quality_score:
+    type: float
+    range: [0.0, 10.0]
+    description: Composite quality score assigned to the workflow output.
+    required: false
+
+  revision_count:
+    type: integer
+    description: Number of revision cycles before final output.
+    required: false
+
+  output_links:
+    type: list
+    items: string
+    description: Paths or URLs to the deliverables produced.
+    required: false
+
+  input_brief:
+    type: string
+    description: Summary of the input brief or trigger for this workflow.
+    required: false
+
+  triggered_by:
+    type: string
+    description: Person, system, or event that initiated the workflow.
+    required: false
+
+  duration_minutes:
+    type: integer
+    description: Total elapsed time in minutes.
+    required: false
+
+  notes:
+    type: string
+    description: Observations, blockers, or retrospective notes.
+    required: false
+
+# ---------------------------------------------------------------------------
+# Example Entries
+# ---------------------------------------------------------------------------
+entries:
+  - workflow_id: "WF-20260115-001"
+    workflow_type: story-creation
+    started: "2026-01-15T09:00:00Z"
+    completed: "2026-01-15T14:30:00Z"
+    status: completed
+    agents_used: ["research-agent", "story-architect-agent", "editor-agent", "quality-checker-agent"]
+    quality_score: 8.7
+    revision_count: 2
+    output_links:
+      - "/stories/meridian-health-full.md"
+      - "/stories/meridian-health-summary.md"
+    input_brief: "Create customer story from Meridian Health interview transcript."
+    triggered_by: "Content Lead"
+    duration_minutes: 330
+    notes: "Smooth run. First revision addressed tone. Second revision tightened proof integration."
+
+  - workflow_id: "WF-20260203-002"
+    workflow_type: story-creation
+    started: "2026-02-03T11:00:00Z"
+    completed: "2026-02-05T16:00:00Z"
+    status: completed
+    agents_used: ["research-agent", "story-architect-agent", "editor-agent", "voice-calibration-agent", "quality-checker-agent"]
+    quality_score: 9.1
+    revision_count: 3
+    output_links:
+      - "/stories/founder-garage-whiteboard-full.md"
+      - "/stories/founder-garage-whiteboard-summary.md"
+    input_brief: "Produce founder origin story from CEO interview recordings."
+    triggered_by: "Brand Lead"
+    duration_minutes: 780
+    notes: "Required extra revision for voice calibration. Founder reviewed and approved final version."
+
+  - workflow_id: "WF-20260305-003"
+    workflow_type: hook-generation
+    started: "2026-03-05T10:00:00Z"
+    completed: "2026-03-05T11:15:00Z"
+    status: completed
+    agents_used: ["hook-engineer-agent", "quality-checker-agent"]
+    quality_score: 7.5
+    revision_count: 1
+    output_links:
+      - "HOOK-20260305-batch.yaml"
+    input_brief: "Generate 10 hook candidates for founder story ad campaign."
+    triggered_by: "Campaign Manager"
+    duration_minutes: 75
+    notes: "Produced 10 hooks; 3 flagged as winner candidates for A/B testing."
+
+  - workflow_id: "WF-20260308-004"
+    workflow_type: narrative-audit
+    started: "2026-03-08T09:00:00Z"
+    completed: null
+    status: running
+    agents_used: ["research-agent", "narrative-auditor-agent"]
+    quality_score: null
+    revision_count: 0
+    output_links: []
+    input_brief: "Quarterly audit of story bank freshness and coverage gaps."
+    triggered_by: "Scheduled — Q1 Review"
+    duration_minutes: null
+    notes: "In progress. Reviewing all entries for expiration and missing verticals."

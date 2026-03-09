@@ -87,12 +87,21 @@ The Email Sequence Narrative Framework operates on four principles:
 - Course or event launches with a defined enrollment window
 - Any multi-touch campaign where building narrative investment increases conversion
 
+### Email Sequence Pitfalls
+- **Breaking the thread**: Sending an email that does not reference the previous one. If the reader cannot tell this email is part of a series, you have lost the serial advantage.
+- **All cliffhanger, no payoff**: Creating anticipation without delivering. If you tease "the surprising result" in Email 2, Email 3 must reveal it in the first two sentences.
+- **Uniform tone**: Writing every email in the same style. Vary the emotional register — one email can be data-driven, the next personal, the next testimonial-based. Variety maintains interest.
+- **Burying the CTA**: Placing the call to action in the middle of a paragraph on the final email. The CTA email should build to the ask and make it unmissable.
+- **Ignoring non-openers**: Sending the full sequence to people who stopped opening at Email 2. Segment and branch — non-openers need a different approach, not the same one louder.
+- **Story without value**: Telling a story that is entertaining but does not teach the reader anything. Each email should deliver standalone value even if the reader never reaches the CTA.
+
 ## When NOT to Use
 - Transactional emails (order confirmations, password resets)
 - One-off announcements that do not require a sequence
 - Audiences that receive too many emails already (check frequency caps)
 - When you do not have enough story material to sustain the sequence — thin narratives are worse than no narrative
 - When the CTA is extremely low-commitment and does not require narrative investment to convert
+- When the audience prefers self-service and research over guided narrative (provide resources instead)
 
 ## Integration
 - Story material comes from the **Case Study Story Framework** and **Testimonial Interview Framework**
@@ -108,3 +117,8 @@ The Email Sequence Narrative Framework operates on four principles:
 - **Editing Agent**: Tightens prose, strengthens cliffhangers, optimizes subject lines
 - **Measurement Agent**: Monitors open rates, click rates, and conversion by email position
 - Route to this framework when the task involves a multi-email campaign where narrative investment across the sequence drives the ultimate conversion
+
+### Email Sequence Quality Checklist
+- Does every email reference the previous one within the first two sentences?
+- Does every email end with a forward-pointing statement or cliffhanger?
+- Is the CTA email the narrative climax, not just an appended sales pitch?

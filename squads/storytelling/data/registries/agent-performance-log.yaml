@@ -1,0 +1,178 @@
+# =============================================================================
+# Agent Performance Log
+# =============================================================================
+# Tracks the performance of each storytelling agent across tasks. Used for
+# identifying strengths, calibration needs, and workflow optimization.
+# =============================================================================
+
+schema_version: "1.0"
+registry: agent-performance-log
+description: >
+  Per-task performance records for every agent in the Storytelling Squad.
+  Each entry captures the agent, the task it executed, the quality outcome,
+  checklist pass rate, and revision history. Aggregated data feeds the
+  agent-effectiveness metric dashboard.
+
+# ---------------------------------------------------------------------------
+# Field Definitions
+# ---------------------------------------------------------------------------
+fields:
+  agent_id:
+    type: string
+    description: Identifier of the agent (e.g., story-architect-agent, editor-agent).
+    required: true
+
+  task_id:
+    type: string
+    format: "TASK-{YYYYMMDD}-{SEQ}"
+    description: Unique identifier for the specific task executed.
+    required: true
+
+  workflow_id:
+    type: string
+    description: Parent workflow this task belongs to (WF-YYYYMMDD-SEQ).
+    required: false
+
+  task_type:
+    type: enum
+    values: [research, drafting, editing, hook-creation, proof-collection, quality-check, voice-calibration, repurposing, analysis, review]
+    description: Classification of the task performed.
+    required: true
+
+  quality_score:
+    type: float
+    range: [0.0, 10.0]
+    description: Quality score assigned to the agent's output for this task.
+    required: true
+
+  checklist_pass_rate:
+    type: float
+    range: [0.0, 1.0]
+    description: Proportion of quality checklist items passed on first attempt.
+    required: true
+
+  avg_revision_count:
+    type: integer
+    description: Number of revisions required before the output was accepted.
+    required: true
+
+  started:
+    type: datetime
+    format: ISO-8601
+    description: When the agent began the task.
+    required: true
+
+  completed:
+    type: datetime
+    format: ISO-8601
+    description: When the agent finished the task.
+    required: true
+
+  duration_minutes:
+    type: integer
+    description: Time spent on the task in minutes.
+    required: false
+
+  feedback:
+    type: string
+    description: Human or automated feedback on the agent's output.
+    required: false
+
+  flags:
+    type: list
+    items: string
+    description: Any issues flagged (e.g., tone-drift, missing-proof, over-length).
+    required: false
+
+  notes:
+    type: string
+    description: Additional observations.
+    required: false
+
+# ---------------------------------------------------------------------------
+# Example Entries
+# ---------------------------------------------------------------------------
+entries:
+  - agent_id: "story-architect-agent"
+    task_id: "TASK-20260115-001"
+    workflow_id: "WF-20260115-001"
+    task_type: drafting
+    quality_score: 8.2
+    checklist_pass_rate: 0.88
+    avg_revision_count: 2
+    started: "2026-01-15T10:00:00Z"
+    completed: "2026-01-15T12:30:00Z"
+    duration_minutes: 150
+    feedback: "Strong structure. First draft missed the emotional climax — corrected in revision 1."
+    flags: ["tone-drift"]
+    notes: "Tone drift in the middle section. Voice calibration agent corrected."
+
+  - agent_id: "editor-agent"
+    task_id: "TASK-20260115-002"
+    workflow_id: "WF-20260115-001"
+    task_type: editing
+    quality_score: 9.0
+    checklist_pass_rate: 0.95
+    avg_revision_count: 1
+    started: "2026-01-15T12:45:00Z"
+    completed: "2026-01-15T13:45:00Z"
+    duration_minutes: 60
+    feedback: "Clean edit. Tightened prose without losing voice. One proof citation needed fixing."
+    flags: []
+    notes: "Fast turnaround. High checklist pass rate."
+
+  - agent_id: "research-agent"
+    task_id: "TASK-20260203-001"
+    workflow_id: "WF-20260203-002"
+    task_type: research
+    quality_score: 8.8
+    checklist_pass_rate: 0.92
+    avg_revision_count: 1
+    started: "2026-02-03T11:00:00Z"
+    completed: "2026-02-03T14:00:00Z"
+    duration_minutes: 180
+    feedback: "Thorough interview synthesis. Missed one proof point that was added in revision."
+    flags: ["missing-proof"]
+    notes: "Flagged missing founding date verification. Resolved with internal records."
+
+  - agent_id: "hook-engineer-agent"
+    task_id: "TASK-20260305-001"
+    workflow_id: "WF-20260305-003"
+    task_type: hook-creation
+    quality_score: 7.5
+    checklist_pass_rate: 0.80
+    avg_revision_count: 1
+    started: "2026-03-05T10:00:00Z"
+    completed: "2026-03-05T10:45:00Z"
+    duration_minutes: 45
+    feedback: "Good variety. Two hooks were too similar to existing bank entries — deduplicated."
+    flags: ["duplicate-content"]
+    notes: "Need to improve dedup check before submission."
+
+  - agent_id: "quality-checker-agent"
+    task_id: "TASK-20260305-002"
+    workflow_id: "WF-20260305-003"
+    task_type: quality-check
+    quality_score: 9.2
+    checklist_pass_rate: 1.00
+    avg_revision_count: 0
+    started: "2026-03-05T10:50:00Z"
+    completed: "2026-03-05T11:15:00Z"
+    duration_minutes: 25
+    feedback: "Thorough quality pass. Caught the duplicate hooks and flagged appropriately."
+    flags: []
+    notes: "Consistent high performance on quality-check tasks."
+
+  - agent_id: "voice-calibration-agent"
+    task_id: "TASK-20260204-001"
+    workflow_id: "WF-20260203-002"
+    task_type: voice-calibration
+    quality_score: 8.5
+    checklist_pass_rate: 0.90
+    avg_revision_count: 1
+    started: "2026-02-04T09:00:00Z"
+    completed: "2026-02-04T10:30:00Z"
+    duration_minutes: 90
+    feedback: "Good calibration pass. Caught formality creep in the founder story."
+    flags: []
+    notes: "Formality level was drifting toward 'professional' — recalibrated to 'conversational'."

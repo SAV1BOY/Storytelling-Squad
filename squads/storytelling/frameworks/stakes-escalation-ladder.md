@@ -11,6 +11,10 @@ The four-level ladder is: Personal (the individual's comfort, habits, identity) 
 
 The ladder works because human cognition processes risk in expanding circles. We first understand personal impact, then relational, then systemic. A story that mirrors this cognitive path feels natural and increasingly urgent.
 
+The framework also connects to Maslow's hierarchy of needs, but inverted as a hierarchy of fears. Personal stakes threaten physiological and safety needs. Relational stakes threaten belonging and esteem. Professional stakes threaten self-actualization and contribution. Universal stakes threaten legacy and meaning. By climbing this inverted hierarchy, the story activates progressively deeper layers of human motivation.
+
+In direct-response marketing, the stakes ladder is the mechanism behind "agitation"—the practice of intensifying the audience's awareness of what they stand to lose by inaction. But unlike crude agitation that simply amplifies fear, the stakes ladder creates genuine narrative depth by grounding each level in specific, relatable detail and connecting levels causally. The result is not manipulation but honest dramatization of real consequences.
+
 ## Core Methodology
 
 1. **Identify the Starting Stakes**: What does the protagonist initially risk by engaging with the problem? Start small and personal.
@@ -85,6 +89,23 @@ The ladder works because human cognition processes risk in expanding circles. We
 - **Level 3**: The economic impact—students who drop out carry debt without degrees, reducing lifetime earnings by $1M on average.
 - **Level 4**: A generation of talent lost to a solvable problem. The workforce impact. The innovation never created. The communities never served.
 
+## Common Pitfalls
+
+### Pitfall 1: Starting Too High
+Beginning with universal stakes ("This could change the entire industry!") leaves nowhere to go. The audience also lacks the emotional foundation to care about universal implications. Always start personal. The audience must care about the individual before they can care about the world.
+
+### Pitfall 2: Skipping Levels
+Jumping from personal (Level 1) directly to universal (Level 4) without establishing relational and professional stakes. The jump feels unearned and melodramatic. Each level must be grounded before the next is introduced.
+
+### Pitfall 3: Manufactured Stakes
+Exaggerating what is genuinely at risk. If the product solves a moderate convenience problem, framing it as life-or-death destroys credibility. The ladder should reflect honest assessment of real consequences. Not every product prevents catastrophe, and that is fine—many successful stories operate on Levels 1 and 2 only.
+
+### Pitfall 4: All Pain, No Progress
+Piling on stakes without showing any movement toward resolution. The audience does not want to drown in escalating misery—they want to see the character fighting against escalating odds. Each new stakes level should include both the increased risk and the protagonist's response to it.
+
+### Pitfall 5: Disconnected Levels
+Each level should causally connect to the previous one. If personal stakes (insomnia) have nothing to do with relational stakes (a client leaving), the escalation feels random rather than logical. The causal chain—because of Level 1, Level 2 occurred—is what makes escalation feel inevitable rather than arbitrary.
+
 ## When to Use
 
 - Case studies and customer success stories—the ladder transforms flat testimonials into compelling narratives.
@@ -117,3 +138,15 @@ The ladder works because human cognition processes risk in expanding circles. We
   - Character Developer Agent — ensures the protagonist's personal stakes are grounded in authentic detail.
   - Research & Proof Agent — provides data and evidence that validate stakes at Levels 3 and 4.
   - Emotional Intelligence Agent — calibrates escalation speed to audience tolerance (too fast = melodrama, too slow = boredom).
+
+## Quick Reference: Stakes Level Examples by Industry
+
+| Industry | Level 1 (Personal) | Level 2 (Relational) | Level 3 (Professional) | Level 4 (Universal) |
+|---|---|---|---|---|
+| SaaS / Tech | Sleep loss, frustration, daily workflow pain | Team friction, client tension, manager pressure | Revenue decline, missed targets, job at risk | Industry standard affected, market shaped |
+| Healthcare | Physical symptoms, anxiety, daily limitations | Family worry, social isolation, caregiver burden | Treatment costs, career impact, insurance battles | Public health outcomes, policy implications |
+| Education | Confusion, self-doubt, falling behind | Peer comparison, teacher relationships, parent expectations | College admission, career trajectory, debt decisions | Generational access, societal mobility |
+| Finance | Money anxiety, budgeting stress, daily trade-offs | Relationship strain over money, family obligations | Business viability, investment outcomes, retirement risk | Economic patterns, wealth inequality |
+| Nonprofit | Individual suffering, daily indignity | Community fracture, family separation | Organizational sustainability, mission failure | Systemic change, policy movement |
+
+Use this table as a starting point, then replace generic descriptions with specific, concrete details from real customer stories.

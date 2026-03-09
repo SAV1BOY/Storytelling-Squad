@@ -98,6 +98,23 @@ The risk of nesting is complexity. Too many layers, poorly managed transitions, 
 - **Inner story 3** (embedded in the "proof" section): A different customer, James, with a different use case but the same transformation arc. Different details, same emotional shape.
 - **Outer story** connects all three and drives toward the CTA.
 
+## Common Pitfalls
+
+### Pitfall 1: The Inner Story That Hijacks
+When an inner story is more compelling than the outer story, the audience forgets the frame and is confused when the outer story resumes. If an inner story is threatening to dominate, either elevate it to the outer story or compress it ruthlessly.
+
+### Pitfall 2: Losing the Thread
+The audience must always know which story they are in. If transitions between layers are unclear—if the reader cannot tell whether they are in the outer story, inner story A, or inner story B—the nesting has failed. Use explicit markers: named characters, tense shifts, structural cues (headers, visual breaks), or direct signals ("Back to our main story...").
+
+### Pitfall 3: Too Many Inner Stories
+Three inner stories is the maximum for most formats. Beyond that, the outer story becomes a loose wrapper around a collection of anecdotes rather than a narrative that contains proof. If you need more than three examples, curate ruthlessly—choose the three that are most diverse, most specific, and most aligned with the outer story's argument.
+
+### Pitfall 4: Inner Stories That Repeat Each Other
+If all three case studies nested within a brand narrative tell the same story (company had problem, found product, got results), the nesting adds volume without value. Inner stories should be differentiated: different industries, different starting points, different obstacles, or different dimensions of the result.
+
+### Pitfall 5: Nesting Without Purpose
+Every inner story must earn its place by serving the outer story. Ask: "If I removed this inner story, would the outer story's argument be weaker?" If the answer is no, the inner story is decoration, not structure. Cut it.
+
 ## When to Use
 
 - Keynotes and conference talks—nested stories provide the "examples" that abstract arguments need.

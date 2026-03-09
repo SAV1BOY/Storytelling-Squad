@@ -71,6 +71,12 @@ The Internal Communications Story Framework operates across four narrative types
 ### Example 2: Alignment Story — Customer Success Shared at All-Hands
 - "I want to share a message we received from a customer named David last week. David runs a landscaping business with 8 employees. He wrote: 'Before your invoicing tool, I spent every Sunday night doing paperwork instead of being with my family. Last Sunday, my daughter asked why I was watching a movie with them. I told her the computer does the paperwork now. She said: Good. I missed you.' David's Sunday nights changed because the billing automation feature shipped in Sprint 14. That was the payment team's work. That was Elena, Marcus, and Priya. I want them to know that their sprint planning and late-night bug fixes gave David his Sundays back."
 
+### Example 3: Recognition Story — Engineering Sprint
+- "I want to recognize the infrastructure team for something that happened last Wednesday. At 2 AM, our monitoring system flagged a database replication lag that was approaching the threshold where customers would notice. Raj saw the alert from home, diagnosed the issue in 20 minutes, and coordinated a fix with Lin — who was on a different timezone. By 6 AM, the issue was resolved. No customer saw a single error. No support ticket was filed. Nobody in this room even knew it happened. That is the invisible excellence that keeps this company running. Raj and Lin did not just fix a technical issue. They protected 12,000 customers from a bad morning. That is what ownership looks like when nobody is watching."
+
+### Example 4: Culture Story — Cross-Team Collaboration
+- "Sales and product have not always seen eye to eye — that is true in most companies. But something happened in Q2 that I want to highlight. Jamie from sales sat in on three product sprint reviews. Not because she was asked to. Because she wanted to understand what the team was building and why. After the third session, she sent a Slack message to the product channel: 'I just realized I have been selling the wrong value prop. The real story is what you showed in sprint review.' Jamie rewrote her pitch deck that weekend. Her close rate went from 22% to 31% the following quarter. Product and sales alignment is not a memo. It is Jamie choosing to show up."
+
 ## When to Use
 - Organizational changes (restructures, strategy shifts, leadership transitions)
 - Culture reinforcement and values activation
@@ -78,12 +84,15 @@ The Internal Communications Story Framework operates across four narrative types
 - Employee recognition and motivation
 - Onboarding and new hire integration
 - Crisis communication where trust is paramount
+- Merger and acquisition integration narratives
+- Annual planning and goal-setting communications
 
 ## When NOT to Use
 - Routine operational updates that do not require narrative (use bullet-point formats)
 - Compliance or legal communications that must be precise and unembellished
 - When the change being communicated has not been finalized — storytelling about uncertain changes creates anxiety
 - When leadership is not aligned on the message — competing narratives are worse than no narrative
+- When the internal audience has experienced "story fatigue" from excessive narrative framing of simple updates
 
 ## Integration
 - Change narratives draw from the **Brand Story Framework** for mission alignment
@@ -99,3 +108,13 @@ The Internal Communications Story Framework operates across four narrative types
 - **Editing Agent**: Ensures accuracy, tone-appropriateness, and emotional impact
 - **Distribution Agent**: Plans multi-channel internal delivery
 - Route to this framework when the task involves communicating to employees in a way that builds alignment, culture, or engagement through narrative
+
+### Key Metrics for Internal Story Effectiveness
+- **Message recall**: Can employees accurately describe the change, value, or recognition 1 week after communication? Target: 70%+ recall.
+- **Alignment score**: Do employees understand how their work connects to the company mission? Measure quarterly through pulse surveys.
+- **Story submission rate**: How many employees are nominating peers for recognition or sharing impact moments? Increasing submissions indicate a healthy story culture.
+- **eNPS correlation**: Track whether internal storytelling cadence correlates with employee Net Promoter Score improvements over time.
+- **Change adoption speed**: For change narratives, measure how quickly employees adopt new processes or behaviors compared to changes communicated without narrative framing.
+- **Manager storytelling adoption**: What percentage of managers are using narrative frameworks in their team communications? Train and measure.
+- **Onboarding story engagement**: Do new hires who read culture stories during onboarding report higher alignment scores at the 90-day mark?
+- **Story diversity**: Are stories coming from multiple departments and levels, or concentrated in a single team? Healthy internal storytelling represents the whole organization.

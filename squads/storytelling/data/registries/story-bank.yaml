@@ -1,0 +1,113 @@
+# Story Bank Registry
+# Central repository of all narrative assets with classification and tracking metadata.
+# Each story entry captures the full lifecycle from creation through performance measurement.
+
+schema:
+  story_id: "Unique identifier (format: STY-YYYY-NNN)"
+  title: "Descriptive title for the story"
+  type: "customer | founder | product | culture | data | analogy | origin | transformation"
+  channel: "List of channels: website, email, social, deck, ad, video, webinar, pitch, internal"
+  audience: "Target persona or segment identifier"
+  emotion: "Primary emotion: hope, urgency, belonging, curiosity, trust, empathy, confidence, relief"
+  framework: "Storytelling framework used: storybrand, sparkline, heros-journey, pixar-spine, before-after-bridge, ganz-self-us-now"
+  status: "draft | reviewed | approved | published | retired"
+  quality_score: "Narrative quality rubric score (1-10)"
+  created_date: "ISO 8601 date"
+  last_updated: "ISO 8601 date"
+  author: "Creator or primary writer"
+  source: "Origin of raw material: interview, feedback, data, event, internal"
+  proof_refs: "List of proof-bank entry IDs linked to this story"
+  hook_refs: "List of hook-bank entry IDs derived from this story"
+  versions:
+    full: "Word count and location of full version"
+    summary: "Word count and location of summary version"
+    micro: "Word count and location of micro version"
+  performance:
+    views: "Total views across channels"
+    engagement_rate: "Average engagement rate"
+    conversion_rate: "Attributed conversion rate"
+    last_measured: "Date of last performance update"
+  tags: "Free-form tags for additional classification"
+  notes: "Editorial notes, context, or special handling instructions"
+
+entries:
+  - story_id: "STY-2026-001"
+    title: "How Meridian Health Cut Patient Wait Times by 40%"
+    type: "customer"
+    channel: ["website", "email", "deck", "social"]
+    audience: "healthcare-ops-director"
+    emotion: "relief"
+    framework: "before-after-bridge"
+    status: "published"
+    quality_score: 8
+    created_date: "2026-01-15"
+    last_updated: "2026-02-20"
+    author: "J. Torres"
+    source: "interview"
+    proof_refs: ["PRF-2026-003", "PRF-2026-007"]
+    hook_refs: ["HK-2026-012"]
+    versions:
+      full: "1100 words — /stories/meridian-health-full.md"
+      summary: "250 words — /stories/meridian-health-summary.md"
+      micro: "45 words — inline"
+    performance:
+      views: 4820
+      engagement_rate: 0.067
+      conversion_rate: 0.031
+      last_measured: "2026-03-01"
+    tags: ["healthcare", "efficiency", "operations", "wait-times"]
+    notes: "Customer approved for all channels. Annual refresh due Jan 2027."
+
+  - story_id: "STY-2026-002"
+    title: "The Garage Whiteboard — Our Founding Story"
+    type: "founder"
+    channel: ["website", "pitch", "video", "internal"]
+    audience: "all-segments"
+    emotion: "belonging"
+    framework: "heros-journey"
+    status: "approved"
+    quality_score: 9
+    created_date: "2026-01-05"
+    last_updated: "2026-03-01"
+    author: "M. Chen"
+    source: "interview"
+    proof_refs: ["PRF-2026-001"]
+    hook_refs: ["HK-2026-001", "HK-2026-002"]
+    versions:
+      full: "2200 words — /stories/founder-garage-whiteboard-full.md"
+      summary: "450 words — /stories/founder-garage-whiteboard-summary.md"
+      micro: "50 words — inline"
+    performance:
+      views: 12400
+      engagement_rate: 0.089
+      conversion_rate: 0.018
+      last_measured: "2026-03-01"
+    tags: ["origin", "founding", "mission", "vision", "culture"]
+    notes: "Core brand narrative. All versions require founder approval before updates."
+
+  - story_id: "STY-2026-003"
+    title: "When the Dashboard Went Dark — Surviving Our First Outage"
+    type: "culture"
+    channel: ["internal", "social", "website"]
+    audience: "engineering-leaders"
+    emotion: "trust"
+    framework: "storybrand"
+    status: "published"
+    quality_score: 7
+    created_date: "2026-02-10"
+    last_updated: "2026-02-28"
+    author: "R. Patel"
+    source: "internal"
+    proof_refs: ["PRF-2026-009"]
+    hook_refs: ["HK-2026-015"]
+    versions:
+      full: "900 words — /stories/first-outage-full.md"
+      summary: "180 words — /stories/first-outage-summary.md"
+      micro: "40 words — inline"
+    performance:
+      views: 3200
+      engagement_rate: 0.112
+      conversion_rate: 0.0
+      last_measured: "2026-03-01"
+    tags: ["transparency", "engineering", "resilience", "incident-response"]
+    notes: "Strong internal engagement. Consider adapting for recruiting content."

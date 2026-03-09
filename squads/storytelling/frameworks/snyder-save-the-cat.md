@@ -82,6 +82,14 @@ A nonprofit structures its annual report as a Save the Cat beat sheet, with the 
 - Campaign narratives that need precise emotional pacing
 - Any format where you control the audience's experience sequentially
 
+## Common Pitfalls
+
+- **Treating beats as checkboxes rather than emotional shifts.** Each beat must produce a genuine emotional turn, not just occupy its position. A "Catalyst" that doesn't genuinely disrupt the status quo is a fake beat.
+- **Neglecting the Midpoint.** The midpoint is the structural keystone. A false victory makes the second half feel like a collapse; a false defeat makes it feel like a recovery. Most weak narratives have an empty midpoint.
+- **Making the "Save the Cat" moment too obvious.** The likability beat should feel organic, not performative. In marketing, this means demonstrating genuine empathy rather than pandering.
+- **Confusing "Fun and Games" with filler.** This section delivers the premise's promise—it is the most important section for audience satisfaction. A product demo that bores during Fun and Games has failed its core obligation.
+- **Skipping "All Is Lost."** Marketers are tempted to remove the low point because it introduces negativity. But without the low point, the finale has no contrast and no emotional payoff.
+
 ## When NOT to Use
 
 - Non-linear content where the audience chooses their own path (websites, interactive tools)
