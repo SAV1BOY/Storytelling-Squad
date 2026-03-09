@@ -1,0 +1,580 @@
+# ============================================================
+# STORYTELLING SQUAD — config.yaml (Cerebro de Roteamento)
+# ============================================================
+# Este arquivo e o "cerebro" do squad. Define o roteamento
+# Task → Agents → Frameworks → Checklists → Templates → Registries
+# para cada tarefa executavel do storytelling squad.
+# ============================================================
+
+squad:
+  name: storytelling
+  version: "1.0.0"
+  description: "Storytelling aplicado a Marketing: Brand Narrative + Pitch + Presentations + Case Studies + Public Narrative + Improvisation"
+  chief_agent: donald-miller     # default para clareza/conversao
+  # alternativas por contexto:
+  # nancy-duarte → decks e apresentacoes
+  # oren-klaff → pitches e negociacao
+  # marshall-ganz → movimentos e acao coletiva
+  # matthew-dicks → storytelling pessoal e vulnerabilidade
+
+agents:
+  - id: joseph-campbell
+    file: agents/joseph-campbell.md
+    specialty: "Hero's Journey, mitos, arquetipos, jornada do heroi aplicada a marketing"
+  - id: blake-snyder
+    file: agents/blake-snyder.md
+    specialty: "Save the Cat, beat sheet, logline, ritmo e viradas narrativas"
+  - id: dan-harmon
+    file: agents/dan-harmon.md
+    specialty: "Story Circle (8 passos), causalidade, but/therefore, estrutura compacta"
+  - id: shawn-coyne
+    file: agents/shawn-coyne.md
+    specialty: "Story Grid: generos, 5 commandments, cenas obrigatorias, premissa"
+  - id: donald-miller
+    file: agents/donald-miller.md
+    specialty: "StoryBrand SB7, clareza, o cliente e o heroi, one-liner, brand script"
+  - id: nancy-duarte
+    file: agents/nancy-duarte.md
+    specialty: "Resonate: Sparkline, narrativa persuasiva em decks/apresentacoes"
+  - id: park-howell
+    file: agents/park-howell.md
+    specialty: "Business of Story: marca, narrativa corporativa, story cycle, ABT"
+  - id: matthew-dicks
+    file: agents/matthew-dicks.md
+    specialty: "Storyworthy: storytelling pessoal, memorizacao, 5-second moment"
+  - id: kindra-hall
+    file: agents/kindra-hall.md
+    specialty: "Stories That Stick: tipos de historia (valor, fundador, cliente, proposito)"
+  - id: keith-johnstone
+    file: agents/keith-johnstone.md
+    specialty: "Impro: status, espontaneidade, presenca, construcao de cena/dialogo"
+  - id: oren-klaff
+    file: agents/oren-klaff.md
+    specialty: "Pitch Anything: frames, tensao, intriga, prizing, hot cognition"
+  - id: marshall-ganz
+    file: agents/marshall-ganz.md
+    specialty: "Public Narrative: story of self/us/now, mobilizacao e acao coletiva"
+
+principles:
+  - clarity-first               # Se confuso, nao converte (Miller grunt test)
+  - conflict-is-king            # Sem conflito, nao ha historia
+  - show-dont-tell              # Cenas > declaracoes
+  - proof-in-story              # Provas embutidas, nao anexadas
+  - every-scene-earns-its-place # Cada cena muda algo (Coyne)
+  - audience-is-hero            # O cliente/audiencia e o heroi (Miller/Campbell)
+
+# ============================================================
+# ROUTING: Task → Agents → Frameworks → Checklists → Templates → Registry
+# ============================================================
+
+routing:
+
+  # ---- RESEARCH ----
+  audience-belief-mapping:
+    agents: [donald-miller, kindra-hall]
+    frameworks: [miller-storybrand-sb7, hall-story-selection-matrix, discovery-layer]
+    checklists: [story-brief-quality]
+    templates: [briefs/story-brief]
+    registry: [data/research/objections-and-beliefs]
+
+  story-mining-interviews:
+    agents: [matthew-dicks, kindra-hall]
+    frameworks: [dicks-storyworthy, dicks-first-last-best-worst, hall-stories-that-stick, testimonial-interview-framework]
+    checklists: [dicks/five-second-moment-audit, hall/story-types-fit-audit]
+    templates: [outputs/testimonial-interview-script]
+    registry: [data/research/testimonial-raw-material, data/registries/story-bank]
+
+  competitor-narrative-audit:
+    agents: [shawn-coyne, park-howell]
+    frameworks: [coyne-story-grid, howell-business-of-story, brand-story-framework]
+    checklists: [brand-story-quality, narrative-clarity-quality]
+    templates: [reports/story-audit-report]
+    registry: [data/research/competitor-story-audits]
+
+  category-myth-research:
+    agents: [joseph-campbell, park-howell]
+    frameworks: [campbell-archetypes, campbell-monomyth-condensed, howell-story-strategy-canvas]
+    checklists: [campbell/mythic-symbolism-audit]
+    templates: [briefs/story-brief]
+    registry: [data/research/category-myths-and-patterns]
+
+  archetype-alignment-research:
+    agents: [joseph-campbell, donald-miller]
+    frameworks: [campbell-archetypes, campbell-heros-journey, miller-storybrand-sb7]
+    checklists: [campbell/archetype-alignment-audit]
+    templates: [briefs/brand-story-brief]
+    registry: [data/research/category-myths-and-patterns]
+
+  story-bank-gap-analysis:
+    agents: [kindra-hall, donald-miller]
+    frameworks: [hall-story-selection-matrix, hall-stories-that-stick]
+    checklists: [hall/story-selection-strategy-audit]
+    templates: [reports/story-bank-status-report]
+    registry: [data/registries/story-bank]
+
+  testimonial-collection:
+    agents: [matthew-dicks, kindra-hall]
+    frameworks: [dicks-storyworthy, testimonial-interview-framework]
+    checklists: [dicks/personal-story-transformation-audit]
+    templates: [outputs/testimonial-interview-script]
+    registry: [data/research/testimonial-raw-material]
+
+  cultural-context-research:
+    agents: [joseph-campbell, marshall-ganz]
+    frameworks: [campbell-archetypes, ganz-story-of-us, discovery-layer]
+    checklists: [narrative/cultural-sensitivity-quality]
+    templates: [briefs/story-brief]
+    registry: [data/research/cultural-references]
+
+  # ---- STRATEGY ----
+  brand-narrative-strategy:
+    agents: [donald-miller, park-howell, kindra-hall]
+    frameworks: [miller-storybrand-sb7, howell-business-of-story, hall-stories-that-stick, brand-story-framework]
+    checklists: [brand-story-quality, miller/storybrand-sb7-audit, howell/brand-narrative-coherence-audit]
+    templates: [briefs/brand-story-brief, outputs/storybrand-brand-script]
+    registry: [data/registries/brand-scripts-registry, data/registries/decisions-log]
+
+  story-selection-strategy:
+    agents: [kindra-hall, donald-miller]
+    frameworks: [hall-story-selection-matrix, hall-stories-that-stick, miller-storybrand-sb7]
+    checklists: [hall/story-types-fit-audit, hall/story-selection-strategy-audit]
+    templates: []
+    registry: [data/registries/decisions-log]
+
+  pitch-strategy:
+    agents: [oren-klaff, donald-miller]
+    frameworks: [klaff-pitch-anything, klaff-frame-control, klaff-crocodile-brain, miller-one-liner]
+    checklists: [pitch-story-quality, klaff/pitch-frames-audit, klaff/crocodile-brain-filter-audit]
+    templates: [briefs/pitch-brief]
+    registry: [data/registries/pitch-scripts-registry]
+
+  presentation-strategy:
+    agents: [nancy-duarte, donald-miller]
+    frameworks: [duarte-resonate-sparkline, duarte-audience-journey, duarte-star-moment, miller-grunt-test]
+    checklists: [deck-story-quality, duarte/sparkline-audit, duarte/audience-journey-mapping-audit]
+    templates: [briefs/presentation-brief]
+    registry: [data/registries/deck-outline-registry]
+
+  content-narrative-strategy:
+    agents: [park-howell, donald-miller, dan-harmon]
+    frameworks: [howell-business-of-story, miller-marketing-roadmap, harmon-story-circle, content-marketing-story-framework]
+    checklists: [narrative/multi-channel-consistency-quality]
+    templates: [briefs/story-brief]
+    registry: [data/registries/decisions-log]
+
+  launch-narrative-strategy:
+    agents: [donald-miller, nancy-duarte, oren-klaff]
+    frameworks: [miller-storybrand-sb7, duarte-resonate-sparkline, klaff-pitch-anything]
+    checklists: [brand-story-quality, hook-and-open-loop-quality]
+    templates: [briefs/story-brief]
+    registry: [data/registries/decisions-log]
+
+  public-narrative-strategy:
+    agents: [marshall-ganz, park-howell]
+    frameworks: [ganz-public-narrative, ganz-story-of-self, ganz-story-of-us, ganz-story-of-now]
+    checklists: [public-narrative-quality, ganz/public-narrative-self-us-now-audit]
+    templates: [briefs/public-narrative-brief]
+    registry: [data/registries/public-narratives-registry]
+
+  crisis-narrative-strategy:
+    agents: [marshall-ganz, donald-miller, park-howell]
+    frameworks: [ganz-public-narrative, crisis-narrative-framework, miller-storybrand-sb7]
+    checklists: [public-narrative-quality, narrative-clarity-quality]
+    templates: [briefs/story-brief]
+    registry: [data/registries/decisions-log]
+
+  # ---- CREATION ----
+  create-brand-story:
+    agents: [donald-miller, park-howell, kindra-hall]
+    frameworks: [miller-storybrand-sb7, miller-brand-script, howell-story-strategy-canvas, hall-gap-bridge-framework]
+    checklists: [brand-story-quality, miller/brand-script-completeness-audit, narrative-clarity-quality]
+    templates: [outputs/storybrand-brand-script, outputs/one-liner]
+    registry: [data/registries/brand-scripts-registry, data/registries/one-liners-registry]
+
+  craft-founder-story:
+    agents: [matthew-dicks, kindra-hall, joseph-campbell]
+    frameworks: [dicks-storyworthy, hall-stories-that-stick, campbell-heros-journey, founder-story-framework]
+    checklists: [founder-story-quality, dicks/five-second-moment-audit, character-transformation-quality]
+    templates: [outputs/founder-story]
+    registry: [data/registries/story-bank]
+
+  write-case-study-story:
+    agents: [kindra-hall, shawn-coyne]
+    frameworks: [hall-stories-that-stick, coyne-five-commandments, case-study-story-framework]
+    checklists: [customer-case-story-quality, proof-in-story-quality, hall/stickiness-and-retellability-audit]
+    templates: [outputs/case-study-story, outputs/customer-story]
+    registry: [data/registries/story-bank, data/registries/proof-bank]
+
+  build-pitch-script:
+    agents: [oren-klaff, donald-miller, blake-snyder]
+    frameworks: [klaff-pitch-anything, klaff-frame-control, miller-one-liner, snyder-logline-system]
+    checklists: [pitch-story-quality, klaff/pitch-frames-audit, klaff/tension-and-novelty-audit, klaff/status-alignment-audit]
+    templates: [outputs/pitch-script]
+    registry: [data/registries/pitch-scripts-registry]
+
+  build-sales-deck:
+    agents: [nancy-duarte, oren-klaff, donald-miller]
+    frameworks: [duarte-resonate-sparkline, duarte-star-moment, klaff-frame-control, miller-storybrand-sb7]
+    checklists: [deck-story-quality, duarte/sparkline-audit, duarte/deck-flow-and-contrast-audit]
+    templates: [outputs/deck-outline-sparkline]
+    registry: [data/registries/deck-outline-registry]
+
+  build-webinar-narrative:
+    agents: [donald-miller, nancy-duarte, dan-harmon]
+    frameworks: [miller-storybrand-sb7, duarte-resonate-sparkline, harmon-story-circle, webinar-narrative-framework]
+    checklists: [webinar-narrative-quality, structure-and-pacing-quality]
+    templates: [outputs/webinar-narrative-script]
+    registry: [data/registries/story-bank]
+
+  build-product-narrative:
+    agents: [donald-miller, kindra-hall, joseph-campbell]
+    frameworks: [miller-storybrand-sb7, hall-stories-that-stick, campbell-heros-journey, product-narrative-framework]
+    checklists: [brand-story-quality, narrative-clarity-quality]
+    templates: [outputs/product-story]
+    registry: [data/registries/story-bank]
+
+  create-public-narrative:
+    agents: [marshall-ganz, joseph-campbell, matthew-dicks]
+    frameworks: [ganz-public-narrative, ganz-story-of-self, ganz-story-of-us, ganz-story-of-now, campbell-archetypes]
+    checklists: [public-narrative-quality, ganz/public-narrative-self-us-now-audit, ganz/urgency-and-action-audit]
+    templates: [outputs/public-narrative-self-us-now]
+    registry: [data/registries/public-narratives-registry]
+
+  write-email-sequence-narrative:
+    agents: [dan-harmon, donald-miller, kindra-hall]
+    frameworks: [harmon-story-circle, miller-storybrand-sb7, email-sequence-narrative-framework]
+    checklists: [email-sequence-narrative-quality, structure-and-pacing-quality]
+    templates: [outputs/email-sequence-narrative]
+    registry: [data/registries/story-bank]
+
+  write-video-story-script:
+    agents: [dan-harmon, blake-snyder, matthew-dicks]
+    frameworks: [harmon-story-circle, snyder-save-the-cat, dicks-storyworthy, video-script-narrative-framework]
+    checklists: [video-script-narrative-quality, hook-and-open-loop-quality, structure-and-pacing-quality]
+    templates: [outputs/video-story-script]
+    registry: [data/registries/story-bank]
+
+  create-social-story-series:
+    agents: [dan-harmon, kindra-hall, park-howell]
+    frameworks: [harmon-but-therefore, hall-story-formula, howell-abt-framework, social-media-story-framework]
+    checklists: [social-media-story-quality, narrative/micro-story-quality]
+    templates: [outputs/social-media-story-series]
+    registry: [data/registries/story-bank]
+
+  write-ad-story:
+    agents: [dan-harmon, blake-snyder, kindra-hall]
+    frameworks: [harmon-but-therefore, snyder-save-the-cat, ad-storytelling-framework]
+    checklists: [hook-and-open-loop-quality, narrative/micro-story-quality]
+    templates: [outputs/video-story-script]
+    registry: [data/registries/hook-bank]
+
+  create-employer-brand-story:
+    agents: [kindra-hall, marshall-ganz, donald-miller]
+    frameworks: [hall-stories-that-stick, ganz-story-of-us, hiring-employer-brand-story]
+    checklists: [brand-story-quality, hall/story-types-fit-audit]
+    templates: [outputs/founder-story]
+    registry: [data/registries/story-bank]
+
+  write-data-story:
+    agents: [nancy-duarte, donald-miller]
+    frameworks: [duarte-resonate-sparkline, data-storytelling-framework, miller-grunt-test]
+    checklists: [narrative/data-storytelling-quality, narrative-clarity-quality]
+    templates: [outputs/case-study-story]
+    registry: [data/registries/story-bank]
+
+  # ---- REFINEMENT ----
+  improve-story-clarity:
+    agents: [donald-miller, shawn-coyne]
+    frameworks: [miller-grunt-test, miller-one-liner, coyne-controlling-idea, editing-compression-framework]
+    checklists: [narrative-clarity-quality, miller/messaging-clarity-audit, editing-and-trimming-quality]
+    templates: [operational/editing-cut-sheet]
+    registry: [data/registries/lessons-learned-registry]
+
+  add-proof-to-story:
+    agents: [kindra-hall, shawn-coyne]
+    frameworks: [proof-in-narrative-framework, hall-gap-bridge-framework]
+    checklists: [proof-in-story-quality]
+    templates: []
+    registry: [data/registries/proof-bank]
+
+  compress-and-edit-story:
+    agents: [shawn-coyne, donald-miller]
+    frameworks: [editing-compression-framework, coyne-five-commandments, show-dont-tell-framework]
+    checklists: [editing-and-trimming-quality, structure-and-pacing-quality]
+    templates: [operational/editing-cut-sheet]
+    registry: [data/registries/lessons-learned-registry]
+
+  strengthen-hook:
+    agents: [oren-klaff, blake-snyder, dan-harmon]
+    frameworks: [klaff-crocodile-brain, snyder-logline-system, story-opening-patterns]
+    checklists: [hook-and-open-loop-quality, klaff/tension-and-novelty-audit]
+    templates: []
+    registry: [data/registries/hook-bank]
+
+  fix-pacing-and-rhythm:
+    agents: [blake-snyder, shawn-coyne, dan-harmon]
+    frameworks: [snyder-save-the-cat, coyne-five-commandments, harmon-story-circle, story-beats-and-scenes]
+    checklists: [structure-and-pacing-quality, snyder/save-the-cat-beat-sheet-audit]
+    templates: []
+    registry: [data/registries/lessons-learned-registry]
+
+  deepen-conflict-and-stakes:
+    agents: [shawn-coyne, joseph-campbell, dan-harmon]
+    frameworks: [coyne-five-commandments, stakes-escalation-ladder, character-want-need-lie, campbell-heros-journey]
+    checklists: [conflict-stakes-quality, coyne/value-shift-per-scene-audit]
+    templates: []
+    registry: [data/registries/lessons-learned-registry]
+
+  improve-emotional-arc:
+    agents: [matthew-dicks, shawn-coyne, nancy-duarte]
+    frameworks: [emotional-arc-mapping, dicks-storyworthy, coyne-five-commandments, duarte-resonate-sparkline]
+    checklists: [emotional-arc-quality, dicks/personal-story-transformation-audit]
+    templates: []
+    registry: [data/registries/lessons-learned-registry]
+
+  adapt-story-for-channel:
+    agents: [donald-miller, dan-harmon]
+    frameworks: [delivery-layer, editing-compression-framework]
+    checklists: [narrative/multi-channel-consistency-quality]
+    templates: []
+    registry: [data/registries/story-bank]
+
+  # ---- EXTRACTION ----
+  extract-stories-from-interviews:
+    agents: [matthew-dicks, kindra-hall]
+    frameworks: [dicks-storyworthy, dicks-first-last-best-worst, hall-stories-that-stick]
+    checklists: [dicks/five-second-moment-audit, hall/story-types-fit-audit]
+    templates: [outputs/customer-story]
+    registry: [data/registries/story-bank]
+
+  generate-hooks-from-story:
+    agents: [oren-klaff, blake-snyder]
+    frameworks: [klaff-crocodile-brain, snyder-logline-system, story-opening-patterns]
+    checklists: [hook-and-open-loop-quality]
+    templates: []
+    registry: [data/registries/hook-bank]
+
+  extract-one-liner-from-brand:
+    agents: [donald-miller]
+    frameworks: [miller-one-liner, miller-grunt-test]
+    checklists: [miller/one-liner-audit]
+    templates: [outputs/one-liner]
+    registry: [data/registries/one-liners-registry]
+
+  extract-social-snippets:
+    agents: [dan-harmon, kindra-hall]
+    frameworks: [harmon-but-therefore, social-media-story-framework]
+    checklists: [social-media-story-quality, narrative/micro-story-quality]
+    templates: [outputs/social-media-story-series]
+    registry: [data/registries/story-bank]
+
+  extract-email-arc-from-story:
+    agents: [dan-harmon, donald-miller]
+    frameworks: [harmon-story-circle, email-sequence-narrative-framework]
+    checklists: [email-sequence-narrative-quality]
+    templates: [outputs/email-sequence-narrative]
+    registry: [data/registries/story-bank]
+
+  # ---- DELIVERY ----
+  rehearse-pitch:
+    agents: [oren-klaff, keith-johnstone]
+    frameworks: [klaff-frame-control, klaff-push-pull, johnstone-status-transactions]
+    checklists: [klaff/status-alignment-audit, klaff/push-pull-pattern-audit, improv-readiness-quality]
+    templates: []
+    registry: [data/metrics/pitch-conversion]
+
+  rehearse-presentation:
+    agents: [nancy-duarte, keith-johnstone]
+    frameworks: [duarte-audience-journey, johnstone-impro, performance-layer]
+    checklists: [duarte/audience-journey-mapping-audit, improv-readiness-quality]
+    templates: []
+    registry: [data/metrics/deck-engagement]
+
+  improv-training-session:
+    agents: [keith-johnstone, matthew-dicks]
+    frameworks: [johnstone-impro, johnstone-status-transactions, dicks-storyworthy]
+    checklists: [improv-readiness-quality, johnstone/status-transaction-audit, johnstone/offers-and-acceptance-audit]
+    templates: [exercises/improv-drill-template]
+    registry: [data/registries/improv-games-registry]
+
+  story-slam-practice:
+    agents: [matthew-dicks, keith-johnstone]
+    frameworks: [dicks-storyworthy, dicks-story-beginning-end-rule, johnstone-impro, performance-layer]
+    checklists: [dicks/story-beginning-end-audit, improv-readiness-quality]
+    templates: [exercises/story-swap-workshop-template]
+    registry: [data/registries/story-bank]
+
+  q-and-a-preparation:
+    agents: [oren-klaff, keith-johnstone, kindra-hall]
+    frameworks: [klaff-frame-control, johnstone-status-transactions, hall-stories-that-stick]
+    checklists: [improv-readiness-quality, klaff/pitch-frames-audit]
+    templates: []
+    registry: [data/registries/story-bank]
+
+  # ---- REVIEW ----
+  story-review:
+    agents: [donald-miller, shawn-coyne]
+    frameworks: [miller-grunt-test, coyne-five-commandments, coyne-controlling-idea]
+    checklists: [narrative-clarity-quality, structure-and-pacing-quality, conflict-stakes-quality, character-transformation-quality]
+    templates: [operational/story-feedback-form]
+    registry: [data/registries/lessons-learned-registry]
+
+  pitch-review:
+    agents: [oren-klaff, donald-miller]
+    frameworks: [klaff-pitch-anything, klaff-frame-control, miller-grunt-test]
+    checklists: [pitch-story-quality, klaff/pitch-frames-audit, klaff/tension-and-novelty-audit]
+    templates: [operational/story-feedback-form]
+    registry: [data/registries/lessons-learned-registry]
+
+  deck-review:
+    agents: [nancy-duarte, donald-miller]
+    frameworks: [duarte-resonate-sparkline, duarte-star-moment, miller-grunt-test]
+    checklists: [deck-story-quality, duarte/sparkline-audit, duarte/deck-flow-and-contrast-audit]
+    templates: [operational/story-feedback-form]
+    registry: [data/registries/lessons-learned-registry]
+
+  narrative-consistency-review:
+    agents: [park-howell, donald-miller]
+    frameworks: [howell-business-of-story, miller-marketing-roadmap]
+    checklists: [narrative/multi-channel-consistency-quality, howell/brand-narrative-coherence-audit]
+    templates: [reports/brand-narrative-health-report]
+    registry: [data/metrics/brand-narrative-health]
+
+  story-bank-review:
+    agents: [kindra-hall, donald-miller]
+    frameworks: [hall-story-selection-matrix, hall-stories-that-stick]
+    checklists: [hall/story-selection-strategy-audit]
+    templates: [reports/story-bank-status-report]
+    registry: [data/metrics/story-bank-coverage]
+
+  # ---- OPERATIONS ----
+  maintain-story-bank:
+    agents: [kindra-hall, donald-miller]
+    frameworks: [hall-story-selection-matrix]
+    checklists: []
+    templates: [reports/story-bank-status-report]
+    registry: [data/registries/story-bank]
+
+  curate-swipe-file:
+    agents: [shawn-coyne, blake-snyder]
+    frameworks: [coyne-story-grid, snyder-save-the-cat]
+    checklists: []
+    templates: []
+    registry: [data/registries/story-bank]
+
+  quarterly-narrative-review:
+    agents: [donald-miller, park-howell]
+    frameworks: [measurement-layer]
+    checklists: []
+    templates: [reports/narrative-performance-report, reports/story-bank-status-report]
+    registry: [data/metrics/story-bank-coverage]
+
+  cross-squad-sync:
+    agents: [donald-miller]
+    frameworks: []
+    checklists: []
+    templates: [operational/handoff-template]
+    registry: [data/registries/decisions-log]
+
+  onboard-new-project:
+    agents: [donald-miller, kindra-hall]
+    frameworks: [miller-storybrand-sb7, discovery-layer, strategy-layer]
+    checklists: [story-brief-quality]
+    templates: [briefs/story-brief, briefs/brand-story-brief]
+    registry: [data/registries/decisions-log]
+
+# ============================================================
+# CROSS-SQUAD INTEGRATION
+# ============================================================
+
+cross_squad:
+  copy_squad:
+    handoff_to_storytelling:
+      - "copy briefs needing narrative structure → storytelling/tasks/creation/"
+      - "headlines needing story hooks → storytelling/phrases/hooks-and-openers"
+    handoff_from_storytelling:
+      - "story arcs → copy/frameworks/ (estrutura para copy longa)"
+      - "hooks validados → copy/swipe/ (hooks testados em stories)"
+      - "BrandScripts → copy/reference/ (messaging foundation)"
+    shared_assets:
+      - hook-bank
+      - one-liners
+      - proof-bank
+
+  brand_squad:
+    handoff_to_storytelling:
+      - "brand positioning → storytelling/frameworks/brand-story-framework (base)"
+      - "brand voice → storytelling/voice/ (tom e personalidade)"
+    handoff_from_storytelling:
+      - "brand narrative → brand/frameworks/ (historia central da marca)"
+      - "brand script → brand/reference/ (SB7 como base de messaging)"
+    shared_assets:
+      - brand-scripts-registry
+      - brand-story
+
+  traffic_squad:
+    handoff_to_storytelling:
+      - "creative performance data → storytelling/data/ (que tipo de story converte)"
+      - "winning ad hooks → storytelling/swipe/ (hooks validados por dados)"
+    handoff_from_storytelling:
+      - "ad story scripts → traffic/templates/ads/ (scripts narrativos)"
+      - "video story scripts → traffic/templates/ads/ (YouTube/TikTok)"
+      - "webinar narrative → traffic/tasks/ (narrativa do webinar)"
+    shared_assets:
+      - hook-bank
+      - video-story-scripts
+
+# ============================================================
+# QUALITY GATES
+# ============================================================
+
+quality_gates:
+  mandatory:
+    - narrative-clarity-quality    # Toda historia passa pelo gate de clareza
+    - structure-and-pacing-quality # Estrutura verificada
+    - hook-and-open-loop-quality   # Hook forte
+  per_domain:
+    brand: [brand-story-quality, miller/storybrand-sb7-audit]
+    pitch: [pitch-story-quality, klaff/pitch-frames-audit]
+    deck: [deck-story-quality, duarte/sparkline-audit]
+    case_study: [customer-case-story-quality, proof-in-story-quality]
+    public: [public-narrative-quality, ganz/public-narrative-self-us-now-audit]
+    founder: [founder-story-quality, dicks/five-second-moment-audit]
+    improv: [improv-readiness-quality, johnstone/status-transaction-audit]
+    webinar: [webinar-narrative-quality, structure-and-pacing-quality]
+    email: [email-sequence-narrative-quality, structure-and-pacing-quality]
+    video: [video-script-narrative-quality, hook-and-open-loop-quality]
+    social: [social-media-story-quality, narrative/micro-story-quality]
+
+# ============================================================
+# KPIs
+# ============================================================
+
+kpis:
+  impact:
+    - story_retention_rate          # % da audiencia que lembra a historia
+    - story_retelling_rate          # % que reconta para outros (stickiness)
+    - narrative_clarity_score       # Score de clareza (grunt test + clarity linter)
+    - pitch_win_rate                # Win rate de pitches com narrativa do squad
+  engagement:
+    - content_engagement_lift       # Lift em engagement com narrativa vs sem
+    - video_retention_rate          # Retencao em videos com story vs sem
+    - deck_attention_score          # Score de atencao por secao do deck
+    - email_story_open_rate         # Open rate de emails com storytelling
+  operational:
+    - story_bank_coverage           # Cobertura: tipos x canais x audiencias
+    - stories_created_per_month     # Volume de producao
+    - story_reuse_rate              # Taxa de reuso do story bank
+    - time_to_final_story           # Tempo de discovery → final script
+
+# ============================================================
+# DEFAULTS
+# ============================================================
+
+defaults:
+  review_agent: donald-miller
+  min_checklists: 2
+  registry_on_completion: true
+  output_format: markdown
+  story_structure_default: "harmon-story-circle"    # default mais compacto
+  clarity_check: "miller-grunt-test"                # sempre rodar
