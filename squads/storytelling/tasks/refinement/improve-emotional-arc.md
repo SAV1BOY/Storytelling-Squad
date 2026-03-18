@@ -80,3 +80,32 @@ None — output is a revised narrative and emotional arc map.
 - **Copy Squad**: Emotional arc principles inform email sequence emotional progression and landing page feel.
 - **Brand Squad**: The brand's emotional tone should have consistent peaks and valleys across all content.
 - **Traffic Squad**: Video ad retention correlates directly with emotional arc quality. Share insights with creative team.
+
+---
+
+## SLA
+- **Estimated duration:** 1-3 hours
+- **Rework cycle:** 30-90 minutes
+- **Max rework cycles:** 3
+
+## Conditional Paths
+- **IF quality gate passes on first submission:** Proceed to registry update and next workflow step.
+- **IF quality gate fails (clarity dimension):** Rework with [miller-grunt-test](../../frameworks/miller-grunt-test.md). Re-submit.
+- **IF quality gate fails (structure dimension):** Rework with [coyne-five-commandments](../../frameworks/coyne-five-commandments.md). Re-submit.
+- **IF quality gate fails 2x on same dimension:** Escalate to Chief Agent per config.yaml escalation_rules.
+
+## Registry Update
+- **Registry:** [lessons-learned-registry](../../data/registries/lessons-learned-registry.yaml)
+- **Fields to populate:**
+  - `id`: Auto-generated (ll-YYYYMMDD-NNN)
+  - `version`: 1.0.0 or increment
+  - `status`: draft → reviewed → approved
+  - `quality_score`: NQS from quality gate
+  - `created_by`: Primary agent ID
+  - `frameworks_used`: [list]
+
+## Escalation Path
+- **Gate failure 2x on same dimension:** Escalate to [donald-miller](../../agents/donald-miller.md) (Chief).
+- **Scope exceeds agent capability:** Chief activates parallel swarm.
+- **Cross-squad dependency blocks progress:** Chief + squad lead resolve per cross-squad SLA (24h).
+- **Conflicting recommendations:** Chief arbitrates per clarity-first principle.

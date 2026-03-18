@@ -75,3 +75,32 @@ The one-liner is the brand's most compressed narrative: a single sentence that t
 - **Copy Squad**: The one-liner becomes the foundation for headlines, taglines, and meta descriptions.
 - **Brand Squad**: The one-liner IS the brand's compressed identity. Must be validated against brand positioning.
 - **Traffic Squad**: The one-liner informs ad headlines, video hooks, and campaign taglines.
+
+---
+
+## SLA
+- **Estimated duration:** 1-2 hours
+- **Rework cycle:** 30-60 minutes
+- **Max rework cycles:** 3
+
+## Conditional Paths
+- **IF quality gate passes on first submission:** Proceed to registry update and next workflow step.
+- **IF quality gate fails (clarity dimension):** Rework with [miller-grunt-test](../../frameworks/miller-grunt-test.md). Re-submit.
+- **IF quality gate fails (structure dimension):** Rework with [coyne-five-commandments](../../frameworks/coyne-five-commandments.md). Re-submit.
+- **IF quality gate fails 2x on same dimension:** Escalate to Chief Agent per config.yaml escalation_rules.
+
+## Registry Update
+- **Registry:** [one-liners-registry](../../data/registries/one-liners-registry.yaml)
+- **Fields to populate:**
+  - `id`: Auto-generated (ol-YYYYMMDD-NNN)
+  - `version`: 1.0.0 or increment
+  - `status`: draft → reviewed → approved
+  - `quality_score`: NQS from quality gate
+  - `created_by`: Primary agent ID
+  - `frameworks_used`: [list]
+
+## Escalation Path
+- **Gate failure 2x on same dimension:** Escalate to [donald-miller](../../agents/donald-miller.md) (Chief).
+- **Scope exceeds agent capability:** Chief activates parallel swarm.
+- **Cross-squad dependency blocks progress:** Chief + squad lead resolve per cross-squad SLA (24h).
+- **Conflicting recommendations:** Chief arbitrates per clarity-first principle.

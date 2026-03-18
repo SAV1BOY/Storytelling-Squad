@@ -84,3 +84,32 @@ None — output varies by target channel.
 - **Copy Squad**: Channel adaptations become copy briefs for the copy squad to finalize.
 - **Brand Squad**: Adaptation consistency is a brand quality signal. Inconsistent adaptations weaken the brand.
 - **Traffic Squad**: Channel-adapted stories are directly deployable by traffic squad for their respective platforms.
+
+---
+
+## SLA
+- **Estimated duration:** 1-3 hours
+- **Rework cycle:** 30-90 minutes
+- **Max rework cycles:** 3
+
+## Conditional Paths
+- **IF quality gate passes on first submission:** Proceed to registry update and next workflow step.
+- **IF quality gate fails (clarity dimension):** Rework with [miller-grunt-test](../../frameworks/miller-grunt-test.md). Re-submit.
+- **IF quality gate fails (structure dimension):** Rework with [coyne-five-commandments](../../frameworks/coyne-five-commandments.md). Re-submit.
+- **IF quality gate fails 2x on same dimension:** Escalate to Chief Agent per config.yaml escalation_rules.
+
+## Registry Update
+- **Registry:** [story-bank](../../data/registries/story-bank.yaml)
+- **Fields to populate:**
+  - `id`: Auto-generated (sb-YYYYMMDD-NNN)
+  - `version`: 1.0.0 or increment
+  - `status`: draft → reviewed → approved
+  - `quality_score`: NQS from quality gate
+  - `created_by`: Primary agent ID
+  - `frameworks_used`: [list]
+
+## Escalation Path
+- **Gate failure 2x on same dimension:** Escalate to [donald-miller](../../agents/donald-miller.md) (Chief).
+- **Scope exceeds agent capability:** Chief activates parallel swarm.
+- **Cross-squad dependency blocks progress:** Chief + squad lead resolve per cross-squad SLA (24h).
+- **Conflicting recommendations:** Chief arbitrates per clarity-first principle.

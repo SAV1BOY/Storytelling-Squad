@@ -80,3 +80,35 @@ This task designs the narrative strategy for presentations — keynotes, webinar
 - **Brand Squad**: Presentation narrative must align with brand positioning and visual identity.
 - **Copy Squad**: Key phrases and messages from presentation strategy inform landing page and follow-up copy.
 - **Traffic Squad**: Webinar and presentation strategies directly feed traffic team's event promotion angles.
+
+---
+
+## SLA
+- **Estimated duration:** 2-4 hours
+- **Rework cycle:** 1-2 hours (50% of original)
+- **Max rework cycles:** 3
+
+## Conditional Paths
+- **IF quality gate passes on first submission:** Proceed to registry update and downstream handoff.
+- **IF quality gate fails (clarity dimension):** Return to primary agent with [miller-grunt-test](../../frameworks/miller-grunt-test.md) focus. Revise only clarity. Re-submit.
+- **IF quality gate fails (structure dimension):** Return to [shawn-coyne](../../agents/shawn-coyne.md) with [coyne-five-commandments](../../frameworks/coyne-five-commandments.md). Revise structure. Re-submit.
+- **IF quality gate fails (proof/evidence dimension):** Return to research step. Gather additional sources. Re-submit.
+- **IF quality gate fails 2x on same dimension:** Escalate to Chief Agent (donald-miller) per config.yaml escalation_rules.
+
+## Registry Update
+- **Registry:** [Specific registry from config.yaml routing for this task](../../data/registries/deck-outline-registry)
+- **Fields to populate:**
+  - `id`: Auto-generated ([prefix]-YYYYMMDD-NNN)
+  - `project`: Project name from brief
+  - `version`: 1.0.0 (new) or increment (revision)
+  - `status`: draft → reviewed → approved
+  - `quality_score`: NQS from quality gate
+  - `created_by`: Primary agent ID
+  - `frameworks_used`: List from task routing
+  - `linked_assets`: Related registry entries
+
+## Escalation Path
+- **Gate failure 2x on same dimension:** Escalate to [donald-miller](../../agents/donald-miller.md) (Chief). Chief reviews brief alignment and agent-framework fit.
+- **Scope exceeds agent capability:** Chief activates parallel swarm with additional specialist.
+- **Cross-squad dependency blocks progress:** Chief + requesting squad lead resolve per cross-squad SLA (24h).
+- **Conflicting agent recommendations:** Chief arbitrates per clarity-first principle. Dissent logged in decisions-log.

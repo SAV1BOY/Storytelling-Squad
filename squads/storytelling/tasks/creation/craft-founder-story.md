@@ -84,3 +84,36 @@ The founder's story is one of the most powerful assets a brand can have. This ta
 - **Brand Squad**: Founder story is a core brand asset. Must align with brand voice, values, and positioning.
 - **Copy Squad**: Founder story variants feed about pages, email welcome sequences, and PR bios.
 - **Traffic Squad**: Short founder story variants work as ad creative, especially for brand awareness campaigns.
+
+---
+
+## SLA
+- **Estimated duration:** 4-8 hours
+- **Rework cycle:** 2-4 hours (50% of original)
+- **Max rework cycles:** 3
+
+## Conditional Paths
+- **IF quality gate passes on first submission:** Proceed to registry update and cross-squad handoff.
+- **IF quality gate fails (clarity dimension):** Return to [donald-miller](../../agents/donald-miller.md) with [miller-grunt-test](../../frameworks/miller-grunt-test.md). Revise clarity only. Re-submit.
+- **IF quality gate fails (structure dimension):** Return to [shawn-coyne](../../agents/shawn-coyne.md) with [coyne-five-commandments](../../frameworks/coyne-five-commandments.md). Revise structure. Re-submit.
+- **IF quality gate fails (emotional arc):** Return to [matthew-dicks](../../agents/matthew-dicks.md) with [dicks-storyworthy](../../frameworks/dicks-storyworthy.md). Deepen emotional resonance. Re-submit.
+- **IF quality gate fails (proof/evidence):** Return to proof-gathering step. Use [proof-in-narrative-framework](../../frameworks/proof-in-narrative-framework.md). Re-submit.
+- **IF quality gate fails 2x on same dimension:** Escalate to Chief Agent per config.yaml escalation_rules.
+
+## Registry Update
+- **Primary registry:** [story-bank](../../data/registries/story-bank.yaml)
+- **Fields to populate:**
+  - `id`: Auto-generated (founder-story-YYYYMMDD-NNN)
+  - `project`: Project name from brief
+  - `version`: 1.0.0 (new) or increment (revision)
+  - `status`: draft → reviewed → approved
+  - `quality_score`: NQS from quality gate
+  - `created_by`: Primary agent ID
+  - `frameworks_used`: [list from this task's routing]
+  - `linked_assets`: Related registry entries
+
+## Escalation Path
+- **Gate failure 2x on same dimension:** Escalate to [donald-miller](../../agents/donald-miller.md) (Chief). Chief reviews brief alignment and agent-framework fit.
+- **Scope exceeds agent capability:** Chief activates parallel swarm with additional specialist.
+- **Cross-squad dependency blocks progress:** Chief + requesting squad lead resolve per cross-squad SLA (24h).
+- **Conflicting agent recommendations:** Chief arbitrates per clarity-first principle. Dissent logged in decisions-log.
