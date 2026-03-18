@@ -148,13 +148,13 @@ next quarter's storytelling priorities.
 
 | Step | Agent | Est. Duration | Cumulative |
 |---|---|---|---|
-| 1. Inventory Collection | donald-miller + park-howell | 4 hours | 4 hours |
-| 2. Consistency Analysis | shawn-coyne + park-howell | 4 hours | 8 hours |
-| 3. Quality Assessment | shawn-coyne + donald-miller | 4 hours | 12 hours |
-| 4. Coverage Gap Analysis | kindra-hall + donald-miller | 3 hours | 15 hours |
-| 5. Performance Analysis | donald-miller | 3 hours | 18 hours |
-| 6. Stakeholder Perception Interviews | kindra-hall + matthew-dicks | 4 hours | 22 hours |
-| 7. Recommendations Development | donald-miller + park-howell | 3 hours | 25 hours |
+| 1. Inventory Collection | [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md) | 4 hours | 4 hours |
+| 2. Consistency Analysis | [shawn-coyne](../agents/shawn-coyne.md) + [park-howell](../agents/park-howell.md) | 4 hours | 8 hours |
+| 3. Quality Assessment | [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md) | 4 hours | 12 hours |
+| 4. Coverage Gap Analysis | [kindra-hall](../agents/kindra-hall.md) + [donald-miller](../agents/donald-miller.md) | 3 hours | 15 hours |
+| 5. Performance Analysis | [donald-miller](../agents/donald-miller.md) | 3 hours | 18 hours |
+| 6. Stakeholder Perception Interviews | [kindra-hall](../agents/kindra-hall.md) + [matthew-dicks](../agents/matthew-dicks.md) | 4 hours | 22 hours |
+| 7. Recommendations Development | [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md) | 3 hours | 25 hours |
 | 8. Audit Report and Presentation | [donald-miller](../agents/donald-miller.md) + [nancy-duarte](../agents/nancy-duarte.md) | 4 hours | 29 hours |
 | **Total** | | | **29 hours** |
 

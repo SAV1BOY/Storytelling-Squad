@@ -16,7 +16,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 - Content calendar for the next quarter available for alignment
 
 ## Steps
-1. **Performance Data Collection** — Story Ops: Aggregate all storytelling metrics → Performance Dashboard
+1. **Performance Data Collection** — [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md): Aggregate all storytelling metrics → Performance Dashboard
    - Framework: Storytelling metrics model
    - Checklist: cl-quarterly-data-collection
    - Pull story performance data: engagement, conversion, retention by story and channel
@@ -27,7 +27,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
    - Calculate quarter-over-quarter trends for all key metrics
    - Compile into a single dashboard for analysis
 
-2. **Win and Loss Analysis** — Story Strategist: Identify top and bottom performers → Analysis Report
+2. **Win and Loss Analysis** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Identify top and bottom performers → Analysis Report
    - Framework: Narrative performance attribution
    - Checklist: cl-win-loss-analysis
    - Identify the top 5 stories by business impact (revenue, conversion, or engagement)
@@ -37,7 +37,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
    - Identify patterns: which storytelling approaches consistently outperform
    - Compare framework effectiveness: StoryBrand vs. Sparkline vs. Hero's Journey vs. others
 
-3. **Gap Assessment** — Story Strategist: Evaluate coverage and capability gaps → Gap Report
+3. **Gap Assessment** — [kindra-hall](../agents/kindra-hall.md) + [donald-miller](../agents/donald-miller.md): Evaluate coverage and capability gaps → Gap Report
    - Framework: Story coverage matrix + capability assessment
    - Checklist: cl-quarterly-gap-assessment
    - Update the story coverage matrix: audience segments x journey stages x channels
@@ -47,7 +47,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
    - Review Hook Bank performance: which hook types are running out or underperforming
    - Assess team capability gaps: what skills does the squad need to develop
 
-4. **Stakeholder Feedback Synthesis** — Story Strategist: Compile cross-squad input → Feedback Summary
+4. **Stakeholder Feedback Synthesis** — [kindra-hall](../agents/kindra-hall.md) + [matthew-dicks](../agents/matthew-dicks.md): Compile cross-squad input → Feedback Summary
    - Framework: Stakeholder narrative satisfaction survey
    - Checklist: cl-stakeholder-feedback
    - Survey each consuming squad: Copy, Brand, Traffic, Sales, Product, Leadership
@@ -57,7 +57,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
    - Rate stakeholder satisfaction on storytelling support: 1-10 scale
    - Compare to previous quarter's satisfaction scores
 
-5. **Strategy Development** — Story Strategist: Define next quarter's storytelling priorities → Strategic Plan
+5. **Strategy Development** — [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md): Define next quarter's storytelling priorities → Strategic Plan
    - Framework: Quarterly strategic planning template
    - Checklist: cl-quarterly-strategy
    - Define 3-5 strategic priorities based on performance data, gaps, and stakeholder needs
@@ -67,7 +67,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
    - Identify dependencies on other squads and flag early
    - Set quarterly storytelling OKRs with measurable targets
 
-6. **Resource and Capacity Planning** — Story Ops: Allocate capacity to priorities → Resource Plan
+6. **Resource and Capacity Planning** — [donald-miller](../agents/donald-miller.md): Allocate capacity to priorities → Resource Plan
    - Framework: Capacity planning methodology
    - Checklist: cl-resource-planning
    - Estimate effort for each strategic priority (hours, sprints, or story points)
@@ -77,7 +77,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
    - Build in buffer for unplanned work (crisis response, urgent requests)
    - Propose hiring, contracting, or cross-training if capacity gaps are critical
 
-7. **Maturity Assessment** — Story Strategist: Score squad maturity and track progress → Maturity Score
+7. **Maturity Assessment** — [park-howell](../agents/park-howell.md) + [donald-miller](../agents/donald-miller.md): Score squad maturity and track progress → Maturity Score
    - Framework: Storytelling Squad maturity model
    - Checklist: cl-maturity-assessment
    - Score on five dimensions: process maturity, asset quality, team capability, measurement rigor, cross-squad impact
@@ -87,7 +87,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
    - Update maturity-score-history.md with current scores and commentary
    - Use maturity gaps to inform training and process investment priorities
 
-8. **Plan Presentation and Commitment** — Story Strategist: Present to leadership and commit → Approved Quarterly Plan
+8. **Plan Presentation and Commitment** — [donald-miller](../agents/donald-miller.md) + [nancy-duarte](../agents/nancy-duarte.md): Present to leadership and commit → Approved Quarterly Plan
    - Framework: Quarterly review presentation format
    - Checklist: cl-quarterly-presentation
    - Present: last quarter performance, key wins and losses, gap analysis, stakeholder feedback
