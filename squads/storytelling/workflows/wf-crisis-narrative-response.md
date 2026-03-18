@@ -102,12 +102,42 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
    - Archive the crisis response in Story Bank with full context and learnings
    - Update lessons-learned-registry.yaml and decisions-log.yaml
 
-## Quality Gates
-- After Step 1: Situation brief completed within 2 hours with stakeholder map and narrative gap
-- After Step 2: Crisis narrative demonstrates genuine empathy and specific commitments
-- After Step 3: Approval obtained within 2 hours of draft — no approval bottleneck
-- After Step 4: All channels deployed within 1 hour of approval with consistent core message
-- After Step 7: Follow-up delivered within the committed timeline with evidence of action
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Situation Brief Completeness
+- **Checklist:** [public-narrative-quality](../checklists/public-narrative-quality.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL (clarity):** Rework Step 1 using [miller-grunt-test](../frameworks/miller-grunt-test.md). Re-submit.
+- **IF FAIL (stakeholder mapping):** Rework with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-public-narrative](../frameworks/ganz-public-narrative.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 2): Crisis Narrative Empathy and Commitment
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 3
+- **IF FAIL (empathy):** Rework Step 2 with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-story-of-now](../frameworks/ganz-story-of-now.md). Re-submit.
+- **IF FAIL (clarity):** Rework with [donald-miller](../agents/donald-miller.md) using [miller-grunt-test](../frameworks/miller-grunt-test.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 3): Approval Speed
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 4
+- **IF FAIL (legal concerns):** Rework Step 2 with [donald-miller](../agents/donald-miller.md) addressing legal feedback. Re-submit.
+- **IF FAIL (tone):** Rework with [park-howell](../agents/park-howell.md) using [howell-business-of-story](../frameworks/howell-business-of-story.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 4): Channel Deployment Consistency
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 5
+- **IF FAIL (inconsistency):** Rework Step 4 with [park-howell](../agents/park-howell.md) for cross-channel alignment. Re-submit.
+- **IF FAIL (timing):** Escalate immediately to Chief — crisis timeline is critical
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 7): Follow-Up Delivery
+- **Checklist:** [public-narrative-quality](../checklists/public-narrative-quality.md)
+- **IF PASS:** Proceed to Step 8
+- **IF FAIL (evidence):** Rework Step 7 with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
+- **IF FAIL (tone shift):** Rework with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-public-narrative](../frameworks/ganz-public-narrative.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Approved crisis narrative deployed across all channels
@@ -122,3 +152,19 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 - **To Brand Squad**: Narrative impact assessment and brand guideline adjustments needed
 - **To Traffic Squad**: Pause or adjust active campaigns; deploy crisis-related communications
 - **To Support Squad**: FAQ narratives and response templates for customer-facing teams
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Situation Assessment | [marshall-ganz](../agents/marshall-ganz.md) | 2 hours | 2 hours |
+| 2. Narrative Development | [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md) | 4 hours | 6 hours |
+| 3. Legal and Leadership Review | [donald-miller](../agents/donald-miller.md) | 2 hours | 8 hours |
+| 4. Multi-Channel Communication | [park-howell](../agents/park-howell.md) | 2 hours | 10 hours |
+| 5. Spokesperson Preparation | [keith-johnstone](../agents/keith-johnstone.md) | 1 hour | 11 hours |
+| 6. Monitoring and Response | [marshall-ganz](../agents/marshall-ganz.md) | 4 hours | 15 hours |
+| 7. Follow-Up Communication | [donald-miller](../agents/donald-miller.md) | 3 hours | 18 hours |
+| 8. Post-Crisis Narrative Recovery | [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md) | 4 hours | 22 hours |
+| **Total** | | | **18-26 hours** |
+
+*SLA reference: config.yaml sla_defaults*

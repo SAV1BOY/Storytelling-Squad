@@ -63,7 +63,7 @@ series, or any multi-email journey where narrative coherence creates compounding
    - Use callbacks: reference earlier emails to reward engaged subscribers
    - Ensure each email stands alone enough for a late-opener while rewarding full-sequence readers
 
-6. **Sequence Review** — Story Editor: Evaluate the complete sequence as a unit → Review Notes
+6. **Sequence Review** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Evaluate the complete sequence as a unit → Review Notes
    - Framework: Email narrative quality rubric
    - Checklist: cl-email-sequence-review
    - Read all emails in order at the intended cadence pace — does the arc feel right
@@ -72,7 +72,7 @@ series, or any multi-email journey where narrative coherence creates compounding
    - Confirm CTA clarity and consistency: does each email serve the macro objective
    - Test: could a subscriber who reads only emails 1 and 6 still convert
 
-7. **Testing and Optimization Setup** — Story Ops: Configure A/B tests and tracking → Test Plan
+7. **Testing and Optimization Setup** — [donald-miller](../agents/donald-miller.md): Configure A/B tests and tracking → Test Plan
    - Framework: Email testing methodology
    - Checklist: cl-email-testing
    - Set up subject line A/B tests for each email
@@ -81,7 +81,7 @@ series, or any multi-email journey where narrative coherence creates compounding
    - Plan mid-sequence optimization: which elements can be adjusted without breaking the arc
    - Initialize tracking in content-narrative-metrics.md
 
-8. **Launch and Iteration** — Story Ops + Writer: Deploy and refine based on data → Optimized Sequence
+8. **Launch and Iteration** — [dan-harmon](../agents/dan-harmon.md) + [donald-miller](../agents/donald-miller.md): Deploy and refine based on data → Optimized Sequence
    - Framework: Iterative narrative optimization
    - Checklist: cl-email-launch
    - Deploy sequence to first segment
