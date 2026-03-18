@@ -81,7 +81,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
    - Escalate unexpected developments to leadership for narrative adjustment
    - Produce monitoring reports every 4 hours during active crisis
 
-7. **Follow-Up Communication** — Story Writer: Deliver on commitments publicly → Follow-Up Narrative
+7. **Follow-Up Communication** — Story Strategist [donald-miller](../agents/donald-miller.md): Deliver on commitments publicly → Follow-Up Narrative
    - Framework: Crisis follow-up narrative structure
    - Checklist: cl-crisis-followup
    - Provide the first progress update within the timeline committed in the initial response
@@ -91,7 +91,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
    - Maintain the same empathetic tone — do not shift to triumphant or dismissive
    - Plan the cadence of future updates until the crisis is fully resolved
 
-8. **Post-Crisis Narrative Recovery** — Story Strategist: Rebuild and strengthen the brand narrative → Recovery Plan
+8. **Post-Crisis Narrative Recovery** — Story Strategist [donald-miller](../agents/donald-miller.md) + Brand Narrator [park-howell](../agents/park-howell.md): Rebuild and strengthen the brand narrative → Recovery Plan
    - Framework: Narrative recovery methodology
    - Checklist: cl-narrative-recovery
    - Assess the lasting narrative impact: what permanent shifts has the crisis caused

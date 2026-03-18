@@ -36,7 +36,7 @@ series, or any multi-email journey where narrative coherence creates compounding
    - Email 6 (Convert): Close the loop — specific CTA with urgency and clarity
    - Adjust number based on sequence length; maintain this narrative rhythm
 
-3. **Hook Development** — Story Writer: Craft subject lines and opening hooks → Hook Set
+3. **Hook Development** — [oren-klaff](../agents/oren-klaff.md) + [dan-harmon](../agents/dan-harmon.md): Craft subject lines and opening hooks → Hook Set
    - Framework: Curiosity gap + pattern interrupt methodology
    - Checklist: cl-hook-development
    - Write 3 subject line variants per email for A/B testing
@@ -45,7 +45,7 @@ series, or any multi-email journey where narrative coherence creates compounding
    - Ensure subject lines tell a micro-story across the sequence (reward binge-readers)
    - Register hooks in hook-bank.yaml with type and channel tags
 
-4. **Proof Integration** — Story Researcher: Place evidence within the narrative flow → Proof-Loaded Emails
+4. **Proof Integration** — [kindra-hall](../agents/kindra-hall.md): Place evidence within the narrative flow → Proof-Loaded Emails
    - Framework: Proof Bank selection criteria
    - Checklist: cl-email-proof-integration
    - Map proof types to the email sequence: social proof early, data proof mid, story proof late
@@ -54,7 +54,7 @@ series, or any multi-email journey where narrative coherence creates compounding
    - Verify all metrics and quotes are current and approved for email use
    - Include one "unexpected proof" that surprises the reader and breaks assumptions
 
-5. **Transition Design** — Story Architect: Engineer email-to-email continuity → Transition Map
+5. **Transition Design** — [dan-harmon](../agents/dan-harmon.md): Engineer email-to-email continuity → Transition Map
    - Framework: Serial cliffhanger methodology
    - Checklist: cl-transition-design
    - Every email except the last must end with a forward-pulling element
