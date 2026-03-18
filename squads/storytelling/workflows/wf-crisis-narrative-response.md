@@ -50,7 +50,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
    - Obtain explicit approval with documented sign-off
    - Timeline: approval within 2 hours of draft submission
 
-4. **Multi-Channel Communication** — Story Ops + Writer: Deploy the narrative across all channels → Deployed Communications
+4. **Multi-Channel Communication** — Brand Narrator [park-howell](../agents/park-howell.md) + Writer: Deploy the narrative across all channels → Deployed Communications
    - Framework: Crisis communication cascade
    - Checklist: cl-crisis-communication
    - Internal first: employees must hear the narrative before or simultaneously with external
@@ -61,7 +61,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
    - Support team: arm customer-facing teams with the narrative and FAQ responses
    - Timeline: deployment begins within 1 hour of approval
 
-5. **Spokesperson Preparation** — Story Coach: Brief and prepare the spokesperson → Prepared Spokesperson
+5. **Spokesperson Preparation** — Improv Coach [keith-johnstone](../agents/keith-johnstone.md): Brief and prepare the spokesperson → Prepared Spokesperson
    - Framework: Crisis media training (rapid version)
    - Checklist: cl-spokesperson-prep
    - Brief the spokesperson on the approved narrative and key messages
@@ -71,7 +71,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
    - Establish the "no-go" zones: topics that must be deferred to legal or future updates
    - Timeline: preparation complete within 1 hour, concurrent with deployment
 
-6. **Monitoring and Response** — Story Ops: Track narrative adoption and respond to developments → Monitoring Report
+6. **Monitoring and Response** — Public Narrative Expert [marshall-ganz](../agents/marshall-ganz.md): Track narrative adoption and respond to developments → Monitoring Report
    - Framework: Real-time narrative monitoring
    - Checklist: cl-crisis-monitoring
    - Monitor social media, press coverage, and customer sentiment in real-time

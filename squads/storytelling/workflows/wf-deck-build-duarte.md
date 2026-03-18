@@ -88,12 +88,37 @@ treats every slide as a story beat, not just an information container.
    - Register deck outline in deck-outline-registry.yaml
    - Initialize deck-engagement metrics tracking
 
-## Quality Gates
-- After Step 1: Sparkline must show minimum 3 oscillations between "what is" and "what could be"
-- After Step 2: Slide map must have zero slides with more than one core idea
-- After Step 4: Every major claim must have proof within 2 slides
-- After Step 6: Dry run must score 7/10 on presentation quality rubric
-- After Step 7: Final deck must pass cl-deck-revision with zero structural issues
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Sparkline Architecture Gate
+- **Checklist:** [deck-story-quality](../checklists/deck-story-quality.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL:** Rework with [nancy-duarte](../agents/nancy-duarte.md) using [duarte-resonate-sparkline](../frameworks/duarte-resonate-sparkline.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 2): Slide Mapping Gate
+- **Checklist:** [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
+- **IF PASS:** Proceed to Step 3
+- **IF FAIL:** Rework with [blake-snyder](../agents/blake-snyder.md) using [snyder-save-the-cat](../frameworks/snyder-save-the-cat.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 4): Proof Integration Gate
+- **Checklist:** [proof-in-story-quality](../checklists/proof-in-story-quality.md)
+- **IF PASS:** Proceed to Step 5
+- **IF FAIL:** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-stories-that-stick](../frameworks/hall-stories-that-stick.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 6): Dry Run Gate
+- **Checklist:** [deck-story-quality](../checklists/deck-story-quality.md)
+- **IF PASS:** Proceed to Step 7
+- **IF FAIL:** Rework with [nancy-duarte](../agents/nancy-duarte.md) using [duarte-resonate-sparkline](../frameworks/duarte-resonate-sparkline.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 7): Final Polish Gate
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 8
+- **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-grunt-test](../frameworks/miller-grunt-test.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Polished presentation deck with speaker notes and timing cues
@@ -107,3 +132,17 @@ treats every slide as a story beat, not just an information container.
 - **To Brand Squad**: Visual metaphors and narrative themes for brand consistency tracking
 - **To Traffic Squad**: Star moment content adapted for social media and ad hooks
 - **To Design Squad**: Visual design brief with slide-by-slide annotations and specifications
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Sparkline Architecture | nancy-duarte | 4 hours | 4 hours |
+| 2. Beat-to-Slide Mapping | nancy-duarte + blake-snyder | 4 hours | 8 hours |
+| 3. Content Development | nancy-duarte + donald-miller | 6 hours | 14 hours |
+| 4. Proof Integration | kindra-hall | 3 hours | 17 hours |
+| 5. Visual Design Brief | nancy-duarte | 3 hours | 20 hours |
+| 6. Dry Run Review | shawn-coyne + keith-johnstone | 2 hours | 22 hours |
+| 7. Revision and Polish | nancy-duarte + donald-miller | 3 hours | 25 hours |
+| 8. Delivery Preparation | keith-johnstone + nancy-duarte | 3 hours | 28 hours |
+| **Total** | | | **28 hours** |

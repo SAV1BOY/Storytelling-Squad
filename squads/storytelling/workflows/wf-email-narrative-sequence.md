@@ -16,7 +16,7 @@ series, or any multi-email journey where narrative coherence creates compounding
 - Email platform capabilities confirmed: personalization, branching, tracking
 
 ## Steps
-1. **Arc Architecture** — Story Architect: Design the overarching narrative structure → Arc Blueprint
+1. **Arc Architecture** — [dan-harmon](../agents/dan-harmon.md) + [donald-miller](../agents/donald-miller.md): Design the overarching narrative structure → Arc Blueprint
    - Framework: Serial narrative structure (adapted from episodic storytelling)
    - Checklist: cl-email-arc-design
    - Define the macro story: what transformation does the subscriber experience across all emails
@@ -25,7 +25,7 @@ series, or any multi-email journey where narrative coherence creates compounding
    - Plan open loops: what question or tension carries the reader from one email to the next
    - Design the payoff: the final email must deliver on the promise the first email made
 
-2. **Individual Email Scripting** — Story Writer: Write each email as a narrative beat → Email Drafts
+2. **Individual Email Scripting** — [dan-harmon](../agents/dan-harmon.md) + [kindra-hall](../agents/kindra-hall.md): Write each email as a narrative beat → Email Drafts
    - Framework: AIDA adapted for narrative email (Attention, Interest, Desire, Action per email)
    - Checklist: cl-email-scripting
    - Email 1 (Hook): Open a compelling loop — introduce the character, the problem, or the question
