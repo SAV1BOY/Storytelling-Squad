@@ -83,3 +83,12 @@ recovery score and hook effectiveness gains. Continue the training loop.
 - Recovery score = presenter self-assessment + facilitator observation average
 - Hook effectiveness = facilitator observation of audience engagement in first 15 seconds
 - Time-to-decision starts at pitch delivery, ends at yes/no (excludes ghosted prospects)
+
+## Measurement Cadence
+- **Frequency:** Quarterly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Pitch debrief logs, CRM deal records, facilitator observation notes
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

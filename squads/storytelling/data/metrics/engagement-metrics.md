@@ -86,18 +86,27 @@ Engagement metrics are the leading indicators of story effectiveness. Before a s
 
 | Metric | Current | Benchmark | Trend |
 |---|---|---|---|
-| Avg time on page (blog) | -- | 3-5 min | -- |
-| Avg scroll depth | -- | 60%+ | -- |
-| Share rate | -- | varies | -- |
-| Save rate | -- | 2%+ | -- |
-| Comment rate | -- | 0.5%+ | -- |
-| Email open rate | -- | 25-35% | -- |
-| Email CTR | -- | 3-6% | -- |
-| Video completion | -- | 40%+ | -- |
-| Composite engagement score | -- | 7+ | -- |
+| Avg time on page (blog) | 0 (baseline pending) | 3-5 min | 0 (baseline pending) |
+| Avg scroll depth | 0 (baseline pending) | 60%+ | 0 (baseline pending) |
+| Share rate | 0 (baseline pending) | varies | 0 (baseline pending) |
+| Save rate | 0 (baseline pending) | 2%+ | 0 (baseline pending) |
+| Comment rate | 0 (baseline pending) | 0.5%+ | 0 (baseline pending) |
+| Email open rate | 0 (baseline pending) | 25-35% | 0 (baseline pending) |
+| Email CTR | 0 (baseline pending) | 3-6% | 0 (baseline pending) |
+| Video completion | 0 (baseline pending) | 40%+ | 0 (baseline pending) |
+| Composite engagement score | 0 (baseline pending) | 7+ | 0 (baseline pending) |
 
 ## Notes
 
 - Engagement without conversion is vanity. Always pair engagement metrics with impact metrics.
 - Scroll depth is the most actionable metric for improving story structure — low scroll depth means the hook or opening section needs work.
 - Social shares indicate emotional resonance; saves indicate utility. Track both.
+
+## Measurement Cadence
+- **Frequency:** Monthly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Web analytics, social platform analytics, email marketing platform, video hosting analytics
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

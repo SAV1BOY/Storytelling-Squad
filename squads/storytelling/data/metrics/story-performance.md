@@ -69,3 +69,12 @@ what's working, what's underperforming, and where to invest storytelling resourc
 - Conversion rate = attributed conversions / total story viewers
 - Attribution window: 7-day post-view, 1-day post-click
 - Sample sizes are small in Q1; treat trends as directional, not definitive
+
+## Measurement Cadence
+- **Frequency:** Monthly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Web analytics, CRM attribution, content platform analytics
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

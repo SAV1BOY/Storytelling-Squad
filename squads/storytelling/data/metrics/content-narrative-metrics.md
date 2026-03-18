@@ -90,3 +90,12 @@ content outcomes and identifies which narrative approaches work best per channel
 - Comment quality scored by Story Editor on 1-10 rubric monthly
 - Social metrics pulled from native platform analytics
 - Email metrics from marketing automation platform
+
+## Measurement Cadence
+- **Frequency:** Monthly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Web analytics, social platform analytics, email marketing platform, CRM attribution
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

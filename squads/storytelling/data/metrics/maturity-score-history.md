@@ -114,3 +114,12 @@ Based on current scores and gap analysis:
 - Each score requires minimum 3 supporting evidence points
 - Overall score is unweighted average of 5 dimensions
 - Targets set based on achievable improvement rate of 1-1.5 points per dimension per quarter
+
+## Measurement Cadence
+- **Frequency:** Quarterly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Quarterly narrative review evidence, squad lead assessments, stakeholder input
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

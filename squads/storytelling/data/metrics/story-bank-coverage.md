@@ -114,3 +114,12 @@ teams default to generic messaging or wing it. Updated quarterly after the narra
 - Q2 2026: Begin logistics vertical story development
 - Q3 2026: Achieve 25-story target with full coverage across top 2 verticals
 - Q3 2026: Develop ad-specific story variants for all top performers
+
+## Measurement Cadence
+- **Frequency:** Weekly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Story Bank registry, Industry Story Index, Proof Bank, Hook Bank
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

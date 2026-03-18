@@ -82,16 +82,16 @@ The Story Bank is only valuable if it is fresh, well-covered across verticals an
 
 | Metric | Current | Target | Trend |
 |---|---|---|---|
-| Coverage — Healthcare | -- | 7.0+ | -- |
-| Coverage — Technology | -- | 7.0+ | -- |
-| Coverage — Financial Services | -- | 3.0+ | -- |
-| Story type balance | -- | No type >40% | -- |
-| Freshness rate | -- | 70%+ | -- |
-| Stale asset count | -- | 0 | -- |
-| Usage rate | -- | 50%+ | -- |
-| Gap score (weighted) | -- | <10 | -- |
-| Proof linkage rate | -- | 80%+ | -- |
-| Average NQS | -- | 7.5+ | -- |
+| Coverage — Healthcare | 0 (baseline pending) | 7.0+ | 0 (baseline pending) |
+| Coverage — Technology | 0 (baseline pending) | 7.0+ | 0 (baseline pending) |
+| Coverage — Financial Services | 0 (baseline pending) | 3.0+ | 0 (baseline pending) |
+| Story type balance | 0 (baseline pending) | No type >40% | 0 (baseline pending) |
+| Freshness rate | 0 (baseline pending) | 70%+ | 0 (baseline pending) |
+| Stale asset count | 0 (baseline pending) | 0 | 0 (baseline pending) |
+| Usage rate | 0 (baseline pending) | 50%+ | 0 (baseline pending) |
+| Gap score (weighted) | 0 (baseline pending) | <10 | 0 (baseline pending) |
+| Proof linkage rate | 0 (baseline pending) | 80%+ | 0 (baseline pending) |
+| Average NQS | 0 (baseline pending) | 7.5+ | 0 (baseline pending) |
 
 ## Notes
 
@@ -99,3 +99,12 @@ The Story Bank is only valuable if it is fresh, well-covered across verticals an
 - Stale assets are a brand risk — outdated proof points or expired customer approvals can cause problems.
 - Usage rate is a signal of sales and marketing adoption. Low usage may indicate a discovery problem rather than a quality problem.
 - Run the gap analysis before each quarterly planning cycle to prioritize new story creation.
+
+## Measurement Cadence
+- **Frequency:** Weekly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Story Bank registry, Industry Story Index, Workflow Execution Log
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

@@ -76,14 +76,14 @@ The same story performs differently depending on where it is published. Channel 
 
 | Channel | Engagement Index | Conversion Rate | Fit Score | Trend |
 |---|---|---|---|---|
-| Blog | -- | -- | -- | -- |
-| Email | -- | -- | -- | -- |
-| LinkedIn | -- | -- | -- | -- |
-| X | -- | -- | -- | -- |
-| Landing page | -- | -- | -- | -- |
-| Sales deck | -- | -- | -- | -- |
-| Paid ad | -- | -- | -- | -- |
-| Video | -- | -- | -- | -- |
+| Blog | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| Email | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| LinkedIn | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| X | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| Landing page | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| Sales deck | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| Paid ad | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| Video | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
 
 ## Notes
 
@@ -91,3 +91,12 @@ The same story performs differently depending on where it is published. Channel 
 - Cross-channel lift data helps justify multi-channel distribution of high-performing stories.
 - Channel benchmarks should be recalibrated quarterly as platform algorithms and audience behavior shift.
 - Sales deck metrics are the hardest to track. Rely on CRM integration and periodic sales team surveys.
+
+## Measurement Cadence
+- **Frequency:** Monthly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Web analytics, email platform, social analytics, CRM
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

@@ -92,3 +92,12 @@ quotes than "How would you describe the results?" See LL-2026-001 for full detai
 Evidence: Documented in lessons-learned-registry.yaml
 Confidence: High
 Action: Added to standard customer interview guide. Already producing results in subsequent interviews.
+
+## Measurement Cadence
+- **Frequency:** Monthly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Activity debriefs, A/B tests, audience feedback, experiment results
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

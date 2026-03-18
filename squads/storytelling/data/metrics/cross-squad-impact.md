@@ -85,14 +85,14 @@ The Storytelling Squad does not operate in isolation. Its outputs feed into copy
 
 | Metric | Current | Target | Trend |
 |---|---|---|---|
-| Copy quality lift | -- | 15%+ | -- |
-| Brand alignment (cross-squad) | -- | 80%+ | -- |
-| Story asset adoption rate | -- | 50%+ | -- |
-| Traffic from story content | -- | 25%+ of conversions | -- |
-| Sales enablement usage (rep %) | -- | 70%+ monthly | -- |
-| Narrative handoff quality | -- | 8.0+ | -- |
-| Cross-squad request volume | -- | Growing QoQ | -- |
-| Narrative consistency variance | -- | <1.0 | -- |
+| Copy quality lift | 0 (baseline pending) | 15%+ | 0 (baseline pending) |
+| Brand alignment (cross-squad) | 0 (baseline pending) | 80%+ | 0 (baseline pending) |
+| Story asset adoption rate | 0 (baseline pending) | 50%+ | 0 (baseline pending) |
+| Traffic from story content | 0 (baseline pending) | 25%+ of conversions | 0 (baseline pending) |
+| Sales enablement usage (rep %) | 0 (baseline pending) | 70%+ monthly | 0 (baseline pending) |
+| Narrative handoff quality | 0 (baseline pending) | 8.0+ | 0 (baseline pending) |
+| Cross-squad request volume | 0 (baseline pending) | Growing QoQ | 0 (baseline pending) |
+| Narrative consistency variance | 0 (baseline pending) | <1.0 | 0 (baseline pending) |
 
 ## Squad Integration Map
 
@@ -111,3 +111,12 @@ The Storytelling Squad does not operate in isolation. Its outputs feed into copy
 - Low adoption rates usually indicate a distribution or discovery problem, not a quality problem. Make assets easy to find.
 - Narrative handoff quality is the most actionable metric. Low scores point to specific documentation or template improvements.
 - Sales enablement usage is the highest-leverage cross-squad metric because it directly connects to revenue.
+
+## Measurement Cadence
+- **Frequency:** Quarterly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Content audit, CRM, sales enablement platform, internal survey
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

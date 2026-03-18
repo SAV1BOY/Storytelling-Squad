@@ -87,12 +87,12 @@ Agent effectiveness metrics measure how well each agent in the Storytelling Squa
 
 | Agent | Quality Avg | Checklist Rate | Avg Revisions | Flag Rate | Reliability |
 |---|---|---|---|---|---|
-| research-agent | -- | -- | -- | -- | -- |
-| story-architect-agent | -- | -- | -- | -- | -- |
-| editor-agent | -- | -- | -- | -- | -- |
-| hook-engineer-agent | -- | -- | -- | -- | -- |
-| quality-checker-agent | -- | -- | -- | -- | -- |
-| voice-calibration-agent | -- | -- | -- | -- | -- |
+| research-agent | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| story-architect-agent | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| editor-agent | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| hook-engineer-agent | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| quality-checker-agent | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
+| voice-calibration-agent | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) | 0 (baseline pending) |
 
 ## Calibration Protocol
 
@@ -109,3 +109,12 @@ When an agent falls below targets:
 - Speed and quality often trade off. Prioritize quality over speed unless the task is time-sensitive.
 - Flag rate is the best early warning metric. Rising flag rates predict declining quality scores.
 - Compare agents on similar task types only. A research agent and an editor agent have different performance profiles.
+
+## Measurement Cadence
+- **Frequency:** Weekly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Agent Performance Log registry
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

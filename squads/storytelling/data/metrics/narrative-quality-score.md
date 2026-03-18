@@ -88,3 +88,12 @@ NQS = (checklist_rate * 0.40) + (revision_score * 0.20) + (reviewer_rating * 0.3
 - The reviewer rating is the most subjective component. Calibrate reviewers annually with scoring exercises.
 - Revision efficiency rewards first-draft quality but should not penalize thoughtful iteration on complex stories.
 - Proof integration is weighted lowest because some story types (origin, culture) rely less on external proof.
+
+## Measurement Cadence
+- **Frequency:** Weekly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Story Bank registry, Agent Performance Log, reviewer assessments
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

@@ -69,3 +69,12 @@ correlate with positive outcomes. Updated after each significant presentation.
 - Drop-off rate based on observable disengagement behaviors
 - Question rate categorized as Low (0-1), Medium (2-3), High (4+) per section
 - Win correlation requires minimum 10 presentations — DK-2026-002 data is directional
+
+## Measurement Cadence
+- **Frequency:** Monthly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Presentation debrief logs, facilitator observation notes, CRM deal outcomes
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

@@ -68,15 +68,24 @@ Story impact metrics connect narrative output to business outcomes. These metric
 
 | Metric | Current | Target | Trend |
 |---|---|---|---|
-| Story-attributed conversion rate | -- | 3-5% avg | -- |
-| Pipeline influenced | -- | 30% of new pipeline | -- |
-| Revenue influenced | -- | 20% of closed-won | -- |
-| Sales cycle reduction | -- | 10-15% shorter | -- |
-| Story reuse rate | -- | 3x/quarter | -- |
-| Objection resolution rate | -- | 60%+ | -- |
+| Story-attributed conversion rate | 0 (baseline pending) | 3-5% avg | 0 (baseline pending) |
+| Pipeline influenced | 0 (baseline pending) | 30% of new pipeline | 0 (baseline pending) |
+| Revenue influenced | 0 (baseline pending) | 20% of closed-won | 0 (baseline pending) |
+| Sales cycle reduction | 0 (baseline pending) | 10-15% shorter | 0 (baseline pending) |
+| Story reuse rate | 0 (baseline pending) | 3x/quarter | 0 (baseline pending) |
+| Objection resolution rate | 0 (baseline pending) | 60%+ | 0 (baseline pending) |
 
 ## Notes
 
 - Attribution is inherently imperfect. Use multi-touch as the primary model and validate with qualitative sales feedback.
 - Pipeline and revenue metrics lag by weeks or months. Use conversion and engagement metrics as leading indicators.
 - Review targets quarterly and adjust based on baseline data.
+
+## Measurement Cadence
+- **Frequency:** Quarterly
+- **Owner:** donald-miller (Chief)
+- **Data source:** CRM attribution reports, marketing automation platform, sales enablement platform
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.

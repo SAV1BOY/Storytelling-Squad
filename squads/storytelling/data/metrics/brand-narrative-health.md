@@ -88,3 +88,12 @@ narrative intent. Updated quarterly using audit data, survey results, and cross-
 - Sentiment from social listening tools + survey open-ended response coding
 - Narrative drift assessed by comparing current assets to approved BrandScript language
 - All scores are directional — methodology is being refined each quarter
+
+## Measurement Cadence
+- **Frequency:** Quarterly
+- **Owner:** donald-miller (Chief)
+- **Data source:** Brand audit data, audience surveys, cross-channel content analysis
+- **Report to:** Squad dashboard, quarterly narrative review
+
+## Baseline Establishment
+First measurement to be taken upon initial squad operation. Baseline values populate the dashboard above. All subsequent measurements track delta from baseline.
