@@ -16,7 +16,7 @@ customer stories that fuel sales, marketing, and brand efforts.
 - Story-bank-coverage.md reviewed for current gaps in customer story inventory
 
 ## Steps
-1. **Candidate Identification** — Story Ops + CS Team: Surface story-worthy customers → Candidate List
+1. **Candidate Identification** — Story Collector [kindra-hall](../agents/kindra-hall.md) + CS Team: Surface story-worthy customers → Candidate List
    - Framework: Customer story scoring criteria
    - Checklist: cl-candidate-identification
    - Review customer success metrics: NPS scores, usage growth, renewal rates, expansion
@@ -26,7 +26,7 @@ customer stories that fuel sales, marketing, and brand efforts.
    - Score candidates on willingness, story strength, and strategic value
    - Target: maintain a pipeline of 10+ candidates at all times
 
-2. **Outreach and Scheduling** — Story Ops: Secure customer participation → Confirmed Participants
+2. **Outreach and Scheduling** — Story Collector [kindra-hall](../agents/kindra-hall.md): Secure customer participation → Confirmed Participants
    - Framework: Customer outreach sequence
    - Checklist: cl-customer-outreach
    - Send personalized invitation explaining the story opportunity and their value
@@ -36,7 +36,7 @@ customer stories that fuel sales, marketing, and brand efforts.
    - Send pre-interview questionnaire to prime the narrative pump
    - Confirm legal release signed before interview
 
-3. **Narrative Interview** — Story Strategist: Conduct the story interview → Raw Transcript + Notes
+3. **Narrative Interview** — Personal Story Expert [matthew-dicks](../agents/matthew-dicks.md): Conduct the story interview → Raw Transcript + Notes
    - Framework: Narrative interview methodology
    - Checklist: cl-narrative-interview
    - Begin with context: their role, their company, their world before your product
@@ -47,7 +47,7 @@ customer stories that fuel sales, marketing, and brand efforts.
    - Record 3-5 quotable moments with exact language preserved
    - Duration: 30-45 minutes, recorded with permission
 
-4. **Story Development** — Story Writer: Craft the customer narrative → Story Draft
+4. **Story Development** — Story Collector [kindra-hall](../agents/kindra-hall.md): Craft the customer narrative → Story Draft
    - Framework: Before-During-After narrative structure
    - Checklist: cl-customer-story-draft
    - Open with the customer's world and the problem that was costing them
@@ -57,7 +57,7 @@ customer stories that fuel sales, marketing, and brand efforts.
    - Close with the customer's forward-looking vision
    - Weave in direct quotes at emotional peaks and credibility moments
 
-5. **Internal Quality Review** — Story Editor: Evaluate narrative strength → Reviewed Draft
+5. **Internal Quality Review** — Story Editor [shawn-coyne](../agents/shawn-coyne.md): Evaluate narrative strength → Reviewed Draft
    - Framework: Narrative Quality Rubric
    - Checklist: cl-customer-story-review
    - Verify the customer is the hero (not the product or the brand)
@@ -66,7 +66,7 @@ customer stories that fuel sales, marketing, and brand efforts.
    - Confirm proof points are naturally integrated, not listed
    - Validate brand voice consistency across the customer story portfolio
 
-6. **Customer Approval Cycle** — Story Ops: Obtain customer sign-off → Approved Story
+6. **Customer Approval Cycle** — Story Strategist [donald-miller](../agents/donald-miller.md): Obtain customer sign-off → Approved Story
    - Framework: Customer approval process
    - Checklist: cl-customer-sign-off
    - Send draft with highlighted quotes and metrics for easy review
@@ -76,7 +76,7 @@ customer stories that fuel sales, marketing, and brand efforts.
    - Document approved usage scope: channels, duration, geographic limits
    - Obtain written confirmation and archive the approval
 
-7. **Multi-Format Production** — Story Writer + Ops: Create channel-ready assets → Asset Package
+7. **Multi-Format Production** — Video/Content Structurer [dan-harmon](../agents/dan-harmon.md) + Ops: Create channel-ready assets → Asset Package
    - Framework: Channel adaptation matrix
    - Checklist: cl-multi-format-production
    - Full narrative (800-1200 words): website, PDF download, sales enablement
@@ -86,7 +86,7 @@ customer stories that fuel sales, marketing, and brand efforts.
    - Video script (if video planned): 60-90 second customer story video
    - Register all versions in Story Bank with full tags
 
-8. **Publication and Distribution** — Story Ops: Deploy across channels → Published Stories
+8. **Publication and Distribution** — Story Strategist [donald-miller](../agents/donald-miller.md): Deploy across channels → Published Stories
    - Framework: Content distribution playbook
    - Checklist: cl-story-publication
    - Publish on primary channel (usually website) first
@@ -96,7 +96,7 @@ customer stories that fuel sales, marketing, and brand efforts.
    - Notify the customer when their story goes live (with links)
    - Initialize performance tracking in story-performance.md
 
-9. **Pipeline Management** — Story Ops: Maintain flow and coverage → Pipeline Dashboard
+9. **Pipeline Management** — Story Collector [kindra-hall](../agents/kindra-hall.md): Maintain flow and coverage → Pipeline Dashboard
    - Framework: Pipeline health metrics
    - Checklist: cl-pipeline-management
    - Track pipeline stages: candidates, scheduled, interviewing, drafting, approving, published
@@ -105,12 +105,42 @@ customer stories that fuel sales, marketing, and brand efforts.
    - Identify bottlenecks: where do stories stall most frequently
    - Update story-bank-coverage.md quarterly with gap analysis
 
-## Quality Gates
-- After Step 1: Pipeline must maintain 10+ scored candidates
-- After Step 3: Interview must yield 3+ usable quotes and 2+ quantifiable outcomes
-- After Step 5: Story must score 7+ on Narrative Quality Rubric
-- After Step 6: Written customer approval obtained with usage scope documented
-- After Step 9: Publication rate must meet or exceed quarterly target
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Pipeline Health
+- **Checklist:** [customer-case-story-quality](../checklists/customer-case-story-quality.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL (volume):** Rework Step 1 with [kindra-hall](../agents/kindra-hall.md) using [hall-story-selection-matrix](../frameworks/hall-story-selection-matrix.md). Re-submit.
+- **IF FAIL (quality of candidates):** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 3): Interview Quality
+- **Checklist:** [proof-in-story-quality](../checklists/proof-in-story-quality.md)
+- **IF PASS:** Proceed to Step 4
+- **IF FAIL (depth):** Rework Step 3 with [matthew-dicks](../agents/matthew-dicks.md) using [dicks-storyworthy](../frameworks/dicks-storyworthy.md). Re-submit.
+- **IF FAIL (structure):** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-stories-that-stick](../frameworks/hall-stories-that-stick.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 5): Narrative Quality Score
+- **Checklist:** [customer-case-story-quality](../checklists/customer-case-story-quality.md)
+- **IF PASS (7+):** Proceed to Step 6
+- **IF FAIL (clarity):** Rework Step 4 using [miller-grunt-test](../frameworks/miller-grunt-test.md). Re-submit.
+- **IF FAIL (structure):** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-five-commandments](../frameworks/coyne-five-commandments.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 6): Customer Approval
+- **Checklist:** [proof-in-story-quality](../checklists/proof-in-story-quality.md)
+- **IF PASS:** Proceed to Step 7
+- **IF FAIL (accuracy):** Rework Step 4 with [kindra-hall](../agents/kindra-hall.md) incorporating customer feedback. Re-submit.
+- **IF FAIL (tone):** Rework with [donald-miller](../agents/donald-miller.md) for clarity and brand alignment
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 9): Publication Rate
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Continue pipeline operations
+- **IF FAIL (velocity):** Rework pipeline with [kindra-hall](../agents/kindra-hall.md) to identify bottlenecks. Re-submit.
+- **IF FAIL (coverage gaps):** Rework with [donald-miller](../agents/donald-miller.md) using [hall-story-selection-matrix](../frameworks/hall-story-selection-matrix.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Steady pipeline of published customer stories across all channels

@@ -17,7 +17,7 @@ maximizing narrative impact.
 - Context established: what question is this data answering, what action should it drive
 
 ## Steps
-1. **Data Exploration** — Story Researcher: Examine the data for narrative potential → Data Exploration Notes
+1. **Data Exploration** — [nancy-duarte](../agents/nancy-duarte.md): Examine the data for narrative potential → Data Exploration Notes
    - Framework: Exploratory data analysis for storytelling
    - Checklist: cl-data-exploration
    - Review the complete data set for patterns, outliers, trends, and surprises
@@ -27,7 +27,7 @@ maximizing narrative impact.
    - Note data limitations: what can and cannot be concluded from this data
    - Document initial hypotheses for narrative angles worth developing
 
-2. **Insight Extraction** — Story Strategist: Distill data into narrative-ready insights → Insight Set
+2. **Insight Extraction** — [donald-miller](../agents/donald-miller.md): Distill data into narrative-ready insights → Insight Set
    - Framework: Data insight hierarchy (observation → insight → implication → action)
    - Checklist: cl-insight-extraction
    - For each pattern found, move up the hierarchy: What happened → What it means → Why it matters → What to do
@@ -37,7 +37,7 @@ maximizing narrative impact.
    - Verify each insight with the data owner — no narrative embellishment of data
    - Articulate each insight as a clear, jargon-free sentence
 
-3. **Narrative Architecture** — Story Architect: Structure the data story → Data Story Blueprint
+3. **Narrative Architecture** — [nancy-duarte](../agents/nancy-duarte.md) + [donald-miller](../agents/donald-miller.md): Structure the data story → Data Story Blueprint
    - Framework: Data storytelling structure (context → conflict → resolution)
    - Checklist: cl-data-narrative-architecture
    - Open with context: what was the world before this data existed (the baseline)
@@ -47,7 +47,7 @@ maximizing narrative impact.
    - Close with action: what should happen now that we know this
    - Plan the "aha moment": the single visualization or data point that makes everything click
 
-4. **Narrative Draft** — Story Writer: Write the data story → Data Story Draft
+4. **Narrative Draft** — [nancy-duarte](../agents/nancy-duarte.md): Write the data story → Data Story Draft
    - Framework: Selected structure from Step 3
    - Checklist: cl-data-story-draft
    - Write for the audience's data literacy level — translate jargon, provide context for metrics
@@ -57,7 +57,7 @@ maximizing narrative impact.
    - Be honest about limitations: acknowledge what the data doesn't show
    - Use the "grandparent test": would someone outside the field understand and care
 
-5. **Visualization Design** — Story Architect: Plan how data will be seen → Visualization Brief
+5. **Visualization Design** — [nancy-duarte](../agents/nancy-duarte.md): Plan how data will be seen → Visualization Brief
    - Framework: Data visualization storytelling principles
    - Checklist: cl-visualization-design
    - Choose chart types that serve the narrative, not just display the data accurately
@@ -68,7 +68,7 @@ maximizing narrative impact.
    - Brief the design team with narrative intent for each visualization
    - Plan interactive elements if the format supports them (hover states, filters, drill-downs)
 
-6. **Data Validation** — Story Researcher + Data Owner: Verify all claims → Validated Data Story
+6. **Data Validation** — [donald-miller](../agents/donald-miller.md): Verify all claims → Validated Data Story
    - Framework: Data claim validation checklist
    - Checklist: cl-data-validation
    - Verify every number cited in the narrative against the source data
@@ -78,7 +78,7 @@ maximizing narrative impact.
    - Confirm the data owner approves all claims and the narrative framing
    - Document the data sources and methodology for transparency
 
-7. **Narrative Review** — Story Editor: Evaluate story quality and data integrity → Review Notes
+7. **Narrative Review** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Evaluate story quality and data integrity → Review Notes
    - Framework: Data narrative quality rubric
    - Checklist: cl-data-story-review
    - Does the story make the data meaningful to the intended audience
@@ -88,7 +88,7 @@ maximizing narrative impact.
    - Is the "aha moment" positioned for maximum impact
    - Would a skeptic be convinced by the data-narrative combination
 
-8. **Production and Registration** — Story Ops: Finalize and archive → Published Data Story
+8. **Production and Registration** — [donald-miller](../agents/donald-miller.md) + [nancy-duarte](../agents/nancy-duarte.md): Finalize and archive → Published Data Story
    - Framework: Content production and archival process
    - Checklist: cl-data-story-production
    - Produce the final asset in the determined format (report, deck, infographic, blog, social)
@@ -99,12 +99,37 @@ maximizing narrative impact.
    - Initialize performance tracking in content-narrative-metrics.md
    - Schedule a data refresh review: when should this story be updated with new data
 
-## Quality Gates
-- After Step 2: Each insight must pass the hierarchy test (observation → insight → implication → action)
-- After Step 4: Story must pass the "grandparent test" for clarity and accessibility
-- After Step 5: "Aha chart" must be identified and designed for narrative climax
-- After Step 6: Data owner must sign off on all claims and narrative framing
-- After Step 7: Story must score 7+ on data narrative quality rubric
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 2): Insight Extraction Gate
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 3
+- **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-grunt-test](../frameworks/miller-grunt-test.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 4): Narrative Draft Gate
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 5
+- **IF FAIL:** Rework with [nancy-duarte](../agents/nancy-duarte.md) using [duarte-resonate-sparkline](../frameworks/duarte-resonate-sparkline.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 5): Visualization Design Gate
+- **Checklist:** [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
+- **IF PASS:** Proceed to Step 6
+- **IF FAIL:** Rework with [nancy-duarte](../agents/nancy-duarte.md) using [duarte-resonate-sparkline](../frameworks/duarte-resonate-sparkline.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 6): Data Validation Gate
+- **Checklist:** [proof-in-story-quality](../checklists/proof-in-story-quality.md)
+- **IF PASS:** Proceed to Step 7
+- **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 7): Narrative Review Gate
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 8
+- **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-five-commandments](../frameworks/coyne-five-commandments.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Published data story in primary format with derivative assets
@@ -119,3 +144,17 @@ maximizing narrative impact.
 - **To Brand Squad**: Data-backed brand claims for guideline substantiation
 - **To Traffic Squad**: Data visualizations and proof points formatted for ad and social use
 - **To Analytics Squad**: Narrative interpretation feedback for future data analysis focus
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Data Exploration | nancy-duarte | 3 hours | 3 hours |
+| 2. Insight Extraction | donald-miller | 3 hours | 6 hours |
+| 3. Narrative Architecture | nancy-duarte + donald-miller | 4 hours | 10 hours |
+| 4. Narrative Draft | nancy-duarte | 6 hours | 16 hours |
+| 5. Visualization Design | nancy-duarte | 4 hours | 20 hours |
+| 6. Data Validation | donald-miller | 2 hours | 22 hours |
+| 7. Narrative Review | shawn-coyne + donald-miller | 2 hours | 24 hours |
+| 8. Production and Registration | donald-miller + nancy-duarte | 3 hours | 27 hours |
+| **Total** | | | **27 hours** |

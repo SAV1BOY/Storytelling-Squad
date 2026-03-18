@@ -16,7 +16,7 @@ delivery confidence.
 - Competitive context: what alternatives is the audience considering
 
 ## Steps
-1. **Pitch Framing** — Story Strategist: Define the pitch architecture → Pitch Frame Document
+1. **Pitch Framing** — Story Strategist [donald-miller](../agents/donald-miller.md): Define the pitch architecture → Pitch Frame Document
    - Framework: Duarte Sparkline (what is vs. what could be)
    - Checklist: cl-pitch-framing
    - Identify the single most important idea the audience must remember
@@ -24,7 +24,7 @@ delivery confidence.
    - Define the transformation promise: what changes if they say yes
    - Select the opening hook strategy: question, statistic, story, or provocation
 
-2. **Script Development** — Story Writer: Write the complete pitch script → Pitch Script Draft
+2. **Script Development** — Pitch Expert [oren-klaff](../agents/oren-klaff.md): Write the complete pitch script → Pitch Script Draft
    - Framework: StoryBrand SB7 + Duarte Sparkline hybrid
    - Checklist: cl-pitch-script
    - Open with a hook that creates an open loop or emotional connection
@@ -34,7 +34,7 @@ delivery confidence.
    - Build to the climax: the clearest articulation of the transformation
    - Close with a specific, achievable call to action
 
-3. **Objection Mapping** — Story Strategist: Anticipate and script responses → Objection Playbook
+3. **Objection Mapping** — Pitch Expert [oren-klaff](../agents/oren-klaff.md): Anticipate and script responses → Objection Playbook
    - Framework: Objection-to-story mapping matrix
    - Checklist: cl-objection-mapping
    - List top 5-10 objections the audience is likely to raise
@@ -43,7 +43,7 @@ delivery confidence.
    - Rank objections by likelihood and prepare depth-appropriate responses
    - Identify objections that should be preempted within the pitch itself
 
-4. **Proof Integration** — Story Researcher: Select and position proof points → Proof-Loaded Script
+4. **Proof Integration** — Story Collector [kindra-hall](../agents/kindra-hall.md): Select and position proof points → Proof-Loaded Script
    - Framework: Proof Bank selection criteria
    - Checklist: cl-proof-integration
    - Match proof types to audience skepticism profile
@@ -52,7 +52,7 @@ delivery confidence.
    - Position story proof (case studies) for emotional connection moments
    - Verify all proofs are current, accurate, and audience-appropriate
 
-5. **Rehearsal Round 1** — Story Coach + Presenter: First full run-through → Feedback Notes R1
+5. **Rehearsal Round 1** — Improv Coach [keith-johnstone](../agents/keith-johnstone.md) + Presenter: First full run-through → Feedback Notes R1
    - Framework: Presentation feedback rubric
    - Checklist: cl-rehearsal-feedback
    - Record the full rehearsal for review
@@ -61,7 +61,7 @@ delivery confidence.
    - Assess opening hook impact: does it earn attention in the first 10 seconds
    - Check closing CTA: is it specific, achievable, and compelling
 
-6. **Script Revision** — Story Writer: Incorporate rehearsal feedback → Revised Pitch Script
+6. **Script Revision** — Pitch Expert [oren-klaff](../agents/oren-klaff.md): Incorporate rehearsal feedback → Revised Pitch Script
    - Framework: Same as Step 2
    - Checklist: cl-pitch-revision
    - Tighten language: cut every word that doesn't earn its place
@@ -69,7 +69,7 @@ delivery confidence.
    - Adjust timing: expand sections that need breathing room, compress bloat
    - Refine proof point placement based on rehearsal flow
 
-7. **Rehearsal Round 2** — Story Coach + Presenter: Refined run-through with simulated Q&A → Feedback Notes R2
+7. **Rehearsal Round 2** — Improv Coach [keith-johnstone](../agents/keith-johnstone.md) + Presenter: Refined run-through with simulated Q&A → Feedback Notes R2
    - Framework: Presentation feedback rubric + Q&A simulation
    - Checklist: cl-rehearsal-round-2
    - Full pitch delivery followed by 10 minutes of hostile Q&A
@@ -77,7 +77,7 @@ delivery confidence.
    - Evaluate recovery: how well does the presenter return to narrative after interruption
    - Score delivery confidence, authenticity, and audience connection
 
-8. **Final Polish** — Story Editor: Last-pass refinement and delivery prep → Final Pitch Package
+8. **Final Polish** — Story Editor [shawn-coyne](../agents/shawn-coyne.md): Last-pass refinement and delivery prep → Final Pitch Package
    - Framework: Pitch delivery checklist
    - Checklist: cl-pitch-final
    - Lock the script — no more structural changes
@@ -85,7 +85,7 @@ delivery confidence.
    - Create a one-page cheat sheet with key beats, transitions, and proof triggers
    - Register final script in pitch-scripts-registry.yaml with version number
 
-9. **Post-Pitch Debrief** — Story Strategist + Presenter: Capture learnings → Debrief Report
+9. **Post-Pitch Debrief** — Story Strategist [donald-miller](../agents/donald-miller.md) + Presenter: Capture learnings → Debrief Report
    - Framework: After-action review template
    - Checklist: cl-pitch-debrief
    - Record audience reactions, questions asked, and objections raised
@@ -94,13 +94,48 @@ delivery confidence.
    - Log learnings in lessons-learned-registry.yaml
    - Update pitch-conversion metrics
 
-## Quality Gates
-- After Step 1: Pitch Frame must clearly state the single most important idea and transformation
-- After Step 2: Script must fit within time constraint with 10% buffer
-- After Step 3: Minimum 5 objections mapped with story-based responses
-- After Step 5: Rehearsal score must reach 6/10 minimum on feedback rubric
-- After Step 7: Rehearsal score must reach 8/10 with successful Q&A handling
-- After Step 8: Final script locked with zero unresolved feedback items
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Pitch Frame Validation
+- **Checklist:** [pitch-story-quality](../checklists/pitch-story-quality.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL (clarity):** Rework Step 1 using [miller-grunt-test](../frameworks/miller-grunt-test.md). Re-submit.
+- **IF FAIL (framing):** Rework with [oren-klaff](../agents/oren-klaff.md) using [klaff-frame-control](../frameworks/klaff-frame-control.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 2): Script Completeness and Timing
+- **Checklist:** [klaff/pitch-frames-audit](../checklists/klaff/pitch-frames-audit.md)
+- **IF PASS:** Proceed to Step 3
+- **IF FAIL (structure):** Rework Step 2 with [oren-klaff](../agents/oren-klaff.md) using [klaff-pitch-anything](../frameworks/klaff-pitch-anything.md). Re-submit.
+- **IF FAIL (pacing):** Rework with [blake-snyder](../agents/blake-snyder.md) using [snyder-logline-system](../frameworks/snyder-logline-system.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 3): Objection Mapping Completeness
+- **Checklist:** [klaff/tension-and-novelty-audit](../checklists/klaff/tension-and-novelty-audit.md)
+- **IF PASS:** Proceed to Step 4
+- **IF FAIL (depth):** Rework Step 3 with [oren-klaff](../agents/oren-klaff.md) using [klaff-crocodile-brain](../frameworks/klaff-crocodile-brain.md). Re-submit.
+- **IF FAIL (story responses):** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-stories-that-stick](../frameworks/hall-stories-that-stick.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 5): Rehearsal Round 1 Score
+- **Checklist:** [improv-readiness-quality](../checklists/improv-readiness-quality.md)
+- **IF PASS (6/10+):** Proceed to Step 6
+- **IF FAIL (delivery):** Rework with [keith-johnstone](../agents/keith-johnstone.md) using [johnstone-status-transactions](../frameworks/johnstone-status-transactions.md). Re-submit.
+- **IF FAIL (content):** Rework Step 2 with [oren-klaff](../agents/oren-klaff.md) using [klaff-pitch-anything](../frameworks/klaff-pitch-anything.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 7): Rehearsal Round 2 Score
+- **Checklist:** [klaff/status-alignment-audit](../checklists/klaff/status-alignment-audit.md)
+- **IF PASS (8/10+):** Proceed to Step 8
+- **IF FAIL (Q&A handling):** Rework with [keith-johnstone](../agents/keith-johnstone.md) and [oren-klaff](../agents/oren-klaff.md). Re-submit.
+- **IF FAIL (narrative flow):** Rework Step 6 with [oren-klaff](../agents/oren-klaff.md) using [klaff-frame-control](../frameworks/klaff-frame-control.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 6 (after Step 8): Final Lock
+- **Checklist:** [pitch-story-quality](../checklists/pitch-story-quality.md)
+- **IF PASS:** Proceed to Step 9 (post-pitch)
+- **IF FAIL:** Rework Step 8 with [shawn-coyne](../agents/shawn-coyne.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Final pitch script with timing marks and delivery notes
@@ -114,3 +149,20 @@ delivery confidence.
 - **To Brand Squad**: Narrative positioning insights from live audience reactions
 - **To Traffic Squad**: Hook variants that proved effective for ad and content headlines
 - **To Sales Squad**: Objection Playbook for broader sales team enablement
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Pitch Framing | [donald-miller](../agents/donald-miller.md) | 3 hours | 3 hours |
+| 2. Script Development | [oren-klaff](../agents/oren-klaff.md) | 6 hours | 9 hours |
+| 3. Objection Mapping | [oren-klaff](../agents/oren-klaff.md) | 3 hours | 12 hours |
+| 4. Proof Integration | [kindra-hall](../agents/kindra-hall.md) | 2 hours | 14 hours |
+| 5. Rehearsal Round 1 | [keith-johnstone](../agents/keith-johnstone.md) | 3 hours | 17 hours |
+| 6. Script Revision | [oren-klaff](../agents/oren-klaff.md) | 2 hours | 19 hours |
+| 7. Rehearsal Round 2 | [keith-johnstone](../agents/keith-johnstone.md) | 3 hours | 22 hours |
+| 8. Final Polish | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 24 hours |
+| 9. Post-Pitch Debrief | [donald-miller](../agents/donald-miller.md) | 1 hour | 25 hours |
+| **Total** | | | **22-28 hours** |
+
+*SLA reference: config.yaml sla_defaults*

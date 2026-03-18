@@ -16,7 +16,7 @@ treats every slide as a story beat, not just an information container.
 - Brand visual guidelines accessible for design consistency
 
 ## Steps
-1. **Sparkline Architecture** — Story Architect: Map the narrative oscillation → Sparkline Blueprint
+1. **Sparkline Architecture** — [nancy-duarte](../agents/nancy-duarte.md): Map the narrative oscillation → Sparkline Blueprint
    - Framework: Duarte Sparkline
    - Checklist: cl-sparkline-architecture
    - Plot the "what is" baseline: the audience's current reality and pain
@@ -25,7 +25,7 @@ treats every slide as a story beat, not just an information container.
    - Identify the "new bliss": the final destination that makes the CTA inevitable
    - Map the emotional journey: curiosity → tension → hope → conviction → action
 
-2. **Beat-to-Slide Mapping** — Story Architect: Assign narrative beats to slides → Slide Map
+2. **Beat-to-Slide Mapping** — [nancy-duarte](../agents/nancy-duarte.md) + [blake-snyder](../agents/blake-snyder.md): Assign narrative beats to slides → Slide Map
    - Framework: One idea per slide principle
    - Checklist: cl-slide-mapping
    - Each slide carries exactly one narrative beat (not one topic — one beat)
@@ -34,7 +34,7 @@ treats every slide as a story beat, not just an information container.
    - Plan visual strategy per slide: data viz, image, quote, diagram, blank
    - Target total: one slide per 1-2 minutes of presentation time
 
-3. **Content Development** — Story Writer: Write slide narratives and speaker notes → Content Draft
+3. **Content Development** — [nancy-duarte](../agents/nancy-duarte.md) + [donald-miller](../agents/donald-miller.md): Write slide narratives and speaker notes → Content Draft
    - Framework: Assertion-Evidence slide design
    - Checklist: cl-slide-content
    - Write headline assertions (not topic labels) for each slide

@@ -17,7 +17,7 @@ a completed story needs to be operationalized by other teams.
 - Handoff templates prepared for each receiving squad type
 
 ## Steps
-1. **Handoff Assessment** — Story Strategist: Determine what each squad needs → Handoff Plan
+1. **Handoff Assessment** — [donald-miller](../agents/donald-miller.md): Determine what each squad needs → Handoff Plan
    - Framework: Squad narrative needs matrix
    - Checklist: cl-handoff-assessment
    - Review the completed story and its intended downstream uses
@@ -27,7 +27,7 @@ a completed story needs to be operationalized by other teams.
    - Prioritize handoffs by campaign timeline and business impact
    - Document any narrative elements that must be preserved vs. adaptable
 
-2. **Copy Squad Adaptation** — Story Writer: Prepare the story for copy integration → Copy Handoff Package
+2. **Copy Squad Adaptation** — [dan-harmon](../agents/dan-harmon.md): Prepare the story for copy integration → Copy Handoff Package
    - Framework: Copy squad handoff template
    - Checklist: cl-copy-handoff
    - Extract key narrative phrases and language that must be preserved verbatim
@@ -38,7 +38,7 @@ a completed story needs to be operationalized by other teams.
    - Flag language that is off-limits or could be misinterpreted out of context
    - Provide examples of good and bad copy adaptations of the narrative
 
-3. **Brand Squad Adaptation** — Story Strategist: Prepare the story for brand integration → Brand Handoff Package
+3. **Brand Squad Adaptation** — [park-howell](../agents/park-howell.md): Prepare the story for brand integration → Brand Handoff Package
    - Framework: Brand squad handoff template
    - Checklist: cl-brand-handoff
    - Extract narrative themes and motifs that should influence brand guidelines
@@ -49,7 +49,7 @@ a completed story needs to be operationalized by other teams.
    - Supply the visual metaphors and imagery themes from the story
    - Recommend brand guideline additions or amendments based on the narrative
 
-4. **Traffic Squad Adaptation** — Story Writer: Prepare the story for distribution → Traffic Handoff Package
+4. **Traffic Squad Adaptation** — [dan-harmon](../agents/dan-harmon.md) + [oren-klaff](../agents/oren-klaff.md): Prepare the story for distribution → Traffic Handoff Package
    - Framework: Traffic squad handoff template
    - Checklist: cl-traffic-handoff
    - Create hook variants optimized for paid channels: 3-5 headline options
@@ -60,7 +60,7 @@ a completed story needs to be operationalized by other teams.
    - Document channel-specific adaptation notes (what works on which platform)
    - Include performance benchmarks from similar stories for targeting calibration
 
-5. **Guardrail Documentation** — Story Editor: Define what must and must not change → Narrative Guardrails
+5. **Guardrail Documentation** — [shawn-coyne](../agents/shawn-coyne.md): Define what must and must not change → Narrative Guardrails
    - Framework: Narrative integrity framework
    - Checklist: cl-guardrail-documentation
    - List "sacred elements": phrases, facts, emotional beats that cannot be altered
@@ -70,7 +70,7 @@ a completed story needs to be operationalized by other teams.
    - Include contact for narrative clarification questions from receiving squads
    - Document approval requirements: what changes need storytelling squad sign-off
 
-6. **Handoff Delivery** — Story Ops: Execute the handoff with proper briefing → Completed Handoffs
+6. **Handoff Delivery** — [donald-miller](../agents/donald-miller.md): Execute the handoff with proper briefing → Completed Handoffs
    - Framework: Handoff execution process
    - Checklist: cl-handoff-delivery
    - Deliver packages to each squad lead with a 15-minute verbal briefing
@@ -80,7 +80,7 @@ a completed story needs to be operationalized by other teams.
    - Establish feedback loop: how will the storytelling squad review adaptations
    - Document the handoff in decisions-log.yaml with date, recipients, and scope
 
-7. **Adaptation Review** — Story Editor: Review how squads used the narrative → Review Notes
+7. **Adaptation Review** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Review how squads used the narrative → Review Notes
    - Framework: Narrative adaptation quality check
    - Checklist: cl-adaptation-review
    - Review adapted assets from each squad within one week of their completion
@@ -90,7 +90,7 @@ a completed story needs to be operationalized by other teams.
    - Provide specific feedback: what works, what needs adjustment
    - Approve or request revision of adapted assets
 
-8. **Feedback Loop and Process Update** — Story Strategist: Improve future handoffs → Process Update
+8. **Feedback Loop and Process Update** — [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md): Improve future handoffs → Process Update
    - Framework: Continuous improvement methodology
    - Checklist: cl-handoff-improvement
    - Collect feedback from receiving squads: was the handoff package useful, what was missing
@@ -100,12 +100,37 @@ a completed story needs to be operationalized by other teams.
    - Log handoff learnings in lessons-learned-registry.yaml
    - Update process documentation for next handoff cycle
 
-## Quality Gates
-- After Step 1: Handoff plan must identify all receiving squads and their specific needs
-- After Step 2-4: Each handoff package must include guardrails, context, and multiple formats
-- After Step 5: Guardrails must clearly distinguish sacred from flexible elements
-- After Step 6: Each receiving squad must confirm understanding of story purpose and guardrails
-- After Step 7: All adapted assets must pass narrative integrity check
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Handoff Assessment Gate
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 4): Adaptation Packages Gate
+- **Checklist:** [brand-story-quality](../checklists/brand-story-quality.md)
+- **IF PASS:** Proceed to Step 5
+- **IF FAIL:** Rework with [park-howell](../agents/park-howell.md) using [howell-business-of-story](../frameworks/howell-business-of-story.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 5): Guardrail Documentation Gate
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 6
+- **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-five-commandments](../frameworks/coyne-five-commandments.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 6): Handoff Delivery Gate
+- **Checklist:** [brand-story-quality](../checklists/brand-story-quality.md)
+- **IF PASS:** Proceed to Step 7
+- **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 7): Adaptation Review Gate
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 8
+- **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-five-commandments](../frameworks/coyne-five-commandments.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Handoff packages tailored to Copy, Brand, and Traffic squads
@@ -119,3 +144,17 @@ a completed story needs to be operationalized by other teams.
 - **To Brand Squad**: Narrative themes, voice patterns, and guideline recommendations
 - **To Traffic Squad**: Hooks, micro-stories, and targeting recommendations for distribution
 - **To All Squads**: Guardrail documentation and narrative integrity criteria
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Handoff Assessment | donald-miller | 2 hours | 2 hours |
+| 2. Copy Squad Adaptation | dan-harmon | 3 hours | 5 hours |
+| 3. Brand Squad Adaptation | park-howell | 3 hours | 8 hours |
+| 4. Traffic Squad Adaptation | dan-harmon + oren-klaff | 3 hours | 11 hours |
+| 5. Guardrail Documentation | shawn-coyne | 2 hours | 13 hours |
+| 6. Handoff Delivery | donald-miller | 2 hours | 15 hours |
+| 7. Adaptation Review | shawn-coyne + donald-miller | 2 hours | 17 hours |
+| 8. Feedback Loop and Process Update | donald-miller + park-howell | 2 hours | 19 hours |
+| **Total** | | | **19 hours** |
