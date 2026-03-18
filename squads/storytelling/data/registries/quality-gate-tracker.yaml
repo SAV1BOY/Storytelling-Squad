@@ -1,0 +1,36 @@
+# Quality Gate Tracker
+# Tracks pass/fail history for continuous improvement and first-pass-rate measurement
+# Updated: after every quality gate evaluation
+# Owner: Chief Agent (donald-miller)
+
+schema:
+  entry:
+    id: "gate-YYYYMMDD-NNN"
+    task_id: "string — matches config.yaml routing key"
+    agent_id: "string — agent who produced the output"
+    workflow_id: "string — workflow context (if applicable)"
+    gate_name: "string — checklist name used for evaluation"
+    attempt_number: "integer — 1 for first submission, increments on rework"
+    result: "pass | conditional_pass | fail"
+    score: "float — NQS composite score (0-10)"
+    failing_dimensions:
+      - "string — dimension name from quality-standards.md (e.g., narrative_structure, emotional_resonance)"
+    feedback_summary: "string — top priority improvement noted by reviewer"
+    resolution: "revised | escalated | reassigned | approved"
+    reviewer_id: "string — agent or role who reviewed"
+    timestamp: "ISO 8601"
+    duration_minutes: "integer — time spent on review"
+
+aggregation_queries:
+  first_pass_rate: "COUNT(attempt_number=1 AND result IN (pass, conditional_pass)) / COUNT(attempt_number=1)"
+  repeat_failure_rate: "COUNT(attempt_number >= 3) / COUNT(DISTINCT task_id)"
+  avg_cycles_per_task: "AVG(MAX(attempt_number) GROUP BY task_id)"
+  agent_calibration: "GROUP BY agent_id → AVG(attempt_number), AVG(score)"
+  dimension_hotspots: "GROUP BY failing_dimensions → COUNT(*) ORDER BY COUNT(*) DESC"
+
+targets:
+  first_pass_rate: 0.70
+  avg_cycles: 1.3
+  max_acceptable_avg: 2.0
+
+entries: []

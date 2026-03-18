@@ -469,3 +469,69 @@ Historias sao **reutilizaveis**: um caso de cliente vira ad, vira email, vira sl
 6. **Improviso e essencial** — Performance ao vivo requer presenca e adaptacao (Johnstone)
 7. **Cross-squad e existencial** — Storytelling alimenta Copy, Brand e Traffic
 8. **Camadas, nao silos** — Discovery → Strategy → Structure → Drafting → Editing → Delivery → Performance → Measurement
+
+## 11. Governanca e Resolucao de Conflitos
+
+### 11.1 Hierarquia de Autoridade
+
+| Nivel | Papel | Autoridade | Exemplo |
+|---|---|---|---|
+| 1 | Chief Agent (donald-miller) | Arbitro final em todas decisoes narrativas | Resolve conflitos entre agentes, aprova outputs cross-squad |
+| 2 | Domain Specialist (agente primario da task) | Autoridade dentro do seu dominio | nancy-duarte decide sobre decks, oren-klaff sobre pitches |
+| 3 | Supporting Agent | Consultivo, nao decisorio | Sugere melhorias, nao tem veto |
+
+### 11.2 Protocolo de Resolucao de Conflitos
+
+| Tipo de Conflito | Resolucao | Arbitro | Registro |
+|---|---|---|---|
+| Frameworks contraditorios | Framework do agente primario prevalece | Chief | decisions-log.yaml |
+| Narrativa vs dados de pesquisa | Dados de pesquisa vencem; narrativa se adapta | Chief + brand squad lead | decisions-log.yaml |
+| Qualidade vs deadline | Quality gate e inegociavel; deadline se estende | Chief | decisions-log.yaml |
+| Desacordo entre agentes | Agente primario decide; dissidencia documentada | Chief (se solicitado) | decisions-log.yaml |
+| Principio desempate | clarity-first resolve disputas sem consenso | — | — |
+
+### 11.3 Rework Loop
+
+O ciclo de melhoria segue este fluxo:
+
+```
+Task → Agent Executa → Quality Gate
+                          ├── PASS → Registry → Handoff (cross-squad ou proximo step)
+                          └── FAIL → Identifica dimensoes falhantes
+                                       → Agent revisa APENAS dimensoes falhantes
+                                       → Re-avaliacao (max 3 ciclos)
+                                       → Se falha persistir → Escala para Chief
+                                           → Chief: reassign | simplificar brief | split task
+```
+
+- **Ciclo 1:** Agent revisa com feedback especifico do checklist
+- **Ciclo 2:** Se mesma dimensao falhar, Chief revisa alinhamento do brief
+- **Ciclo 3:** Chief reassigna agente ou ativa swarm pattern
+- **Tracking:** Todos ciclos registrados em `data/registries/workflow-execution-log.yaml`
+
+### 11.4 Controle de Versao de Ativos Narrativos
+
+Todos ativos narrativos seguem versionamento semantico:
+- **MAJOR** (X.0.0): Reescrita completa (reposicionamento, rebrand)
+- **MINOR** (x.Y.0): Mudancas estruturais (novas secoes, reordenacao de beats)
+- **PATCH** (x.y.Z): Edicoes de copy, atualizacao de provas, adaptacao de canal
+
+Historico de versao rastreado no registry YAML respectivo (campo `version` + `changelog`).
+
+### 11.5 Procedimento de Rollback
+
+1. Identificar o ativo no registry correspondente (brand-scripts-registry, story-bank, etc.)
+2. Alterar status da versao atual para `retired` com motivo
+3. Alterar status da versao anterior para `approved`
+4. Notificar todos squads downstream que consumiram o ativo
+5. Registrar rollback no `data/registries/decisions-log.yaml` com motivo e avaliacao de impacto
+
+### 11.6 Cadencia de Aprendizado
+
+| Frequencia | Atividade | Owner | Output |
+|---|---|---|---|
+| Apos cada task | Registrar performance do agente | Agente executor | agent-performance-log.yaml |
+| Semanal | Revisar first-pass rate | Chief | Ajustes em briefs ou agent routing |
+| Mensal | Cross-squad sync | Chief | decisions-log.yaml, handoff melhorias |
+| Trimestral | Narrative review completa | Chief + park-howell | Maturity score update, lessons-learned |
+| Trimestral | Calibracao de reviewers | Chief + shawn-coyne | Alinhamento de scoring entre revisores |
