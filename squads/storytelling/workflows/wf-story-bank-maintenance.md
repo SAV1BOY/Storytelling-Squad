@@ -95,12 +95,37 @@ to current, tagged, and quality-rated stories for any storytelling need.
    - Solicit story leads from teams for the next month's collection targets
    - Update the bank's internal documentation with any schema or taxonomy changes
 
-## Quality Gates
-- After Step 1: Minimum 5 raw stories entering intake per week
-- After Step 3: All developed stories must score 6+ on narrative quality rubric
-- After Step 4: All entries must have complete primary tags (type, channel, audience, emotion)
-- After Step 5: Zero duplicate entries; all weekly additions pass quality review
-- After Step 6: No stories older than 6 months without freshness verification
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Story Collection Volume
+- **Checklist:** [cl-story-collection](../checklists/cl-story-collection.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL:** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-story-selection](../frameworks/hall-story-selection.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 3): Story Development Quality
+- **Checklist:** [cl-story-development](../checklists/cl-story-development.md)
+- **IF PASS:** Proceed to Step 4
+- **IF FAIL:** Rework with [matthew-dicks](../agents/matthew-dicks.md) using [dicks-storyworthy](../frameworks/dicks-storyworthy.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 4): Tagging Completeness
+- **Checklist:** [cl-story-tagging](../checklists/cl-story-tagging.md)
+- **IF PASS:** Proceed to Step 5
+- **IF FAIL:** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-story-selection](../frameworks/hall-story-selection.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 5): Weekly Quality Review
+- **Checklist:** [cl-quality-review-weekly](../checklists/cl-quality-review-weekly.md)
+- **IF PASS:** Proceed to Step 6
+- **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-story-grid](../frameworks/coyne-story-grid.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 6): Curation Freshness
+- **Checklist:** [cl-monthly-curation](../checklists/cl-monthly-curation.md)
+- **IF PASS:** Proceed to Step 7
+- **IF FAIL:** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-story-selection](../frameworks/hall-story-selection.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Continuously updated Story Bank (story-bank.yaml) with fresh, tagged, quality-rated stories
@@ -114,3 +139,19 @@ to current, tagged, and quality-rated stories for any storytelling need.
 - **To Brand Squad**: Bank health data for brand narrative consistency tracking
 - **To Traffic Squad**: High-performing stories flagged for ad and distribution use
 - **To Sales Squad**: New customer stories and proof points for sales enablement
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Story Collection | [kindra-hall](../agents/kindra-hall.md) + All Teams | Continuous (2 hours/day) | 2 hours |
+| 2. Initial Triage | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 4 hours |
+| 3. Story Development | [matthew-dicks](../agents/matthew-dicks.md) | 4 hours | 8 hours |
+| 4. Tagging and Classification | [kindra-hall](../agents/kindra-hall.md) | 2 hours | 10 hours |
+| 5. Quality Review (Weekly) | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 12 hours |
+| 6. Curation Cycle (Monthly) | [kindra-hall](../agents/kindra-hall.md) | 3 hours | 15 hours |
+| 7. Performance Integration | [kindra-hall](../agents/kindra-hall.md) | 2 hours | 17 hours |
+| 8. Stakeholder Communication | [kindra-hall](../agents/kindra-hall.md) | 2 hours | 19 hours |
+| **Total** | | | **19 hours per cycle** |
+
+*SLA reference: config.yaml sla_defaults*

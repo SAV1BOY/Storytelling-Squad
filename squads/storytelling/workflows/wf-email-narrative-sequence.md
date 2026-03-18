@@ -91,12 +91,37 @@ series, or any multi-email journey where narrative coherence creates compounding
    - Document learnings in narrative-learning-log.md
    - Update hook-bank.yaml with performance data for tested hooks
 
-## Quality Gates
-- After Step 1: Arc Blueprint must show clear emotional progression across all emails
-- After Step 2: Each email must function as both a standalone and a sequence member
-- After Step 3: Minimum 3 subject line variants per email with distinct approaches
-- After Step 5: Every open loop must have a documented close point
-- After Step 6: Full sequence must score 7+ on email narrative quality rubric
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Arc Architecture Gate
+- **Checklist:** [email-sequence-narrative-quality](../checklists/email-sequence-narrative-quality.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL:** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 2): Email Scripting Gate
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
+- **IF PASS:** Proceed to Step 3
+- **IF FAIL:** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 3): Hook Development Gate
+- **Checklist:** [hook-and-open-loop-quality](../checklists/hook-and-open-loop-quality.md)
+- **IF PASS:** Proceed to Step 4
+- **IF FAIL:** Rework with [oren-klaff](../agents/oren-klaff.md) using [klaff-crocodile-brain](../frameworks/klaff-crocodile-brain.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 5): Transition Design Gate
+- **Checklist:** [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
+- **IF PASS:** Proceed to Step 6
+- **IF FAIL:** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 6): Sequence Review Gate
+- **Checklist:** [email-sequence-narrative-quality](../checklists/email-sequence-narrative-quality.md)
+- **IF PASS:** Proceed to Step 7
+- **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-five-commandments](../frameworks/coyne-five-commandments.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Complete email sequence with subject line variants and narrative tracking
@@ -110,3 +135,17 @@ series, or any multi-email journey where narrative coherence creates compounding
 - **To Brand Squad**: Narrative voice patterns that performed well in email context
 - **To Traffic Squad**: High-performing hooks for retargeting and ad copy adaptation
 - **To Automation Squad**: Sequence logic, branching rules, and trigger conditions
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Arc Architecture | dan-harmon + donald-miller | 4 hours | 4 hours |
+| 2. Individual Email Scripting | dan-harmon + kindra-hall | 8 hours | 12 hours |
+| 3. Hook Development | oren-klaff + dan-harmon | 3 hours | 15 hours |
+| 4. Proof Integration | kindra-hall | 2 hours | 17 hours |
+| 5. Transition Design | dan-harmon | 3 hours | 20 hours |
+| 6. Sequence Review | shawn-coyne + donald-miller | 2 hours | 22 hours |
+| 7. Testing and Optimization Setup | donald-miller | 2 hours | 24 hours |
+| 8. Launch and Iteration | dan-harmon + donald-miller | 3 hours | 27 hours |
+| **Total** | | | **27 hours** |

@@ -97,12 +97,37 @@ product stories, social content, and any video where narrative quality determine
    - Initialize performance tracking in content-narrative-metrics.md
    - Archive script, storyboard, and raw footage references
 
-## Quality Gates
-- After Step 2: Script must pass the "read aloud" test — all dialogue sounds natural
-- After Step 3: Storyboard must tell the story even without the script (visual storytelling)
-- After Step 4: Script locked — no unauthorized changes during production
-- After Step 6: Rough cut must demonstrate clear narrative arc and effective hook
-- After Step 7: Fine cut must score 7+ on video narrative evaluation rubric
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 2): Script Read-Aloud Test
+- **Checklist:** [cl-video-script](../checklists/cl-video-script.md)
+- **IF PASS:** Proceed to Step 3
+- **IF FAIL:** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 3): Visual Storytelling Standalone Test
+- **Checklist:** [cl-storyboard](../checklists/cl-storyboard.md)
+- **IF PASS:** Proceed to Step 4
+- **IF FAIL:** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 4): Script Lock Approval
+- **Checklist:** [cl-pre-production-review](../checklists/cl-pre-production-review.md)
+- **IF PASS:** Proceed to Step 5
+- **IF FAIL:** Rework with [blake-snyder](../agents/blake-snyder.md) using [snyder-beat-sheet](../frameworks/snyder-beat-sheet.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 6): Rough Cut Narrative Arc
+- **Checklist:** [cl-rough-cut-review](../checklists/cl-rough-cut-review.md)
+- **IF PASS:** Proceed to Step 7
+- **IF FAIL:** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 7): Fine Cut Quality Score
+- **Checklist:** [cl-fine-cut-review](../checklists/cl-fine-cut-review.md)
+- **IF PASS:** Proceed to Step 8
+- **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-story-grid](../frameworks/coyne-story-grid.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Final video in all required formats and aspect ratios
@@ -116,3 +141,19 @@ product stories, social content, and any video where narrative quality determine
 - **To Brand Squad**: Visual narrative motifs and voice patterns for brand guideline updates
 - **To Traffic Squad**: Video files, thumbnails, and caption variants for distribution
 - **To Design Squad**: Storyboard and visual style notes for related design work
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Creative Brief Development | [dan-harmon](../agents/dan-harmon.md) | 3 hours | 3 hours |
+| 2. Script Writing | [dan-harmon](../agents/dan-harmon.md) | 6 hours | 9 hours |
+| 3. Storyboard Creation | [dan-harmon](../agents/dan-harmon.md) | 4 hours | 13 hours |
+| 4. Pre-Production Narrative Review | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 15 hours |
+| 5. Production Oversight | [dan-harmon](../agents/dan-harmon.md) | 4 hours | 19 hours |
+| 6. Edit Review — Rough Cut | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 21 hours |
+| 7. Edit Review — Fine Cut | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 23 hours |
+| 8. Final Delivery and Registration | [dan-harmon](../agents/dan-harmon.md) | 3 hours | 26 hours |
+| **Total** | | | **26 hours** |
+
+*SLA reference: config.yaml sla_defaults*

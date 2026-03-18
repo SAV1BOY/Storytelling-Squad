@@ -68,11 +68,31 @@ architecture before reaching its audience.
    - Tag with type, channel, audience, emotion, framework used, and status
    - Link to source materials and approval records
 
-## Quality Gates
-- After Step 1: Discovery Brief must include objective, audience, and source inventory
-- After Step 3: Story Skeleton must pass structural review (clear beats, logical flow)
-- After Step 5: Draft must score 7+ on Narrative Quality Rubric (clarity, emotion, proof, CTA)
-- After Step 7: Final script must pass cl-final-approval with zero open issues
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Discovery Brief Completeness
+- **Checklist:** [cl-story-discovery-intake](../checklists/cl-story-discovery-intake.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 3): Story Skeleton Structural Review
+- **Checklist:** [cl-structure-selection](../checklists/cl-structure-selection.md)
+- **IF PASS:** Proceed to Step 4
+- **IF FAIL:** Rework with [joseph-campbell](../agents/joseph-campbell.md) using [campbell-heros-journey](../frameworks/campbell-heros-journey.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 5): Draft Narrative Quality Score
+- **Checklist:** [cl-story-review](../checklists/cl-story-review.md)
+- **IF PASS:** Proceed to Step 6
+- **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-story-grid](../frameworks/coyne-story-grid.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 7): Final Approval Zero Open Issues
+- **Checklist:** [cl-final-approval](../checklists/cl-final-approval.md)
+- **IF PASS:** Proceed to Step 8
+- **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-grunt-test](../frameworks/miller-grunt-test.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Approved narrative script ready for production or handoff
@@ -85,3 +105,19 @@ architecture before reaching its audience.
 - **To Brand Squad**: Narrative themes and brand-voice alignment notes for guideline updates
 - **To Traffic Squad**: Hook variants and headline options for distribution testing
 - **To Design Squad**: Story beats mapped to visual moments for layout or storyboard use
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Discovery Intake | [donald-miller](../agents/donald-miller.md) | 3 hours | 3 hours |
+| 2. Audience-Problem Mapping | [donald-miller](../agents/donald-miller.md) | 2 hours | 5 hours |
+| 3. Narrative Structure Selection | [joseph-campbell](../agents/joseph-campbell.md) | 2 hours | 7 hours |
+| 4. First Draft | [matthew-dicks](../agents/matthew-dicks.md) | 6 hours | 13 hours |
+| 5. Internal Review | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 15 hours |
+| 6. Revision Cycle | [matthew-dicks](../agents/matthew-dicks.md) | 3 hours | 18 hours |
+| 7. Final Polish and Approval | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 20 hours |
+| 8. Story Bank Registration | [kindra-hall](../agents/kindra-hall.md) | 1 hour | 21 hours |
+| **Total** | | | **21 hours** |
+
+*SLA reference: config.yaml sla_defaults*

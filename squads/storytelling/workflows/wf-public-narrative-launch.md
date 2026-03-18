@@ -89,12 +89,37 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
    - Register all versions in public-narratives-registry.yaml
    - Track narrative health metrics and adjust strategy quarterly
 
-## Quality Gates
-- After Step 1: Self Narrative must include a specific choice point with emotional stakes
-- After Step 3: Now Narrative must include a credible urgency driver and specific first action
-- After Step 4: Integrated narrative must flow without awkward transitions between Self/Us/Now
-- After Step 5: All assets must maintain narrative consistency across formats
-- After Step 7: Launch must hit minimum engagement thresholds per channel
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Self Narrative Authenticity
+- **Checklist:** [cl-story-of-self](../checklists/cl-story-of-self.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL:** Rework with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-public-narrative](../frameworks/ganz-public-narrative.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 3): Now Narrative Urgency and Action
+- **Checklist:** [cl-story-of-now](../checklists/cl-story-of-now.md)
+- **IF PASS:** Proceed to Step 4
+- **IF FAIL:** Rework with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-public-narrative](../frameworks/ganz-public-narrative.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 4): Integrated Narrative Flow
+- **Checklist:** [cl-narrative-integration](../checklists/cl-narrative-integration.md)
+- **IF PASS:** Proceed to Step 5
+- **IF FAIL:** Rework with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-public-narrative](../frameworks/ganz-public-narrative.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 5): Asset Narrative Consistency
+- **Checklist:** [cl-narrative-assets](../checklists/cl-narrative-assets.md)
+- **IF PASS:** Proceed to Step 6
+- **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 7): Launch Engagement Thresholds
+- **Checklist:** [cl-narrative-launch](../checklists/cl-narrative-launch.md)
+- **IF PASS:** Proceed to Step 8
+- **IF FAIL:** Rework with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-public-narrative](../frameworks/ganz-public-narrative.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Complete Self/Us/Now narrative in multiple formats and lengths

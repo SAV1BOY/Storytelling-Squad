@@ -17,7 +17,7 @@ depend on narrative quality.
 - Webinar platform and format confirmed: duration, slides vs. screenshare, Q&A approach
 
 ## Steps
-1. **Teaching Arc Design** — Story Architect: Structure the educational narrative → Teaching Arc Blueprint
+1. **Teaching Arc Design** — Presentation Designer [nancy-duarte](../agents/nancy-duarte.md): Structure the educational narrative → Teaching Arc Blueprint
    - Framework: Epiphany Bridge (Russell Brunson) + Duarte Sparkline hybrid
    - Checklist: cl-webinar-arc
    - Identify the "epiphany": the key insight the audience must reach on their own
@@ -27,7 +27,7 @@ depend on narrative quality.
    - Ensure the teaching has standalone value — attendees should learn even if they don't buy
    - Allocate time: 5 min opening, 30-35 min teaching, 10 min offer, 5 min Q&A
 
-2. **Tension Architecture** — Story Strategist: Design the engagement mechanics → Tension Map
+2. **Tension Architecture** — Story Strategist [donald-miller](../agents/donald-miller.md): Design the engagement mechanics → Tension Map
    - Framework: Curiosity-tension-resolution loops
    - Checklist: cl-tension-architecture
    - Open with a bold promise or provocative claim that sets expectations high
@@ -37,7 +37,7 @@ depend on narrative quality.
    - Design re-engagement hooks at 10-minute intervals to recapture drifting attention
    - Map energy levels: high opening, dip and rebuild rhythm, peak at the offer transition
 
-3. **Story Integration** — Story Writer: Weave stories into the teaching framework → Story-Loaded Script
+3. **Story Integration** — Video/Content Structurer [dan-harmon](../agents/dan-harmon.md): Weave stories into the teaching framework → Story-Loaded Script
    - Framework: Teaching-through-story methodology
    - Checklist: cl-story-integration
    - Open with a personal story or customer story that embodies the problem
@@ -47,7 +47,7 @@ depend on narrative quality.
    - Position the strongest customer transformation story immediately before the offer
    - Script transitions between story and teaching: seamless, not jarring
 
-4. **Offer Narrative Design** — Story Strategist + Writer: Build the pitch within the narrative → Offer Sequence
+4. **Offer Narrative Design** — Story Strategist [donald-miller](../agents/donald-miller.md) + Video/Content Structurer [dan-harmon](../agents/dan-harmon.md): Build the pitch within the narrative → Offer Sequence
    - Framework: Story-to-offer bridge methodology
    - Checklist: cl-offer-narrative
    - Design the bridge: the teaching naturally reveals a gap that the offer fills
@@ -57,7 +57,7 @@ depend on narrative quality.
    - Create urgency that is honest and narrative-justified (not manufactured scarcity)
    - Script the exact CTA language and repeat it three times in different framings
 
-5. **Slide Narrative Design** — Story Architect: Plan visual support for the narrative → Slide Plan
+5. **Slide Narrative Design** — Presentation Designer [nancy-duarte](../agents/nancy-duarte.md): Plan visual support for the narrative → Slide Plan
    - Framework: Assertion-Evidence slide methodology (adapted for webinar)
    - Checklist: cl-webinar-slides
    - Design slides that support the story, not replace it — minimal text, maximum visual
@@ -67,7 +67,7 @@ depend on narrative quality.
    - Design the offer slides: clean, scannable, with clear CTA visual
    - Ensure slides work at small screen sizes (many attend on laptops or phones)
 
-6. **Q&A and Engagement Preparation** — Story Strategist: Plan interactive elements → Engagement Plan
+6. **Q&A and Engagement Preparation** — Improv Coach [keith-johnstone](../agents/keith-johnstone.md): Plan interactive elements → Engagement Plan
    - Framework: Narrative Q&A methodology
    - Checklist: cl-webinar-engagement
    - Prepare anticipated questions with story-based answers (not just information answers)
@@ -76,7 +76,7 @@ depend on narrative quality.
    - Prepare "pivot stories": short stories that bridge from any question back to the offer
    - Create a Q&A cheat sheet with common questions mapped to key narrative points
 
-7. **Rehearsal and Timing** — Story Coach + Presenter: Full run-through with timing → Rehearsal Notes
+7. **Rehearsal and Timing** — Improv Coach [keith-johnstone](../agents/keith-johnstone.md) + Presenter: Full run-through with timing → Rehearsal Notes
    - Framework: Webinar delivery rubric
    - Checklist: cl-webinar-rehearsal
    - Run the full webinar in real time including slide transitions and engagement moments
@@ -86,7 +86,7 @@ depend on narrative quality.
    - Identify sections that can be shortened if time runs over
    - Ensure the offer feels natural, not rushed or forced
 
-8. **Post-Webinar Narrative Follow-Up** — Story Ops + Writer: Extend the narrative beyond the event → Follow-Up Sequence
+8. **Post-Webinar Narrative Follow-Up** — Story Strategist [donald-miller](../agents/donald-miller.md) + Video/Content Structurer [dan-harmon](../agents/dan-harmon.md): Extend the narrative beyond the event → Follow-Up Sequence
    - Framework: Post-event narrative continuation
    - Checklist: cl-webinar-followup
    - Send replay with a narrative hook: "Here's the moment most people rewind to..."
@@ -96,12 +96,42 @@ depend on narrative quality.
    - Update content-narrative-metrics.md with webinar performance data
    - Log learnings in narrative-learning-log.md
 
-## Quality Gates
-- After Step 1: Teaching arc must deliver standalone value independent of the offer
-- After Step 2: Tension map must include re-engagement hooks at 10-minute intervals minimum
-- After Step 3: Every teaching point must be illustrated with a specific story or example
-- After Step 4: Offer must feel like a natural narrative continuation, not an interruption
-- After Step 7: Full rehearsal must fit within time allocation with 5-minute buffer
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Teaching Arc Standalone Value
+- **Checklist:** [webinar-narrative-quality](../checklists/webinar-narrative-quality.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL (clarity):** Rework Step 1 using [miller-grunt-test](../frameworks/miller-grunt-test.md). Re-submit.
+- **IF FAIL (structure):** Rework with [nancy-duarte](../agents/nancy-duarte.md) using [duarte-resonate-sparkline](../frameworks/duarte-resonate-sparkline.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 2): Tension Map Engagement Hooks
+- **Checklist:** [hook-and-open-loop-quality](../checklists/hook-and-open-loop-quality.md)
+- **IF PASS:** Proceed to Step 3
+- **IF FAIL (tension gaps):** Rework Step 2 with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
+- **IF FAIL (pacing):** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 3): Story Integration Completeness
+- **Checklist:** [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
+- **IF PASS:** Proceed to Step 4
+- **IF FAIL (story quality):** Rework Step 3 with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
+- **IF FAIL (narrative fit):** Rework with [nancy-duarte](../agents/nancy-duarte.md) using [duarte-resonate-sparkline](../frameworks/duarte-resonate-sparkline.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 4): Offer Narrative Integration
+- **Checklist:** [webinar-narrative-quality](../checklists/webinar-narrative-quality.md)
+- **IF PASS:** Proceed to Step 5
+- **IF FAIL (pitch feels forced):** Rework Step 4 with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
+- **IF FAIL (structure):** Rework with [nancy-duarte](../agents/nancy-duarte.md) using [duarte-audience-journey](../frameworks/duarte-audience-journey.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 7): Rehearsal Timing and Delivery
+- **Checklist:** [webinar-narrative-quality](../checklists/webinar-narrative-quality.md)
+- **IF PASS:** Proceed to Step 8
+- **IF FAIL (timing):** Rework Steps 3-4 to compress with [dan-harmon](../agents/dan-harmon.md). Re-submit.
+- **IF FAIL (delivery):** Rework with [keith-johnstone](../agents/keith-johnstone.md) using [johnstone-impro](../frameworks/johnstone-impro.md)
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Complete webinar script with slide notes, timing marks, and engagement cues
@@ -115,3 +145,19 @@ depend on narrative quality.
 - **To Brand Squad**: Presentation voice patterns and audience engagement insights
 - **To Traffic Squad**: Webinar promotion hooks and replay distribution assets
 - **To Sales Squad**: Offer language and objection-handling approaches that converted
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Teaching Arc Design | [nancy-duarte](../agents/nancy-duarte.md) | 3 hours | 3 hours |
+| 2. Tension Architecture | [donald-miller](../agents/donald-miller.md) | 3 hours | 6 hours |
+| 3. Story Integration | [dan-harmon](../agents/dan-harmon.md) | 6 hours | 12 hours |
+| 4. Offer Narrative Design | [donald-miller](../agents/donald-miller.md) + [dan-harmon](../agents/dan-harmon.md) | 4 hours | 16 hours |
+| 5. Slide Narrative Design | [nancy-duarte](../agents/nancy-duarte.md) | 4 hours | 20 hours |
+| 6. Q&A and Engagement Prep | [keith-johnstone](../agents/keith-johnstone.md) | 2 hours | 22 hours |
+| 7. Rehearsal and Timing | [keith-johnstone](../agents/keith-johnstone.md) | 3 hours | 25 hours |
+| 8. Post-Webinar Follow-Up | [donald-miller](../agents/donald-miller.md) + [dan-harmon](../agents/dan-harmon.md) | 3 hours | 28 hours |
+| **Total** | | | **24-32 hours** |
+
+*SLA reference: config.yaml sla_defaults*

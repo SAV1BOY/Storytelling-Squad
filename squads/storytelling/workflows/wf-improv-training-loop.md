@@ -16,7 +16,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 - Previous session feedback reviewed (if this is a continuing loop)
 
 ## Steps
-1. **Skill Assessment** — Story Coach: Evaluate current storytelling agility → Skill Baseline
+1. **Skill Assessment** — [keith-johnstone](../agents/keith-johnstone.md): Evaluate current storytelling agility → Skill Baseline
    - Framework: Storytelling agility rubric
    - Checklist: cl-improv-assessment
    - Assess each participant on five dimensions: spontaneity, listening, building, emotional
@@ -25,7 +25,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
    - Review previous session scores to track progression
    - Set session goal: what specific improvement should be measurable by end of session
 
-2. **Drill Selection** — Story Coach: Choose exercises targeting the skill gap → Drill Sequence
+2. **Drill Selection** — [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md): Choose exercises targeting the skill gap → Drill Sequence
    - Framework: Improv games registry (improv-games-registry.yaml)
    - Checklist: cl-drill-selection
    - Select 2-3 warm-up drills that activate listening and presence
@@ -34,7 +34,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
    - Prepare variation options in case a drill needs adjustment mid-session
    - Allocate time: 10 min warm-up, 20 min targeted drills, 20 min scenes, 10 min debrief
 
-3. **Warm-Up Drills** — Story Coach + Participants: Activate presence and connection → Warmed Group
+3. **Warm-Up Drills** — [keith-johnstone](../agents/keith-johnstone.md): Activate presence and connection → Warmed Group
    - Framework: Improv warm-up progression
    - Checklist: cl-warmup-execution
    - Start with a physical/vocal warm-up to break self-consciousness
@@ -43,7 +43,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
    - End warm-up with a group story exercise (one word or one sentence at a time)
    - Check group energy: ready to move to targeted work
 
-4. **Targeted Skill Drills** — Story Coach + Participants: Practice the focus skill → Drill Performance
+4. **Targeted Skill Drills** — [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md): Practice the focus skill → Drill Performance
    - Framework: Selected drills from Step 2
    - Checklist: cl-targeted-drills
    - Brief each drill clearly: rules, objective, what "good" looks like
@@ -52,7 +52,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
    - Capture notable moments: breakthroughs, patterns, recurring blocks
    - Rotate participants to ensure everyone practices
 
-5. **Scene Work** — Participants: Apply skills in narrative scenes → Scene Performances
+5. **Scene Work** — [keith-johnstone](../agents/keith-johnstone.md): Apply skills in narrative scenes → Scene Performances
    - Framework: Narrative scene structure (beginning, middle, heighten, resolve)
    - Checklist: cl-scene-work
    - Set up scenes with a narrative constraint that forces use of the target skill
@@ -61,7 +61,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
    - Coach provides minimal intervention — let scenes succeed or fail naturally
    - Record scenes (with permission) for later review
 
-6. **Feedback Round** — Story Coach + Participants: Structured reflection → Feedback Notes
+6. **Feedback Round** — [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md): Structured reflection → Feedback Notes
    - Framework: Improv feedback methodology (positive-specific-developmental)
    - Checklist: cl-improv-feedback
    - Each scene gets specific positive feedback first: what worked and why
@@ -70,7 +70,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
    - Participants self-reflect: what felt easy, what felt risky, what was discovered
    - Coach synthesizes group patterns into 2-3 actionable insights
 
-7. **Replay and Refinement** — Participants: Re-run scenes with feedback applied → Improved Scenes
+7. **Replay and Refinement** — [keith-johnstone](../agents/keith-johnstone.md): Re-run scenes with feedback applied → Improved Scenes
    - Framework: Deliberate practice methodology
    - Checklist: cl-replay-refinement
    - Select the 1-2 strongest scenes for replay with specific coaching notes
@@ -79,7 +79,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
    - Identify remaining growth edges for next session focus
    - Celebrate specific moments of growth and risk-taking
 
-8. **Session Debrief and Loop Setup** — Story Coach: Capture learnings and plan next cycle → Session Report
+8. **Session Debrief and Loop Setup** — [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md): Capture learnings and plan next cycle → Session Report
    - Framework: Training loop methodology
    - Checklist: cl-session-debrief
    - Score each participant on the five-dimension rubric (post-session)
@@ -89,12 +89,37 @@ The loop can run as a standalone workshop or as a recurring practice session emb
    - Log session learnings in lessons-learned-registry.yaml
    - Schedule next loop iteration
 
-## Quality Gates
-- After Step 1: Baseline assessment must produce scores on all five dimensions
-- After Step 3: Group energy check must indicate readiness for targeted work
-- After Step 5: Minimum 3 scenes completed with all participants having performed
-- After Step 6: Every scene must receive specific positive and developmental feedback
-- After Step 8: Post-session scores must show measurable improvement in target skill
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Skill Assessment Gate
+- **Checklist:** [improv-readiness-quality](../checklists/improv-readiness-quality.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL:** Rework with [keith-johnstone](../agents/keith-johnstone.md) using [johnstone-impro](../frameworks/johnstone-impro.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 3): Warm-Up Readiness Gate
+- **Checklist:** [improv-readiness-quality](../checklists/improv-readiness-quality.md)
+- **IF PASS:** Proceed to Step 4
+- **IF FAIL:** Rework with [keith-johnstone](../agents/keith-johnstone.md) using [johnstone-status-transactions](../frameworks/johnstone-status-transactions.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 5): Scene Work Gate
+- **Checklist:** [improv-readiness-quality](../checklists/improv-readiness-quality.md)
+- **IF PASS:** Proceed to Step 6
+- **IF FAIL:** Rework with [keith-johnstone](../agents/keith-johnstone.md) using [johnstone-impro](../frameworks/johnstone-impro.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 6): Feedback Quality Gate
+- **Checklist:** [improv-readiness-quality](../checklists/improv-readiness-quality.md)
+- **IF PASS:** Proceed to Step 7
+- **IF FAIL:** Rework with [matthew-dicks](../agents/matthew-dicks.md) using [dicks-storyworthy](../frameworks/dicks-storyworthy.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 8): Session Outcome Gate
+- **Checklist:** [improv-readiness-quality](../checklists/improv-readiness-quality.md)
+- **IF PASS:** Proceed to Outputs
+- **IF FAIL:** Rework with [keith-johnstone](../agents/keith-johnstone.md) using [johnstone-impro](../frameworks/johnstone-impro.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Session report with pre/post skill scores for each participant
@@ -108,3 +133,19 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 - **To Brand Squad**: Authentic voice insights from unscripted narrative moments
 - **To Sales Squad**: Objection-handling agility techniques for pitch situations
 - **To Leadership**: Presentation confidence development progress reports
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Skill Assessment | [keith-johnstone](../agents/keith-johnstone.md) | 1 hour | 1 hour |
+| 2. Drill Selection | [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md) | 1 hour | 2 hours |
+| 3. Warm-Up Drills | [keith-johnstone](../agents/keith-johnstone.md) | 0.5 hours | 2.5 hours |
+| 4. Targeted Skill Drills | [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md) | 1 hour | 3.5 hours |
+| 5. Scene Work | [keith-johnstone](../agents/keith-johnstone.md) | 1 hour | 4.5 hours |
+| 6. Feedback Round | [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md) | 0.5 hours | 5 hours |
+| 7. Replay and Refinement | [keith-johnstone](../agents/keith-johnstone.md) | 1 hour | 6 hours |
+| 8. Session Debrief and Loop Setup | [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md) | 1 hour | 7 hours |
+| **Total** | | | **7 hours** |
+
+*SLA reference: config.yaml sla_defaults*
