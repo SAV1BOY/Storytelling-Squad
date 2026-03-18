@@ -57,7 +57,7 @@ from narrative continuity and compounding audience engagement.
    - End with the strongest emotional beat or the clearest call to action
    - Map each post to the optimal day and time based on audience engagement data
 
-5. **Engagement Scripting** — Story Writer: Plan community interaction → Engagement Playbook
+5. **Engagement Scripting** — [kindra-hall](../agents/kindra-hall.md) + [dan-harmon](../agents/dan-harmon.md): Plan community interaction → Engagement Playbook
    - Framework: Conversational storytelling methodology
    - Checklist: cl-engagement-scripting
    - Prepare response templates for likely comments on each post
@@ -66,7 +66,7 @@ from narrative continuity and compounding audience engagement.
    - Create contingency content: bonus posts to deploy if engagement spikes
    - Define escalation responses: how to handle negative reactions with narrative grace
 
-6. **Cross-Platform Adaptation** — Story Writer: Adapt the series for each platform → Platform Versions
+6. **Cross-Platform Adaptation** — [dan-harmon](../agents/dan-harmon.md) + [donald-miller](../agents/donald-miller.md): Adapt the series for each platform → Platform Versions
    - Framework: Platform-specific narrative adaptation
    - Checklist: cl-platform-adaptation
    - Twitter/X: Thread format, sharp hooks, numbered series, quote-tweet strategy
@@ -76,7 +76,7 @@ from narrative continuity and compounding audience engagement.
    - Maintain narrative consistency across platforms while respecting native formats
    - Create platform-specific CTAs that align with user behavior on each platform
 
-7. **Publication and Monitoring** — Story Ops: Deploy the series and track response → Live Series + Metrics
+7. **Publication and Monitoring** — [donald-miller](../agents/donald-miller.md): Deploy the series and track response → Live Series + Metrics
    - Framework: Content deployment and real-time optimization
    - Checklist: cl-social-publication
    - Schedule all posts using the planned cadence and timing
@@ -86,7 +86,7 @@ from narrative continuity and compounding audience engagement.
    - Amplify high-performing posts with paid distribution if budget allows
    - Feed performance data into content-narrative-metrics.md
 
-8. **Series Wrap and Learnings** — Story Strategist: Analyze and archive → Series Report
+8. **Series Wrap and Learnings** — [park-howell](../agents/park-howell.md) + [donald-miller](../agents/donald-miller.md): Analyze and archive → Series Report
    - Framework: Content performance analysis
    - Checklist: cl-series-wrap
    - Compile performance data: per-post and series-level metrics
