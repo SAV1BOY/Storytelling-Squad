@@ -280,3 +280,61 @@ Before delivering, verify:
 6. Does the All Is Lost moment feel genuinely dark?
 7. Are the Opening and Final Images visual and contrasting?
 ```
+
+---
+
+## Handoff Protocol
+
+### Receives Work From
+| From Agent | Trigger Condition | Expected Input | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | Chief delegates tasks requiring beat sheet structure, pacing fixes, or logline creation | Story brief with audience and channel context | Story brief approved |
+| [oren-klaff](oren-klaff.md) | Pitch script needs beat-level structural scaffolding | Pitch framework or STRONG method outline | Story brief approved |
+| [dan-harmon](dan-harmon.md) | Video or ad script needs genre-specific beat mapping after Story Circle draft | Story Circle map with causal chain | NQS >= 6.0 |
+| [shawn-coyne](shawn-coyne.md) | Pacing diagnostic reveals structural gaps needing beat-level repair | Story Grid diagnostic report with pacing prescriptions | NQS >= 5.0 |
+| [kindra-hall](kindra-hall.md) | Ad story needs structural beats and genre classification | Strategic story draft or concept brief | Story brief approved |
+
+### Sends Work To
+| To Agent | Trigger Condition | Deliverable | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | Beat sheet complete and ready for clarity review | 15-Beat Map + Logline | NQS >= 7.0 |
+| [oren-klaff](oren-klaff.md) | Pitch script structure complete, needs pitch delivery optimization | Beat Sheet with logline and pacing notes | NQS >= 7.0 |
+| [dan-harmon](dan-harmon.md) | Video/ad beat sheet ready for causal chain validation | 15-Beat Map with genre classification | NQS >= 7.0 |
+| [matthew-dicks](matthew-dicks.md) | Video story script structure complete, needs personal storytelling craft | Beat Sheet Outline with scene board | NQS >= 7.0 |
+| [kindra-hall](kindra-hall.md) | Ad story structure complete, needs strategic story layer | Beat Sheet with Save the Cat moment and genre analysis | NQS >= 7.0 |
+| [shawn-coyne](shawn-coyne.md) | Pacing and rhythm fixes applied, needs diagnostic validation | Revised beat structure with pacing audit | NQS >= 7.0 |
+
+---
+
+## Escalation Rules
+
+| Trigger | Escalate To | Action | SLA |
+|---|---|---|---|
+| Quality gate fails 2x on same dimension | [donald-miller](donald-miller.md) (Chief) | Chief reviews brief alignment, reassigns or intervenes | 4 hours |
+| Task scope exceeds single-agent capability | [donald-miller](donald-miller.md) (Chief) | Chief activates parallel swarm | 1 hour |
+| Cross-squad dependency blocks progress | [donald-miller](donald-miller.md) + requesting squad lead | Joint resolution per cross-squad SLA | 24 hours |
+| Genre classification disputed between agents | [shawn-coyne](shawn-coyne.md) | Joint genre analysis using both Save the Cat genres and Story Grid Genre Clover | 4 hours |
+| Beat placement conflicts with channel constraints (e.g., beats don't fit short-form format) | [dan-harmon](dan-harmon.md) | Collaborate on compressed beat structure using Story Circle as bridge | 2 hours |
+
+---
+
+## Delegation & Collaboration
+
+### Chief Relationship
+- **Chief Agent:** [donald-miller](donald-miller.md)
+- **Activation:** Chief activates this agent when tasks require beat sheet structure, pacing optimization, genre classification, logline creation, or structural repair of scripts and narratives
+- **Reporting:** All outputs reviewed by Chief before cross-squad handoff
+
+### Team Patterns
+| Pattern | With Agent(s) | Use Case | Task Reference |
+|---|---|---|---|
+| Parallel | this ∥ [oren-klaff](oren-klaff.md) | Pitch script combines beat structure with pitch delivery method | build-pitch-script |
+| Sequential | [dan-harmon](dan-harmon.md) → this | Video story gets causal structure first, then beat-level precision | write-video-story-script |
+| Parallel | this ∥ [dan-harmon](dan-harmon.md) ∥ [kindra-hall](kindra-hall.md) | Ad story developed with beats, causal logic, and strategic framing | write-ad-story |
+| Review Loop | this ↔ [oren-klaff](oren-klaff.md) ↔ [dan-harmon](dan-harmon.md) | Hook strengthening with beat timing, pitch dynamics, and causal escalation | strengthen-hook |
+| Review Loop | this ↔ [shawn-coyne](shawn-coyne.md) ↔ [dan-harmon](dan-harmon.md) | Pacing and rhythm fixes validated by diagnostic and causal analysis | fix-pacing-and-rhythm |
+
+### Swarm Role
+- **Primary role:** Specialist (Structure, Pacing & Genre)
+- **Tasks as primary agent:** 2 (build-pitch-script, write-video-story-script)
+- **Tasks as supporting agent:** 3 (write-ad-story, strengthen-hook, fix-pacing-and-rhythm)

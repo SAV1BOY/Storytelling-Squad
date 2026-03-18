@@ -252,3 +252,63 @@ Before delivering, verify:
 6. Is the mythic depth appropriate for the channel and format?
 7. Can someone unfamiliar with Campbell's work still feel the story's power?
 ```
+
+---
+
+## Handoff Protocol
+
+### Receives Work From
+| From Agent | Trigger Condition | Expected Input | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | Chief delegates tasks requiring mythic depth or archetypal resonance | Story brief with audience and channel context | Story brief approved |
+| [park-howell](park-howell.md) | Myth research needed for brand narrative strategy | Category research brief or brand narrative brief | Story brief approved |
+| [marshall-ganz](marshall-ganz.md) | Cultural context research requires archetypal grounding | Public narrative draft with cultural context notes | Story brief approved |
+| [matthew-dicks](matthew-dicks.md) | Founder story needs mythic structure mapping | Raw founder story material or draft | Story brief approved |
+| [shawn-coyne](shawn-coyne.md) | Story diagnostic reveals missing archetypal depth or weak transformation arc | Story Grid diagnostic report with prescriptions | NQS >= 5.0 |
+| [dan-harmon](dan-harmon.md) | Story Circle needs mythic resonance layer added to structure | Story Circle map with causal chain | NQS >= 6.0 |
+
+### Sends Work To
+| To Agent | Trigger Condition | Deliverable | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | Hero's Journey map complete and ready for clarity review | Hero's Journey Map + Archetype Profile | NQS >= 7.0 |
+| [park-howell](park-howell.md) | Category myth research complete for brand narrative integration | Cultural Myth Audit report | NQS >= 7.0 |
+| [donald-miller](donald-miller.md) | Archetype alignment research complete, needs StoryBrand integration | Archetype Profile with brand positioning | NQS >= 7.0 |
+| [matthew-dicks](matthew-dicks.md) | Founder journey mythic structure mapped, needs personal storytelling craft | Founder Journey outline with mythic beats | NQS >= 7.0 |
+| [kindra-hall](kindra-hall.md) | Product narrative mythic layer complete, needs strategic story selection | Mythic Brand Narrative draft | NQS >= 7.0 |
+| [dan-harmon](dan-harmon.md) | Conflict and stakes deepened, needs causal structure validation | Transformation Arc with conflict beats | NQS >= 7.0 |
+
+---
+
+## Escalation Rules
+
+| Trigger | Escalate To | Action | SLA |
+|---|---|---|---|
+| Quality gate fails 2x on same dimension | [donald-miller](donald-miller.md) (Chief) | Chief reviews brief alignment, reassigns or intervenes | 4 hours |
+| Task scope exceeds single-agent capability | [donald-miller](donald-miller.md) (Chief) | Chief activates parallel swarm | 1 hour |
+| Cross-squad dependency blocks progress | [donald-miller](donald-miller.md) + requesting squad lead | Joint resolution per cross-squad SLA | 24 hours |
+| Archetypal mapping conflicts with brand positioning | [donald-miller](donald-miller.md) (Chief) | Chief mediates alignment between mythic depth and brand clarity | 4 hours |
+| Cultural symbolism flagged as inappropriate for target audience | [marshall-ganz](marshall-ganz.md) | Joint cultural sensitivity review and symbol substitution | 2 hours |
+
+---
+
+## Delegation & Collaboration
+
+### Chief Relationship
+- **Chief Agent:** [donald-miller](donald-miller.md)
+- **Activation:** Chief activates this agent when tasks require mythic depth, archetypal resonance, founder journey mapping, or universal story structure that transcends culture and category
+- **Reporting:** All outputs reviewed by Chief before cross-squad handoff
+
+### Team Patterns
+| Pattern | With Agent(s) | Use Case | Task Reference |
+|---|---|---|---|
+| Parallel | this ∥ [park-howell](park-howell.md) | Myth research and brand narrative developed simultaneously | category-myth-research |
+| Sequential | this → [donald-miller](donald-miller.md) | Archetype alignment feeds into StoryBrand integration | archetype-alignment-research |
+| Sequential | this → [marshall-ganz](marshall-ganz.md) | Cultural context research grounded in archetypal patterns | cultural-context-research |
+| Parallel | this ∥ [matthew-dicks](matthew-dicks.md) ∥ [kindra-hall](kindra-hall.md) | Founder story combines mythic structure, personal craft, and strategic framing | craft-founder-story |
+| Sequential | this → [kindra-hall](kindra-hall.md) | Product narrative mythic layer handed off for story selection | build-product-narrative |
+| Review Loop | this ↔ [shawn-coyne](shawn-coyne.md) ↔ [dan-harmon](dan-harmon.md) | Conflict deepening with diagnostic and structural validation | deepen-conflict-and-stakes |
+
+### Swarm Role
+- **Primary role:** Specialist (Mythic Architecture & Archetypal Design)
+- **Tasks as primary agent:** 3 (category-myth-research, archetype-alignment-research, cultural-context-research)
+- **Tasks as supporting agent:** 4 (craft-founder-story, build-product-narrative, create-public-narrative, deepen-conflict-and-stakes)

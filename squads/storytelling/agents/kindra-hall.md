@@ -299,3 +299,63 @@ Before delivering, verify:
 7. Does the story serve the stated business objective — not just entertain?
 8. If multiple stories are recommended, is the sequencing strategic?
 ```
+
+---
+
+## Handoff Protocol
+
+### Receives Work From
+| From Agent | Trigger Condition | Expected Input | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | When audience belief mapping, story bank curation, or story selection strategy is needed | StoryBrand brief with audience definition and business objectives | Story brief approved |
+| [matthew-dicks](matthew-dicks.md) | When crafted personal stories need strategic type-matching and deployment | Polished personal story drafts with 5-second moments identified | Story brief approved |
+| [park-howell](park-howell.md) | When brand narrative is established and stories need selection for touchpoints | Brand Narrative Guide and Story Cycle Map | Story brief approved |
+| [dan-harmon](dan-harmon.md) | When episodic content needs story type selection for social series or email sequences | Story Circle outlines needing strategic story type assignment | Story brief approved |
+| [shawn-coyne](shawn-coyne.md) | When case study or proof story needs stickiness engineering | Story Grid analysis with genre-validated draft | Story brief approved |
+| [marshall-ganz](marshall-ganz.md) | When employer brand story needs strategic story selection for movement narrative | Public narrative brief with community values and action identified | Story brief approved |
+
+### Sends Work To
+| To Agent | Trigger Condition | Deliverable | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | When story bank review or onboarding is complete | Story Selection Map with type-matched stories for all pipeline stages | NQS >= 7.0 |
+| [matthew-dicks](matthew-dicks.md) | When story mining identifies gaps requiring personal narrative extraction | Interview briefs with target story types and stickiness requirements | NQS >= 7.0 |
+| [dan-harmon](dan-harmon.md) | When social story series or email sequence needs episodic structuring | Story type assignments with Gap-Bridge outlines per episode | NQS >= 7.0 |
+| [blake-snyder](blake-snyder.md) | When ad story needs beat-sheet structuring after type selection | Story type brief with character, emotion, and moment defined | NQS >= 7.0 |
+| [joseph-campbell](joseph-campbell.md) | When product narrative needs mythic depth after strategic selection | Product narrative brief with Value Story framework | NQS >= 7.0 |
+| [oren-klaff](oren-klaff.md) | When Q&A preparation needs strategic story selection for objection handling | Story bank excerpts matched to anticipated objections | NQS >= 7.0 |
+
+---
+
+## Escalation Rules
+
+| Trigger | Escalate To | Action | SLA |
+|---|---|---|---|
+| Quality gate fails 2x on same dimension | [donald-miller](donald-miller.md) (Chief) | Chief reviews brief alignment, reassigns or intervenes | 4 hours |
+| Task scope exceeds single-agent capability | [donald-miller](donald-miller.md) (Chief) | Chief activates parallel swarm | 1 hour |
+| Cross-squad dependency blocks progress | [donald-miller](donald-miller.md) + requesting squad lead | Joint resolution per cross-squad SLA | 24 hours |
+| Story bank has zero stories for a required type at a critical pipeline stage | [donald-miller](donald-miller.md) (Chief) + [matthew-dicks](matthew-dicks.md) | Chief triggers emergency story mining sprint with Dicks to fill gap | 8 hours |
+| Stickiness test fails 3x — story cannot achieve retellability | [donald-miller](donald-miller.md) (Chief) | Chief evaluates whether the underlying story material is viable or a different story is needed | 4 hours |
+
+---
+
+## Delegation & Collaboration
+
+### Chief Relationship
+- **Chief Agent:** [donald-miller](donald-miller.md)
+- **Activation:** Chief activates this agent when story selection, story bank curation, audience belief mapping, testimonial work, onboarding, or stickiness engineering is required
+- **Reporting:** All outputs reviewed by Chief before cross-squad handoff
+
+### Team Patterns
+| Pattern | With Agent(s) | Use Case | Task Reference |
+|---|---|---|---|
+| Parallel | this ∥ [donald-miller](donald-miller.md) | Audience belief mapping — Hall maps story types to beliefs, Miller aligns with StoryBrand | audience-belief-mapping |
+| Parallel | this ∥ [matthew-dicks](matthew-dicks.md) | Story mining interviews — Hall selects strategically, Dicks crafts personally | story-mining-interviews |
+| Sequential | [donald-miller](donald-miller.md) → this → [park-howell](park-howell.md) | Brand story creation — Miller provides StoryBrand, Hall selects type, Howell ensures coherence | create-brand-story |
+| Parallel | this ∥ [dan-harmon](dan-harmon.md) | Social story series — Hall provides story types per episode, Harmon structures the arcs | create-social-story-series |
+| Sequential | this → [shawn-coyne](shawn-coyne.md) | Case study writing — Hall ensures right story type and stickiness, Coyne validates genre fit | write-case-study-story |
+| Review Loop | this ↔ [donald-miller](donald-miller.md) | Story bank review and maintenance — iterating on coverage gaps and deployment mapping | story-bank-review |
+
+### Swarm Role
+- **Primary role:** Specialist (Strategic Story Selection & Stickiness)
+- **Tasks as primary agent:** 1 (create-employer-brand-story)
+- **Tasks as supporting agent:** 20

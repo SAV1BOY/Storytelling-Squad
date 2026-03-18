@@ -190,6 +190,7 @@ routing:
     checklists: [brand-story-quality, miller/brand-script-completeness-audit, narrative-clarity-quality]
     templates: [outputs/storybrand-brand-script, outputs/one-liner]
     registry: [data/registries/brand-scripts-registry, data/registries/one-liners-registry]
+    min_nqs: 8.5
 
   craft-founder-story:
     agents: [matthew-dicks, kindra-hall, joseph-campbell]
@@ -197,6 +198,7 @@ routing:
     checklists: [founder-story-quality, dicks/five-second-moment-audit, character-transformation-quality]
     templates: [outputs/founder-story]
     registry: [data/registries/story-bank]
+    min_nqs: 7.0
 
   write-case-study-story:
     agents: [kindra-hall, shawn-coyne]
@@ -204,6 +206,7 @@ routing:
     checklists: [customer-case-story-quality, proof-in-story-quality, hall/stickiness-and-retellability-audit]
     templates: [outputs/case-study-story, outputs/customer-story]
     registry: [data/registries/story-bank, data/registries/proof-bank]
+    min_nqs: 7.0
 
   build-pitch-script:
     agents: [oren-klaff, donald-miller, blake-snyder]
@@ -211,6 +214,7 @@ routing:
     checklists: [pitch-story-quality, klaff/pitch-frames-audit, klaff/tension-and-novelty-audit, klaff/status-alignment-audit]
     templates: [outputs/pitch-script]
     registry: [data/registries/pitch-scripts-registry]
+    min_nqs: 8.5
 
   build-sales-deck:
     agents: [nancy-duarte, oren-klaff, donald-miller]
@@ -218,6 +222,7 @@ routing:
     checklists: [deck-story-quality, duarte/sparkline-audit, duarte/deck-flow-and-contrast-audit]
     templates: [outputs/deck-outline-sparkline]
     registry: [data/registries/deck-outline-registry]
+    min_nqs: 8.5
 
   build-webinar-narrative:
     agents: [donald-miller, nancy-duarte, dan-harmon]
@@ -225,6 +230,7 @@ routing:
     checklists: [webinar-narrative-quality, structure-and-pacing-quality]
     templates: [outputs/webinar-narrative-script]
     registry: [data/registries/story-bank]
+    min_nqs: 7.0
 
   build-product-narrative:
     agents: [donald-miller, kindra-hall, joseph-campbell]
@@ -232,6 +238,7 @@ routing:
     checklists: [brand-story-quality, narrative-clarity-quality]
     templates: [outputs/product-story]
     registry: [data/registries/story-bank]
+    min_nqs: 7.0
 
   create-public-narrative:
     agents: [marshall-ganz, joseph-campbell, matthew-dicks]
@@ -239,6 +246,7 @@ routing:
     checklists: [public-narrative-quality, ganz/public-narrative-self-us-now-audit, ganz/urgency-and-action-audit]
     templates: [outputs/public-narrative-self-us-now]
     registry: [data/registries/public-narratives-registry]
+    min_nqs: 8.5
 
   write-email-sequence-narrative:
     agents: [dan-harmon, donald-miller, kindra-hall]
@@ -246,6 +254,7 @@ routing:
     checklists: [email-sequence-narrative-quality, structure-and-pacing-quality]
     templates: [outputs/email-sequence-narrative]
     registry: [data/registries/story-bank]
+    min_nqs: 7.0
 
   write-video-story-script:
     agents: [dan-harmon, blake-snyder, matthew-dicks]
@@ -253,6 +262,7 @@ routing:
     checklists: [video-script-narrative-quality, hook-and-open-loop-quality, structure-and-pacing-quality]
     templates: [outputs/video-story-script]
     registry: [data/registries/story-bank]
+    min_nqs: 7.0
 
   create-social-story-series:
     agents: [dan-harmon, kindra-hall, park-howell]
@@ -260,6 +270,7 @@ routing:
     checklists: [social-media-story-quality, narrative/micro-story-quality]
     templates: [outputs/social-media-story-series]
     registry: [data/registries/story-bank]
+    min_nqs: 7.0
 
   write-ad-story:
     agents: [dan-harmon, blake-snyder, kindra-hall]
@@ -267,6 +278,7 @@ routing:
     checklists: [hook-and-open-loop-quality, narrative/micro-story-quality]
     templates: [outputs/video-story-script]
     registry: [data/registries/hook-bank]
+    min_nqs: 7.0
 
   create-employer-brand-story:
     agents: [kindra-hall, marshall-ganz, donald-miller]
@@ -274,6 +286,7 @@ routing:
     checklists: [brand-story-quality, hall/story-types-fit-audit]
     templates: [outputs/founder-story]
     registry: [data/registries/story-bank]
+    min_nqs: 7.0
 
   write-data-story:
     agents: [nancy-duarte, donald-miller]
@@ -281,6 +294,7 @@ routing:
     checklists: [narrative/data-storytelling-quality, narrative-clarity-quality]
     templates: [outputs/case-study-story]
     registry: [data/registries/story-bank]
+    min_nqs: 7.0
 
   # ---- REFINEMENT ----
   improve-story-clarity:
@@ -578,3 +592,114 @@ defaults:
   output_format: markdown
   story_structure_default: "harmon-story-circle"    # default mais compacto
   clarity_check: "miller-grunt-test"                # sempre rodar
+
+# ============================================================
+# ESCALATION RULES
+# ============================================================
+
+escalation_rules:
+  gate_failure:
+    first_failure:
+      action: "Agent revises using specific checklist feedback"
+      scope: "Only failing dimensions are revised, not full rewrite"
+      sla: "50% of original task SLA"
+    second_failure_same_dimension:
+      action: "Escalate to chief agent (donald-miller)"
+      scope: "Chief reviews brief alignment and agent-framework fit"
+      options: ["reassign to alternate agent", "simplify brief", "split task"]
+      sla: "4 hours"
+    third_failure:
+      action: "Chief reassigns to alternate agent from routing list"
+      tracking: "Log in data/registries/lessons-learned-registry.yaml with root cause"
+      sla: "4 hours"
+  scope_exceeded:
+    trigger: "Agent determines task requires expertise outside their frameworks"
+    action: "Request chief to activate parallel swarm with additional specialist"
+    sla: "1 hour for chief response"
+  cross_squad_block:
+    trigger: "Dependency on another squad blocks progress for >24 hours"
+    action: "Chief agent + requesting squad lead joint resolution"
+    escalation_path: "Level 1: direct discussion → Level 2: squad leads (2 days) → Level 3: marketing leadership"
+    sla: "24 hours per level"
+  conflict_between_agents:
+    trigger: "Two agents produce contradictory recommendations for same task"
+    action: "Chief arbitrates using clarity-first principle"
+    fallback: "If unresolved, route to narrative-consistency-review task"
+    tracking: "Document dissent in data/registries/decisions-log.yaml"
+
+# ============================================================
+# SLA DEFAULTS
+# ============================================================
+
+sla_defaults:
+  by_task_category:
+    research: "2-4 hours"
+    strategy: "2-4 hours"
+    creation: "4-8 hours"
+    refinement: "1-3 hours"
+    extraction: "1-2 hours"
+    delivery: "2-4 hours"
+    review: "1-2 hours"
+    operations: "varies by scope"
+  quality_gate_review: "30 minutes"
+  escalation_response:
+    chief_agent: "1 hour"
+    cross_squad: "4 hours"
+  rework_cycle: "50% of original task SLA"
+  cross_squad_handoff:
+    triage: "1 business day"
+    adaptation_review: "3 business days"
+    performance_data_feedback: "7 days post-publication"
+
+# ============================================================
+# REWORK POLICY
+# ============================================================
+
+rework_policy:
+  max_rework_cycles: 3
+  rework_trigger: "Any quality gate checklist dimension scores below threshold"
+  rework_process:
+    step_1: "Agent receives scorecard with specific failing dimensions and feedback"
+    step_2: "Agent revises ONLY the failing dimensions (not full rewrite)"
+    step_3: "Revised output re-evaluated against ONLY the failing dimensions"
+    step_4: "If pass → proceed. If fail → increment cycle count and repeat"
+  escalation_after_max_cycles:
+    action: "Chief agent reviews"
+    options:
+      - "Reassign to alternate agent from routing list"
+      - "Simplify brief (reduce scope or split into sub-tasks)"
+      - "Activate swarm pattern (multiple agents collaborate)"
+  tracking:
+    registry: "data/registries/workflow-execution-log.yaml"
+    fields: [task_id, agent_id, cycle_number, failing_dimensions, resolution, timestamp]
+  targets:
+    first_pass_rate: 0.70         # 70% of tasks pass quality gate on first submission
+    avg_rework_cycles: 1.3        # average across all tasks
+    max_acceptable_rework: 2.0    # flag if agent averages above this
+
+# ============================================================
+# CONFLICT RESOLUTION
+# ============================================================
+
+conflict_resolution:
+  framework_conflict:
+    description: "Two frameworks produce contradictory guidance for same task"
+    resolution: "Primary agent's framework takes precedence. Supporting agent adapts."
+    arbiter: donald-miller
+    tracking: "Log in decisions-log with both positions and rationale"
+  narrative_vs_data:
+    description: "Brand narrative conflicts with audience research findings"
+    resolution: "Audience research wins. Brand narrative updated to align."
+    arbiter: "donald-miller + brand_squad lead"
+    exception: "If brand positioning is immovable, document constraint and optimize within it"
+  quality_vs_deadline:
+    description: "Output does not meet quality gate but deadline is imminent"
+    resolution: "Quality gate is non-negotiable. Deadline extends."
+    arbiter: donald-miller
+    exception: "Internal-only content may ship at NQS >= 5.0 with explicit chief approval"
+    communication: "Chief notifies stakeholders of delay with revised timeline"
+  agent_disagreement:
+    description: "Primary and supporting agents disagree on narrative approach"
+    resolution: "Primary agent decides. Dissent documented in decisions-log."
+    review: "Chief reviews if either agent requests it"
+    principle: "clarity-first is the tiebreaker in all unresolved disputes"

@@ -286,3 +286,63 @@ Before delivering, verify:
 6. Is every crisis a genuine dilemma, not a problem with an obvious solution?
 7. Are the diagnostic prescriptions specific enough to act on immediately?
 ```
+
+---
+
+## Handoff Protocol
+
+### Receives Work From
+| From Agent | Trigger Condition | Expected Input | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | Chief delegates tasks requiring story diagnostics, genre analysis, or editorial precision | Story brief with draft narrative or content to analyze | Story brief approved |
+| [park-howell](park-howell.md) | Competitor narrative audit needs scene-level diagnostic analysis | Competitor narrative samples with brand context | Story brief approved |
+| [kindra-hall](kindra-hall.md) | Case study story needs structural validation and value-shift tracking | Case study draft or story brief | Story brief approved |
+| [blake-snyder](blake-snyder.md) | Pacing fixes need diagnostic confirmation via Story Grid | Revised beat structure with pacing notes | NQS >= 6.0 |
+| [dan-harmon](dan-harmon.md) | Story Circle output needs scene-level diagnostic validation | Story Circle Map with causal chain | NQS >= 6.0 |
+| [joseph-campbell](joseph-campbell.md) | Mythic narrative needs diagnostic audit for structural integrity | Hero's Journey Map or Transformation Arc | NQS >= 6.0 |
+
+### Sends Work To
+| To Agent | Trigger Condition | Deliverable | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | Story diagnostic complete, needs clarity review and StoryBrand alignment | Story Grid Diagnostic Report with prescriptions | NQS >= 7.0 |
+| [kindra-hall](kindra-hall.md) | Case study diagnosis complete, needs strategic story craft | Diagnostic findings with proof-point recommendations | NQS >= 7.0 |
+| [blake-snyder](blake-snyder.md) | Pacing diagnosis identifies beat-level fixes needed | Diagnostic Report with pacing prescriptions | NQS >= 7.0 |
+| [dan-harmon](dan-harmon.md) | Diagnostic reveals causal logic issues needing Story Circle repair | Value Shift Tracker with causal gap analysis | NQS >= 7.0 |
+| [matthew-dicks](matthew-dicks.md) | Emotional arc diagnosis complete, needs craft-level refinement | Diagnostic Report with emotional arc prescriptions | NQS >= 7.0 |
+| [nancy-duarte](nancy-duarte.md) | Emotional arc improvements needed in presentation narrative | Diagnostic findings with value-shift recommendations | NQS >= 7.0 |
+
+---
+
+## Escalation Rules
+
+| Trigger | Escalate To | Action | SLA |
+|---|---|---|---|
+| Quality gate fails 2x on same dimension | [donald-miller](donald-miller.md) (Chief) | Chief reviews brief alignment, reassigns or intervenes | 4 hours |
+| Task scope exceeds single-agent capability | [donald-miller](donald-miller.md) (Chief) | Chief activates parallel swarm | 1 hour |
+| Cross-squad dependency blocks progress | [donald-miller](donald-miller.md) + requesting squad lead | Joint resolution per cross-squad SLA | 24 hours |
+| Genre Clover analysis reveals fundamental genre mismatch in the brief | [donald-miller](donald-miller.md) (Chief) | Chief revisits brief with updated genre requirements; may reassign task | 4 hours |
+| Diagnostic reveals more than 3 dead scenes (no value shift) in a single narrative | [donald-miller](donald-miller.md) (Chief) | Chief triggers full narrative restructure with parallel agent support | 2 hours |
+
+---
+
+## Delegation & Collaboration
+
+### Chief Relationship
+- **Chief Agent:** [donald-miller](donald-miller.md)
+- **Activation:** Chief activates this agent when tasks require story diagnostics, scene-level analysis, genre compliance auditing, value-shift tracking, editorial precision, or quality review of narrative outputs
+- **Reporting:** All outputs reviewed by Chief before cross-squad handoff
+
+### Team Patterns
+| Pattern | With Agent(s) | Use Case | Task Reference |
+|---|---|---|---|
+| Parallel | this ∥ [park-howell](park-howell.md) | Competitor narrative audit combines diagnostic rigor with brand strategy lens | competitor-narrative-audit |
+| Sequential | this → [kindra-hall](kindra-hall.md) | Case study diagnosis informs strategic story craft | write-case-study-story |
+| Review Loop | this ↔ [donald-miller](donald-miller.md) | Story clarity improved through diagnostic-then-clarity review loop | improve-story-clarity |
+| Review Loop | this ↔ [donald-miller](donald-miller.md) | Compressed narrative validated for structural integrity | compress-and-edit-story |
+| Review Loop | this ↔ [joseph-campbell](joseph-campbell.md) ↔ [dan-harmon](dan-harmon.md) | Conflict deepened through diagnostic, mythic, and causal analysis | deepen-conflict-and-stakes |
+| Review Loop | this ↔ [blake-snyder](blake-snyder.md) ↔ [dan-harmon](dan-harmon.md) | Pacing fixed through diagnostic, beat-level, and causal validation | fix-pacing-and-rhythm |
+
+### Swarm Role
+- **Primary role:** Reviewer / Analyst (Diagnostic & Genre Precision)
+- **Tasks as primary agent:** 4 (competitor-narrative-audit, write-case-study-story, improve-story-clarity, story-review)
+- **Tasks as supporting agent:** 6 (add-proof-to-story, compress-and-edit-story, deepen-conflict-and-stakes, improve-emotional-arc, fix-pacing-and-rhythm, curate-swipe-file)

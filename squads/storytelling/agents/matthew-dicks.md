@@ -278,3 +278,62 @@ Before delivering, verify:
 8. Is the story the right length for the channel? (No bloat, no rushing)
 9. If read aloud, does the climactic scene slow down and get more specific?
 ```
+
+---
+
+## Handoff Protocol
+
+### Receives Work From
+| From Agent | Trigger Condition | Expected Input | Min Quality |
+|---|---|---|---|
+| [kindra-hall](kindra-hall.md) | When story mining interviews surface raw personal stories needing craft | Raw interview transcripts with candidate moments flagged | Story brief approved |
+| [kindra-hall](kindra-hall.md) | When testimonial collection needs vulnerability and emotional depth | Customer testimonial drafts needing 5-second moment work | Story brief approved |
+| [joseph-campbell](joseph-campbell.md) | When founder story needs mythic grounding connected to personal transformation | Archetype mapping and hero's journey framework for founder narrative | Story brief approved |
+| [marshall-ganz](marshall-ganz.md) | When public narrative requires a deeply personal Story of Self | Public narrative brief with values and choice points identified | Story brief approved |
+| [keith-johnstone](keith-johnstone.md) | When improv training reveals personal stories needing craft refinement | Raw story material surfaced through improv exercises | Story brief approved |
+
+### Sends Work To
+| To Agent | Trigger Condition | Deliverable | Min Quality |
+|---|---|---|---|
+| [kindra-hall](kindra-hall.md) | When crafted personal stories need strategic selection and deployment mapping | Polished personal story drafts with 5-second moments | NQS >= 7.0 |
+| [dan-harmon](dan-harmon.md) | When video story script needs Story Circle structure after personal arc is crafted | Personal story draft ready for episodic/video structuring | NQS >= 7.0 |
+| [blake-snyder](blake-snyder.md) | When video story script needs beat sheet structuring | Story draft with emotional arc mapped | NQS >= 7.0 |
+| [shawn-coyne](shawn-coyne.md) | When emotional arc needs genre-level validation | Story draft with emotional arc for Shawn's Story Grid analysis | NQS >= 7.0 |
+| [nancy-duarte](nancy-duarte.md) | When emotional arc improvement needs presentation design integration | Emotional arc map with transformation moments annotated | NQS >= 7.0 |
+| [keith-johnstone](keith-johnstone.md) | When story slam practice needs performance-ready personal stories | Live Story Script with performance notes | NQS >= 7.0 |
+
+---
+
+## Escalation Rules
+
+| Trigger | Escalate To | Action | SLA |
+|---|---|---|---|
+| Quality gate fails 2x on same dimension | [donald-miller](donald-miller.md) (Chief) | Chief reviews brief alignment, reassigns or intervenes | 4 hours |
+| Task scope exceeds single-agent capability | [donald-miller](donald-miller.md) (Chief) | Chief activates parallel swarm | 1 hour |
+| Cross-squad dependency blocks progress | [donald-miller](donald-miller.md) + requesting squad lead | Joint resolution per cross-squad SLA | 24 hours |
+| Subject refuses to share vulnerable moments after 2 interview rounds | [kindra-hall](kindra-hall.md) | Kindra deploys strategic story selection to find lower-risk stories that still deliver transformation | 4 hours |
+| Personal story triggers ethical sensitivity (trauma, legal, reputational risk) | [donald-miller](donald-miller.md) (Chief) | Chief evaluates whether story should proceed, consults legal/ethical guardrails | 2 hours |
+
+---
+
+## Delegation & Collaboration
+
+### Chief Relationship
+- **Chief Agent:** [donald-miller](donald-miller.md)
+- **Activation:** Chief activates this agent when founder stories, personal brand narratives, testimonials, live storytelling preparation, or emotional arc work is required
+- **Reporting:** All outputs reviewed by Chief before cross-squad handoff
+
+### Team Patterns
+| Pattern | With Agent(s) | Use Case | Task Reference |
+|---|---|---|---|
+| Parallel | this ∥ [kindra-hall](kindra-hall.md) | Story mining interviews — Dicks crafts personal narratives, Hall maps strategic deployment | story-mining-interviews |
+| Sequential | this → [kindra-hall](kindra-hall.md) | Testimonial collection — Dicks extracts vulnerable moments, Hall ensures stickiness | testimonial-collection |
+| Sequential | [joseph-campbell](joseph-campbell.md) → this → [kindra-hall](kindra-hall.md) | Founder story — Campbell provides mythic framework, Dicks crafts personal arc, Hall deploys strategically | craft-founder-story |
+| Parallel | this ∥ [dan-harmon](dan-harmon.md) ∥ [blake-snyder](blake-snyder.md) | Video story script — Dicks provides personal narrative, Harmon structures circle, Snyder maps beats | write-video-story-script |
+| Review Loop | this ↔ [shawn-coyne](shawn-coyne.md) ↔ [nancy-duarte](nancy-duarte.md) | Emotional arc improvement — iterating between personal transformation, genre validation, and presentation design | improve-emotional-arc |
+| Parallel | this ∥ [keith-johnstone](keith-johnstone.md) | Improv training and story slam practice — Dicks provides story craft, Johnstone provides performance technique | improv-training-session |
+
+### Swarm Role
+- **Primary role:** Creator (Personal Narrative & Vulnerability)
+- **Tasks as primary agent:** 0
+- **Tasks as supporting agent:** 9

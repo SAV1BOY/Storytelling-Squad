@@ -289,3 +289,61 @@ Before delivering, verify:
 7. Could a new employee read this and immediately understand what the brand
    stands for and how to talk about it?
 ```
+
+---
+
+## Handoff Protocol
+
+### Receives Work From
+| From Agent | Trigger Condition | Expected Input | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | When brand narrative strategy is needed for a new or existing brand | Story brief with business objectives and audience definition | Story brief approved |
+| [shawn-coyne](shawn-coyne.md) | When competitor narrative audit reveals brand positioning gaps | Competitor narrative analysis with genre expectations | Story brief approved |
+| [joseph-campbell](joseph-campbell.md) | When mythic research identifies category archetypes for brand alignment | Category myth research findings and archetype mapping | Story brief approved |
+| [marshall-ganz](marshall-ganz.md) | When public narrative strategy requires brand-level coherence layer | Public narrative braid (Self/Us/Now) needing brand integration | Story brief approved |
+| [kindra-hall](kindra-hall.md) | When story bank reveals brand narrative inconsistencies across touchpoints | Story bank audit with gap analysis | Story brief approved |
+
+### Sends Work To
+| To Agent | Trigger Condition | Deliverable | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | When brand narrative strategy is complete and needs StoryBrand alignment | Story Cycle Map and ABT Statements | NQS >= 7.0 |
+| [kindra-hall](kindra-hall.md) | When brand narrative is established and stories need strategic selection | Brand Narrative Guide with story deployment contexts | NQS >= 7.0 |
+| [dan-harmon](dan-harmon.md) | When content narrative strategy requires Story Circle structuring | Content narrative strategy with ABT-structured briefs | NQS >= 7.0 |
+| [marshall-ganz](marshall-ganz.md) | When brand narrative supports a public/movement narrative | Brand narrative foundation for public narrative braid | NQS >= 7.0 |
+| [donald-miller](donald-miller.md) | When narrative consistency review is complete | Narrative Coherence Audit report with touchpoint recommendations | NQS >= 7.0 |
+
+---
+
+## Escalation Rules
+
+| Trigger | Escalate To | Action | SLA |
+|---|---|---|---|
+| Quality gate fails 2x on same dimension | [donald-miller](donald-miller.md) (Chief) | Chief reviews brief alignment, reassigns or intervenes | 4 hours |
+| Task scope exceeds single-agent capability | [donald-miller](donald-miller.md) (Chief) | Chief activates parallel swarm | 1 hour |
+| Cross-squad dependency blocks progress | [donald-miller](donald-miller.md) + requesting squad lead | Joint resolution per cross-squad SLA | 24 hours |
+| Brand narrative contradicts existing StoryBrand positioning | [donald-miller](donald-miller.md) (Chief) | Chief arbitrates alignment between Story Cycle and StoryBrand frameworks | 4 hours |
+| ABT audit reveals systemic incoherence across 3+ touchpoints | [donald-miller](donald-miller.md) + [kindra-hall](kindra-hall.md) | Chief triggers full brand narrative reset with story bank realignment | 8 hours |
+
+---
+
+## Delegation & Collaboration
+
+### Chief Relationship
+- **Chief Agent:** [donald-miller](donald-miller.md)
+- **Activation:** Chief activates this agent when brand narrative strategy, narrative coherence audits, content narrative strategy, or crisis narrative response is required
+- **Reporting:** All outputs reviewed by Chief before cross-squad handoff
+
+### Team Patterns
+| Pattern | With Agent(s) | Use Case | Task Reference |
+|---|---|---|---|
+| Parallel | this ∥ [shawn-coyne](shawn-coyne.md) | Competitor narrative audit — Howell assesses brand coherence while Coyne evaluates genre fit | competitor-narrative-audit |
+| Sequential | [joseph-campbell](joseph-campbell.md) → this | Category myth research feeds into brand archetype alignment | category-myth-research |
+| Parallel | this ∥ [kindra-hall](kindra-hall.md) | Brand narrative strategy — Howell builds Story Cycle, Hall maps story types to touchpoints | brand-narrative-strategy |
+| Sequential | this → [dan-harmon](dan-harmon.md) | Content narrative strategy — Howell sets ABT foundation, Harmon structures episodic arcs | content-narrative-strategy |
+| Review Loop | this ↔ [marshall-ganz](marshall-ganz.md) | Crisis and public narrative — iterating between brand coherence and movement narrative | crisis-narrative-strategy |
+| Review Loop | this ↔ [donald-miller](donald-miller.md) | Quarterly narrative review — auditing brand consistency against StoryBrand | quarterly-narrative-review |
+
+### Swarm Role
+- **Primary role:** Specialist (Brand Narrative Coherence)
+- **Tasks as primary agent:** 0
+- **Tasks as supporting agent:** 10

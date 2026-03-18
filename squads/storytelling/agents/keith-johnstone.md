@@ -299,3 +299,59 @@ Before delivering, verify:
 8. Does the audience leave with elevated status — feeling empowered,
    connected, or inspired?
 ```
+
+---
+
+## Handoff Protocol
+
+### Receives Work From
+| From Agent | Trigger Condition | Expected Input | Min Quality |
+|---|---|---|---|
+| [oren-klaff](oren-klaff.md) | When pitch rehearsal needs live performance coaching and status work | Pitch script with frame strategy and STRONG sequence | Story brief approved |
+| [nancy-duarte](nancy-duarte.md) | When presentation rehearsal needs improvisation and spontaneity training | Presentation deck with speaker notes and emotional arc | Story brief approved |
+| [matthew-dicks](matthew-dicks.md) | When improv training or story slam practice needs performance direction | Personal story drafts or live story scripts ready for stage | Story brief approved |
+| [kindra-hall](kindra-hall.md) | When Q&A preparation needs spontaneity and offer-acceptance coaching | Story bank excerpts and anticipated audience questions | Story brief approved |
+| [oren-klaff](oren-klaff.md) | When Q&A preparation needs status management under pressure | Frame strategy brief with known objections | Story brief approved |
+
+### Sends Work To
+| To Agent | Trigger Condition | Deliverable | Min Quality |
+|---|---|---|---|
+| [oren-klaff](oren-klaff.md) | When pitch rehearsal reveals frame control gaps needing script revision | Status Transaction Map with block diagnosis and rehearsal notes | NQS >= 7.0 |
+| [matthew-dicks](matthew-dicks.md) | When improv exercises surface raw personal stories needing craft | Raw story material with offer-acceptance annotations | NQS >= 7.0 |
+| [nancy-duarte](nancy-duarte.md) | When presentation rehearsal reveals delivery issues needing slide redesign | Delivery Script with status beats and spontaneity structures | NQS >= 7.0 |
+| [kindra-hall](kindra-hall.md) | When Q&A prep reveals story gaps for handling specific objections | Q&A Preparation Guide with status-annotated response frameworks | NQS >= 7.0 |
+
+---
+
+## Escalation Rules
+
+| Trigger | Escalate To | Action | SLA |
+|---|---|---|---|
+| Quality gate fails 2x on same dimension | [donald-miller](donald-miller.md) (Chief) | Chief reviews brief alignment, reassigns or intervenes | 4 hours |
+| Task scope exceeds single-agent capability | [donald-miller](donald-miller.md) (Chief) | Chief activates parallel swarm | 1 hour |
+| Cross-squad dependency blocks progress | [donald-miller](donald-miller.md) + requesting squad lead | Joint resolution per cross-squad SLA | 24 hours |
+| Performer freezes during improv or rehearsal — cannot accept offers | [matthew-dicks](matthew-dicks.md) | Dicks shifts to personal story approach, grounding performer in their own 5-second moment to bypass fear | 2 hours |
+| Status dynamic between speaker and audience is culturally sensitive or high-risk (board, media) | [donald-miller](donald-miller.md) (Chief) + [oren-klaff](oren-klaff.md) | Chief coordinates joint status strategy with Klaff's frame expertise and Johnstone's performance coaching | 4 hours |
+
+---
+
+## Delegation & Collaboration
+
+### Chief Relationship
+- **Chief Agent:** [donald-miller](donald-miller.md)
+- **Activation:** Chief activates this agent when live delivery preparation, pitch rehearsal, presentation coaching, creative unblocking, Q&A preparation, or improv training is required
+- **Reporting:** All outputs reviewed by Chief before cross-squad handoff
+
+### Team Patterns
+| Pattern | With Agent(s) | Use Case | Task Reference |
+|---|---|---|---|
+| Sequential | [oren-klaff](oren-klaff.md) → this | Pitch rehearsal — Klaff designs frame strategy, Johnstone coaches live delivery and status oscillation | rehearse-pitch |
+| Sequential | [nancy-duarte](nancy-duarte.md) → this | Presentation rehearsal — Duarte designs visual narrative, Johnstone coaches spontaneity and presence | rehearse-presentation |
+| Parallel | this ∥ [matthew-dicks](matthew-dicks.md) | Improv training session — Johnstone leads improv exercises, Dicks provides personal story grounding | improv-training-session |
+| Parallel | this ∥ [matthew-dicks](matthew-dicks.md) | Story slam practice — Johnstone coaches stage presence and offer acceptance, Dicks refines story craft | story-slam-practice |
+| Parallel | this ∥ [oren-klaff](oren-klaff.md) ∥ [kindra-hall](kindra-hall.md) | Q&A preparation — Johnstone handles spontaneity, Klaff handles frame control, Hall provides strategic stories | q-and-a-preparation |
+
+### Swarm Role
+- **Primary role:** Specialist (Live Performance & Improvisation)
+- **Tasks as primary agent:** 0
+- **Tasks as supporting agent:** 5

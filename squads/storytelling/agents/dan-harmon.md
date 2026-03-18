@@ -271,3 +271,63 @@ Before delivering, verify:
 6. Does the story feel organic (embryo) rather than mechanical (template)?
 7. Could someone unfamiliar with the Story Circle still feel the narrative power?
 ```
+
+---
+
+## Handoff Protocol
+
+### Receives Work From
+| From Agent | Trigger Condition | Expected Input | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | Chief delegates tasks requiring compact narrative structure, episodic design, or causal logic | Story brief with audience and channel context | Story brief approved |
+| [park-howell](park-howell.md) | Content narrative strategy needs structural backbone | Brand narrative strategy brief or ABT framework draft | Story brief approved |
+| [blake-snyder](blake-snyder.md) | Video/ad script needs causal chain layered onto beat structure | 15-Beat Map with genre classification | NQS >= 6.0 |
+| [kindra-hall](kindra-hall.md) | Social story or ad story needs episodic structure and causal connectivity | Strategic story draft or social content brief | Story brief approved |
+| [shawn-coyne](shawn-coyne.md) | Pacing diagnostic identifies weak causal logic needing Story Circle repair | Story Grid diagnostic report | NQS >= 5.0 |
+| [joseph-campbell](joseph-campbell.md) | Mythic structure needs compact causal scaffolding for execution | Hero's Journey Map or Transformation Arc | NQS >= 6.0 |
+
+### Sends Work To
+| To Agent | Trigger Condition | Deliverable | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | Story Circle complete and ready for clarity review | Story Circle Map + Causality Chain | NQS >= 7.0 |
+| [blake-snyder](blake-snyder.md) | Video/ad story circle ready for beat-level refinement | Story Circle Map with but/therefore chain | NQS >= 7.0 |
+| [matthew-dicks](matthew-dicks.md) | Video story structure complete, needs personal storytelling craft | Story Circle with scene breakdowns | NQS >= 7.0 |
+| [kindra-hall](kindra-hall.md) | Social story series or ad story structure ready for strategic framing | Episodic Arc with micro-circles | NQS >= 7.0 |
+| [nancy-duarte](nancy-duarte.md) | Webinar narrative structure complete, needs presentation design | Story Circle adapted for webinar format | NQS >= 7.0 |
+| [donald-miller](donald-miller.md) | Email sequence or channel adaptation structure complete | Causality Chain with episode breakdown | NQS >= 7.0 |
+
+---
+
+## Escalation Rules
+
+| Trigger | Escalate To | Action | SLA |
+|---|---|---|---|
+| Quality gate fails 2x on same dimension | [donald-miller](donald-miller.md) (Chief) | Chief reviews brief alignment, reassigns or intervenes | 4 hours |
+| Task scope exceeds single-agent capability | [donald-miller](donald-miller.md) (Chief) | Chief activates parallel swarm | 1 hour |
+| Cross-squad dependency blocks progress | [donald-miller](donald-miller.md) + requesting squad lead | Joint resolution per cross-squad SLA | 24 hours |
+| Causal chain breaks cannot be resolved without restructuring the brief | [donald-miller](donald-miller.md) (Chief) | Chief reviews original brief for logical coherence, may revise scope | 4 hours |
+| Episodic structure requires more installments than channel allows | [blake-snyder](blake-snyder.md) | Joint compression of story circle into fewer beats per episode | 2 hours |
+
+---
+
+## Delegation & Collaboration
+
+### Chief Relationship
+- **Chief Agent:** [donald-miller](donald-miller.md)
+- **Activation:** Chief activates this agent when tasks require compact story structure, causal logic validation, episodic content design, serialized narrative arcs, or Story Circle mapping
+- **Reporting:** All outputs reviewed by Chief before cross-squad handoff
+
+### Team Patterns
+| Pattern | With Agent(s) | Use Case | Task Reference |
+|---|---|---|---|
+| Parallel | this ∥ [park-howell](park-howell.md) ∥ [donald-miller](donald-miller.md) | Content narrative strategy developed with brand, structure, and clarity lenses | content-narrative-strategy |
+| Sequential | this → [nancy-duarte](nancy-duarte.md) | Webinar narrative structure handed off for presentation design | build-webinar-narrative |
+| Sequential | this → [kindra-hall](kindra-hall.md) | Email sequence narrative arc handed off for strategic story integration | write-email-sequence-narrative |
+| Parallel | this ∥ [blake-snyder](blake-snyder.md) ∥ [matthew-dicks](matthew-dicks.md) | Video story script combines circle, beats, and personal craft | write-video-story-script |
+| Parallel | this ∥ [kindra-hall](kindra-hall.md) ∥ [park-howell](park-howell.md) | Social story series developed with episodic structure, strategic framing, and brand alignment | create-social-story-series |
+| Review Loop | this ↔ [blake-snyder](blake-snyder.md) ↔ [shawn-coyne](shawn-coyne.md) | Pacing and rhythm validated through causal logic, beat timing, and diagnostic analysis | fix-pacing-and-rhythm |
+
+### Swarm Role
+- **Primary role:** Specialist (Compact Structure & Causal Logic)
+- **Tasks as primary agent:** 5 (content-narrative-strategy, write-email-sequence-narrative, create-social-story-series, extract-social-snippets, extract-email-arc-from-story)
+- **Tasks as supporting agent:** 6 (build-webinar-narrative, write-video-story-script, write-ad-story, strengthen-hook, fix-pacing-and-rhythm, deepen-conflict-and-stakes)
