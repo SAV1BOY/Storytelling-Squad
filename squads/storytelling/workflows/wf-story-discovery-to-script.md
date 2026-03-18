@@ -16,53 +16,53 @@ architecture before reaching its audience.
 - Story Bank checked for existing narratives that could be adapted
 
 ## Steps
-1. **Discovery Intake** — Story Strategist: Gather raw inputs and define the narrative objective → Discovery Brief
+1. **Discovery Intake** — [donald-miller](../agents/donald-miller.md) + [kindra-hall](../agents/kindra-hall.md): Gather raw inputs and define the narrative objective → Discovery Brief
    - Framework: StoryBrand SB7
    - Checklist: cl-story-discovery-intake
    - Collect all available source material: interviews, transcripts, data points, quotes
    - Define the hero (audience), the problem (external, internal, philosophical), and the guide (brand)
 
-2. **Audience-Problem Mapping** — Story Strategist: Map the audience journey and core tensions → Audience-Problem Map
+2. **Audience-Problem Mapping** — [joseph-campbell](../agents/joseph-campbell.md) + [donald-miller](../agents/donald-miller.md): Map the audience journey and core tensions → Audience-Problem Map
    - Framework: Hero's Journey / Pixar Story Spine
    - Checklist: cl-audience-mapping
    - Identify the gap between where the audience is and where they want to be
    - Surface the internal problem that drives emotional engagement
 
-3. **Narrative Structure Selection** — Story Architect: Choose and apply the right story framework → Story Skeleton
+3. **Narrative Structure Selection** — [shawn-coyne](../agents/shawn-coyne.md) + [nancy-duarte](../agents/nancy-duarte.md): Choose and apply the right story framework → Story Skeleton
    - Framework: Duarte Sparkline, Freytag Pyramid, or Story Spine (select best fit)
    - Checklist: cl-structure-selection
    - Map key beats: hook, rising tension, climax, resolution, call to action
    - Validate that the structure serves the objective and channel constraints
 
-4. **First Draft** — Story Writer: Write the complete narrative draft → Raw Script
+4. **First Draft** — [dan-harmon](../agents/dan-harmon.md): Write the complete narrative draft → Raw Script
    - Framework: Selected structure from Step 3
    - Checklist: cl-draft-quality
    - Write with focus on specificity, sensory detail, and emotional truth
    - Include all proof points, analogies, and transitions
    - Mark sections needing fact-check or approval
 
-5. **Internal Review** — Story Editor + Strategist: Evaluate against quality gates → Annotated Draft
+5. **Internal Review** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Evaluate against quality gates → Annotated Draft
    - Framework: Narrative Quality Rubric
    - Checklist: cl-story-review
    - Check for clarity, emotional arc, proof integration, and CTA strength
    - Verify brand voice consistency and audience appropriateness
    - Flag any claims needing verification from Proof Bank
 
-6. **Revision Cycle** — Story Writer: Incorporate feedback and refine → Revised Script
+6. **Revision Cycle** — [dan-harmon](../agents/dan-harmon.md) + [shawn-coyne](../agents/shawn-coyne.md): Incorporate feedback and refine → Revised Script
    - Framework: Same as Step 3
    - Checklist: cl-revision-pass
    - Address all review annotations
    - Tighten language, strengthen transitions, sharpen the hook
    - Maximum two revision cycles before escalation
 
-7. **Final Polish and Approval** — Story Editor: Final quality pass and sign-off → Approved Script
+7. **Final Polish and Approval** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Final quality pass and sign-off → Approved Script
    - Framework: Channel-specific formatting guide
    - Checklist: cl-final-approval
    - Proofread for grammar, tone, and formatting
    - Confirm all proof points are sourced and accurate
    - Obtain stakeholder sign-off if required
 
-8. **Story Bank Registration** — Story Ops: Archive and tag the finished story → Story Bank Entry
+8. **Story Bank Registration** — [donald-miller](../agents/donald-miller.md) + [kindra-hall](../agents/kindra-hall.md): Archive and tag the finished story → Story Bank Entry
    - Framework: Story Bank taxonomy
    - Checklist: cl-story-registration
    - Tag with type, channel, audience, emotion, framework used, and status
@@ -110,14 +110,14 @@ architecture before reaching its audience.
 
 | Step | Agent | Est. Duration | Cumulative |
 |---|---|---|---|
-| 1. Discovery Intake | [donald-miller](../agents/donald-miller.md) | 3 hours | 3 hours |
-| 2. Audience-Problem Mapping | [donald-miller](../agents/donald-miller.md) | 2 hours | 5 hours |
-| 3. Narrative Structure Selection | [joseph-campbell](../agents/joseph-campbell.md) | 2 hours | 7 hours |
-| 4. First Draft | [matthew-dicks](../agents/matthew-dicks.md) | 6 hours | 13 hours |
-| 5. Internal Review | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 15 hours |
-| 6. Revision Cycle | [matthew-dicks](../agents/matthew-dicks.md) | 3 hours | 18 hours |
-| 7. Final Polish and Approval | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 20 hours |
-| 8. Story Bank Registration | [kindra-hall](../agents/kindra-hall.md) | 1 hour | 21 hours |
+| 1. Discovery Intake | donald-miller + kindra-hall | 3 hours | 3 hours |
+| 2. Audience-Problem Mapping | joseph-campbell + donald-miller | 2 hours | 5 hours |
+| 3. Narrative Structure Selection | shawn-coyne + nancy-duarte | 2 hours | 7 hours |
+| 4. First Draft | dan-harmon | 6 hours | 13 hours |
+| 5. Internal Review | shawn-coyne + donald-miller | 2 hours | 15 hours |
+| 6. Revision Cycle | dan-harmon + shawn-coyne | 3 hours | 18 hours |
+| 7. Final Polish and Approval | shawn-coyne + donald-miller | 2 hours | 20 hours |
+| 8. Story Bank Registration | donald-miller + kindra-hall | 1 hour | 21 hours |
 | **Total** | | | **21 hours** |
 
 *SLA reference: config.yaml sla_defaults*

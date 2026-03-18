@@ -146,14 +146,14 @@ from narrative continuity and compounding audience engagement.
 
 | Step | Agent | Est. Duration | Cumulative |
 |---|---|---|---|
-| 1. Theme Selection and Arc Design | [dan-harmon](../agents/dan-harmon.md) | 3 hours | 3 hours |
-| 2. Micro-Story Development | [dan-harmon](../agents/dan-harmon.md) | 6 hours | 9 hours |
-| 3. Visual Narrative Planning | [dan-harmon](../agents/dan-harmon.md) | 4 hours | 13 hours |
-| 4. Sequence Optimization | [blake-snyder](../agents/blake-snyder.md) | 2 hours | 15 hours |
-| 5. Engagement Scripting | [dan-harmon](../agents/dan-harmon.md) | 3 hours | 18 hours |
-| 6. Cross-Platform Adaptation | [dan-harmon](../agents/dan-harmon.md) | 4 hours | 22 hours |
-| 7. Publication and Monitoring | [dan-harmon](../agents/dan-harmon.md) | 3 hours | 25 hours |
-| 8. Series Wrap and Learnings | [dan-harmon](../agents/dan-harmon.md) | 2 hours | 27 hours |
+| 1. Theme Selection and Arc Design | park-howell + dan-harmon | 3 hours | 3 hours |
+| 2. Micro-Story Development | dan-harmon + kindra-hall | 6 hours | 9 hours |
+| 3. Visual Narrative Planning | nancy-duarte | 4 hours | 13 hours |
+| 4. Sequence Optimization | blake-snyder + dan-harmon | 2 hours | 15 hours |
+| 5. Engagement Scripting | kindra-hall + dan-harmon | 3 hours | 18 hours |
+| 6. Cross-Platform Adaptation | dan-harmon + donald-miller | 4 hours | 22 hours |
+| 7. Publication and Monitoring | donald-miller | 3 hours | 25 hours |
+| 8. Series Wrap and Learnings | park-howell + donald-miller | 2 hours | 27 hours |
 | **Total** | | | **27 hours** |
 
 *SLA reference: config.yaml sla_defaults*

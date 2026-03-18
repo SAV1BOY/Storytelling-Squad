@@ -16,7 +16,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
 - Stakeholder teams identified who contribute to and consume stories from the bank
 
 ## Steps
-1. **Story Collection (Continuous)** — Story Ops + All Teams: Capture raw story material → Raw Story Intake
+1. **Story Collection (Continuous)** — [kindra-hall](../agents/kindra-hall.md) + [matthew-dicks](../agents/matthew-dicks.md): Capture raw story material → Raw Story Intake
    - Framework: Story intake methodology
    - Checklist: cl-story-collection
    - Monitor intake channels daily: customer success reports, sales call notes, support tickets
@@ -26,7 +26,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
    - For each raw story: record source, date, initial context, and submitter
    - Target: minimum 5 new raw stories entering intake per week
 
-2. **Initial Triage** — Story Editor: Assess raw stories for bank potential → Triaged Story Queue
+2. **Initial Triage** — [shawn-coyne](../agents/shawn-coyne.md): Assess raw stories for bank potential → Triaged Story Queue
    - Framework: Story triage criteria (relevance, uniqueness, narrative potential, proof strength)
    - Checklist: cl-story-triage
    - Review each raw story against the triage criteria within 48 hours of intake
@@ -36,7 +36,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
    - For "Archive" stories: document reason — the decision itself is useful data
    - For "Merge" stories: identify the existing story to combine with
 
-3. **Story Development** — Story Writer: Develop triaged stories into bank-ready entries → Developed Stories
+3. **Story Development** — [kindra-hall](../agents/kindra-hall.md) + [dan-harmon](../agents/dan-harmon.md): Develop triaged stories into bank-ready entries → Developed Stories
    - Framework: Story Bank entry format
    - Checklist: cl-story-development
    - Write or rewrite the story into a clean, reusable narrative
@@ -46,7 +46,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
    - Verify all facts, quotes, and metrics with source
    - Rate story quality on the narrative rubric: minimum 6/10 to enter the bank
 
-4. **Tagging and Classification** — Story Ops: Apply the full taxonomy → Tagged Stories
+4. **Tagging and Classification** — [donald-miller](../agents/donald-miller.md): Apply the full taxonomy → Tagged Stories
    - Framework: Story Bank taxonomy (story-bank.yaml schema)
    - Checklist: cl-story-tagging
    - Apply primary tags: story type (customer, founder, product, culture, data, analogy)
@@ -57,7 +57,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
    - Set status: draft, reviewed, approved, published, retired
    - Add cross-references: related stories, proof bank entries, hook bank entries
 
-5. **Quality Review (Weekly)** — Story Editor: Maintain quality standards across the bank → Quality Report
+5. **Quality Review (Weekly)** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Maintain quality standards across the bank → Quality Report
    - Framework: Story Bank quality standards
    - Checklist: cl-quality-review-weekly
    - Review all stories added in the past week for consistent quality
@@ -66,7 +66,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
    - Ensure new entries are properly cross-referenced with related assets
    - Update the Story Bank health dashboard: total stories, by type, by status, by rating
 
-6. **Curation Cycle (Monthly)** — Story Strategist: Evaluate and update the bank → Curation Report
+6. **Curation Cycle (Monthly)** — [kindra-hall](../agents/kindra-hall.md) + [donald-miller](../agents/donald-miller.md): Evaluate and update the bank → Curation Report
    - Framework: Story bank curation methodology
    - Checklist: cl-monthly-curation
    - Review stories by age: flag anything over 6 months for freshness check
@@ -76,7 +76,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
    - Retire stories that are outdated, no longer relevant, or factually inaccurate
    - Set status to "retired" with retirement reason (never delete — archive)
 
-7. **Performance Integration** — Story Ops: Connect usage data to bank entries → Performance-Enriched Bank
+7. **Performance Integration** — [donald-miller](../agents/donald-miller.md): Connect usage data to bank entries → Performance-Enriched Bank
    - Framework: Story performance tracking
    - Checklist: cl-performance-integration
    - Track which stories are being used and in which contexts
@@ -86,7 +86,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
    - Update story ratings based on real-world performance data
    - Feed insights into story-bank-coverage.md
 
-8. **Stakeholder Communication** — Story Ops: Keep teams aware of bank resources → Update Digest
+8. **Stakeholder Communication** — [donald-miller](../agents/donald-miller.md) + [kindra-hall](../agents/kindra-hall.md): Keep teams aware of bank resources → Update Digest
    - Framework: Internal narrative communication
    - Checklist: cl-bank-communication
    - Send monthly digest to all squad leads: new stories added, top performers, coverage gaps
@@ -144,14 +144,14 @@ to current, tagged, and quality-rated stories for any storytelling need.
 
 | Step | Agent | Est. Duration | Cumulative |
 |---|---|---|---|
-| 1. Story Collection | [kindra-hall](../agents/kindra-hall.md) + All Teams | Continuous (2 hours/day) | 2 hours |
-| 2. Initial Triage | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 4 hours |
-| 3. Story Development | [matthew-dicks](../agents/matthew-dicks.md) | 4 hours | 8 hours |
-| 4. Tagging and Classification | [kindra-hall](../agents/kindra-hall.md) | 2 hours | 10 hours |
-| 5. Quality Review (Weekly) | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 12 hours |
-| 6. Curation Cycle (Monthly) | [kindra-hall](../agents/kindra-hall.md) | 3 hours | 15 hours |
-| 7. Performance Integration | [kindra-hall](../agents/kindra-hall.md) | 2 hours | 17 hours |
-| 8. Stakeholder Communication | [kindra-hall](../agents/kindra-hall.md) | 2 hours | 19 hours |
+| 1. Story Collection | kindra-hall + matthew-dicks | Continuous (2 hours/day) | 2 hours |
+| 2. Initial Triage | shawn-coyne | 2 hours | 4 hours |
+| 3. Story Development | kindra-hall + dan-harmon | 4 hours | 8 hours |
+| 4. Tagging and Classification | donald-miller | 2 hours | 10 hours |
+| 5. Quality Review (Weekly) | shawn-coyne + donald-miller | 2 hours | 12 hours |
+| 6. Curation Cycle (Monthly) | kindra-hall + donald-miller | 3 hours | 15 hours |
+| 7. Performance Integration | donald-miller | 2 hours | 17 hours |
+| 8. Stakeholder Communication | donald-miller + kindra-hall | 2 hours | 19 hours |
 | **Total** | | | **19 hours per cycle** |
 
 *SLA reference: config.yaml sla_defaults*

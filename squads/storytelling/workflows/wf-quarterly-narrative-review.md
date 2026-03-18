@@ -148,14 +148,14 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 
 | Step | Agent | Est. Duration | Cumulative |
 |---|---|---|---|
-| 1. Performance Data Collection | [donald-miller](../agents/donald-miller.md) | 4 hours | 4 hours |
-| 2. Win and Loss Analysis | [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md) | 3 hours | 7 hours |
-| 3. Gap Assessment | [kindra-hall](../agents/kindra-hall.md) + [donald-miller](../agents/donald-miller.md) | 3 hours | 10 hours |
-| 4. Stakeholder Feedback Synthesis | [kindra-hall](../agents/kindra-hall.md) | 4 hours | 14 hours |
-| 5. Strategy Development | [donald-miller](../agents/donald-miller.md) | 4 hours | 18 hours |
-| 6. Resource and Capacity Planning | [donald-miller](../agents/donald-miller.md) | 2 hours | 20 hours |
-| 7. Maturity Assessment | [park-howell](../agents/park-howell.md) + [donald-miller](../agents/donald-miller.md) | 3 hours | 23 hours |
-| 8. Plan Presentation and Commitment | [donald-miller](../agents/donald-miller.md) + [nancy-duarte](../agents/nancy-duarte.md) | 3 hours | 26 hours |
+| 1. Performance Data Collection | donald-miller + park-howell | 4 hours | 4 hours |
+| 2. Win and Loss Analysis | shawn-coyne + donald-miller | 3 hours | 7 hours |
+| 3. Gap Assessment | kindra-hall + donald-miller | 3 hours | 10 hours |
+| 4. Stakeholder Feedback Synthesis | kindra-hall + matthew-dicks | 4 hours | 14 hours |
+| 5. Strategy Development | donald-miller + park-howell | 4 hours | 18 hours |
+| 6. Resource and Capacity Planning | donald-miller | 2 hours | 20 hours |
+| 7. Maturity Assessment | park-howell + donald-miller | 3 hours | 23 hours |
+| 8. Plan Presentation and Commitment | donald-miller + nancy-duarte | 3 hours | 26 hours |
 | **Total** | | | **26 hours** |
 
 *SLA reference: config.yaml sla_defaults*

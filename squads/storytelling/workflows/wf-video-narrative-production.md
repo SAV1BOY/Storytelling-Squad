@@ -16,7 +16,7 @@ product stories, social content, and any video where narrative quality determine
 - Brand guidelines accessible for voice and visual consistency
 
 ## Steps
-1. **Creative Brief Development** — Story Strategist: Define the narrative mandate → Video Creative Brief
+1. **Creative Brief Development** — [dan-harmon](../agents/dan-harmon.md) + [donald-miller](../agents/donald-miller.md): Define the narrative mandate → Video Creative Brief
    - Framework: Video narrative brief template
    - Checklist: cl-video-brief
    - Define the one thing the viewer must feel, know, or do after watching
@@ -26,7 +26,7 @@ product stories, social content, and any video where narrative quality determine
    - Reference comparable videos that exemplify the desired narrative quality
    - Define success metrics: views, completion rate, CTA conversion, sentiment
 
-2. **Script Writing** — Story Writer: Create the narrative script → Video Script Draft
+2. **Script Writing** — [dan-harmon](../agents/dan-harmon.md) + [blake-snyder](../agents/blake-snyder.md): Create the narrative script → Video Script Draft
    - Framework: Visual storytelling structure (show, don't tell)
    - Checklist: cl-video-script
    - Write in two columns: visual direction (left) and audio/dialogue (right)
@@ -37,7 +37,7 @@ product stories, social content, and any video where narrative quality determine
    - Include direction notes for tone, pacing, and emphasis
    - Plan the CTA: visual and verbal, positioned at the narrative climax
 
-3. **Storyboard Creation** — Story Architect: Visualize the narrative beats → Storyboard
+3. **Storyboard Creation** — [blake-snyder](../agents/blake-snyder.md) + [nancy-duarte](../agents/nancy-duarte.md): Visualize the narrative beats → Storyboard
    - Framework: Scene-by-scene visual planning
    - Checklist: cl-storyboard
    - Create frame sketches or reference images for each scene
@@ -47,7 +47,7 @@ product stories, social content, and any video where narrative quality determine
    - Identify "money shots": the 2-3 frames that define the video
    - Align storyboard with script — every visual must serve the story
 
-4. **Pre-Production Narrative Review** — Story Editor: Final story check before production → Approved Script + Board
+4. **Pre-Production Narrative Review** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Final story check before production → Approved Script + Board
    - Framework: Pre-production narrative checklist
    - Checklist: cl-pre-production-review
    - Verify the script serves the one thing defined in the brief
@@ -57,7 +57,7 @@ product stories, social content, and any video where narrative quality determine
    - Brief the production team on narrative priorities and non-negotiables
    - Lock the script — production changes must be approved by story lead
 
-5. **Production Oversight** — Story Strategist: Guard narrative quality during filming → Production Notes
+5. **Production Oversight** — [matthew-dicks](../agents/matthew-dicks.md) + [dan-harmon](../agents/dan-harmon.md): Guard narrative quality during filming → Production Notes
    - Framework: On-set narrative direction
    - Checklist: cl-production-oversight
    - Be present (physically or virtually) during key filming moments
@@ -67,7 +67,7 @@ product stories, social content, and any video where narrative quality determine
    - Document any script deviations that improve or weaken the narrative
    - Flag any missing narrative elements that need to be captured before wrap
 
-6. **Edit Review — Rough Cut** — Story Editor: Evaluate narrative in first assembly → Rough Cut Notes
+6. **Edit Review — Rough Cut** — [shawn-coyne](../agents/shawn-coyne.md): Evaluate narrative in first assembly → Rough Cut Notes
    - Framework: Video narrative evaluation rubric
    - Checklist: cl-rough-cut-review
    - Watch the rough cut without pausing — experience it as the audience will
@@ -77,7 +77,7 @@ product stories, social content, and any video where narrative quality determine
    - Assess audio: does voiceover/dialogue carry the story or compete with visuals
    - Provide specific, scene-level feedback with timecodes
 
-7. **Edit Review — Fine Cut** — Story Editor: Evaluate refined edit → Fine Cut Notes
+7. **Edit Review — Fine Cut** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Evaluate refined edit → Fine Cut Notes
    - Framework: Video narrative evaluation rubric (detail pass)
    - Checklist: cl-fine-cut-review
    - Verify all rough cut notes were addressed
@@ -87,7 +87,7 @@ product stories, social content, and any video where narrative quality determine
    - Test with fresh eyes: show to someone who hasn't seen earlier versions
    - Approve for final delivery or request specific final adjustments
 
-8. **Final Delivery and Registration** — Story Ops: Package and archive → Delivered Video + Story Bank Entry
+8. **Final Delivery and Registration** — [donald-miller](../agents/donald-miller.md) + [dan-harmon](../agents/dan-harmon.md): Package and archive → Delivered Video + Story Bank Entry
    - Framework: Video delivery and archival process
    - Checklist: cl-video-delivery
    - Confirm final render meets all technical specifications
@@ -146,14 +146,14 @@ product stories, social content, and any video where narrative quality determine
 
 | Step | Agent | Est. Duration | Cumulative |
 |---|---|---|---|
-| 1. Creative Brief Development | [dan-harmon](../agents/dan-harmon.md) | 3 hours | 3 hours |
-| 2. Script Writing | [dan-harmon](../agents/dan-harmon.md) | 6 hours | 9 hours |
-| 3. Storyboard Creation | [dan-harmon](../agents/dan-harmon.md) | 4 hours | 13 hours |
-| 4. Pre-Production Narrative Review | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 15 hours |
-| 5. Production Oversight | [dan-harmon](../agents/dan-harmon.md) | 4 hours | 19 hours |
-| 6. Edit Review — Rough Cut | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 21 hours |
-| 7. Edit Review — Fine Cut | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 23 hours |
-| 8. Final Delivery and Registration | [dan-harmon](../agents/dan-harmon.md) | 3 hours | 26 hours |
+| 1. Creative Brief Development | dan-harmon + donald-miller | 3 hours | 3 hours |
+| 2. Script Writing | dan-harmon + blake-snyder | 6 hours | 9 hours |
+| 3. Storyboard Creation | blake-snyder + nancy-duarte | 4 hours | 13 hours |
+| 4. Pre-Production Narrative Review | shawn-coyne + donald-miller | 2 hours | 15 hours |
+| 5. Production Oversight | matthew-dicks + dan-harmon | 4 hours | 19 hours |
+| 6. Edit Review — Rough Cut | shawn-coyne | 2 hours | 21 hours |
+| 7. Edit Review — Fine Cut | shawn-coyne + donald-miller | 2 hours | 23 hours |
+| 8. Final Delivery and Registration | donald-miller + dan-harmon | 3 hours | 26 hours |
 | **Total** | | | **26 hours** |
 
 *SLA reference: config.yaml sla_defaults*
