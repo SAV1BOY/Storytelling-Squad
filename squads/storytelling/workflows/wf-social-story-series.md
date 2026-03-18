@@ -17,7 +17,7 @@ from narrative continuity and compounding audience engagement.
 - Content calendar reviewed for coordination with other campaigns and launches
 
 ## Steps
-1. **Theme Selection and Arc Design** — Story Strategist: Define the series narrative → Series Blueprint
+1. **Theme Selection and Arc Design** — [park-howell](../agents/park-howell.md) + [dan-harmon](../agents/dan-harmon.md): Define the series narrative → Series Blueprint
    - Framework: Episodic narrative structure for social media
    - Checklist: cl-social-theme-selection
    - Choose a theme that connects to a current audience tension or aspiration
@@ -27,7 +27,7 @@ from narrative continuity and compounding audience engagement.
    - Plan the payoff: the final post should deliver a narrative climax or call to action
    - Set the cadence: daily, every-other-day, weekly (based on platform and audience)
 
-2. **Micro-Story Development** — Story Writer: Create individual post narratives → Micro-Story Drafts
+2. **Micro-Story Development** — [dan-harmon](../agents/dan-harmon.md) + [kindra-hall](../agents/kindra-hall.md): Create individual post narratives → Micro-Story Drafts
    - Framework: Micro-narrative structure (hook, tension, insight in under 280 characters or 60s)
    - Checklist: cl-micro-story-development
    - Each post must work standalone (a new follower's first encounter) AND as a series entry
@@ -37,7 +37,7 @@ from narrative continuity and compounding audience engagement.
    - Include variation: mix story posts, data posts, quote posts, and question posts
    - Write long-form captions for platforms that support them (Instagram, LinkedIn)
 
-3. **Visual Narrative Planning** — Story Architect: Design the visual story layer → Visual Brief
+3. **Visual Narrative Planning** — [nancy-duarte](../agents/nancy-duarte.md): Design the visual story layer → Visual Brief
    - Framework: Visual continuity for social series
    - Checklist: cl-visual-narrative
    - Create a visual identity for the series: consistent color palette, typography, or motif
@@ -47,7 +47,7 @@ from narrative continuity and compounding audience engagement.
    - Ensure visual accessibility: alt text, contrast ratios, caption readability
    - Create templates that maintain series identity while allowing individual variation
 
-4. **Sequence Optimization** — Story Architect: Order posts for maximum narrative impact → Publication Sequence
+4. **Sequence Optimization** — [blake-snyder](../agents/blake-snyder.md) + [dan-harmon](../agents/dan-harmon.md): Order posts for maximum narrative impact → Publication Sequence
    - Framework: Narrative sequencing and engagement optimization
    - Checklist: cl-sequence-optimization
    - Post 1 must earn attention and set the series promise — it's the pilot episode
