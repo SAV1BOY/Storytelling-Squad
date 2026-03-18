@@ -18,7 +18,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 - Previous crisis responses archived for reference (if applicable)
 
 ## Steps
-1. **Situation Assessment** — Story Strategist + Leadership: Evaluate narrative impact → Situation Brief
+1. **Situation Assessment** — Public Narrative Expert [marshall-ganz](../agents/marshall-ganz.md) + Leadership: Evaluate narrative impact → Situation Brief
    - Framework: Crisis narrative impact assessment
    - Checklist: cl-crisis-assessment
    - Identify the crisis: what happened, who is affected, what is the current public narrative
@@ -29,7 +29,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
    - Define the response objective: correct, apologize, explain, empathize, commit to action
    - Timeline: complete within 2 hours of crisis identification
 
-2. **Narrative Development** — Story Strategist + Writer: Craft the response narrative → Crisis Narrative Draft
+2. **Narrative Development** — Story Strategist [donald-miller](../agents/donald-miller.md) + Brand Narrator [park-howell](../agents/park-howell.md): Craft the response narrative → Crisis Narrative Draft
    - Framework: Empathy-Truth-Action crisis narrative structure
    - Checklist: cl-crisis-narrative
    - Empathy: acknowledge the impact, validate the emotions, show genuine understanding
@@ -40,7 +40,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
    - Address each stakeholder group's specific concerns within the narrative
    - Timeline: draft within 4 hours of situation assessment completion
 
-3. **Legal and Leadership Review** — Story Strategist + Legal + Leadership: Validate and approve → Approved Narrative
+3. **Legal and Leadership Review** — Story Strategist [donald-miller](../agents/donald-miller.md) + Legal + Leadership: Validate and approve → Approved Narrative
    - Framework: Crisis approval fast-track process
    - Checklist: cl-crisis-approval
    - Submit narrative for simultaneous legal and leadership review (not sequential)

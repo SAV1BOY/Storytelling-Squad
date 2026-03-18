@@ -43,7 +43,7 @@ treats every slide as a story beat, not just an information container.
    - Script the opening: first slide must earn attention in under 10 seconds
    - Script the closing: last slide must make the CTA feel like the only logical next step
 
-4. **Proof Integration** — Story Researcher: Place evidence at moments of skepticism → Proof-Loaded Deck
+4. **Proof Integration** — [kindra-hall](../agents/kindra-hall.md): Place evidence at moments of skepticism → Proof-Loaded Deck
    - Framework: Proof Bank selection criteria
    - Checklist: cl-deck-proof-integration
    - Position data visualizations at "what is" moments to validate the problem
@@ -52,7 +52,7 @@ treats every slide as a story beat, not just an information container.
    - Verify all statistics are current, sourced, and audience-appropriate
    - Create appendix slides for deep-dive proof (Q&A backup)
 
-5. **Visual Design Brief** — Story Architect: Define the visual narrative → Design Brief
+5. **Visual Design Brief** — [nancy-duarte](../agents/nancy-duarte.md): Define the visual narrative → Design Brief
    - Framework: Visual storytelling principles
    - Checklist: cl-visual-design-brief
    - Specify the visual metaphor or motif that threads through the deck
@@ -61,7 +61,7 @@ treats every slide as a story beat, not just an information container.
    - Identify slides that need custom data visualization or illustration
    - Hand off to design with slide-by-slide annotations
 
-6. **Dry Run Review** — Story Editor + Presenter: Review assembled deck in presentation mode → Dry Run Notes
+6. **Dry Run Review** — [shawn-coyne](../agents/shawn-coyne.md) + [keith-johnstone](../agents/keith-johnstone.md): Review assembled deck in presentation mode → Dry Run Notes
    - Framework: Presentation quality rubric
    - Checklist: cl-deck-dry-run
    - Present the full deck in real time — no stopping to explain
@@ -70,7 +70,7 @@ treats every slide as a story beat, not just an information container.
    - Test audience perspective: would a skeptic still be engaged at slide 15
    - Note where slides feel like information dumps instead of story beats
 
-7. **Revision and Polish** — Story Writer + Architect: Refine based on dry run → Polished Deck
+7. **Revision and Polish** — [nancy-duarte](../agents/nancy-duarte.md) + [donald-miller](../agents/donald-miller.md): Refine based on dry run → Polished Deck
    - Framework: Duarte Sparkline (re-verify oscillation pattern)
    - Checklist: cl-deck-revision
    - Cut slides that don't advance the narrative (be ruthless)
@@ -79,7 +79,7 @@ treats every slide as a story beat, not just an information container.
    - Verify the emotional arc builds to the CTA, not to the company overview
    - Final proof-source check on all data slides
 
-8. **Delivery Preparation** — Story Coach: Prepare the presenter → Delivery-Ready Package
+8. **Delivery Preparation** — [keith-johnstone](../agents/keith-johnstone.md) + [nancy-duarte](../agents/nancy-duarte.md): Prepare the presenter → Delivery-Ready Package
    - Framework: Presentation delivery framework
    - Checklist: cl-deck-delivery-prep
    - Create a presenter cheat sheet: key beats, transition phrases, timing marks

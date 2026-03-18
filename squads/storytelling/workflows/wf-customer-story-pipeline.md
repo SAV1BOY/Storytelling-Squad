@@ -154,3 +154,20 @@ customer stories that fuel sales, marketing, and brand efforts.
 - **To Brand Squad**: Customer voice patterns for brand voice development
 - **To Traffic Squad**: Social-ready assets and headline variants for distribution
 - **To Sales Squad**: Slide-ready stories and objection-handling quotes for enablement
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Candidate Identification | [kindra-hall](../agents/kindra-hall.md) | 3 hours | 3 hours |
+| 2. Outreach and Scheduling | [kindra-hall](../agents/kindra-hall.md) | 2 hours | 5 hours |
+| 3. Narrative Interview | [matthew-dicks](../agents/matthew-dicks.md) | 3 hours | 8 hours |
+| 4. Story Development | [kindra-hall](../agents/kindra-hall.md) | 6 hours | 14 hours |
+| 5. Internal Quality Review | [shawn-coyne](../agents/shawn-coyne.md) | 2 hours | 16 hours |
+| 6. Customer Approval Cycle | [donald-miller](../agents/donald-miller.md) | 2 hours | 18 hours |
+| 7. Multi-Format Production | [dan-harmon](../agents/dan-harmon.md) | 5 hours | 23 hours |
+| 8. Publication and Distribution | [donald-miller](../agents/donald-miller.md) | 3 hours | 26 hours |
+| 9. Pipeline Management | [kindra-hall](../agents/kindra-hall.md) | 2 hours | 28 hours |
+| **Total** | | | **24-32 hours** |
+
+*SLA reference: config.yaml sla_defaults*
