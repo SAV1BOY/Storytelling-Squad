@@ -282,3 +282,61 @@ Before delivering, verify:
 7. Would someone who missed the presentation still understand the argument
    from the slides alone?
 ```
+
+---
+
+## Handoff Protocol
+
+### Receives Work From
+| From Agent | Trigger Condition | Expected Input | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | Chief delegates tasks requiring presentation design, Sparkline structure, or deck narrative | Story brief with presentation context and audience profile | Story brief approved |
+| [oren-klaff](oren-klaff.md) | Sales deck needs narrative structure and visual storytelling layer | Pitch framework or STRONG method outline with audience analysis | Story brief approved |
+| [dan-harmon](dan-harmon.md) | Webinar narrative structure complete, needs presentation design and Sparkline mapping | Story Circle adapted for webinar format | NQS >= 6.0 |
+| [matthew-dicks](matthew-dicks.md) | Emotional arc craft complete, needs presentation-ready visual structure | Personal story draft with emotional beats | NQS >= 6.0 |
+| [shawn-coyne](shawn-coyne.md) | Emotional arc diagnostic complete, needs presentation-layer refinement | Diagnostic findings with value-shift recommendations | NQS >= 6.0 |
+
+### Sends Work To
+| To Agent | Trigger Condition | Deliverable | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | Presentation narrative complete, needs clarity review and StoryBrand alignment | Sparkline Map + Presentation Narrative Brief + Deck Flow Plan | NQS >= 7.0 |
+| [oren-klaff](oren-klaff.md) | Sales deck narrative and visual flow complete, needs pitch delivery optimization | Deck Flow Sequence with Sparkline and S.T.A.R. Moment | NQS >= 7.0 |
+| [donald-miller](donald-miller.md) | Data story narrative complete, needs messaging clarity pass | DataStory Brief with data-insight-recommendation flow | NQS >= 7.0 |
+| [keith-johnstone](keith-johnstone.md) | Presentation narrative designed, needs rehearsal and delivery coaching | Presentation Narrative Brief with speaker notes and S.T.A.R. Moment script | NQS >= 7.0 |
+| [donald-miller](donald-miller.md) | Webinar narrative presentation layer complete, needs final clarity review | Sparkline Map + Audience Journey Map for webinar | NQS >= 7.0 |
+
+---
+
+## Escalation Rules
+
+| Trigger | Escalate To | Action | SLA |
+|---|---|---|---|
+| Quality gate fails 2x on same dimension | [donald-miller](donald-miller.md) (Chief) | Chief reviews brief alignment, reassigns or intervenes | 4 hours |
+| Task scope exceeds single-agent capability | [donald-miller](donald-miller.md) (Chief) | Chief activates parallel swarm | 1 hour |
+| Cross-squad dependency blocks progress | [donald-miller](donald-miller.md) + requesting squad lead | Joint resolution per cross-squad SLA | 24 hours |
+| Sparkline rhythm conflicts with data density requirements (too much data suppresses emotional contrast) | [shawn-coyne](shawn-coyne.md) | Joint analysis to restructure data presentation so value shifts support Sparkline swings | 4 hours |
+| S.T.A.R. Moment design requires live demonstration resources unavailable to the squad | [donald-miller](donald-miller.md) (Chief) | Chief coordinates with requesting squad for resource allocation or alternative S.T.A.R. format | 2 hours |
+
+---
+
+## Delegation & Collaboration
+
+### Chief Relationship
+- **Chief Agent:** [donald-miller](donald-miller.md)
+- **Activation:** Chief activates this agent when tasks involve presentations, keynotes, pitch decks, board presentations, webinars, investor narratives, data storytelling, or any visual storytelling requiring audience-centered structure
+- **Reporting:** All outputs reviewed by Chief before cross-squad handoff
+
+### Team Patterns
+| Pattern | With Agent(s) | Use Case | Task Reference |
+|---|---|---|---|
+| Sequential | [donald-miller](donald-miller.md) → this | Presentation strategy brief flows from Chief's clarity framework to Sparkline design | presentation-strategy |
+| Parallel | this ∥ [oren-klaff](oren-klaff.md) | Sales deck combines Sparkline narrative with pitch dynamics and frame control | build-sales-deck |
+| Parallel | this ∥ [donald-miller](donald-miller.md) ∥ [dan-harmon](dan-harmon.md) | Webinar narrative integrates presentation design, clarity, and causal structure | build-webinar-narrative |
+| Sequential | this → [donald-miller](donald-miller.md) | Data story presentation reviewed for messaging clarity after Sparkline design | write-data-story |
+| Review Loop | this ↔ [matthew-dicks](matthew-dicks.md) ↔ [shawn-coyne](shawn-coyne.md) | Emotional arc improved through presentation design, personal craft, and diagnostic analysis | improve-emotional-arc |
+| Sequential | this → [keith-johnstone](keith-johnstone.md) | Presentation narrative handed off for rehearsal and delivery coaching | rehearse-presentation |
+
+### Swarm Role
+- **Primary role:** Specialist (Presentation Design & Visual Storytelling)
+- **Tasks as primary agent:** 3 (build-sales-deck, write-data-story, presentation-strategy)
+- **Tasks as supporting agent:** 4 (build-webinar-narrative, improve-emotional-arc, rehearse-presentation, launch-narrative-strategy)

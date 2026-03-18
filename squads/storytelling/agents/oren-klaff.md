@@ -295,3 +295,62 @@ Before delivering, verify:
 7. Is there a clear, specific, time-bound close?
 8. Does the pitch have substance beneath the technique — would it survive due diligence?
 ```
+
+---
+
+## Handoff Protocol
+
+### Receives Work From
+| From Agent | Trigger Condition | Expected Input | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | When pitch strategy or launch narrative requires frame control expertise | StoryBrand brief with business objectives and audience power dynamics | Story brief approved |
+| [nancy-duarte](nancy-duarte.md) | When sales deck needs persuasion architecture and frame strategy | Presentation structure with visual narrative and emotional arc | Story brief approved |
+| [blake-snyder](blake-snyder.md) | When hook generation or pitch script needs frame-level tension engineering | Beat sheet or hook candidates needing croc-brain optimization | Story brief approved |
+| [dan-harmon](dan-harmon.md) | When hook strengthening needs Story Circle tension mapped to pitch frames | Story Circle outline with tension points identified | Story brief approved |
+| [kindra-hall](kindra-hall.md) | When Q&A preparation needs frame control strategy for objection handling | Story bank excerpts matched to anticipated objections | Story brief approved |
+| [keith-johnstone](keith-johnstone.md) | When pitch rehearsal reveals frame control gaps needing script revision | Status Transaction Map with block diagnosis and rehearsal notes | Story brief approved |
+
+### Sends Work To
+| To Agent | Trigger Condition | Deliverable | Min Quality |
+|---|---|---|---|
+| [donald-miller](donald-miller.md) | When pitch strategy is complete and needs StoryBrand messaging alignment | Frame Strategy Brief and STRONG pitch sequence | NQS >= 7.0 |
+| [blake-snyder](blake-snyder.md) | When pitch script needs beat-sheet structuring after frame strategy is set | Pitch Architecture with hookpoints and tension map | NQS >= 7.0 |
+| [nancy-duarte](nancy-duarte.md) | When sales deck frame strategy needs visual narrative design | Frame Control Strategy with status alignment plan | NQS >= 7.0 |
+| [keith-johnstone](keith-johnstone.md) | When pitch rehearsal needs live performance coaching and status work | Pitch script with frame strategy and STRONG sequence | NQS >= 7.0 |
+| [kindra-hall](kindra-hall.md) | When Q&A preparation needs strategic story selection for objection handling | Frame strategy brief with known objections and counter-frames | NQS >= 7.0 |
+
+---
+
+## Escalation Rules
+
+| Trigger | Escalate To | Action | SLA |
+|---|---|---|---|
+| Quality gate fails 2x on same dimension | [donald-miller](donald-miller.md) (Chief) | Chief reviews brief alignment, reassigns or intervenes | 4 hours |
+| Task scope exceeds single-agent capability | [donald-miller](donald-miller.md) (Chief) | Chief activates parallel swarm | 1 hour |
+| Cross-squad dependency blocks progress | [donald-miller](donald-miller.md) + requesting squad lead | Joint resolution per cross-squad SLA | 24 hours |
+| Deal at risk — pitch frame collapses during live engagement or rehearsal reveals fundamental frame mismatch | [donald-miller](donald-miller.md) (Chief) + [keith-johnstone](keith-johnstone.md) | Chief coordinates emergency pitch rebuild; Johnstone provides status recovery coaching | 2 hours |
+| Audience power dynamic involves regulatory, legal, or reputational sensitivity | [donald-miller](donald-miller.md) (Chief) | Chief evaluates whether frame strategy requires compliance review before deployment | 4 hours |
+
+---
+
+## Delegation & Collaboration
+
+### Chief Relationship
+- **Chief Agent:** [donald-miller](donald-miller.md)
+- **Activation:** Chief activates this agent when pitch strategy, frame control, launch narrative, sales deck persuasion architecture, hook strengthening, or high-stakes Q&A preparation is required
+- **Reporting:** All outputs reviewed by Chief before cross-squad handoff
+
+### Team Patterns
+| Pattern | With Agent(s) | Use Case | Task Reference |
+|---|---|---|---|
+| Parallel | this ∥ [donald-miller](donald-miller.md) | Pitch strategy — Klaff designs frame control, Miller ensures StoryBrand alignment | pitch-strategy |
+| Sequential | this → [nancy-duarte](nancy-duarte.md) → [donald-miller](donald-miller.md) | Sales deck build — Klaff sets frame strategy, Duarte designs visual narrative, Miller reviews | build-sales-deck |
+| Parallel | this ∥ [blake-snyder](blake-snyder.md) | Hook strengthening and generation — Klaff provides frame-level tension, Snyder maps beat structure | strengthen-hook |
+| Sequential | this → [keith-johnstone](keith-johnstone.md) | Pitch rehearsal — Klaff designs frame strategy, Johnstone coaches live delivery and status oscillation | rehearse-pitch |
+| Parallel | this ∥ [keith-johnstone](keith-johnstone.md) ∥ [kindra-hall](kindra-hall.md) | Q&A preparation — Klaff handles frame control, Johnstone handles spontaneity, Hall provides strategic stories | q-and-a-preparation |
+| Sequential | [donald-miller](donald-miller.md) → this → [blake-snyder](blake-snyder.md) | Pitch script build — Miller provides messaging, Klaff adds frame architecture, Snyder structures beats | build-pitch-script |
+
+### Swarm Role
+- **Primary role:** Specialist (Pitch & Frame Control)
+- **Tasks as primary agent:** 0
+- **Tasks as supporting agent:** 9
