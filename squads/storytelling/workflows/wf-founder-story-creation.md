@@ -142,12 +142,14 @@ for a new stage of company growth, or adapted for a specific audience or channel
 
 | Step | Agent | Est. Duration | Cumulative |
 |---|---|---|---|
-| 1. Founder Interview — Session 1: Origin | matthew-dicks | 2 hours | 2 hours |
-| 2. Founder Interview — Session 2: Journey | matthew-dicks + kindra-hall | 2 hours | 4 hours |
-| 3. Moment Mapping | joseph-campbell + matthew-dicks | 4 hours | 8 hours |
-| 4. Arc Construction | joseph-campbell + kindra-hall | 4 hours | 12 hours |
-| 5. Draft Writing | matthew-dicks | 8 hours | 20 hours |
-| 6. Founder Review | donald-miller + matthew-dicks | 2 hours | 22 hours |
-| 7. Version Creation | kindra-hall + matthew-dicks | 4 hours | 26 hours |
-| 8. Refinement and Registration | shawn-coyne + donald-miller | 2 hours | 28 hours |
+| 1. Founder Interview — Session 1: Origin | [matthew-dicks](../agents/matthew-dicks.md) | 2 hours | 2 hours |
+| 2. Founder Interview — Session 2: Journey | [matthew-dicks](../agents/matthew-dicks.md) + [kindra-hall](../agents/kindra-hall.md) | 2 hours | 4 hours |
+| 3. Moment Mapping | [joseph-campbell](../agents/joseph-campbell.md) + [matthew-dicks](../agents/matthew-dicks.md) | 4 hours | 8 hours |
+| 4. Arc Construction | [joseph-campbell](../agents/joseph-campbell.md) + [kindra-hall](../agents/kindra-hall.md) | 4 hours | 12 hours |
+| 5. Draft Writing | [matthew-dicks](../agents/matthew-dicks.md) | 8 hours | 20 hours |
+| 6. Founder Review | [donald-miller](../agents/donald-miller.md) + [matthew-dicks](../agents/matthew-dicks.md) | 2 hours | 22 hours |
+| 7. Version Creation | [kindra-hall](../agents/kindra-hall.md) + [matthew-dicks](../agents/matthew-dicks.md) | 4 hours | 26 hours |
+| 8. Refinement and Registration | [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md) | 2 hours | 28 hours |
 | **Total** | | | **28 hours** |
+
+*SLA reference: config.yaml sla_defaults*

@@ -98,12 +98,37 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
    - Publish the approved plan and distribute to all squad leads
    - Log strategic decisions in decisions-log.yaml with rationale
 
-## Quality Gates
-- After Step 1: All metric sources aggregated with quarter-over-quarter comparisons
-- After Step 2: Top and bottom 5 stories identified with causal analysis
-- After Step 4: Minimum 4 squads surveyed with satisfaction scores
-- After Step 5: Strategic plan aligns with business objectives and addresses top gaps
-- After Step 7: Maturity scores documented with comparison to prior quarters
+## Quality Gates & Decision Logic
+
+### Gate 1 (after Step 1): Data Collection Completeness
+- **Checklist:** [cl-quarterly-data-collection](../checklists/cl-quarterly-data-collection.md)
+- **IF PASS:** Proceed to Step 2
+- **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 2 (after Step 2): Win/Loss Causal Analysis
+- **Checklist:** [cl-win-loss-analysis](../checklists/cl-win-loss-analysis.md)
+- **IF PASS:** Proceed to Step 3
+- **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-story-grid](../frameworks/coyne-story-grid.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 3 (after Step 4): Stakeholder Feedback Coverage
+- **Checklist:** [cl-stakeholder-feedback](../checklists/cl-stakeholder-feedback.md)
+- **IF PASS:** Proceed to Step 5
+- **IF FAIL:** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-story-selection](../frameworks/hall-story-selection.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 4 (after Step 5): Strategic Plan Alignment
+- **Checklist:** [cl-quarterly-strategy](../checklists/cl-quarterly-strategy.md)
+- **IF PASS:** Proceed to Step 6
+- **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
+
+### Gate 5 (after Step 7): Maturity Score Documentation
+- **Checklist:** [cl-maturity-assessment](../checklists/cl-maturity-assessment.md)
+- **IF PASS:** Proceed to Step 8
+- **IF FAIL:** Rework with [park-howell](../agents/park-howell.md) using [howell-business-of-story](../frameworks/howell-business-of-story.md). Re-submit.
+- **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ## Outputs
 - Quarterly performance dashboard with trend analysis
@@ -118,3 +143,19 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 - **To Brand Squad**: Brand narrative health report and recommended guideline updates
 - **To Traffic Squad**: Story production calendar for distribution planning coordination
 - **To All Squads**: Approved quarterly plan with cross-squad dependencies and commitments
+
+## Timeline
+
+| Step | Agent | Est. Duration | Cumulative |
+|---|---|---|---|
+| 1. Performance Data Collection | [donald-miller](../agents/donald-miller.md) | 4 hours | 4 hours |
+| 2. Win and Loss Analysis | [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md) | 3 hours | 7 hours |
+| 3. Gap Assessment | [kindra-hall](../agents/kindra-hall.md) + [donald-miller](../agents/donald-miller.md) | 3 hours | 10 hours |
+| 4. Stakeholder Feedback Synthesis | [kindra-hall](../agents/kindra-hall.md) | 4 hours | 14 hours |
+| 5. Strategy Development | [donald-miller](../agents/donald-miller.md) | 4 hours | 18 hours |
+| 6. Resource and Capacity Planning | [donald-miller](../agents/donald-miller.md) | 2 hours | 20 hours |
+| 7. Maturity Assessment | [park-howell](../agents/park-howell.md) + [donald-miller](../agents/donald-miller.md) | 3 hours | 23 hours |
+| 8. Plan Presentation and Commitment | [donald-miller](../agents/donald-miller.md) + [nancy-duarte](../agents/nancy-duarte.md) | 3 hours | 26 hours |
+| **Total** | | | **26 hours** |
+
+*SLA reference: config.yaml sla_defaults*

@@ -155,5 +155,7 @@ next quarter's storytelling priorities.
 | 5. Performance Analysis | donald-miller | 3 hours | 18 hours |
 | 6. Stakeholder Perception Interviews | kindra-hall + matthew-dicks | 4 hours | 22 hours |
 | 7. Recommendations Development | donald-miller + park-howell | 3 hours | 25 hours |
-| 8. Audit Report and Presentation | donald-miller + nancy-duarte | 4 hours | 29 hours |
+| 8. Audit Report and Presentation | [donald-miller](../agents/donald-miller.md) + [nancy-duarte](../agents/nancy-duarte.md) | 4 hours | 29 hours |
 | **Total** | | | **29 hours** |
+
+*SLA reference: config.yaml sla_defaults*

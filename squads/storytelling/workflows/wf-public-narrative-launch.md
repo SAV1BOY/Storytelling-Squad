@@ -16,7 +16,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 - Existing narrative audit completed (what stories already circulate about this cause)
 
 ## Steps
-1. **Story of Self** — Story Strategist + Leader: Extract the personal narrative → Self Narrative
+1. **Story of Self** — [marshall-ganz](../agents/marshall-ganz.md) + [matthew-dicks](../agents/matthew-dicks.md): Extract the personal narrative → Self Narrative
    - Framework: Ganz Story of Self
    - Checklist: cl-story-of-self
    - Identify the choice point: a moment when values were tested and character was revealed
@@ -25,7 +25,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
    - Connect personal values to the public mission being launched
    - Draft three versions: 60-second, 3-minute, and full (10-minute)
 
-2. **Story of Us** — Story Strategist: Build the shared identity narrative → Us Narrative
+2. **Story of Us** — [marshall-ganz](../agents/marshall-ganz.md) + [joseph-campbell](../agents/joseph-campbell.md): Build the shared identity narrative → Us Narrative
    - Framework: Ganz Story of Us
    - Checklist: cl-story-of-us
    - Identify the shared experiences that bind the community together
@@ -34,7 +34,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
    - Weave together individual stories that represent the community's diversity
    - Create narrative threads that members can see themselves in
 
-3. **Story of Now** — Story Strategist: Create the urgent call to action → Now Narrative
+3. **Story of Now** — [marshall-ganz](../agents/marshall-ganz.md): Create the urgent call to action → Now Narrative
    - Framework: Ganz Story of Now
    - Checklist: cl-story-of-now
    - Define the urgent choice the community faces right now
@@ -43,7 +43,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
    - Make the first step small, specific, and immediately actionable
    - Build a timeline that creates genuine urgency without manipulation
 
-4. **Narrative Integration** — Story Architect: Weave Self/Us/Now into unified narrative → Integrated Narrative
+4. **Narrative Integration** — [marshall-ganz](../agents/marshall-ganz.md) + [donald-miller](../agents/donald-miller.md): Weave Self/Us/Now into unified narrative → Integrated Narrative
    - Framework: Self/Us/Now integration arc
    - Checklist: cl-narrative-integration
    - Open with Self to establish trust and authenticity
@@ -52,7 +52,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
    - Test the transitions: does each section flow naturally into the next
    - Verify the CTA feels like the inevitable conclusion, not an addition
 
-5. **Asset Production** — Story Writer + Ops: Create channel-specific narrative assets → Asset Library
+5. **Asset Production** — [dan-harmon](../agents/dan-harmon.md) + [donald-miller](../agents/donald-miller.md): Create channel-specific narrative assets → Asset Library
    - Framework: Channel adaptation matrix
    - Checklist: cl-narrative-assets
    - Keynote script: full Self/Us/Now narrative for live delivery
@@ -62,7 +62,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
    - Email sequence: 3-email arc (Self → Us → Now) for launch campaign
    - Pull quotes and micro-narratives for organic sharing
 
-6. **Cadence Planning** — Story Ops: Design the publication and reinforcement schedule → Cadence Calendar
+6. **Cadence Planning** — [donald-miller](../agents/donald-miller.md): Design the publication and reinforcement schedule → Cadence Calendar
    - Framework: Narrative cadence framework
    - Checklist: cl-cadence-planning
    - Map the launch sequence: which assets deploy on which days
