@@ -100,7 +100,7 @@ entries:
     started: "2026-01-15T09:00:00Z"
     completed: "2026-01-15T14:30:00Z"
     status: completed
-    agents_used: ["research-agent", "story-architect-agent", "editor-agent", "quality-checker-agent"]
+    agents_used: ["matthew-dicks", "joseph-campbell", "shawn-coyne", "donald-miller"]
     quality_score: 8.7
     revision_count: 2
     output_links:
@@ -116,7 +116,7 @@ entries:
     started: "2026-02-03T11:00:00Z"
     completed: "2026-02-05T16:00:00Z"
     status: completed
-    agents_used: ["research-agent", "story-architect-agent", "editor-agent", "voice-calibration-agent", "quality-checker-agent"]
+    agents_used: ["kindra-hall", "joseph-campbell", "shawn-coyne", "park-howell", "donald-miller"]
     quality_score: 9.1
     revision_count: 3
     output_links:
@@ -132,7 +132,7 @@ entries:
     started: "2026-03-05T10:00:00Z"
     completed: "2026-03-05T11:15:00Z"
     status: completed
-    agents_used: ["hook-engineer-agent", "quality-checker-agent"]
+    agents_used: ["dan-harmon", "donald-miller"]
     quality_score: 7.5
     revision_count: 1
     output_links:
@@ -147,7 +147,7 @@ entries:
     started: "2026-03-08T09:00:00Z"
     completed: null
     status: running
-    agents_used: ["research-agent", "narrative-auditor-agent"]
+    agents_used: ["shawn-coyne", "park-howell"]
     quality_score: null
     revision_count: 0
     output_links: []
