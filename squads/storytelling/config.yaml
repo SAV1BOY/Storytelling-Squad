@@ -11,11 +11,24 @@ squad:
   version: "1.0.0"
   description: "Storytelling aplicado a Marketing: Brand Narrative + Pitch + Presentations + Case Studies + Public Narrative + Improvisation"
   chief_agent: donald-miller     # default para clareza/conversao
-  # alternativas por contexto:
-  # nancy-duarte → decks e apresentacoes
-  # oren-klaff → pitches e negociacao
-  # marshall-ganz → movimentos e acao coletiva
-  # matthew-dicks → storytelling pessoal e vulnerabilidade
+
+chief_delegation:
+  default: donald-miller
+  overrides:
+    - domain: [deck, presentation, webinar]
+      chief: nancy-duarte
+      rationale: "Sparkline/Resonate expertise for visual narrative"
+    - domain: [pitch, negotiation, investor]
+      chief: oren-klaff
+      rationale: "Frame control and hot cognition for high-stakes pitches"
+    - domain: [movement, public-narrative, activism]
+      chief: marshall-ganz
+      rationale: "Public narrative expertise for collective action"
+    - domain: [personal-story, memoir, vulnerability]
+      chief: matthew-dicks
+      rationale: "Storyworthy methodology for personal narrative"
+  rotation_rule: "If donald-miller has >5 concurrent reviews, delegate per domain override"
+  fallback: park-howell    # if no domain match and donald-miller overloaded
 
 agents:
   - id: joseph-campbell
