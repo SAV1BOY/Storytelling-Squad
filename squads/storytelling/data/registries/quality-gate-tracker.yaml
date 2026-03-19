@@ -33,4 +33,97 @@ targets:
   avg_cycles: 1.3
   max_acceptable_avg: 2.0
 
-entries: []
+entries:
+  - id: "gate-20260115-001"
+    task_id: "write-case-study-story"
+    agent_id: "joseph-campbell"
+    workflow_id: "WF-20260115-001"
+    gate_name: "customer-case-story-quality"
+    attempt_number: 1
+    result: "fail"
+    score: 6.8
+    failing_dimensions:
+      - "proof_integration"
+    feedback_summary: "Case study relies on narrative arc but lacks concrete proof points. Proof bank refs missing from key claims."
+    resolution: "revised"
+    reviewer_id: "donald-miller"
+    timestamp: "2026-01-15T11:30:00Z"
+    duration_minutes: 25
+
+  - id: "gate-20260115-002"
+    task_id: "write-case-study-story"
+    agent_id: "joseph-campbell"
+    workflow_id: "WF-20260115-001"
+    gate_name: "customer-case-story-quality"
+    attempt_number: 2
+    result: "pass"
+    score: 8.7
+    failing_dimensions: []
+    feedback_summary: "Proof points now integrated at each narrative beat. Specific wait-time data strengthens the transformation moment."
+    resolution: "approved"
+    reviewer_id: "donald-miller"
+    timestamp: "2026-01-15T14:00:00Z"
+    duration_minutes: 20
+
+  - id: "gate-20260203-001"
+    task_id: "craft-founder-story"
+    agent_id: "joseph-campbell"
+    workflow_id: "WF-20260203-002"
+    gate_name: "founder-story-quality"
+    attempt_number: 1
+    result: "fail"
+    score: 7.2
+    failing_dimensions:
+      - "voice_consistency"
+      - "emotional_arc"
+    feedback_summary: "Strong origin moment but voice shifts between formal and conversational mid-story. Emotional stakes plateau after the inciting incident."
+    resolution: "revised"
+    reviewer_id: "donald-miller"
+    timestamp: "2026-02-03T15:00:00Z"
+    duration_minutes: 30
+
+  - id: "gate-20260203-002"
+    task_id: "craft-founder-story"
+    agent_id: "joseph-campbell"
+    workflow_id: "WF-20260203-002"
+    gate_name: "founder-story-quality"
+    attempt_number: 2
+    result: "fail"
+    score: 7.8
+    failing_dimensions:
+      - "voice_consistency"
+    feedback_summary: "Emotional arc improved with new stakes escalation. Voice still shifts in section 3 — escalating to chief for brief realignment."
+    resolution: "escalated"
+    reviewer_id: "donald-miller"
+    timestamp: "2026-02-04T10:00:00Z"
+    duration_minutes: 25
+
+  - id: "gate-20260203-003"
+    task_id: "craft-founder-story"
+    agent_id: "park-howell"
+    workflow_id: "WF-20260203-002"
+    gate_name: "founder-story-quality"
+    attempt_number: 3
+    result: "pass"
+    score: 9.1
+    failing_dimensions: []
+    feedback_summary: "Voice calibration complete after park-howell ABT alignment pass. Story now maintains warm-educational tone throughout. Approved for all channels."
+    resolution: "approved"
+    reviewer_id: "donald-miller"
+    timestamp: "2026-02-05T15:30:00Z"
+    duration_minutes: 20
+
+  - id: "gate-20260305-001"
+    task_id: "generate-hooks-from-story"
+    agent_id: "dan-harmon"
+    workflow_id: "WF-20260305-003"
+    gate_name: "hook-and-open-loop-quality"
+    attempt_number: 1
+    result: "conditional_pass"
+    score: 7.5
+    failing_dimensions: []
+    feedback_summary: "7 of 10 hooks meet quality bar. 3 hooks rely on question format which underperforms for blog (per LL-2026-002). Approved with note to prioritize mid-scene hooks in next batch."
+    resolution: "approved"
+    reviewer_id: "donald-miller"
+    timestamp: "2026-03-05T11:00:00Z"
+    duration_minutes: 15
