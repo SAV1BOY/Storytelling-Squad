@@ -28,7 +28,7 @@ entries:
     context: "Two versions of the Meridian case study were tested: a professionally polished version and a rougher version with more specific details (exact wait times, specific nurse quotes, the color of the waiting room chairs)."
     lesson: "Audiences engage more deeply with specific, concrete details than with polished, professional language. The 'rough' version with real details outperformed the polished version on every metric."
     evidence: "Specific version: 6.7% engagement rate, 3.1% conversion. Polished version: 4.2% engagement, 1.8% conversion. The specific version won across all channels tested."
-    action_taken: "Updated all story writing checklists to prioritize specific detail extraction during interviews. Added a 'specificity check' to cl-draft-quality requiring minimum 5 concrete details per story."
+    action_taken: "Updated all story writing checklists to prioritize specific detail extraction during interviews. Added a 'specificity check' to emotional-arc-quality (checklists/emotional-arc-quality.md) requiring minimum 5 concrete details per story."
     impact: "Subsequent stories averaging 5.8% engagement rate vs. 4.1% prior to the change."
     applies_to: ["wf-case-study-extraction", "wf-customer-story-pipeline", "wf-founder-story-creation"]
     confidence: "high"
@@ -76,7 +76,7 @@ entries:
     context: "Reviewed all Q1 narrative handoffs to Copy, Brand, and Traffic squads. Identified 7 cases where adapted assets deviated from the intended narrative."
     lesson: "In 6 of 7 deviation cases, the handoff package included the story assets but lacked sufficient context about WHY the story was structured that way. Teams adapted the surface content but missed the narrative intent, leading to assets that looked right but told the wrong story."
     evidence: "6/7 deviations traced to insufficient 'narrative intent' documentation. The one handoff with a 15-minute verbal briefing had zero deviations."
-    action_taken: "Added mandatory 'narrative intent brief' section to all handoff packages. Required verbal briefing for all Tier 1 stories. Updated cl-handoff-delivery to include intent verification step."
+    action_taken: "Added mandatory 'narrative intent brief' section to all handoff packages. Required verbal briefing for all Tier 1 stories. Updated operational/cross-squad-handoff-form (templates/operational/cross-squad-handoff-form.md) to include intent verification step."
     impact: "Too recent to measure — tracking through Q2."
     applies_to: ["wf-cross-squad-narrative-handoff", "wf-brand-story-build", "wf-customer-story-pipeline"]
     confidence: "high"
