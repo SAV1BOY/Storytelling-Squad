@@ -20,7 +20,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 ## Steps
 1. **Situation Assessment** — Public Narrative Expert [marshall-ganz](../agents/marshall-ganz.md) + Leadership: Evaluate narrative impact → Situation Brief
    - Framework: Crisis narrative impact assessment
-   - Checklist: cl-crisis-assessment
+   - Checklist: [public-narrative-quality](../checklists/public-narrative-quality.md)
    - Identify the crisis: what happened, who is affected, what is the current public narrative
    - Assess narrative severity: minor (social complaint), moderate (press coverage), severe (viral/legal)
    - Map the stakeholders: customers, employees, investors, partners, media, public
@@ -31,7 +31,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 
 2. **Narrative Development** — Story Strategist [donald-miller](../agents/donald-miller.md) + Brand Narrator [park-howell](../agents/park-howell.md): Craft the response narrative → Crisis Narrative Draft
    - Framework: Empathy-Truth-Action crisis narrative structure
-   - Checklist: cl-crisis-narrative
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Empathy: acknowledge the impact, validate the emotions, show genuine understanding
    - Truth: state the facts clearly and completely — what happened and what is known
    - Action: commit to specific, measurable steps with timelines
@@ -42,7 +42,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 
 3. **Legal and Leadership Review** — Story Strategist [donald-miller](../agents/donald-miller.md) + Legal + Leadership: Validate and approve → Approved Narrative
    - Framework: Crisis approval fast-track process
-   - Checklist: cl-crisis-approval
+   - Checklist: [ganz/moral-and-values-audit](../checklists/ganz/moral-and-values-audit.md)
    - Submit narrative for simultaneous legal and leadership review (not sequential)
    - Legal: verify factual accuracy, flag liability risks, approve language
    - Leadership: confirm tone, verify commitments are achievable, authorize spokesperson
@@ -52,7 +52,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 
 4. **Multi-Channel Communication** — Brand Narrator [park-howell](../agents/park-howell.md) + Writer: Deploy the narrative across all channels → Deployed Communications
    - Framework: Crisis communication cascade
-   - Checklist: cl-crisis-communication
+   - Checklist: [narrative/multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Internal first: employees must hear the narrative before or simultaneously with external
    - Owned channels: publish the full statement on the company blog or newsroom
    - Social media: adapted versions per platform with consistent core message
@@ -63,7 +63,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 
 5. **Spokesperson Preparation** — Improv Coach [keith-johnstone](../agents/keith-johnstone.md): Brief and prepare the spokesperson → Prepared Spokesperson
    - Framework: Crisis media training (rapid version)
-   - Checklist: cl-spokesperson-prep
+   - Checklist: [improv-readiness-quality](../checklists/improv-readiness-quality.md)
    - Brief the spokesperson on the approved narrative and key messages
    - Rehearse the three questions they most want to avoid — and how to answer them
    - Practice the bridge technique: acknowledge, bridge, deliver key message
@@ -73,7 +73,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 
 6. **Monitoring and Response** — Public Narrative Expert [marshall-ganz](../agents/marshall-ganz.md): Track narrative adoption and respond to developments → Monitoring Report
    - Framework: Real-time narrative monitoring
-   - Checklist: cl-crisis-monitoring
+   - Checklist: [ganz/public-narrative-self-us-now-audit](../checklists/ganz/public-narrative-self-us-now-audit.md)
    - Monitor social media, press coverage, and customer sentiment in real-time
    - Track whether the organization's narrative is being adopted or rejected
    - Identify new narrative threads emerging from public discourse
@@ -83,7 +83,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 
 7. **Follow-Up Communication** — Story Strategist [donald-miller](../agents/donald-miller.md): Deliver on commitments publicly → Follow-Up Narrative
    - Framework: Crisis follow-up narrative structure
-   - Checklist: cl-crisis-followup
+   - Checklist: [ganz/urgency-and-action-audit](../checklists/ganz/urgency-and-action-audit.md)
    - Provide the first progress update within the timeline committed in the initial response
    - Report on specific actions taken — use facts and evidence, not promises
    - Acknowledge ongoing concerns that have surfaced since the initial response
@@ -93,7 +93,7 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 
 8. **Post-Crisis Narrative Recovery** — Story Strategist [donald-miller](../agents/donald-miller.md) + Brand Narrator [park-howell](../agents/park-howell.md): Rebuild and strengthen the brand narrative → Recovery Plan
    - Framework: Narrative recovery methodology
-   - Checklist: cl-narrative-recovery
+   - Checklist: [brand-story-quality](../checklists/brand-story-quality.md)
    - Assess the lasting narrative impact: what permanent shifts has the crisis caused
    - Identify narrative opportunities: how can the response itself become a positive story
    - Plan proactive storytelling that demonstrates the commitments made during the crisis

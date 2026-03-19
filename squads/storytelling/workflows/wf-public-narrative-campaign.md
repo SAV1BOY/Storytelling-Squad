@@ -18,7 +18,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 ## Steps
 1. **Story of Self** — Public Narrative Expert [marshall-ganz](../agents/marshall-ganz.md) + Leader: Extract the personal narrative → Self Narrative
    - Framework: [ganz-story-of-self](../frameworks/ganz-story-of-self.md)
-   - Checklist: cl-story-of-self
+   - Checklist: [ganz/public-narrative-self-us-now-audit](../checklists/ganz/public-narrative-self-us-now-audit.md)
    - Identify the choice point: a moment when values were tested and character was revealed
    - Surface the challenge, the choice made, and the outcome that shaped conviction
    - Ground the moment in sensory detail — make the audience see and feel it
@@ -27,7 +27,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 2. **Story of Us** — Public Narrative Expert [marshall-ganz](../agents/marshall-ganz.md): Build the shared identity narrative → Us Narrative
    - Framework: [ganz-story-of-us](../frameworks/ganz-story-of-us.md)
-   - Checklist: cl-story-of-us
+   - Checklist: [ganz/community-identity-audit](../checklists/ganz/community-identity-audit.md)
    - Identify the shared experiences that bind the community together
    - Surface the common values that make this group distinct
    - Find the collective challenge: what threat or opportunity unites everyone
@@ -36,7 +36,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 3. **Story of Now** — Public Narrative Expert [marshall-ganz](../agents/marshall-ganz.md): Create the urgent call to action → Now Narrative
    - Framework: [ganz-story-of-now](../frameworks/ganz-story-of-now.md)
-   - Checklist: cl-story-of-now
+   - Checklist: [ganz/urgency-and-action-audit](../checklists/ganz/urgency-and-action-audit.md)
    - Define the urgent choice the community faces right now
    - Articulate what is at stake if action is not taken (credible consequences)
    - Present a hopeful, achievable vision of what collective action creates
@@ -45,7 +45,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 4. **Narrative Integration** — Story Architect [joseph-campbell](../agents/joseph-campbell.md): Weave Self/Us/Now into unified narrative → Integrated Narrative
    - Framework: [campbell-archetypes](../frameworks/campbell-archetypes.md)
-   - Checklist: cl-narrative-integration
+   - Checklist: [public-narrative-quality](../checklists/public-narrative-quality.md)
    - Open with Self to establish trust and authenticity
    - Bridge to Us to create belonging and shared purpose
    - Build to Now to channel emotion into specific action
@@ -54,7 +54,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 5. **Asset Production** — Personal Story Expert [matthew-dicks](../agents/matthew-dicks.md) + Ops: Create channel-specific narrative assets → Asset Library
    - Framework: [dicks-storyworthy](../frameworks/dicks-storyworthy.md)
-   - Checklist: cl-narrative-assets
+   - Checklist: [narrative/multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Keynote script: full Self/Us/Now narrative for live delivery
    - Video script: 2-minute version optimized for social video
    - Written manifesto: 800-word version for website and email
@@ -64,7 +64,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 6. **Cadence Planning** — Brand Narrator [park-howell](../agents/park-howell.md): Design the publication and reinforcement schedule → Cadence Calendar
    - Framework: [howell-business-of-story](../frameworks/howell-business-of-story.md)
-   - Checklist: cl-cadence-planning
+   - Checklist: [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
    - Map the launch sequence: which assets deploy on which days
    - Plan the reinforcement cycle: how the narrative is retold and expanded over weeks
    - Identify community storytelling opportunities: events, milestones, member spotlights
@@ -73,7 +73,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 7. **Launch Execution** — Story Strategist [donald-miller](../agents/donald-miller.md) + All: Deploy narrative assets per cadence → Live Narrative
    - Framework: [miller-marketing-roadmap](../frameworks/miller-marketing-roadmap.md)
-   - Checklist: cl-narrative-launch
+   - Checklist: [miller/storybrand-sb7-audit](../checklists/miller/storybrand-sb7-audit.md)
    - Deploy assets according to cadence calendar
    - Monitor real-time engagement and narrative adoption
    - Capture community responses: their stories, their language, their questions
@@ -82,7 +82,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 8. **Narrative Sustenance** — Public Narrative Expert [marshall-ganz](../agents/marshall-ganz.md): Maintain and evolve the narrative → Living Narrative
    - Framework: [ganz-public-narrative](../frameworks/ganz-public-narrative.md)
-   - Checklist: cl-narrative-sustenance
+   - Checklist: [ganz/moral-and-values-audit](../checklists/ganz/moral-and-values-audit.md)
    - Collect and integrate new community stories into the Us narrative
    - Update the Now narrative as milestones are reached or deadlines shift
    - Refresh the Self narrative with new experiences that reinforce the mission

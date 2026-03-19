@@ -18,7 +18,7 @@ authentic voice and specific details that make customer stories credible.
 ## Steps
 1. **Pre-Interview Research** — [kindra-hall](../agents/kindra-hall.md) + [matthew-dicks](../agents/matthew-dicks.md): Compile account background → Interview Prep Brief
    - Framework: Case study research template
-   - Checklist: cl-pre-interview-research
+   - Checklist: [hall/story-types-fit-audit](../checklists/hall/story-types-fit-audit.md)
    - Pull account history: onboarding date, product usage, support interactions
    - Gather internal perspectives from account team on key moments and wins
    - Identify candidate metrics: before/after data, efficiency gains, revenue impact
@@ -26,7 +26,7 @@ authentic voice and specific details that make customer stories credible.
 
 2. **Customer Interview** — [matthew-dicks](../agents/matthew-dicks.md) + [kindra-hall](../agents/kindra-hall.md): Conduct narrative-focused interview → Raw Transcript
    - Framework: Narrative interview methodology
-   - Checklist: cl-customer-interview
+   - Checklist: [dicks/five-second-moment-audit](../checklists/dicks/five-second-moment-audit.md)
    - Ask for the "before" state: what was life like before the solution
    - Probe for the turning point: what moment made them decide to act
    - Capture the transformation: specific, measurable changes in their world
@@ -35,7 +35,7 @@ authentic voice and specific details that make customer stories credible.
 
 3. **Narrative Extraction** — [shawn-coyne](../agents/shawn-coyne.md): Identify the story arc in raw material → Story Skeleton
    - Framework: Before-After-Bridge or Problem-Agitation-Solution
-   - Checklist: cl-narrative-extraction
+   - Checklist: [coyne/five-commandments-audit](../checklists/coyne/five-commandments-audit.md)
    - Map the customer's journey to a three-act structure
    - Identify the emotional core: what was at stake for the customer personally
    - Select the 2-3 strongest proof points that anchor credibility
@@ -43,7 +43,7 @@ authentic voice and specific details that make customer stories credible.
 
 4. **Proof Validation** — [kindra-hall](../agents/kindra-hall.md) + [shawn-coyne](../agents/shawn-coyne.md): Verify all claims and metrics → Validated Proof Set
    - Framework: Proof Bank validation criteria
-   - Checklist: cl-proof-validation
+   - Checklist: [proof-in-story-quality](../checklists/proof-in-story-quality.md)
    - Cross-reference customer-stated metrics with internal data
    - Confirm timelines, product features mentioned, and team sizes
    - Flag any claims that cannot be independently verified
@@ -51,7 +51,7 @@ authentic voice and specific details that make customer stories credible.
 
 5. **Narrative Draft** — [kindra-hall](../agents/kindra-hall.md): Write the full case study narrative → Draft Case Study
    - Framework: Selected structure from Step 3
-   - Checklist: cl-case-study-draft
+   - Checklist: [customer-case-story-quality](../checklists/customer-case-story-quality.md)
    - Open with the customer's challenge in vivid, specific terms
    - Build tension around the stakes and failed alternatives
    - Show the solution discovery and implementation as a journey, not a feature list
@@ -60,7 +60,7 @@ authentic voice and specific details that make customer stories credible.
 
 6. **Internal Review** — [shawn-coyne](../agents/shawn-coyne.md): Quality and accuracy review → Annotated Draft
    - Framework: Narrative Quality Rubric
-   - Checklist: cl-case-study-review
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Verify narrative serves the strategic objective (not just a nice story)
    - Check that customer is the hero, brand is the guide
    - Ensure proof points are integrated naturally, not listed
@@ -68,7 +68,7 @@ authentic voice and specific details that make customer stories credible.
 
 7. **Customer Approval** — [donald-miller](../agents/donald-miller.md): Send for customer review and sign-off → Approved Case Study
    - Framework: Customer approval process
-   - Checklist: cl-customer-approval
+   - Checklist: [miller/grunt-test-audit](../checklists/miller/grunt-test-audit.md)
    - Send draft with clear markup showing direct quotes and metrics
    - Allow 5-7 business days for review
    - Track requested changes and negotiate any redactions
@@ -76,7 +76,7 @@ authentic voice and specific details that make customer stories credible.
 
 8. **Multi-Format Asset Production** — [kindra-hall](../agents/kindra-hall.md) + [donald-miller](../agents/donald-miller.md): Create channel-specific versions → Asset Set
    - Framework: Channel adaptation matrix
-   - Checklist: cl-asset-production
+   - Checklist: [narrative/multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Full case study (800-1200 words) for website and PDF
    - Summary version (200-300 words) for email and sales enablement
    - Pull quotes and metrics for social media cards

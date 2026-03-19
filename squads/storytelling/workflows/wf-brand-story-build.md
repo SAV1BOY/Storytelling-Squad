@@ -18,56 +18,56 @@ market reality.
 ## Steps
 1. **Brand Narrative Discovery** — Story Strategist [donald-miller](../agents/donald-miller.md): Extract the core brand story elements → Brand Story Brief
    - Framework: [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md)
-   - Checklist: cl-brand-discovery
+   - Checklist: [brand-story-quality](../checklists/brand-story-quality.md)
    - Interview founders and leadership for origin moments, turning points, and beliefs
    - Identify the brand's role as Guide: what empathy and authority does it demonstrate
    - Define the villain (the problem the brand exists to solve)
 
 2. **Origin Story Construction** — Story Architect [joseph-campbell](../agents/joseph-campbell.md): Build the foundational origin narrative → Origin Draft
    - Framework: [campbell-heros-journey](../frameworks/campbell-heros-journey.md) (brand as guide, not hero)
-   - Checklist: cl-origin-story
+   - Checklist: [founder-story-quality](../checklists/founder-story-quality.md)
    - Craft the founding moment with sensory detail and emotional stakes
    - Connect origin to current mission — show the through-line
    - Ensure the customer remains the hero in the brand's telling
 
 3. **Proof Assembly** — Story Collector [kindra-hall](../agents/kindra-hall.md): Gather and organize evidence → Proof Portfolio
    - Framework: Proof Bank taxonomy
-   - Checklist: cl-proof-assembly
+   - Checklist: [proof-in-story-quality](../checklists/proof-in-story-quality.md)
    - Collect case studies, metrics, testimonials, and third-party validation
    - Map each proof to a specific brand claim or narrative beat
    - Rate proof strength: anecdotal, statistical, authoritative, or experiential
 
 4. **Version Creation** — Brand Narrator [park-howell](../agents/park-howell.md): Adapt the narrative for each context → Version Set
    - Framework: Channel adaptation matrix
-   - Checklist: cl-version-creation
+   - Checklist: [multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Create versions: elevator (30s), short (2min), full (5-10min), written (500w, 1500w)
    - Adapt for channels: website, pitch deck, social bio, email signature, PR boilerplate
    - Maintain narrative consistency across all versions
 
 5. **Voice and Tone Codification** — Story Editor [shawn-coyne](../agents/shawn-coyne.md): Define storytelling voice rules → Voice Guide
    - Framework: Brand voice spectrum (formal-casual, serious-playful, reserved-bold)
-   - Checklist: cl-voice-codification
+   - Checklist: [dialogue-and-voice-quality](../checklists/dialogue-and-voice-quality.md)
    - Document word choices, sentence patterns, and narrative rhythms
    - Create do/don't examples for each voice dimension
    - Define how voice shifts across contexts while staying recognizable
 
 6. **Stakeholder Review** — Story Strategist [donald-miller](../agents/donald-miller.md) + Leadership: Validate narrative accuracy → Approved Narrative
    - Framework: Brand narrative alignment matrix
-   - Checklist: cl-stakeholder-review
+   - Checklist: [grunt-test-audit](../checklists/miller/grunt-test-audit.md)
    - Present all versions to leadership for accuracy and resonance check
    - Test with customer-facing teams for authenticity validation
    - Collect and incorporate final adjustments
 
 7. **Guideline Documentation** — Story Editor [shawn-coyne](../agents/shawn-coyne.md): Package everything into usable guidelines → Brand Story Guide
    - Framework: Brand storytelling playbook format
-   - Checklist: cl-guideline-documentation
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Compile origin story, versions, voice guide, proof portfolio, and usage rules
    - Include templates for common storytelling scenarios
    - Add anti-patterns: narratives that conflict with the brand story
 
 8. **Distribution and Training** — Story Strategist [donald-miller](../agents/donald-miller.md): Roll out guidelines across the organization → Adoption Plan
    - Framework: Internal communication cascade
-   - Checklist: cl-guideline-distribution
+   - Checklist: [story-brief-quality](../checklists/story-brief-quality.md)
    - Brief all squad leads on brand narrative essentials
    - Conduct storytelling workshops for customer-facing teams
    - Set up quarterly brand narrative health checks

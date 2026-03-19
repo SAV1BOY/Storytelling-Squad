@@ -18,7 +18,7 @@ customer stories that fuel sales, marketing, and brand efforts.
 ## Steps
 1. **Candidate Identification** — Story Collector [kindra-hall](../agents/kindra-hall.md) + CS Team: Surface story-worthy customers → Candidate List
    - Framework: Customer story scoring criteria
-   - Checklist: cl-candidate-identification
+   - Checklist: [story-selection-strategy-audit](../checklists/hall/story-selection-strategy-audit.md)
    - Review customer success metrics: NPS scores, usage growth, renewal rates, expansion
    - Scan support interactions for unsolicited praise or transformative moments
    - Check account milestones: anniversaries, major deployments, public wins
@@ -28,7 +28,7 @@ customer stories that fuel sales, marketing, and brand efforts.
 
 2. **Outreach and Scheduling** — Story Collector [kindra-hall](../agents/kindra-hall.md): Secure customer participation → Confirmed Participants
    - Framework: Customer outreach sequence
-   - Checklist: cl-customer-outreach
+   - Checklist: [story-brief-quality](../checklists/story-brief-quality.md)
    - Send personalized invitation explaining the story opportunity and their value
    - Clearly communicate: time commitment, approval process, publication scope
    - Offer incentives where appropriate: early feature access, co-marketing, event invitations
@@ -38,7 +38,7 @@ customer stories that fuel sales, marketing, and brand efforts.
 
 3. **Narrative Interview** — Personal Story Expert [matthew-dicks](../agents/matthew-dicks.md): Conduct the story interview → Raw Transcript + Notes
    - Framework: Narrative interview methodology
-   - Checklist: cl-narrative-interview
+   - Checklist: [five-second-moment-audit](../checklists/dicks/five-second-moment-audit.md)
    - Begin with context: their role, their company, their world before your product
    - Explore the trigger: what problem became urgent enough to demand a solution
    - Map the evaluation journey: what alternatives were considered and why rejected
@@ -49,7 +49,7 @@ customer stories that fuel sales, marketing, and brand efforts.
 
 4. **Story Development** — Story Collector [kindra-hall](../agents/kindra-hall.md): Craft the customer narrative → Story Draft
    - Framework: Before-During-After narrative structure
-   - Checklist: cl-customer-story-draft
+   - Checklist: [customer-case-story-quality](../checklists/customer-case-story-quality.md)
    - Open with the customer's world and the problem that was costing them
    - Build the tension: what was the tipping point that demanded action
    - Show the journey: discovery, decision, implementation (with real details)
@@ -59,7 +59,7 @@ customer stories that fuel sales, marketing, and brand efforts.
 
 5. **Internal Quality Review** — Story Editor [shawn-coyne](../agents/shawn-coyne.md): Evaluate narrative strength → Reviewed Draft
    - Framework: Narrative Quality Rubric
-   - Checklist: cl-customer-story-review
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Verify the customer is the hero (not the product or the brand)
    - Check that specific details outnumber generic claims 3-to-1 minimum
    - Ensure emotional arc is present: the reader should feel the transformation
@@ -68,7 +68,7 @@ customer stories that fuel sales, marketing, and brand efforts.
 
 6. **Customer Approval Cycle** — Story Strategist [donald-miller](../agents/donald-miller.md): Obtain customer sign-off → Approved Story
    - Framework: Customer approval process
-   - Checklist: cl-customer-sign-off
+   - Checklist: [grunt-test-audit](../checklists/miller/grunt-test-audit.md)
    - Send draft with highlighted quotes and metrics for easy review
    - Include a simple approval form: approve, approve with changes, decline
    - Allow 5-7 business days for review, with a gentle reminder at day 4
@@ -78,7 +78,7 @@ customer stories that fuel sales, marketing, and brand efforts.
 
 7. **Multi-Format Production** — Video/Content Structurer [dan-harmon](../agents/dan-harmon.md) + Ops: Create channel-ready assets → Asset Package
    - Framework: Channel adaptation matrix
-   - Checklist: cl-multi-format-production
+   - Checklist: [multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Full narrative (800-1200 words): website, PDF download, sales enablement
    - Summary (200-300 words): email inclusion, newsletter feature
    - Social snippets: 3-5 posts with quotes, metrics, or micro-narratives
@@ -88,7 +88,7 @@ customer stories that fuel sales, marketing, and brand efforts.
 
 8. **Publication and Distribution** — Story Strategist [donald-miller](../agents/donald-miller.md): Deploy across channels → Published Stories
    - Framework: Content distribution playbook
-   - Checklist: cl-story-publication
+   - Checklist: [stickiness-and-retellability-audit](../checklists/hall/stickiness-and-retellability-audit.md)
    - Publish on primary channel (usually website) first
    - Distribute to sales team with usage guide and talking points
    - Schedule social media posts across planned cadence
@@ -98,7 +98,7 @@ customer stories that fuel sales, marketing, and brand efforts.
 
 9. **Pipeline Management** — Story Collector [kindra-hall](../agents/kindra-hall.md): Maintain flow and coverage → Pipeline Dashboard
    - Framework: Pipeline health metrics
-   - Checklist: cl-pipeline-management
+   - Checklist: [story-brief-quality](../checklists/story-brief-quality.md)
    - Track pipeline stages: candidates, scheduled, interviewing, drafting, approving, published
    - Monitor coverage gaps: are certain industries, use cases, or segments underrepresented
    - Review production velocity: stories published per month vs. target

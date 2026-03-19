@@ -19,7 +19,7 @@ depend on narrative quality.
 ## Steps
 1. **Teaching Arc Design** — Presentation Designer [nancy-duarte](../agents/nancy-duarte.md): Structure the educational narrative → Teaching Arc Blueprint
    - Framework: Epiphany Bridge (Russell Brunson) + Duarte Sparkline hybrid
-   - Checklist: cl-webinar-arc
+   - Checklist: [webinar-narrative-quality](../checklists/webinar-narrative-quality.md)
    - Identify the "epiphany": the key insight the audience must reach on their own
    - Map the journey from the audience's current understanding to the epiphany
    - Structure the arc: false belief → disruption → new understanding → proof → application
@@ -29,7 +29,7 @@ depend on narrative quality.
 
 2. **Tension Architecture** — Story Strategist [donald-miller](../agents/donald-miller.md): Design the engagement mechanics → Tension Map
    - Framework: Curiosity-tension-resolution loops
-   - Checklist: cl-tension-architecture
+   - Checklist: [hook-and-open-loop-quality](../checklists/hook-and-open-loop-quality.md)
    - Open with a bold promise or provocative claim that sets expectations high
    - Create an open loop in the first 2 minutes that won't close until the teaching section
    - Build micro-tensions within each teaching moment: pose question → build anticipation → reveal
@@ -39,7 +39,7 @@ depend on narrative quality.
 
 3. **Story Integration** — Video/Content Structurer [dan-harmon](../agents/dan-harmon.md): Weave stories into the teaching framework → Story-Loaded Script
    - Framework: Teaching-through-story methodology
-   - Checklist: cl-story-integration
+   - Checklist: [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
    - Open with a personal story or customer story that embodies the problem
    - Use a case study as the through-line: follow one character through the entire teaching
    - Each teaching point is illustrated with a specific, detailed example — not abstract theory
@@ -49,7 +49,7 @@ depend on narrative quality.
 
 4. **Offer Narrative Design** — Story Strategist [donald-miller](../agents/donald-miller.md) + Video/Content Structurer [dan-harmon](../agents/dan-harmon.md): Build the pitch within the narrative → Offer Sequence
    - Framework: Story-to-offer bridge methodology
-   - Checklist: cl-offer-narrative
+   - Checklist: [webinar-narrative-quality](../checklists/webinar-narrative-quality.md)
    - Design the bridge: the teaching naturally reveals a gap that the offer fills
    - The offer should feel like the next chapter of the story, not an interruption
    - Structure the offer presentation: what it is, who it's for, what it includes, why now
@@ -59,7 +59,7 @@ depend on narrative quality.
 
 5. **Slide Narrative Design** — Presentation Designer [nancy-duarte](../agents/nancy-duarte.md): Plan visual support for the narrative → Slide Plan
    - Framework: Assertion-Evidence slide methodology (adapted for webinar)
-   - Checklist: cl-webinar-slides
+   - Checklist: [duarte/deck-flow-and-contrast-audit](../checklists/duarte/deck-flow-and-contrast-audit.md)
    - Design slides that support the story, not replace it — minimal text, maximum visual
    - Plan "breath" slides: simple images or single words that give the audience processing time
    - Create data visualization slides that make proof points visual and immediate
@@ -69,7 +69,7 @@ depend on narrative quality.
 
 6. **Q&A and Engagement Preparation** — Improv Coach [keith-johnstone](../agents/keith-johnstone.md): Plan interactive elements → Engagement Plan
    - Framework: Narrative Q&A methodology
-   - Checklist: cl-webinar-engagement
+   - Checklist: [presentation/webinar-quality-checklist](../checklists/presentation/webinar-quality-checklist.md)
    - Prepare anticipated questions with story-based answers (not just information answers)
    - Design 2-3 poll questions that advance the narrative (reveal audience's current state)
    - Plan chat prompts that generate engagement at key narrative moments
@@ -78,7 +78,7 @@ depend on narrative quality.
 
 7. **Rehearsal and Timing** — Improv Coach [keith-johnstone](../agents/keith-johnstone.md) + Presenter: Full run-through with timing → Rehearsal Notes
    - Framework: Webinar delivery rubric
-   - Checklist: cl-webinar-rehearsal
+   - Checklist: [improv-readiness-quality](../checklists/improv-readiness-quality.md)
    - Run the full webinar in real time including slide transitions and engagement moments
    - Time each section — the teaching must not encroach on the offer, and vice versa
    - Evaluate energy: does the presenter's enthusiasm match the narrative's emotional arc
@@ -88,7 +88,7 @@ depend on narrative quality.
 
 8. **Post-Webinar Narrative Follow-Up** — Story Strategist [donald-miller](../agents/donald-miller.md) + Video/Content Structurer [dan-harmon](../agents/dan-harmon.md): Extend the narrative beyond the event → Follow-Up Sequence
    - Framework: Post-event narrative continuation
-   - Checklist: cl-webinar-followup
+   - Checklist: [email-sequence-narrative-quality](../checklists/email-sequence-narrative-quality.md)
    - Send replay with a narrative hook: "Here's the moment most people rewind to..."
    - Create a follow-up email sequence that continues the webinar story arc
    - Repurpose key teaching moments into social content and blog posts

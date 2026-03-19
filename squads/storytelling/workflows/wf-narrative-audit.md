@@ -19,7 +19,7 @@ next quarter's storytelling priorities.
 ## Steps
 1. **Inventory Collection** — [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md): Catalog all active narrative assets → Narrative Inventory
    - Framework: Narrative asset taxonomy
-   - Checklist: cl-narrative-inventory
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Scan all customer-facing channels: website pages, blog posts, email sequences, social profiles
    - Catalog sales materials: pitch decks, one-pagers, proposals, case studies
    - Inventory internal narratives: company handbook, recruiting materials, onboarding content
@@ -29,7 +29,7 @@ next quarter's storytelling priorities.
 
 2. **Consistency Analysis** — [shawn-coyne](../agents/shawn-coyne.md) + [park-howell](../agents/park-howell.md): Evaluate narrative alignment → Consistency Report
    - Framework: Brand narrative consistency matrix
-   - Checklist: cl-consistency-analysis
+   - Checklist: [howell/brand-narrative-coherence-audit](../checklists/howell/brand-narrative-coherence-audit.md)
    - Compare the brand story told on the website vs. sales deck vs. social vs. ads
    - Check for message contradictions: different value propositions or positioning claims
    - Evaluate voice consistency: does the brand sound the same across all channels
@@ -39,7 +39,7 @@ next quarter's storytelling priorities.
 
 3. **Quality Assessment** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Rate narrative quality across all assets → Quality Scorecard
    - Framework: Narrative Quality Rubric (applied at scale)
-   - Checklist: cl-quality-assessment
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Sample 20-30 representative assets across all categories
    - Score each on: clarity, emotional resonance, proof integration, CTA strength, specificity
    - Identify quality patterns: which channels or teams produce the strongest narratives
@@ -49,7 +49,7 @@ next quarter's storytelling priorities.
 
 4. **Coverage Gap Analysis** — [kindra-hall](../agents/kindra-hall.md) + [donald-miller](../agents/donald-miller.md): Identify missing narratives → Gap Map
    - Framework: Story coverage matrix (audience x journey stage x channel)
-   - Checklist: cl-coverage-gaps
+   - Checklist: [hall/story-selection-strategy-audit](../checklists/hall/story-selection-strategy-audit.md)
    - Map existing stories against audience segments: which segments are under-served
    - Map against buyer journey stages: awareness, consideration, decision, retention, advocacy
    - Map against channels: where are narrative gaps leaving channels with generic content
@@ -59,7 +59,7 @@ next quarter's storytelling priorities.
 
 5. **Performance Analysis** — [donald-miller](../agents/donald-miller.md): Evaluate narrative effectiveness by metrics → Performance Report
    - Framework: Narrative performance measurement model
-   - Checklist: cl-performance-analysis
+   - Checklist: [narrative/data-storytelling-quality](../checklists/narrative/data-storytelling-quality.md)
    - Pull engagement data for all tracked stories: views, time on page, shares, saves
    - Pull conversion data: CTR, form fills, demo requests, purchases attributed to stories
    - Calculate story ROI where possible: production cost vs. attributed revenue
@@ -69,7 +69,7 @@ next quarter's storytelling priorities.
 
 6. **Stakeholder Perception Interviews** — [kindra-hall](../agents/kindra-hall.md) + [matthew-dicks](../agents/matthew-dicks.md): Capture internal narrative health → Perception Report
    - Framework: Narrative perception interview guide
-   - Checklist: cl-perception-interviews
+   - Checklist: [dicks/five-second-moment-audit](../checklists/dicks/five-second-moment-audit.md)
    - Interview 5-8 stakeholders across sales, marketing, CS, leadership, and product
    - Ask: what story do you tell about the company, what story do customers tell back
    - Probe: where do you struggle to tell a compelling story, what assets are missing
@@ -79,7 +79,7 @@ next quarter's storytelling priorities.
 
 7. **Recommendations Development** — [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md): Create prioritized action plan → Audit Recommendations
    - Framework: Impact-effort prioritization matrix
-   - Checklist: cl-audit-recommendations
+   - Checklist: [howell/story-strategy-alignment-audit](../checklists/howell/story-strategy-alignment-audit.md)
    - Prioritize findings by business impact: which narrative improvements move the needle most
    - Group recommendations into: quick wins (this week), projects (this month), strategic (this quarter)
    - For each recommendation: specify the asset to create or update, the workflow to use, and the owner
@@ -89,7 +89,7 @@ next quarter's storytelling priorities.
 
 8. **Audit Report and Presentation** — [donald-miller](../agents/donald-miller.md) + [nancy-duarte](../agents/nancy-duarte.md): Package findings for stakeholders → Final Audit Report
    - Framework: Narrative audit report template
-   - Checklist: cl-audit-report
+   - Checklist: [brand-story-quality](../checklists/brand-story-quality.md)
    - Executive summary: 3 biggest strengths, 3 biggest gaps, 3 highest-priority actions
    - Full report with data, examples, and evidence for each finding
    - Visual scorecards: consistency, quality, coverage, and performance at a glance

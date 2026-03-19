@@ -18,7 +18,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 ## Steps
 1. **Story of Self** — [marshall-ganz](../agents/marshall-ganz.md) + [matthew-dicks](../agents/matthew-dicks.md): Extract the personal narrative → Self Narrative
    - Framework: Ganz Story of Self
-   - Checklist: cl-story-of-self
+   - Checklist: [public-narrative-quality](../checklists/public-narrative-quality.md)
    - Identify the choice point: a moment when values were tested and character was revealed
    - Surface the challenge, the choice made, and the outcome that shaped conviction
    - Ground the moment in sensory detail — make the audience see and feel it
@@ -27,7 +27,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 2. **Story of Us** — [marshall-ganz](../agents/marshall-ganz.md) + [joseph-campbell](../agents/joseph-campbell.md): Build the shared identity narrative → Us Narrative
    - Framework: Ganz Story of Us
-   - Checklist: cl-story-of-us
+   - Checklist: [community-identity-audit](../checklists/ganz/community-identity-audit.md)
    - Identify the shared experiences that bind the community together
    - Surface the common values that make this group distinct
    - Find the collective challenge: what threat or opportunity unites everyone
@@ -36,7 +36,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 3. **Story of Now** — [marshall-ganz](../agents/marshall-ganz.md): Create the urgent call to action → Now Narrative
    - Framework: Ganz Story of Now
-   - Checklist: cl-story-of-now
+   - Checklist: [urgency-and-action-audit](../checklists/ganz/urgency-and-action-audit.md)
    - Define the urgent choice the community faces right now
    - Articulate what is at stake if action is not taken (credible consequences)
    - Present a hopeful, achievable vision of what collective action creates
@@ -45,7 +45,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 4. **Narrative Integration** — [marshall-ganz](../agents/marshall-ganz.md) + [donald-miller](../agents/donald-miller.md): Weave Self/Us/Now into unified narrative → Integrated Narrative
    - Framework: Self/Us/Now integration arc
-   - Checklist: cl-narrative-integration
+   - Checklist: [public-narrative-self-us-now-audit](../checklists/ganz/public-narrative-self-us-now-audit.md)
    - Open with Self to establish trust and authenticity
    - Bridge to Us to create belonging and shared purpose
    - Build to Now to channel emotion into specific action
@@ -54,7 +54,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 5. **Asset Production** — [dan-harmon](../agents/dan-harmon.md) + [donald-miller](../agents/donald-miller.md): Create channel-specific narrative assets → Asset Library
    - Framework: Channel adaptation matrix
-   - Checklist: cl-narrative-assets
+   - Checklist: [multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Keynote script: full Self/Us/Now narrative for live delivery
    - Video script: 2-minute version optimized for social video
    - Written manifesto: 800-word version for website and email
@@ -64,7 +64,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 6. **Cadence Planning** — [donald-miller](../agents/donald-miller.md): Design the publication and reinforcement schedule → Cadence Calendar
    - Framework: Narrative cadence framework
-   - Checklist: cl-cadence-planning
+   - Checklist: [brand-narrative-coherence-audit](../checklists/howell/brand-narrative-coherence-audit.md)
    - Map the launch sequence: which assets deploy on which days
    - Plan the reinforcement cycle: how the narrative is retold and expanded over weeks
    - Identify community storytelling opportunities: events, milestones, member spotlights
@@ -73,7 +73,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 7. **Launch Execution** — [marshall-ganz](../agents/marshall-ganz.md) + [donald-miller](../agents/donald-miller.md): Deploy narrative assets per cadence → Live Narrative
    - Framework: Launch execution playbook
-   - Checklist: cl-narrative-launch
+   - Checklist: [moral-and-values-audit](../checklists/ganz/moral-and-values-audit.md)
    - Deploy assets according to cadence calendar
    - Monitor real-time engagement and narrative adoption
    - Capture community responses: their stories, their language, their questions
@@ -82,7 +82,7 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 
 8. **Narrative Sustenance** — [marshall-ganz](../agents/marshall-ganz.md) + [park-howell](../agents/park-howell.md): Maintain and evolve the narrative → Living Narrative
    - Framework: Narrative lifecycle management
-   - Checklist: cl-narrative-sustenance
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Collect and integrate new community stories into the Us narrative
    - Update the Now narrative as milestones are reached or deadlines shift
    - Refresh the Self narrative with new experiences that reinforce the mission
@@ -92,31 +92,31 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 ## Quality Gates & Decision Logic
 
 ### Gate 1 (after Step 1): Self Narrative Authenticity
-- **Checklist:** [cl-story-of-self](../checklists/cl-story-of-self.md)
+- **Checklist:** [public-narrative-quality](../checklists/public-narrative-quality.md)
 - **IF PASS:** Proceed to Step 2
 - **IF FAIL:** Rework with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-public-narrative](../frameworks/ganz-public-narrative.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 2 (after Step 3): Now Narrative Urgency and Action
-- **Checklist:** [cl-story-of-now](../checklists/cl-story-of-now.md)
+- **Checklist:** [urgency-and-action-audit](../checklists/ganz/urgency-and-action-audit.md)
 - **IF PASS:** Proceed to Step 4
 - **IF FAIL:** Rework with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-public-narrative](../frameworks/ganz-public-narrative.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 3 (after Step 4): Integrated Narrative Flow
-- **Checklist:** [cl-narrative-integration](../checklists/cl-narrative-integration.md)
+- **Checklist:** [public-narrative-self-us-now-audit](../checklists/ganz/public-narrative-self-us-now-audit.md)
 - **IF PASS:** Proceed to Step 5
 - **IF FAIL:** Rework with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-public-narrative](../frameworks/ganz-public-narrative.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 4 (after Step 5): Asset Narrative Consistency
-- **Checklist:** [cl-narrative-assets](../checklists/cl-narrative-assets.md)
+- **Checklist:** [multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
 - **IF PASS:** Proceed to Step 6
 - **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 5 (after Step 7): Launch Engagement Thresholds
-- **Checklist:** [cl-narrative-launch](../checklists/cl-narrative-launch.md)
+- **Checklist:** [moral-and-values-audit](../checklists/ganz/moral-and-values-audit.md)
 - **IF PASS:** Proceed to Step 8
 - **IF FAIL:** Rework with [marshall-ganz](../agents/marshall-ganz.md) using [ganz-public-narrative](../frameworks/ganz-public-narrative.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules

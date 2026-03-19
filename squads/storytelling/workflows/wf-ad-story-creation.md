@@ -20,7 +20,7 @@ narrative copy, and any paid media where story outperforms promotion.
 ## Steps
 1. **Hook Ideation** — [dan-harmon](../agents/dan-harmon.md) + [blake-snyder](../agents/blake-snyder.md): Generate scroll-stopping opening moments → Hook Candidates
    - Framework: Pattern-interrupt and curiosity-gap methodology
-   - Checklist: cl-ad-hook-ideation
+   - Checklist: [hook-and-open-loop-quality](../checklists/hook-and-open-loop-quality.md)
    - Generate 10-15 hook concepts per ad using different hook types
    - Hook types: question, bold claim, contradiction, before/after, mid-scene entry, statistic
    - Each hook must earn attention in under 1.5 seconds (static) or 3 seconds (video)
@@ -30,7 +30,7 @@ narrative copy, and any paid media where story outperforms promotion.
 
 2. **Micro-Story Scripting** — [dan-harmon](../agents/dan-harmon.md) + [kindra-hall](../agents/kindra-hall.md): Build the narrative within format constraints → Ad Scripts
    - Framework: Hook-Story-Offer (HSO) structure
-   - Checklist: cl-ad-story-scripting
+   - Checklist: [micro-story-quality](../checklists/narrative/micro-story-quality.md)
    - For 15s video: Hook (3s) → Story beat (8s) → CTA (4s)
    - For 30s video: Hook (3s) → Problem (7s) → Transformation (12s) → CTA (8s)
    - For 60s video: Hook (5s) → Problem (10s) → Journey (25s) → Proof (10s) → CTA (10s)
@@ -41,7 +41,7 @@ narrative copy, and any paid media where story outperforms promotion.
 
 3. **Proof Point Selection** — [kindra-hall](../agents/kindra-hall.md): Choose the single strongest proof → Proof-Armed Ads
    - Framework: Proof Bank high-impact selection
-   - Checklist: cl-ad-proof-selection
+   - Checklist: [proof-in-story-quality](../checklists/proof-in-story-quality.md)
    - In short-form: you get ONE proof point — choose the most powerful
    - Match proof type to ad objective: social proof for awareness, data for consideration, case for conversion
    - Position proof at the moment of maximum skepticism (after the claim, before the CTA)
@@ -50,7 +50,7 @@ narrative copy, and any paid media where story outperforms promotion.
 
 4. **CTA Engineering** — [donald-miller](../agents/donald-miller.md): Design the action moment → CTA Variants
    - Framework: Narrative-driven CTA methodology
-   - Checklist: cl-ad-cta-engineering
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - The CTA should feel like the story's natural conclusion, not an interruption
    - Write 3 CTA variants per ad: direct, curiosity-driven, and loss-aversion framed
    - Match CTA friction to ad objective: low friction for awareness, higher for conversion
@@ -60,7 +60,7 @@ narrative copy, and any paid media where story outperforms promotion.
 
 5. **Visual Narrative Direction** — [blake-snyder](../agents/blake-snyder.md): Brief the visual storytelling → Visual Creative Brief
    - Framework: Visual ad storytelling principles
-   - Checklist: cl-ad-visual-direction
+   - Checklist: [social-media-story-quality](../checklists/social-media-story-quality.md)
    - Define the visual hook: what image or motion stops the scroll
    - Specify the visual arc: how imagery progresses from problem to resolution
    - Brief color psychology: palette choices that reinforce the emotional journey
@@ -70,7 +70,7 @@ narrative copy, and any paid media where story outperforms promotion.
 
 6. **Variant Assembly** — [dan-harmon](../agents/dan-harmon.md) + [kindra-hall](../agents/kindra-hall.md): Create the testing matrix → Ad Variant Set
    - Framework: Creative testing matrix
-   - Checklist: cl-ad-variant-assembly
+   - Checklist: [multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Combine hooks, scripts, proofs, and CTAs into distinct testable variants
    - Create minimum 3 variants per ad concept (hook variation primary)
    - Ensure variants are different enough to generate meaningful test signals
@@ -79,7 +79,7 @@ narrative copy, and any paid media where story outperforms promotion.
 
 7. **Review and Compliance** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Quality and compliance check → Approved Ad Set
    - Framework: Ad narrative quality rubric + platform compliance
-   - Checklist: cl-ad-review
+   - Checklist: [grunt-test-audit](../checklists/miller/grunt-test-audit.md)
    - Verify each ad tells a complete micro-story (not just a claim)
    - Check platform-specific compliance: text-to-image ratios, restricted content, format specs
    - Confirm all claims are substantiated and approved for advertising use
@@ -88,7 +88,7 @@ narrative copy, and any paid media where story outperforms promotion.
 
 8. **Performance Tracking and Iteration** — [dan-harmon](../agents/dan-harmon.md) + [donald-miller](../agents/donald-miller.md): Monitor and optimize narrative performance → Performance Report
    - Framework: Narrative ad performance analysis
-   - Checklist: cl-ad-performance
+   - Checklist: [story-brief-quality](../checklists/story-brief-quality.md)
    - Track per-variant metrics: CTR, conversion rate, cost per result, view-through rate
    - Identify which narrative elements drive performance: hook type, story angle, proof type, CTA style
    - Kill underperformers at statistical significance — reallocate budget to winners

@@ -18,7 +18,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
 ## Steps
 1. **Story Collection (Continuous)** — [kindra-hall](../agents/kindra-hall.md) + [matthew-dicks](../agents/matthew-dicks.md): Capture raw story material → Raw Story Intake
    - Framework: Story intake methodology
-   - Checklist: cl-story-collection
+   - Checklist: [story-selection-strategy-audit](../checklists/hall/story-selection-strategy-audit.md)
    - Monitor intake channels daily: customer success reports, sales call notes, support tickets
    - Capture unsolicited customer stories from reviews, social media, and email replies
    - Record internal stories from team meetings, all-hands, and project retrospectives
@@ -28,7 +28,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
 
 2. **Initial Triage** — [shawn-coyne](../agents/shawn-coyne.md): Assess raw stories for bank potential → Triaged Story Queue
    - Framework: Story triage criteria (relevance, uniqueness, narrative potential, proof strength)
-   - Checklist: cl-story-triage
+   - Checklist: [story-types-fit-audit](../checklists/hall/story-types-fit-audit.md)
    - Review each raw story against the triage criteria within 48 hours of intake
    - Classify: Develop (strong potential), Hold (needs more info), Archive (not suitable), Merge (combine with existing)
    - For "Develop" stories: assign priority based on coverage gaps and business need
@@ -38,7 +38,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
 
 3. **Story Development** — [kindra-hall](../agents/kindra-hall.md) + [dan-harmon](../agents/dan-harmon.md): Develop triaged stories into bank-ready entries → Developed Stories
    - Framework: Story Bank entry format
-   - Checklist: cl-story-development
+   - Checklist: [story-brief-quality](../checklists/story-brief-quality.md)
    - Write or rewrite the story into a clean, reusable narrative
    - Ensure the story has: character, setting, conflict, transformation, and proof
    - Create multiple lengths: full (500+ words), summary (100-200 words), micro (50 words)
@@ -48,7 +48,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
 
 4. **Tagging and Classification** — [donald-miller](../agents/donald-miller.md): Apply the full taxonomy → Tagged Stories
    - Framework: Story Bank taxonomy (story-bank.yaml schema)
-   - Checklist: cl-story-tagging
+   - Checklist: [story-brief-quality](../checklists/story-brief-quality.md)
    - Apply primary tags: story type (customer, founder, product, culture, data, analogy)
    - Apply channel tags: which channels is this story suitable for (email, social, deck, ad, web)
    - Apply audience tags: which segments or personas this story speaks to
@@ -59,7 +59,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
 
 5. **Quality Review (Weekly)** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Maintain quality standards across the bank → Quality Report
    - Framework: Story Bank quality standards
-   - Checklist: cl-quality-review-weekly
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Review all stories added in the past week for consistent quality
    - Check tagging accuracy: are stories correctly classified and findable
    - Verify no duplicate stories have entered the bank
@@ -68,7 +68,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
 
 6. **Curation Cycle (Monthly)** — [kindra-hall](../agents/kindra-hall.md) + [donald-miller](../agents/donald-miller.md): Evaluate and update the bank → Curation Report
    - Framework: Story bank curation methodology
-   - Checklist: cl-monthly-curation
+   - Checklist: [stickiness-and-retellability-audit](../checklists/hall/stickiness-and-retellability-audit.md)
    - Review stories by age: flag anything over 6 months for freshness check
    - Verify customer stories: are quoted customers still active, are metrics still current
    - Check coverage balance: are some story types over-represented while others are thin
@@ -78,7 +78,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
 
 7. **Performance Integration** — [donald-miller](../agents/donald-miller.md): Connect usage data to bank entries → Performance-Enriched Bank
    - Framework: Story performance tracking
-   - Checklist: cl-performance-integration
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Track which stories are being used and in which contexts
    - Connect performance metrics from published channels back to bank entries
    - Identify most-used and highest-performing stories — feature them prominently
@@ -88,7 +88,7 @@ to current, tagged, and quality-rated stories for any storytelling need.
 
 8. **Stakeholder Communication** — [donald-miller](../agents/donald-miller.md) + [kindra-hall](../agents/kindra-hall.md): Keep teams aware of bank resources → Update Digest
    - Framework: Internal narrative communication
-   - Checklist: cl-bank-communication
+   - Checklist: [brand-narrative-coherence-audit](../checklists/howell/brand-narrative-coherence-audit.md)
    - Send monthly digest to all squad leads: new stories added, top performers, coverage gaps
    - Highlight stories that match current campaign themes or sales priorities
    - Include a "story of the month" that exemplifies excellent storytelling
@@ -98,31 +98,31 @@ to current, tagged, and quality-rated stories for any storytelling need.
 ## Quality Gates & Decision Logic
 
 ### Gate 1 (after Step 1): Story Collection Volume
-- **Checklist:** [cl-story-collection](../checklists/cl-story-collection.md)
+- **Checklist:** [story-selection-strategy-audit](../checklists/hall/story-selection-strategy-audit.md)
 - **IF PASS:** Proceed to Step 2
 - **IF FAIL:** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-story-selection](../frameworks/hall-story-selection.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 2 (after Step 3): Story Development Quality
-- **Checklist:** [cl-story-development](../checklists/cl-story-development.md)
+- **Checklist:** [story-brief-quality](../checklists/story-brief-quality.md)
 - **IF PASS:** Proceed to Step 4
 - **IF FAIL:** Rework with [matthew-dicks](../agents/matthew-dicks.md) using [dicks-storyworthy](../frameworks/dicks-storyworthy.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 3 (after Step 4): Tagging Completeness
-- **Checklist:** [cl-story-tagging](../checklists/cl-story-tagging.md)
+- **Checklist:** [story-brief-quality](../checklists/story-brief-quality.md)
 - **IF PASS:** Proceed to Step 5
 - **IF FAIL:** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-story-selection](../frameworks/hall-story-selection.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 4 (after Step 5): Weekly Quality Review
-- **Checklist:** [cl-quality-review-weekly](../checklists/cl-quality-review-weekly.md)
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
 - **IF PASS:** Proceed to Step 6
 - **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-story-grid](../frameworks/coyne-story-grid.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 5 (after Step 6): Curation Freshness
-- **Checklist:** [cl-monthly-curation](../checklists/cl-monthly-curation.md)
+- **Checklist:** [stickiness-and-retellability-audit](../checklists/hall/stickiness-and-retellability-audit.md)
 - **IF PASS:** Proceed to Step 7
 - **IF FAIL:** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-story-selection](../frameworks/hall-story-selection.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules

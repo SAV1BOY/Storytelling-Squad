@@ -19,7 +19,7 @@ from narrative continuity and compounding audience engagement.
 ## Steps
 1. **Theme Selection and Arc Design** — Brand Narrator [park-howell](../agents/park-howell.md): Define the series narrative → Series Blueprint
    - Framework: [howell-business-of-story](../frameworks/howell-business-of-story.md)
-   - Checklist: cl-social-theme-selection
+   - Checklist: [howell/brand-narrative-coherence-audit](../checklists/howell/brand-narrative-coherence-audit.md)
    - Choose a theme that connects to a current audience tension or aspiration
    - Design the series arc: 5-10 posts that build from introduction to payoff
    - Define the through-line: what narrative thread connects every post
@@ -29,7 +29,7 @@ from narrative continuity and compounding audience engagement.
 
 2. **Micro-Story Development** — Video/Content Structurer [dan-harmon](../agents/dan-harmon.md): Create individual post narratives → Micro-Story Drafts
    - Framework: [harmon-but-therefore](../frameworks/harmon-but-therefore.md)
-   - Checklist: cl-micro-story-development
+   - Checklist: [narrative/micro-story-quality](../checklists/narrative/micro-story-quality.md)
    - Each post must work standalone (a new follower's first encounter) AND as a series entry
    - Open each post with a hook: question, bold statement, story opening, or surprising data
    - Deliver value within each post: an insight, a lesson, an emotion, or a reframe
@@ -39,7 +39,7 @@ from narrative continuity and compounding audience engagement.
 
 3. **Visual Narrative Planning** — Presentation Designer [nancy-duarte](../agents/nancy-duarte.md): Design the visual story layer → Visual Brief
    - Framework: Visual continuity for social series
-   - Checklist: cl-visual-narrative
+   - Checklist: [duarte/deck-flow-and-contrast-audit](../checklists/duarte/deck-flow-and-contrast-audit.md)
    - Create a visual identity for the series: consistent color palette, typography, or motif
    - Design each post's visual to reinforce the narrative beat it carries
    - Plan carousel layouts: each card tells one part of the story
@@ -49,7 +49,7 @@ from narrative continuity and compounding audience engagement.
 
 4. **Sequence Optimization** — Beat Sheet / Pacing [blake-snyder](../agents/blake-snyder.md): Order posts for maximum narrative impact → Publication Sequence
    - Framework: [snyder-save-the-cat](../frameworks/snyder-save-the-cat.md)
-   - Checklist: cl-sequence-optimization
+   - Checklist: [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
    - Post 1 must earn attention and set the series promise — it's the pilot episode
    - Alternate between emotional and intellectual posts to maintain engagement variety
    - Place the highest-proof post (case study, data) at the series midpoint to sustain momentum
@@ -59,7 +59,7 @@ from narrative continuity and compounding audience engagement.
 
 5. **Engagement Scripting** — Story Collector [kindra-hall](../agents/kindra-hall.md): Plan community interaction → Engagement Playbook
    - Framework: [hall-stories-that-stick](../frameworks/hall-stories-that-stick.md)
-   - Checklist: cl-engagement-scripting
+   - Checklist: [hook-and-open-loop-quality](../checklists/hook-and-open-loop-quality.md)
    - Prepare response templates for likely comments on each post
    - Script "story extension" replies: responses that add narrative depth when someone engages
    - Plan prompts that invite audience stories: "Has this happened to you?"
@@ -68,7 +68,7 @@ from narrative continuity and compounding audience engagement.
 
 6. **Cross-Platform Adaptation** — Story Strategist [donald-miller](../agents/donald-miller.md): Adapt the series for each platform → Platform Versions
    - Framework: [miller-marketing-roadmap](../frameworks/miller-marketing-roadmap.md)
-   - Checklist: cl-platform-adaptation
+   - Checklist: [narrative/multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Twitter/X: Thread format, sharp hooks, numbered series, quote-tweet strategy
    - LinkedIn: Professional narrative, insight-first, longer captions, community tagging
    - Instagram: Visual-first, carousel storytelling, Story/Reel companion content
@@ -78,7 +78,7 @@ from narrative continuity and compounding audience engagement.
 
 7. **Publication and Monitoring** — Brand Narrator [park-howell](../agents/park-howell.md): Deploy the series and track response → Live Series + Metrics
    - Framework: [howell-abt-framework](../frameworks/howell-abt-framework.md)
-   - Checklist: cl-social-publication
+   - Checklist: [social-media-story-quality](../checklists/social-media-story-quality.md)
    - Schedule all posts using the planned cadence and timing
    - Monitor engagement in real-time for the first 2 hours after each post
    - Track series-level metrics: follower growth, series completion rate, engagement trend
@@ -88,7 +88,7 @@ from narrative continuity and compounding audience engagement.
 
 8. **Series Wrap and Learnings** — Story Strategist [donald-miller](../agents/donald-miller.md): Analyze and archive → Series Report
    - Framework: [miller-grunt-test](../frameworks/miller-grunt-test.md)
-   - Checklist: cl-series-wrap
+   - Checklist: [editing-and-trimming-quality](../checklists/editing-and-trimming-quality.md)
    - Compile performance data: per-post and series-level metrics
    - Identify the strongest and weakest posts — analyze why
    - Capture audience language and stories shared in response

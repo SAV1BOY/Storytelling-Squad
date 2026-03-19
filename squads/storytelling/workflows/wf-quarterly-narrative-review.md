@@ -18,7 +18,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 ## Steps
 1. **Performance Data Collection** — [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md): Aggregate all storytelling metrics → Performance Dashboard
    - Framework: Storytelling metrics model
-   - Checklist: cl-quarterly-data-collection
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Pull story performance data: engagement, conversion, retention by story and channel
    - Pull deck engagement data: audience attention, section performance, win rates
    - Pull pitch conversion data: close rates, objection patterns, timing metrics
@@ -29,7 +29,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 
 2. **Win and Loss Analysis** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Identify top and bottom performers → Analysis Report
    - Framework: Narrative performance attribution
-   - Checklist: cl-win-loss-analysis
+   - Checklist: [controlling-idea-audit](../checklists/coyne/controlling-idea-audit.md)
    - Identify the top 5 stories by business impact (revenue, conversion, or engagement)
    - Identify the bottom 5 stories by performance relative to investment
    - For each winner: what narrative elements drove success (hook type, framework, proof, emotion)
@@ -39,7 +39,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 
 3. **Gap Assessment** — [kindra-hall](../agents/kindra-hall.md) + [donald-miller](../agents/donald-miller.md): Evaluate coverage and capability gaps → Gap Report
    - Framework: Story coverage matrix + capability assessment
-   - Checklist: cl-quarterly-gap-assessment
+   - Checklist: [story-selection-strategy-audit](../checklists/hall/story-selection-strategy-audit.md)
    - Update the story coverage matrix: audience segments x journey stages x channels
    - Identify which gaps were closed this quarter and which remain open
    - Assess Story Bank health: volume, freshness, quality distribution, usage patterns
@@ -49,7 +49,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 
 4. **Stakeholder Feedback Synthesis** — [kindra-hall](../agents/kindra-hall.md) + [matthew-dicks](../agents/matthew-dicks.md): Compile cross-squad input → Feedback Summary
    - Framework: Stakeholder narrative satisfaction survey
-   - Checklist: cl-stakeholder-feedback
+   - Checklist: [brand-narrative-coherence-audit](../checklists/howell/brand-narrative-coherence-audit.md)
    - Survey each consuming squad: Copy, Brand, Traffic, Sales, Product, Leadership
    - Ask: what storytelling support worked well, what was missing, what's needed next quarter
    - Identify recurring themes: handoff quality, speed, relevance, narrative consistency
@@ -59,7 +59,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 
 5. **Strategy Development** — [donald-miller](../agents/donald-miller.md) + [park-howell](../agents/park-howell.md): Define next quarter's storytelling priorities → Strategic Plan
    - Framework: Quarterly strategic planning template
-   - Checklist: cl-quarterly-strategy
+   - Checklist: [story-strategy-alignment-audit](../checklists/howell/story-strategy-alignment-audit.md)
    - Define 3-5 strategic priorities based on performance data, gaps, and stakeholder needs
    - For each priority: objective, key results, owner, workflow to execute, resources required
    - Align priorities with business objectives for the next quarter (launches, campaigns, goals)
@@ -69,7 +69,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 
 6. **Resource and Capacity Planning** — [donald-miller](../agents/donald-miller.md): Allocate capacity to priorities → Resource Plan
    - Framework: Capacity planning methodology
-   - Checklist: cl-resource-planning
+   - Checklist: [business-story-cycle-audit](../checklists/howell/business-story-cycle-audit.md)
    - Estimate effort for each strategic priority (hours, sprints, or story points)
    - Map available capacity: team members, their skills, and their availability
    - Identify capacity gaps: where do priorities exceed available resources
@@ -79,7 +79,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 
 7. **Maturity Assessment** — [park-howell](../agents/park-howell.md) + [donald-miller](../agents/donald-miller.md): Score squad maturity and track progress → Maturity Score
    - Framework: Storytelling Squad maturity model
-   - Checklist: cl-maturity-assessment
+   - Checklist: [grunt-test-audit](../checklists/miller/grunt-test-audit.md)
    - Score on five dimensions: process maturity, asset quality, team capability, measurement rigor, cross-squad impact
    - Compare to previous quarter's maturity scores — document trajectory
    - Identify the dimension with the greatest improvement opportunity
@@ -89,7 +89,7 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 
 8. **Plan Presentation and Commitment** — [donald-miller](../agents/donald-miller.md) + [nancy-duarte](../agents/nancy-duarte.md): Present to leadership and commit → Approved Quarterly Plan
    - Framework: Quarterly review presentation format
-   - Checklist: cl-quarterly-presentation
+   - Checklist: [keynote-quality](../checklists/presentation/keynote-quality.md)
    - Present: last quarter performance, key wins and losses, gap analysis, stakeholder feedback
    - Present: next quarter strategy, priorities, OKRs, resource plan
    - Seek leadership alignment on priorities and resource allocation
@@ -101,31 +101,31 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 ## Quality Gates & Decision Logic
 
 ### Gate 1 (after Step 1): Data Collection Completeness
-- **Checklist:** [cl-quarterly-data-collection](../checklists/cl-quarterly-data-collection.md)
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
 - **IF PASS:** Proceed to Step 2
 - **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 2 (after Step 2): Win/Loss Causal Analysis
-- **Checklist:** [cl-win-loss-analysis](../checklists/cl-win-loss-analysis.md)
+- **Checklist:** [controlling-idea-audit](../checklists/coyne/controlling-idea-audit.md)
 - **IF PASS:** Proceed to Step 3
 - **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-story-grid](../frameworks/coyne-story-grid.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 3 (after Step 4): Stakeholder Feedback Coverage
-- **Checklist:** [cl-stakeholder-feedback](../checklists/cl-stakeholder-feedback.md)
+- **Checklist:** [brand-narrative-coherence-audit](../checklists/howell/brand-narrative-coherence-audit.md)
 - **IF PASS:** Proceed to Step 5
 - **IF FAIL:** Rework with [kindra-hall](../agents/kindra-hall.md) using [hall-story-selection](../frameworks/hall-story-selection.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 4 (after Step 5): Strategic Plan Alignment
-- **Checklist:** [cl-quarterly-strategy](../checklists/cl-quarterly-strategy.md)
+- **Checklist:** [story-strategy-alignment-audit](../checklists/howell/story-strategy-alignment-audit.md)
 - **IF PASS:** Proceed to Step 6
 - **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 5 (after Step 7): Maturity Score Documentation
-- **Checklist:** [cl-maturity-assessment](../checklists/cl-maturity-assessment.md)
+- **Checklist:** [grunt-test-audit](../checklists/miller/grunt-test-audit.md)
 - **IF PASS:** Proceed to Step 8
 - **IF FAIL:** Rework with [park-howell](../agents/park-howell.md) using [howell-business-of-story](../frameworks/howell-business-of-story.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules

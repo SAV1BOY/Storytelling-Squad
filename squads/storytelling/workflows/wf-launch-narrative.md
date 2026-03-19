@@ -19,7 +19,7 @@ must land simultaneously across multiple channels with maximum impact.
 ## Steps
 1. **Launch Narrative Strategy** — Story Strategist [donald-miller](../agents/donald-miller.md): Define the core launch story → Launch Narrative Brief
    - Framework: [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md)
-   - Checklist: cl-launch-strategy
+   - Checklist: [brand-story-quality](../checklists/brand-story-quality.md)
    - Define the hero (customer), the problem, and the transformation the launch enables
    - Identify the single most important message: if they remember one thing, what is it
    - Map the narrative across the launch timeline: tease, reveal, prove, sustain
@@ -28,7 +28,7 @@ must land simultaneously across multiple channels with maximum impact.
 
 2. **Pitch Framing** — Pitch Expert [oren-klaff](../agents/oren-klaff.md): Create the persuasive frame → Pitch Frame
    - Framework: [klaff-pitch-anything](../frameworks/klaff-pitch-anything.md)
-   - Checklist: cl-launch-pitch-frame
+   - Checklist: [klaff/pitch-frames-audit](../checklists/klaff/pitch-frames-audit.md)
    - Set the frame: how should the audience perceive this launch relative to alternatives
    - Build intrigue: what tension or curiosity will pull the audience in
    - Design the status dynamic: position the launch as the audience's smart choice
@@ -37,7 +37,7 @@ must land simultaneously across multiple channels with maximum impact.
 
 3. **Core Narrative Creation** — Presentation Designer [nancy-duarte](../agents/nancy-duarte.md): Write the master launch narrative → Master Narrative
    - Framework: [duarte-resonate-sparkline](../frameworks/duarte-resonate-sparkline.md)
-   - Checklist: cl-launch-narrative-creation
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Craft the "what is" (current pain) vs. "what could be" (post-launch world) oscillation
    - Write the launch story in full form: 1500-2000 words as the source of truth
    - Include customer perspective: how does this change their day, their work, their outcomes
@@ -46,7 +46,7 @@ must land simultaneously across multiple channels with maximum impact.
 
 4. **Channel Asset Production** — Brand Narrator [park-howell](../agents/park-howell.md): Create channel-specific assets → Asset Library
    - Framework: [howell-business-of-story](../frameworks/howell-business-of-story.md)
-   - Checklist: cl-launch-asset-production
+   - Checklist: [narrative/multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Website landing page narrative: full story with progressive disclosure
    - Email sequence: 3-5 emails following tease → reveal → prove → remind → last call
    - Social media series: platform-adapted posts for launch day and sustain phase
@@ -56,7 +56,7 @@ must land simultaneously across multiple channels with maximum impact.
 
 5. **Hook and Headline Development** — Beat Sheet / Pacing [blake-snyder](../agents/blake-snyder.md): Craft attention-capturing elements → Hook Library
    - Framework: [snyder-logline-system](../frameworks/snyder-logline-system.md)
-   - Checklist: cl-launch-hooks
+   - Checklist: [hook-and-open-loop-quality](../checklists/hook-and-open-loop-quality.md)
    - Write 10+ headline variants for A/B testing across channels
    - Create the launch logline: one sentence that captures the entire narrative
    - Develop social-first hooks: first lines that stop the scroll
@@ -65,7 +65,7 @@ must land simultaneously across multiple channels with maximum impact.
 
 6. **Stakeholder Review** — Story Strategist [donald-miller](../agents/donald-miller.md) + Leadership: Validate and align → Approved Launch Narrative
    - Framework: [miller-grunt-test](../frameworks/miller-grunt-test.md)
-   - Checklist: cl-launch-review
+   - Checklist: [miller/grunt-test-audit](../checklists/miller/grunt-test-audit.md)
    - Present the master narrative and all channel assets to leadership
    - Test with customer-facing teams for authenticity and objection readiness
    - Verify legal and compliance approval on all claims and proof points
@@ -74,7 +74,7 @@ must land simultaneously across multiple channels with maximum impact.
 
 7. **Launch Execution** — Story Strategist [donald-miller](../agents/donald-miller.md) + All Agents: Deploy narrative across all channels → Live Launch
    - Framework: Launch execution playbook
-   - Checklist: cl-launch-execution
+   - Checklist: [miller/storybrand-sb7-audit](../checklists/miller/storybrand-sb7-audit.md)
    - Deploy internal communications first (employees before public)
    - Execute channel-by-channel deployment per the launch timeline
    - Monitor real-time engagement and narrative adoption
@@ -83,7 +83,7 @@ must land simultaneously across multiple channels with maximum impact.
 
 8. **Post-Launch Narrative Sustenance** — Brand Narrator [park-howell](../agents/park-howell.md): Maintain and evolve the narrative → Sustain Plan
    - Framework: [howell-business-of-story](../frameworks/howell-business-of-story.md)
-   - Checklist: cl-launch-sustenance
+   - Checklist: [howell/brand-narrative-coherence-audit](../checklists/howell/brand-narrative-coherence-audit.md)
    - Transition from launch energy to sustained narrative presence
    - Publish customer stories and early results as they emerge
    - Update the narrative based on real-world usage and feedback

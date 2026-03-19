@@ -19,7 +19,7 @@ maximizing narrative impact.
 ## Steps
 1. **Data Exploration** — [nancy-duarte](../agents/nancy-duarte.md): Examine the data for narrative potential → Data Exploration Notes
    - Framework: Exploratory data analysis for storytelling
-   - Checklist: cl-data-exploration
+   - Checklist: [narrative/data-storytelling-quality](../checklists/narrative/data-storytelling-quality.md)
    - Review the complete data set for patterns, outliers, trends, and surprises
    - Look for the "so what": what in this data would make someone lean forward
    - Identify contrasts: before/after, expected/actual, us/them, then/now
@@ -29,7 +29,7 @@ maximizing narrative impact.
 
 2. **Insight Extraction** — [donald-miller](../agents/donald-miller.md): Distill data into narrative-ready insights → Insight Set
    - Framework: Data insight hierarchy (observation → insight → implication → action)
-   - Checklist: cl-insight-extraction
+   - Checklist: [miller/messaging-clarity-audit](../checklists/miller/messaging-clarity-audit.md)
    - For each pattern found, move up the hierarchy: What happened → What it means → Why it matters → What to do
    - Prioritize insights by audience relevance and narrative potential
    - Select the 3-5 strongest insights that form a coherent story together
@@ -39,7 +39,7 @@ maximizing narrative impact.
 
 3. **Narrative Architecture** — [nancy-duarte](../agents/nancy-duarte.md) + [donald-miller](../agents/donald-miller.md): Structure the data story → Data Story Blueprint
    - Framework: Data storytelling structure (context → conflict → resolution)
-   - Checklist: cl-data-narrative-architecture
+   - Checklist: [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
    - Open with context: what was the world before this data existed (the baseline)
    - Introduce conflict: what the data reveals that challenges assumptions or reveals a problem
    - Build through insights: each data point is a scene in the story, not a bullet in a list
@@ -49,7 +49,7 @@ maximizing narrative impact.
 
 4. **Narrative Draft** — [nancy-duarte](../agents/nancy-duarte.md): Write the data story → Data Story Draft
    - Framework: Selected structure from Step 3
-   - Checklist: cl-data-story-draft
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Write for the audience's data literacy level — translate jargon, provide context for metrics
    - Use analogies to make abstract numbers concrete: "That's the equivalent of..."
    - Lead with the story, support with the data — not the reverse
@@ -59,7 +59,7 @@ maximizing narrative impact.
 
 5. **Visualization Design** — [nancy-duarte](../agents/nancy-duarte.md): Plan how data will be seen → Visualization Brief
    - Framework: Data visualization storytelling principles
-   - Checklist: cl-visualization-design
+   - Checklist: [duarte/audience-journey-mapping-audit](../checklists/duarte/audience-journey-mapping-audit.md)
    - Choose chart types that serve the narrative, not just display the data accurately
    - Design the "aha chart": the single visualization that delivers the story's climax
    - Annotate visualizations: add narrative context directly on the charts
@@ -70,7 +70,7 @@ maximizing narrative impact.
 
 6. **Data Validation** — [donald-miller](../agents/donald-miller.md): Verify all claims → Validated Data Story
    - Framework: Data claim validation checklist
-   - Checklist: cl-data-validation
+   - Checklist: [proof-in-story-quality](../checklists/proof-in-story-quality.md)
    - Verify every number cited in the narrative against the source data
    - Confirm all calculations: percentages, comparisons, trends, rankings
    - Check that visualizations accurately represent the underlying data
@@ -80,7 +80,7 @@ maximizing narrative impact.
 
 7. **Narrative Review** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Evaluate story quality and data integrity → Review Notes
    - Framework: Data narrative quality rubric
-   - Checklist: cl-data-story-review
+   - Checklist: [editing-and-trimming-quality](../checklists/editing-and-trimming-quality.md)
    - Does the story make the data meaningful to the intended audience
    - Is the narrative arc clear: context, conflict, insight, implication, action
    - Are analogies accurate and helpful (not misleading)
@@ -90,7 +90,7 @@ maximizing narrative impact.
 
 8. **Production and Registration** — [donald-miller](../agents/donald-miller.md) + [nancy-duarte](../agents/nancy-duarte.md): Finalize and archive → Published Data Story
    - Framework: Content production and archival process
-   - Checklist: cl-data-story-production
+   - Checklist: [narrative/multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Produce the final asset in the determined format (report, deck, infographic, blog, social)
    - Create derivative formats: executive summary, social snippets, slide-ready charts
    - Register in Story Bank with tags: type (data story), channel, audience, data source

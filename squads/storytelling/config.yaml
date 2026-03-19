@@ -497,6 +497,48 @@ routing:
     templates: [briefs/story-brief, briefs/brand-story-brief]
     registry: [data/registries/decisions-log]
 
+  calibrate-brand-voice:
+    agents: [donald-miller, kindra-hall]
+    frameworks: [miller-storybrand-sb7, campbell-archetypes]
+    checklists: [dialogue-and-voice-quality, howell/brand-narrative-coherence-audit]
+    templates: []
+    registry: [data/registries/brand-scripts-registry]
+
+  create-new-agent:
+    agents: [donald-miller, shawn-coyne]
+    frameworks: []
+    checklists: []
+    templates: []
+    registry: [data/registries/decisions-log]
+
+  cross-squad-narrative-sync:
+    agents: [kindra-hall, donald-miller]
+    frameworks: [hall-story-selection-matrix, miller-storybrand-sb7]
+    checklists: [narrative/multi-channel-consistency-quality]
+    templates: [operational/cross-squad-handoff-form]
+    registry: [data/registries/decisions-log]
+
+  train-team-on-storytelling:
+    agents: [matthew-dicks, keith-johnstone, marshall-ganz]
+    frameworks: [dicks-storyworthy, johnstone-impro, ganz-public-narrative]
+    checklists: [improv-readiness-quality]
+    templates: [exercises/story-swap-workshop-template]
+    registry: [data/registries/lessons-learned-registry]
+
+  update-frameworks:
+    agents: [donald-miller, shawn-coyne]
+    frameworks: [coyne-story-grid]
+    checklists: []
+    templates: []
+    registry: [data/registries/decisions-log, data/registries/lessons-learned-registry]
+
+  update-swipe-file:
+    agents: [matthew-dicks, kindra-hall]
+    frameworks: [dicks-storyworthy, hall-story-selection-matrix]
+    checklists: []
+    templates: []
+    registry: [data/registries/story-bank]
+
 # ============================================================
 # CROSS-SQUAD INTEGRATION
 # ============================================================

@@ -18,7 +18,7 @@ treats every slide as a story beat, not just an information container.
 ## Steps
 1. **Sparkline Architecture** — [nancy-duarte](../agents/nancy-duarte.md): Map the narrative oscillation → Sparkline Blueprint
    - Framework: Duarte Sparkline
-   - Checklist: cl-sparkline-architecture
+   - Checklist: [duarte/sparkline-audit](../checklists/duarte/sparkline-audit.md)
    - Plot the "what is" baseline: the audience's current reality and pain
    - Plot the "what could be" peaks: the vision of the transformed future
    - Alternate between the two states, building tension with each cycle
@@ -27,7 +27,7 @@ treats every slide as a story beat, not just an information container.
 
 2. **Beat-to-Slide Mapping** — [nancy-duarte](../agents/nancy-duarte.md) + [blake-snyder](../agents/blake-snyder.md): Assign narrative beats to slides → Slide Map
    - Framework: One idea per slide principle
-   - Checklist: cl-slide-mapping
+   - Checklist: [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
    - Each slide carries exactly one narrative beat (not one topic — one beat)
    - Mark slide types: assertion, evidence, tension, relief, transition, CTA
    - Identify "star moments": the 2-3 slides that must be unforgettable
@@ -36,7 +36,7 @@ treats every slide as a story beat, not just an information container.
 
 3. **Content Development** — [nancy-duarte](../agents/nancy-duarte.md) + [donald-miller](../agents/donald-miller.md): Write slide narratives and speaker notes → Content Draft
    - Framework: Assertion-Evidence slide design
-   - Checklist: cl-slide-content
+   - Checklist: [deck-story-quality](../checklists/deck-story-quality.md)
    - Write headline assertions (not topic labels) for each slide
    - Headlines should be complete sentences that state the point
    - Develop speaker notes with full narrative, transitions, and timing cues
@@ -45,7 +45,7 @@ treats every slide as a story beat, not just an information container.
 
 4. **Proof Integration** — [kindra-hall](../agents/kindra-hall.md): Place evidence at moments of skepticism → Proof-Loaded Deck
    - Framework: Proof Bank selection criteria
-   - Checklist: cl-deck-proof-integration
+   - Checklist: [proof-in-story-quality](../checklists/proof-in-story-quality.md)
    - Position data visualizations at "what is" moments to validate the problem
    - Position case studies and testimonials at "what could be" moments to validate the vision
    - Every major claim must have a proof slide within 2 slides
@@ -54,7 +54,7 @@ treats every slide as a story beat, not just an information container.
 
 5. **Visual Design Brief** — [nancy-duarte](../agents/nancy-duarte.md): Define the visual narrative → Design Brief
    - Framework: Visual storytelling principles
-   - Checklist: cl-visual-design-brief
+   - Checklist: [duarte/deck-flow-and-contrast-audit](../checklists/duarte/deck-flow-and-contrast-audit.md)
    - Specify the visual metaphor or motif that threads through the deck
    - Define the color strategy: how color reinforces "what is" vs. "what could be"
    - Brief star moment slides with specific visual requirements
@@ -63,7 +63,7 @@ treats every slide as a story beat, not just an information container.
 
 6. **Dry Run Review** — [shawn-coyne](../agents/shawn-coyne.md) + [keith-johnstone](../agents/keith-johnstone.md): Review assembled deck in presentation mode → Dry Run Notes
    - Framework: Presentation quality rubric
-   - Checklist: cl-deck-dry-run
+   - Checklist: [opening-and-close-quality](../checklists/opening-and-close-quality.md)
    - Present the full deck in real time — no stopping to explain
    - Evaluate narrative flow: does each slide transition feel inevitable
    - Check timing: are star moments given enough space, are transitions too slow
@@ -72,7 +72,7 @@ treats every slide as a story beat, not just an information container.
 
 7. **Revision and Polish** — [nancy-duarte](../agents/nancy-duarte.md) + [donald-miller](../agents/donald-miller.md): Refine based on dry run → Polished Deck
    - Framework: Duarte Sparkline (re-verify oscillation pattern)
-   - Checklist: cl-deck-revision
+   - Checklist: [editing-and-trimming-quality](../checklists/editing-and-trimming-quality.md)
    - Cut slides that don't advance the narrative (be ruthless)
    - Strengthen transitions between "what is" and "what could be"
    - Sharpen headlines — every assertion should be quotable
@@ -81,7 +81,7 @@ treats every slide as a story beat, not just an information container.
 
 8. **Delivery Preparation** — [keith-johnstone](../agents/keith-johnstone.md) + [nancy-duarte](../agents/nancy-duarte.md): Prepare the presenter → Delivery-Ready Package
    - Framework: Presentation delivery framework
-   - Checklist: cl-deck-delivery-prep
+   - Checklist: [duarte/call-to-action-close-audit](../checklists/duarte/call-to-action-close-audit.md)
    - Create a presenter cheat sheet: key beats, transition phrases, timing marks
    - Prepare backup plans: slides that can be skipped if time is cut
    - Develop Q&A anticipation list with slide references for each likely question

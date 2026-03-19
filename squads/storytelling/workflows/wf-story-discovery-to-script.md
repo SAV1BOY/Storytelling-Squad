@@ -18,78 +18,78 @@ architecture before reaching its audience.
 ## Steps
 1. **Discovery Intake** — [donald-miller](../agents/donald-miller.md) + [kindra-hall](../agents/kindra-hall.md): Gather raw inputs and define the narrative objective → Discovery Brief
    - Framework: StoryBrand SB7
-   - Checklist: cl-story-discovery-intake
+   - Checklist: [story-brief-quality](../checklists/story-brief-quality.md)
    - Collect all available source material: interviews, transcripts, data points, quotes
    - Define the hero (audience), the problem (external, internal, philosophical), and the guide (brand)
 
 2. **Audience-Problem Mapping** — [joseph-campbell](../agents/joseph-campbell.md) + [donald-miller](../agents/donald-miller.md): Map the audience journey and core tensions → Audience-Problem Map
    - Framework: Hero's Journey / Pixar Story Spine
-   - Checklist: cl-audience-mapping
+   - Checklist: [five-second-moment-audit](../checklists/dicks/five-second-moment-audit.md)
    - Identify the gap between where the audience is and where they want to be
    - Surface the internal problem that drives emotional engagement
 
 3. **Narrative Structure Selection** — [shawn-coyne](../agents/shawn-coyne.md) + [nancy-duarte](../agents/nancy-duarte.md): Choose and apply the right story framework → Story Skeleton
    - Framework: Duarte Sparkline, Freytag Pyramid, or Story Spine (select best fit)
-   - Checklist: cl-structure-selection
+   - Checklist: [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
    - Map key beats: hook, rising tension, climax, resolution, call to action
    - Validate that the structure serves the objective and channel constraints
 
 4. **First Draft** — [dan-harmon](../agents/dan-harmon.md): Write the complete narrative draft → Raw Script
    - Framework: Selected structure from Step 3
-   - Checklist: cl-draft-quality
+   - Checklist: [emotional-arc-quality](../checklists/emotional-arc-quality.md)
    - Write with focus on specificity, sensory detail, and emotional truth
    - Include all proof points, analogies, and transitions
    - Mark sections needing fact-check or approval
 
 5. **Internal Review** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Evaluate against quality gates → Annotated Draft
    - Framework: Narrative Quality Rubric
-   - Checklist: cl-story-review
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Check for clarity, emotional arc, proof integration, and CTA strength
    - Verify brand voice consistency and audience appropriateness
    - Flag any claims needing verification from Proof Bank
 
 6. **Revision Cycle** — [dan-harmon](../agents/dan-harmon.md) + [shawn-coyne](../agents/shawn-coyne.md): Incorporate feedback and refine → Revised Script
    - Framework: Same as Step 3
-   - Checklist: cl-revision-pass
+   - Checklist: [editing-and-trimming-quality](../checklists/editing-and-trimming-quality.md)
    - Address all review annotations
    - Tighten language, strengthen transitions, sharpen the hook
    - Maximum two revision cycles before escalation
 
 7. **Final Polish and Approval** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Final quality pass and sign-off → Approved Script
    - Framework: Channel-specific formatting guide
-   - Checklist: cl-final-approval
+   - Checklist: [grunt-test-audit](../checklists/miller/grunt-test-audit.md)
    - Proofread for grammar, tone, and formatting
    - Confirm all proof points are sourced and accurate
    - Obtain stakeholder sign-off if required
 
 8. **Story Bank Registration** — [donald-miller](../agents/donald-miller.md) + [kindra-hall](../agents/kindra-hall.md): Archive and tag the finished story → Story Bank Entry
    - Framework: Story Bank taxonomy
-   - Checklist: cl-story-registration
+   - Checklist: [story-brief-quality](../checklists/story-brief-quality.md)
    - Tag with type, channel, audience, emotion, framework used, and status
    - Link to source materials and approval records
 
 ## Quality Gates & Decision Logic
 
 ### Gate 1 (after Step 1): Discovery Brief Completeness
-- **Checklist:** [cl-story-discovery-intake](../checklists/cl-story-discovery-intake.md)
+- **Checklist:** [story-brief-quality](../checklists/story-brief-quality.md)
 - **IF PASS:** Proceed to Step 2
 - **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-storybrand-sb7](../frameworks/miller-storybrand-sb7.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 2 (after Step 3): Story Skeleton Structural Review
-- **Checklist:** [cl-structure-selection](../checklists/cl-structure-selection.md)
+- **Checklist:** [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
 - **IF PASS:** Proceed to Step 4
 - **IF FAIL:** Rework with [joseph-campbell](../agents/joseph-campbell.md) using [campbell-heros-journey](../frameworks/campbell-heros-journey.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 3 (after Step 5): Draft Narrative Quality Score
-- **Checklist:** [cl-story-review](../checklists/cl-story-review.md)
+- **Checklist:** [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
 - **IF PASS:** Proceed to Step 6
 - **IF FAIL:** Rework with [shawn-coyne](../agents/shawn-coyne.md) using [coyne-story-grid](../frameworks/coyne-story-grid.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 4 (after Step 7): Final Approval Zero Open Issues
-- **Checklist:** [cl-final-approval](../checklists/cl-final-approval.md)
+- **Checklist:** [grunt-test-audit](../checklists/miller/grunt-test-audit.md)
 - **IF PASS:** Proceed to Step 8
 - **IF FAIL:** Rework with [donald-miller](../agents/donald-miller.md) using [miller-grunt-test](../frameworks/miller-grunt-test.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules

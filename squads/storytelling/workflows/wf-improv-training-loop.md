@@ -18,7 +18,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 ## Steps
 1. **Skill Assessment** — [keith-johnstone](../agents/keith-johnstone.md): Evaluate current storytelling agility → Skill Baseline
    - Framework: Storytelling agility rubric
-   - Checklist: cl-improv-assessment
+   - Checklist: [improv-readiness-quality](../checklists/improv-readiness-quality.md)
    - Assess each participant on five dimensions: spontaneity, listening, building, emotional
      range, and narrative structure
    - Identify the weakest collective dimension — this becomes the session focus
@@ -27,7 +27,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 
 2. **Drill Selection** — [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md): Choose exercises targeting the skill gap → Drill Sequence
    - Framework: Improv games registry (improv-games-registry.yaml)
-   - Checklist: cl-drill-selection
+   - Checklist: [johnstone/improv-scene-building-audit](../checklists/johnstone/improv-scene-building-audit.md)
    - Select 2-3 warm-up drills that activate listening and presence
    - Select 1-2 targeted drills that directly address the session focus skill
    - Sequence from low-risk (group) to higher-risk (individual) exercises
@@ -36,7 +36,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 
 3. **Warm-Up Drills** — [keith-johnstone](../agents/keith-johnstone.md): Activate presence and connection → Warmed Group
    - Framework: Improv warm-up progression
-   - Checklist: cl-warmup-execution
+   - Checklist: [johnstone/spontaneity-blocks-audit](../checklists/johnstone/spontaneity-blocks-audit.md)
    - Start with a physical/vocal warm-up to break self-consciousness
    - Run "Yes, And" exercises to establish the foundational improv principle
    - Execute word-association chains to loosen creative pathways
@@ -45,7 +45,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 
 4. **Targeted Skill Drills** — [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md): Practice the focus skill → Drill Performance
    - Framework: Selected drills from Step 2
-   - Checklist: cl-targeted-drills
+   - Checklist: [johnstone/offers-and-acceptance-audit](../checklists/johnstone/offers-and-acceptance-audit.md)
    - Brief each drill clearly: rules, objective, what "good" looks like
    - Run the drill with coaching in real-time (side-coaching, not interrupting)
    - Increase difficulty incrementally within each drill
@@ -54,7 +54,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 
 5. **Scene Work** — [keith-johnstone](../agents/keith-johnstone.md): Apply skills in narrative scenes → Scene Performances
    - Framework: Narrative scene structure (beginning, middle, heighten, resolve)
-   - Checklist: cl-scene-work
+   - Checklist: [johnstone/status-transaction-audit](../checklists/johnstone/status-transaction-audit.md)
    - Set up scenes with a narrative constraint that forces use of the target skill
    - Run 3-4 scenes of 3-5 minutes each with different participant combinations
    - Audience members (non-performing participants) observe with specific feedback lens
@@ -63,7 +63,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 
 6. **Feedback Round** — [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md): Structured reflection → Feedback Notes
    - Framework: Improv feedback methodology (positive-specific-developmental)
-   - Checklist: cl-improv-feedback
+   - Checklist: [improv-readiness-quality](../checklists/improv-readiness-quality.md)
    - Each scene gets specific positive feedback first: what worked and why
    - Identify moments where the target skill was successfully demonstrated
    - Note patterns: where did scenes lose narrative momentum, where did they soar
@@ -72,7 +72,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 
 7. **Replay and Refinement** — [keith-johnstone](../agents/keith-johnstone.md): Re-run scenes with feedback applied → Improved Scenes
    - Framework: Deliberate practice methodology
-   - Checklist: cl-replay-refinement
+   - Checklist: [johnstone/improv-scene-building-audit](../checklists/johnstone/improv-scene-building-audit.md)
    - Select the 1-2 strongest scenes for replay with specific coaching notes
    - Participants consciously apply feedback while maintaining spontaneity
    - Compare replay quality to original — note visible improvement
@@ -81,7 +81,7 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 
 8. **Session Debrief and Loop Setup** — [keith-johnstone](../agents/keith-johnstone.md) + [matthew-dicks](../agents/matthew-dicks.md): Capture learnings and plan next cycle → Session Report
    - Framework: Training loop methodology
-   - Checklist: cl-session-debrief
+   - Checklist: [improv-readiness-quality](../checklists/improv-readiness-quality.md)
    - Score each participant on the five-dimension rubric (post-session)
    - Compare to baseline from Step 1 — document progress
    - Identify the next priority skill for the following session

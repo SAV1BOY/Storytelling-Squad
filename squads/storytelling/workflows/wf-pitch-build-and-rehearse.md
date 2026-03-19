@@ -18,7 +18,7 @@ delivery confidence.
 ## Steps
 1. **Pitch Framing** — Story Strategist [donald-miller](../agents/donald-miller.md): Define the pitch architecture → Pitch Frame Document
    - Framework: Duarte Sparkline (what is vs. what could be)
-   - Checklist: cl-pitch-framing
+   - Checklist: [pitch-story-quality](../checklists/pitch-story-quality.md)
    - Identify the single most important idea the audience must remember
    - Map the audience's current belief state and desired end state
    - Define the transformation promise: what changes if they say yes
@@ -26,7 +26,7 @@ delivery confidence.
 
 2. **Script Development** — Pitch Expert [oren-klaff](../agents/oren-klaff.md): Write the complete pitch script → Pitch Script Draft
    - Framework: StoryBrand SB7 + Duarte Sparkline hybrid
-   - Checklist: cl-pitch-script
+   - Checklist: [pitch-frames-audit](../checklists/klaff/pitch-frames-audit.md)
    - Open with a hook that creates an open loop or emotional connection
    - Establish the problem with specificity — make the audience feel it
    - Present the solution as a journey from their current state to success
@@ -36,7 +36,7 @@ delivery confidence.
 
 3. **Objection Mapping** — Pitch Expert [oren-klaff](../agents/oren-klaff.md): Anticipate and script responses → Objection Playbook
    - Framework: Objection-to-story mapping matrix
-   - Checklist: cl-objection-mapping
+   - Checklist: [tension-and-novelty-audit](../checklists/klaff/tension-and-novelty-audit.md)
    - List top 5-10 objections the audience is likely to raise
    - For each objection, prepare a story-based response (not just a rebuttal)
    - Create bridge phrases that acknowledge the concern and redirect to narrative
@@ -45,7 +45,7 @@ delivery confidence.
 
 4. **Proof Integration** — Story Collector [kindra-hall](../agents/kindra-hall.md): Select and position proof points → Proof-Loaded Script
    - Framework: Proof Bank selection criteria
-   - Checklist: cl-proof-integration
+   - Checklist: [proof-in-story-quality](../checklists/proof-in-story-quality.md)
    - Match proof types to audience skepticism profile
    - Position social proof (testimonials, logos) for credibility moments
    - Position data proof (metrics, ROI) for logical decision moments
@@ -54,7 +54,7 @@ delivery confidence.
 
 5. **Rehearsal Round 1** — Improv Coach [keith-johnstone](../agents/keith-johnstone.md) + Presenter: First full run-through → Feedback Notes R1
    - Framework: Presentation feedback rubric
-   - Checklist: cl-rehearsal-feedback
+   - Checklist: [improv-readiness-quality](../checklists/improv-readiness-quality.md)
    - Record the full rehearsal for review
    - Evaluate: timing, clarity, emotional arc, transitions, confidence
    - Note where energy drops, where confusion appears, where proof feels forced
@@ -63,7 +63,7 @@ delivery confidence.
 
 6. **Script Revision** — Pitch Expert [oren-klaff](../agents/oren-klaff.md): Incorporate rehearsal feedback → Revised Pitch Script
    - Framework: Same as Step 2
-   - Checklist: cl-pitch-revision
+   - Checklist: [editing-and-trimming-quality](../checklists/editing-and-trimming-quality.md)
    - Tighten language: cut every word that doesn't earn its place
    - Strengthen weak transitions identified in rehearsal
    - Adjust timing: expand sections that need breathing room, compress bloat
@@ -71,7 +71,7 @@ delivery confidence.
 
 7. **Rehearsal Round 2** — Improv Coach [keith-johnstone](../agents/keith-johnstone.md) + Presenter: Refined run-through with simulated Q&A → Feedback Notes R2
    - Framework: Presentation feedback rubric + Q&A simulation
-   - Checklist: cl-rehearsal-round-2
+   - Checklist: [status-alignment-audit](../checklists/klaff/status-alignment-audit.md)
    - Full pitch delivery followed by 10 minutes of hostile Q&A
    - Test objection responses from Step 3 under pressure
    - Evaluate recovery: how well does the presenter return to narrative after interruption
@@ -79,7 +79,7 @@ delivery confidence.
 
 8. **Final Polish** — Story Editor [shawn-coyne](../agents/shawn-coyne.md): Last-pass refinement and delivery prep → Final Pitch Package
    - Framework: Pitch delivery checklist
-   - Checklist: cl-pitch-final
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Lock the script — no more structural changes
    - Prepare environment notes: room setup, tech requirements, backup plans
    - Create a one-page cheat sheet with key beats, transitions, and proof triggers
@@ -87,7 +87,7 @@ delivery confidence.
 
 9. **Post-Pitch Debrief** — Story Strategist [donald-miller](../agents/donald-miller.md) + Presenter: Capture learnings → Debrief Report
    - Framework: After-action review template
-   - Checklist: cl-pitch-debrief
+   - Checklist: [story-brief-quality](../checklists/story-brief-quality.md)
    - Record audience reactions, questions asked, and objections raised
    - Identify what landed strongest and what fell flat
    - Update Objection Playbook with real-world objections encountered

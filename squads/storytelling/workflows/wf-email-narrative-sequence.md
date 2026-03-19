@@ -18,7 +18,7 @@ series, or any multi-email journey where narrative coherence creates compounding
 ## Steps
 1. **Arc Architecture** — [dan-harmon](../agents/dan-harmon.md) + [donald-miller](../agents/donald-miller.md): Design the overarching narrative structure → Arc Blueprint
    - Framework: Serial narrative structure (adapted from episodic storytelling)
-   - Checklist: cl-email-arc-design
+   - Checklist: [email-sequence-narrative-quality](../checklists/email-sequence-narrative-quality.md)
    - Define the macro story: what transformation does the subscriber experience across all emails
    - Map the emotional journey: curiosity → recognition → tension → hope → conviction → action
    - Assign each email a narrative role: hook, deepen, prove, challenge, resolve, convert
@@ -27,7 +27,7 @@ series, or any multi-email journey where narrative coherence creates compounding
 
 2. **Individual Email Scripting** — [dan-harmon](../agents/dan-harmon.md) + [kindra-hall](../agents/kindra-hall.md): Write each email as a narrative beat → Email Drafts
    - Framework: AIDA adapted for narrative email (Attention, Interest, Desire, Action per email)
-   - Checklist: cl-email-scripting
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Email 1 (Hook): Open a compelling loop — introduce the character, the problem, or the question
    - Email 2 (Deepen): Expand the problem — make it personal, relatable, urgent
    - Email 3 (Prove): Introduce evidence — a case study, data point, or testimonial
@@ -38,7 +38,7 @@ series, or any multi-email journey where narrative coherence creates compounding
 
 3. **Hook Development** — [oren-klaff](../agents/oren-klaff.md) + [dan-harmon](../agents/dan-harmon.md): Craft subject lines and opening hooks → Hook Set
    - Framework: Curiosity gap + pattern interrupt methodology
-   - Checklist: cl-hook-development
+   - Checklist: [hook-and-open-loop-quality](../checklists/hook-and-open-loop-quality.md)
    - Write 3 subject line variants per email for A/B testing
    - First line of each email must justify the subject line — deliver on the curiosity promise
    - Use story-driven hooks: start mid-scene, ask a loaded question, make a bold claim
@@ -47,7 +47,7 @@ series, or any multi-email journey where narrative coherence creates compounding
 
 4. **Proof Integration** — [kindra-hall](../agents/kindra-hall.md): Place evidence within the narrative flow → Proof-Loaded Emails
    - Framework: Proof Bank selection criteria
-   - Checklist: cl-email-proof-integration
+   - Checklist: [proof-in-story-quality](../checklists/proof-in-story-quality.md)
    - Map proof types to the email sequence: social proof early, data proof mid, story proof late
    - Embed proof as story elements, not citations — show, don't list
    - Position the strongest proof in the email immediately before the primary CTA
@@ -56,7 +56,7 @@ series, or any multi-email journey where narrative coherence creates compounding
 
 5. **Transition Design** — [dan-harmon](../agents/dan-harmon.md): Engineer email-to-email continuity → Transition Map
    - Framework: Serial cliffhanger methodology
-   - Checklist: cl-transition-design
+   - Checklist: [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
    - Every email except the last must end with a forward-pulling element
    - Use preview hooks: "Tomorrow, I'll show you exactly how [character] solved this"
    - Use open loops: introduce a question or mystery that only the next email resolves
@@ -65,7 +65,7 @@ series, or any multi-email journey where narrative coherence creates compounding
 
 6. **Sequence Review** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Evaluate the complete sequence as a unit → Review Notes
    - Framework: Email narrative quality rubric
-   - Checklist: cl-email-sequence-review
+   - Checklist: [email-sequence-narrative-quality](../checklists/email-sequence-narrative-quality.md)
    - Read all emails in order at the intended cadence pace — does the arc feel right
    - Check that open loops are actually closed (no forgotten promises)
    - Verify emotional progression is smooth, not repetitive or jarring
@@ -74,7 +74,7 @@ series, or any multi-email journey where narrative coherence creates compounding
 
 7. **Testing and Optimization Setup** — [donald-miller](../agents/donald-miller.md): Configure A/B tests and tracking → Test Plan
    - Framework: Email testing methodology
-   - Checklist: cl-email-testing
+   - Checklist: [email-sequence-narrative-quality](../checklists/email-sequence-narrative-quality.md)
    - Set up subject line A/B tests for each email
    - Configure open rate, click rate, and conversion tracking per email
    - Set up sequence-level metrics: completion rate, total conversion, drop-off points
@@ -83,7 +83,7 @@ series, or any multi-email journey where narrative coherence creates compounding
 
 8. **Launch and Iteration** — [dan-harmon](../agents/dan-harmon.md) + [donald-miller](../agents/donald-miller.md): Deploy and refine based on data → Optimized Sequence
    - Framework: Iterative narrative optimization
-   - Checklist: cl-email-launch
+   - Checklist: [harmon/story-circle-8-steps-audit](../checklists/harmon/story-circle-8-steps-audit.md)
    - Deploy sequence to first segment
    - Monitor daily: open rates, click rates, reply rates, unsubscribe rates
    - Identify the weakest email by engagement — revise hook and narrative beat

@@ -18,7 +18,7 @@ for a new stage of company growth, or adapted for a specific audience or channel
 ## Steps
 1. **Founder Interview — Session 1: Origin** — [matthew-dicks](../agents/matthew-dicks.md): Deep-dive into founding moments → Raw Origin Material
    - Framework: Narrative interview methodology (origin focus)
-   - Checklist: cl-founder-interview-origin
+   - Checklist: [five-second-moment-audit](../checklists/dicks/five-second-moment-audit.md)
    - Explore childhood influences that shaped the founder's worldview
    - Identify the "inciting incident": what experience created the problem awareness
    - Probe the decision moment: when did the founder commit to solving this problem
@@ -28,7 +28,7 @@ for a new stage of company growth, or adapted for a specific audience or channel
 
 2. **Founder Interview — Session 2: Journey** — [matthew-dicks](../agents/matthew-dicks.md) + [kindra-hall](../agents/kindra-hall.md): Map the entrepreneurial arc → Raw Journey Material
    - Framework: Narrative interview methodology (journey focus)
-   - Checklist: cl-founder-interview-journey
+   - Checklist: [personal-story-transformation-audit](../checklists/dicks/personal-story-transformation-audit.md)
    - Walk through the company timeline chronologically but focus on emotional beats
    - Identify the "darkest moment": when everything seemed impossible
    - Capture pivots and surprises: what did the founder learn that changed everything
@@ -38,7 +38,7 @@ for a new stage of company growth, or adapted for a specific audience or channel
 
 3. **Moment Mapping** — [joseph-campbell](../agents/joseph-campbell.md) + [matthew-dicks](../agents/matthew-dicks.md): Identify the narrative-critical moments → Moment Map
    - Framework: Pixar Story Spine + Hero's Journey hybrid
-   - Checklist: cl-moment-mapping
+   - Checklist: [character-transformation-quality](../checklists/character-transformation-quality.md)
    - Review all interview material and extract candidate moments (aim for 15-20)
    - Rate each moment on: emotional impact, relevance to brand, storytelling potential
    - Select the 5-7 moments that form the strongest narrative arc
@@ -47,7 +47,7 @@ for a new stage of company growth, or adapted for a specific audience or channel
 
 4. **Arc Construction** — [joseph-campbell](../agents/joseph-campbell.md) + [kindra-hall](../agents/kindra-hall.md): Build the narrative structure → Story Arc Blueprint
    - Framework: Three-act structure adapted for founder narratives
-   - Checklist: cl-arc-construction
+   - Checklist: [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
    - Act I (Origin): The world before, the problem felt personally, the commitment to act
    - Act II (Journey): The struggle, the learning, the pivots, the darkest moment
    - Act III (Vision): The breakthrough, the current mission, the future being built
@@ -56,7 +56,7 @@ for a new stage of company growth, or adapted for a specific audience or channel
 
 5. **Draft Writing** — [matthew-dicks](../agents/matthew-dicks.md): Create the full founder narrative → Founder Story Draft
    - Framework: Selected arc from Step 4
-   - Checklist: cl-founder-draft
+   - Checklist: [founder-story-quality](../checklists/founder-story-quality.md)
    - Write in a voice that sounds like the founder, not about the founder
    - Open with the most compelling moment — not necessarily chronological
    - Use specific details: names, dates, places, amounts, sensory descriptions
@@ -66,7 +66,7 @@ for a new stage of company growth, or adapted for a specific audience or channel
 
 6. **Founder Review** — [donald-miller](../agents/donald-miller.md) + [matthew-dicks](../agents/matthew-dicks.md): Validate authenticity and accuracy → Annotated Draft
    - Framework: Founder approval methodology
-   - Checklist: cl-founder-review
+   - Checklist: [grunt-test-audit](../checklists/miller/grunt-test-audit.md)
    - Read the draft aloud with the founder — emotional response is the primary signal
    - Check factual accuracy: dates, numbers, sequence of events
    - Verify emotional truth: does this feel real, not polished beyond recognition
@@ -75,7 +75,7 @@ for a new stage of company growth, or adapted for a specific audience or channel
 
 7. **Version Creation** — [kindra-hall](../agents/kindra-hall.md) + [matthew-dicks](../agents/matthew-dicks.md): Produce length and channel variants → Version Set
    - Framework: Channel adaptation matrix
-   - Checklist: cl-founder-versions
+   - Checklist: [multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Full narrative (2000-2500 words): website, PR, book/blog
    - Medium version (500-800 words): about page, investor materials
    - Short version (150-250 words): bios, introductions, email signatures
@@ -85,7 +85,7 @@ for a new stage of company growth, or adapted for a specific audience or channel
 
 8. **Refinement and Registration** — [shawn-coyne](../agents/shawn-coyne.md) + [donald-miller](../agents/donald-miller.md): Final polish and archiving → Approved Founder Story
    - Framework: Narrative Quality Rubric
-   - Checklist: cl-founder-finalization
+   - Checklist: [editing-and-trimming-quality](../checklists/editing-and-trimming-quality.md)
    - Final edit for voice consistency across all versions
    - Proofread all versions for accuracy and grammar
    - Obtain founder's written approval on all versions

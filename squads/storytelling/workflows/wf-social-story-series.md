@@ -19,7 +19,7 @@ from narrative continuity and compounding audience engagement.
 ## Steps
 1. **Theme Selection and Arc Design** — [park-howell](../agents/park-howell.md) + [dan-harmon](../agents/dan-harmon.md): Define the series narrative → Series Blueprint
    - Framework: Episodic narrative structure for social media
-   - Checklist: cl-social-theme-selection
+   - Checklist: [social-media-story-quality](../checklists/social-media-story-quality.md)
    - Choose a theme that connects to a current audience tension or aspiration
    - Design the series arc: 5-10 posts that build from introduction to payoff
    - Define the through-line: what narrative thread connects every post
@@ -29,7 +29,7 @@ from narrative continuity and compounding audience engagement.
 
 2. **Micro-Story Development** — [dan-harmon](../agents/dan-harmon.md) + [kindra-hall](../agents/kindra-hall.md): Create individual post narratives → Micro-Story Drafts
    - Framework: Micro-narrative structure (hook, tension, insight in under 280 characters or 60s)
-   - Checklist: cl-micro-story-development
+   - Checklist: [micro-story-quality](../checklists/narrative/micro-story-quality.md)
    - Each post must work standalone (a new follower's first encounter) AND as a series entry
    - Open each post with a hook: question, bold statement, story opening, or surprising data
    - Deliver value within each post: an insight, a lesson, an emotion, or a reframe
@@ -39,7 +39,7 @@ from narrative continuity and compounding audience engagement.
 
 3. **Visual Narrative Planning** — [nancy-duarte](../agents/nancy-duarte.md): Design the visual story layer → Visual Brief
    - Framework: Visual continuity for social series
-   - Checklist: cl-visual-narrative
+   - Checklist: [deck-flow-and-contrast-audit](../checklists/duarte/deck-flow-and-contrast-audit.md)
    - Create a visual identity for the series: consistent color palette, typography, or motif
    - Design each post's visual to reinforce the narrative beat it carries
    - Plan carousel layouts: each card tells one part of the story
@@ -49,7 +49,7 @@ from narrative continuity and compounding audience engagement.
 
 4. **Sequence Optimization** — [blake-snyder](../agents/blake-snyder.md) + [dan-harmon](../agents/dan-harmon.md): Order posts for maximum narrative impact → Publication Sequence
    - Framework: Narrative sequencing and engagement optimization
-   - Checklist: cl-sequence-optimization
+   - Checklist: [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
    - Post 1 must earn attention and set the series promise — it's the pilot episode
    - Alternate between emotional and intellectual posts to maintain engagement variety
    - Place the highest-proof post (case study, data) at the series midpoint to sustain momentum
@@ -59,7 +59,7 @@ from narrative continuity and compounding audience engagement.
 
 5. **Engagement Scripting** — [kindra-hall](../agents/kindra-hall.md) + [dan-harmon](../agents/dan-harmon.md): Plan community interaction → Engagement Playbook
    - Framework: Conversational storytelling methodology
-   - Checklist: cl-engagement-scripting
+   - Checklist: [but-therefore-causality-audit](../checklists/harmon/but-therefore-causality-audit.md)
    - Prepare response templates for likely comments on each post
    - Script "story extension" replies: responses that add narrative depth when someone engages
    - Plan prompts that invite audience stories: "Has this happened to you?"
@@ -68,7 +68,7 @@ from narrative continuity and compounding audience engagement.
 
 6. **Cross-Platform Adaptation** — [dan-harmon](../agents/dan-harmon.md) + [donald-miller](../agents/donald-miller.md): Adapt the series for each platform → Platform Versions
    - Framework: Platform-specific narrative adaptation
-   - Checklist: cl-platform-adaptation
+   - Checklist: [multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
    - Twitter/X: Thread format, sharp hooks, numbered series, quote-tweet strategy
    - LinkedIn: Professional narrative, insight-first, longer captions, community tagging
    - Instagram: Visual-first, carousel storytelling, Story/Reel companion content
@@ -78,7 +78,7 @@ from narrative continuity and compounding audience engagement.
 
 7. **Publication and Monitoring** — [donald-miller](../agents/donald-miller.md): Deploy the series and track response → Live Series + Metrics
    - Framework: Content deployment and real-time optimization
-   - Checklist: cl-social-publication
+   - Checklist: [hook-and-open-loop-quality](../checklists/hook-and-open-loop-quality.md)
    - Schedule all posts using the planned cadence and timing
    - Monitor engagement in real-time for the first 2 hours after each post
    - Track series-level metrics: follower growth, series completion rate, engagement trend
@@ -88,7 +88,7 @@ from narrative continuity and compounding audience engagement.
 
 8. **Series Wrap and Learnings** — [park-howell](../agents/park-howell.md) + [donald-miller](../agents/donald-miller.md): Analyze and archive → Series Report
    - Framework: Content performance analysis
-   - Checklist: cl-series-wrap
+   - Checklist: [narrative-clarity-quality](../checklists/narrative-clarity-quality.md)
    - Compile performance data: per-post and series-level metrics
    - Identify the strongest and weakest posts — analyze why
    - Capture audience language and stories shared in response
@@ -100,31 +100,31 @@ from narrative continuity and compounding audience engagement.
 ## Quality Gates & Decision Logic
 
 ### Gate 1 (after Step 1): Series Arc Completeness
-- **Checklist:** [cl-social-theme-selection](../checklists/cl-social-theme-selection.md)
+- **Checklist:** [social-media-story-quality](../checklists/social-media-story-quality.md)
 - **IF PASS:** Proceed to Step 2
 - **IF FAIL:** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 2 (after Step 2): Micro-Story Standalone + Continuity Test
-- **Checklist:** [cl-micro-story-development](../checklists/cl-micro-story-development.md)
+- **Checklist:** [micro-story-quality](../checklists/narrative/micro-story-quality.md)
 - **IF PASS:** Proceed to Step 3
 - **IF FAIL:** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 3 (after Step 4): Sequence Engagement Variety
-- **Checklist:** [cl-sequence-optimization](../checklists/cl-sequence-optimization.md)
+- **Checklist:** [structure-and-pacing-quality](../checklists/structure-and-pacing-quality.md)
 - **IF PASS:** Proceed to Step 5
 - **IF FAIL:** Rework with [blake-snyder](../agents/blake-snyder.md) using [snyder-beat-sheet](../frameworks/snyder-beat-sheet.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 4 (after Step 6): Platform Adaptation Fidelity
-- **Checklist:** [cl-platform-adaptation](../checklists/cl-platform-adaptation.md)
+- **Checklist:** [multi-channel-consistency-quality](../checklists/narrative/multi-channel-consistency-quality.md)
 - **IF PASS:** Proceed to Step 7
 - **IF FAIL:** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
 
 ### Gate 5 (after Step 7): Series Engagement Trajectory
-- **Checklist:** [cl-social-publication](../checklists/cl-social-publication.md)
+- **Checklist:** [hook-and-open-loop-quality](../checklists/hook-and-open-loop-quality.md)
 - **IF PASS:** Proceed to Step 8
 - **IF FAIL:** Rework with [dan-harmon](../agents/dan-harmon.md) using [harmon-story-circle](../frameworks/harmon-story-circle.md). Re-submit.
 - **IF 2nd FAIL same dimension:** Escalate to Chief per config.yaml escalation_rules
