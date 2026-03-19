@@ -155,6 +155,16 @@ customer stories that fuel sales, marketing, and brand efforts.
 - **To Traffic Squad**: Social-ready assets and headline variants for distribution
 - **To Sales Squad**: Slide-ready stories and objection-handling quotes for enablement
 
+## Related Tasks
+- [story-selection-strategy](../tasks/strategy/story-selection-strategy.md) — Step 1
+- [testimonial-collection](../tasks/research/testimonial-collection.md) — Steps 2-3
+- [write-case-study-story](../tasks/creation/write-case-study-story.md) — Step 4
+- [story-review](../tasks/review/story-review.md) — Step 5
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Step 7
+- [extract-social-snippets](../tasks/extraction/extract-social-snippets.md) — Steps 7-8
+- [story-bank-gap-analysis](../tasks/research/story-bank-gap-analysis.md) — Step 9
+- [maintain-story-bank](../tasks/operations/maintain-story-bank.md) — Step 9
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

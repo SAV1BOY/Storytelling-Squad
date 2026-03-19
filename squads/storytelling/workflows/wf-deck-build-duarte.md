@@ -133,6 +133,14 @@ treats every slide as a story beat, not just an information container.
 - **To Traffic Squad**: Star moment content adapted for social media and ad hooks
 - **To Design Squad**: Visual design brief with slide-by-slide annotations and specifications
 
+## Related Tasks
+- [presentation-strategy](../tasks/strategy/presentation-strategy.md) — Steps 1-2
+- [build-sales-deck](../tasks/creation/build-sales-deck.md) — Steps 3, 5
+- [add-proof-to-story](../tasks/refinement/add-proof-to-story.md) — Step 4
+- [deck-review](../tasks/review/deck-review.md) — Step 6
+- [fix-pacing-and-rhythm](../tasks/refinement/fix-pacing-and-rhythm.md) — Step 7
+- [rehearse-presentation](../tasks/delivery/rehearse-presentation.md) — Step 8
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

@@ -150,6 +150,15 @@ delivery confidence.
 - **To Traffic Squad**: Hook variants that proved effective for ad and content headlines
 - **To Sales Squad**: Objection Playbook for broader sales team enablement
 
+## Related Tasks
+- [pitch-strategy](../tasks/strategy/pitch-strategy.md) — Step 1
+- [build-pitch-script](../tasks/creation/build-pitch-script.md) — Steps 2-3
+- [add-proof-to-story](../tasks/refinement/add-proof-to-story.md) — Step 4
+- [rehearse-pitch](../tasks/delivery/rehearse-pitch.md) — Steps 5, 7
+- [compress-and-edit-story](../tasks/refinement/compress-and-edit-story.md) — Step 6
+- [pitch-review](../tasks/review/pitch-review.md) — Step 8
+- [q-and-a-preparation](../tasks/delivery/q-and-a-preparation.md) — Steps 3, 7
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

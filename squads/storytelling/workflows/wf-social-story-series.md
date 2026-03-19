@@ -142,6 +142,13 @@ from narrative continuity and compounding audience engagement.
 - **To Traffic Squad**: Top-performing posts identified for paid amplification
 - **To Community Squad**: Audience stories and engagement patterns for community strategy
 
+## Related Tasks
+- [create-social-story-series](../tasks/creation/create-social-story-series.md) — Steps 1-2
+- [content-narrative-strategy](../tasks/strategy/content-narrative-strategy.md) — Step 1
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Step 6
+- [extract-social-snippets](../tasks/extraction/extract-social-snippets.md) — Steps 2, 5
+- [strengthen-hook](../tasks/refinement/strengthen-hook.md) — Step 4
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

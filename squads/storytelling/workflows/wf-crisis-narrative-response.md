@@ -153,6 +153,14 @@ brand narrative is under threat and requires rapid, coordinated story-level resp
 - **To Traffic Squad**: Pause or adjust active campaigns; deploy crisis-related communications
 - **To Support Squad**: FAQ narratives and response templates for customer-facing teams
 
+## Related Tasks
+- [crisis-narrative-strategy](../tasks/strategy/crisis-narrative-strategy.md) — Steps 1-2
+- [create-public-narrative](../tasks/creation/create-public-narrative.md) — Steps 2-3
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Step 4
+- [q-and-a-preparation](../tasks/delivery/q-and-a-preparation.md) — Step 5
+- [narrative-consistency-review](../tasks/review/narrative-consistency-review.md) — Steps 6-7
+- [maintain-story-bank](../tasks/operations/maintain-story-bank.md) — Step 8
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

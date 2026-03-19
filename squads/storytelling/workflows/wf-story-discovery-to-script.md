@@ -106,6 +106,13 @@ architecture before reaching its audience.
 - **To Traffic Squad**: Hook variants and headline options for distribution testing
 - **To Design Squad**: Story beats mapped to visual moments for layout or storyboard use
 
+## Related Tasks
+- [audience-belief-mapping](../tasks/research/audience-belief-mapping.md) — Step 2
+- [story-selection-strategy](../tasks/strategy/story-selection-strategy.md) — Step 1
+- [improve-emotional-arc](../tasks/refinement/improve-emotional-arc.md) — Step 4
+- [compress-and-edit-story](../tasks/refinement/compress-and-edit-story.md) — Step 6
+- [story-review](../tasks/review/story-review.md) — Steps 5, 7
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

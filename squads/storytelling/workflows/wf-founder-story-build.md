@@ -143,6 +143,14 @@ for a new stage of company growth, or adapted for a specific audience or channel
 - **To Traffic Squad**: Short-form versions and quotes optimized for distribution
 - **To PR Squad**: Full narrative and approved quotes for media use
 
+## Related Tasks
+- [story-mining-interviews](../tasks/research/story-mining-interviews.md) — Steps 1-2
+- [extract-stories-from-interviews](../tasks/extraction/extract-stories-from-interviews.md) — Step 3
+- [craft-founder-story](../tasks/creation/craft-founder-story.md) — Steps 4-5
+- [improve-emotional-arc](../tasks/refinement/improve-emotional-arc.md) — Step 4
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Step 7
+- [compress-and-edit-story](../tasks/refinement/compress-and-edit-story.md) — Step 8
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

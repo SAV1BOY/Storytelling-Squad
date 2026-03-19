@@ -134,6 +134,12 @@ The loop can run as a standalone workshop or as a recurring practice session emb
 - **To Sales Squad**: Objection-handling agility techniques for pitch situations
 - **To Leadership**: Presentation confidence development progress reports
 
+## Related Tasks
+- [improv-training-session](../tasks/delivery/improv-training-session.md) — Steps 1-7
+- [story-slam-practice](../tasks/delivery/story-slam-practice.md) — Step 5
+- [train-team-on-storytelling](../tasks/operations/train-team-on-storytelling.md) — Steps 4, 8
+- [rehearse-presentation](../tasks/delivery/rehearse-presentation.md) — Step 7
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

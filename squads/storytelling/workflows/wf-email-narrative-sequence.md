@@ -136,6 +136,14 @@ series, or any multi-email journey where narrative coherence creates compounding
 - **To Traffic Squad**: High-performing hooks for retargeting and ad copy adaptation
 - **To Automation Squad**: Sequence logic, branching rules, and trigger conditions
 
+## Related Tasks
+- [write-email-sequence-narrative](../tasks/creation/write-email-sequence-narrative.md) — Steps 1-2
+- [extract-email-arc-from-story](../tasks/extraction/extract-email-arc-from-story.md) — Step 1
+- [strengthen-hook](../tasks/refinement/strengthen-hook.md) — Step 3
+- [add-proof-to-story](../tasks/refinement/add-proof-to-story.md) — Step 4
+- [fix-pacing-and-rhythm](../tasks/refinement/fix-pacing-and-rhythm.md) — Step 5
+- [story-review](../tasks/review/story-review.md) — Step 6
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

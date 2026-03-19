@@ -139,6 +139,14 @@ workflow produces a complete narrative ecosystem with ongoing publication cadenc
 - **To Traffic Squad**: Social assets, video scripts, and email sequences for distribution
 - **To Community Squad**: Community storytelling prompts and member spotlight templates
 
+## Related Tasks
+- [create-public-narrative](../tasks/creation/create-public-narrative.md) — Steps 1-4
+- [public-narrative-strategy](../tasks/strategy/public-narrative-strategy.md) — Steps 4-6
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Step 5
+- [create-social-story-series](../tasks/creation/create-social-story-series.md) — Step 5
+- [write-email-sequence-narrative](../tasks/creation/write-email-sequence-narrative.md) — Step 5
+- [narrative-consistency-review](../tasks/review/narrative-consistency-review.md) — Step 8
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

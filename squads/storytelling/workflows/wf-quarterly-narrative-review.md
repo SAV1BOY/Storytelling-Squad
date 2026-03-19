@@ -144,6 +144,13 @@ and success metrics. Use this as the primary governance rhythm for the Storytell
 - **To Traffic Squad**: Story production calendar for distribution planning coordination
 - **To All Squads**: Approved quarterly plan with cross-squad dependencies and commitments
 
+## Related Tasks
+- [quarterly-narrative-review](../tasks/operations/quarterly-narrative-review.md) — Steps 1-8
+- [story-bank-gap-analysis](../tasks/research/story-bank-gap-analysis.md) — Step 3
+- [narrative-consistency-review](../tasks/review/narrative-consistency-review.md) — Steps 2, 7
+- [cross-squad-narrative-sync](../tasks/operations/cross-squad-narrative-sync.md) — Step 4
+- [presentation-strategy](../tasks/strategy/presentation-strategy.md) — Step 8
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

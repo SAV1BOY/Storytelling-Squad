@@ -142,6 +142,14 @@ must land simultaneously across multiple channels with maximum impact.
 - **To Traffic Squad**: Social assets, email sequences, and hooks for distribution
 - **To Sales Squad**: Pitch deck additions, objection responses, and launch talking points
 
+## Related Tasks
+- [launch-narrative-strategy](../tasks/strategy/launch-narrative-strategy.md) — Step 1
+- [pitch-strategy](../tasks/strategy/pitch-strategy.md) — Step 2
+- [build-product-narrative](../tasks/creation/build-product-narrative.md) — Step 3
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Step 4
+- [generate-hooks-from-story](../tasks/extraction/generate-hooks-from-story.md) — Step 5
+- [narrative-consistency-review](../tasks/review/narrative-consistency-review.md) — Step 6
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

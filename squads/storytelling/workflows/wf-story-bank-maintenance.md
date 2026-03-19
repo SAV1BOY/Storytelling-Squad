@@ -140,6 +140,13 @@ to current, tagged, and quality-rated stories for any storytelling need.
 - **To Traffic Squad**: High-performing stories flagged for ad and distribution use
 - **To Sales Squad**: New customer stories and proof points for sales enablement
 
+## Related Tasks
+- [maintain-story-bank](../tasks/operations/maintain-story-bank.md) — Steps 1-8
+- [story-bank-review](../tasks/review/story-bank-review.md) — Steps 5-6
+- [story-bank-gap-analysis](../tasks/research/story-bank-gap-analysis.md) — Step 6
+- [extract-stories-from-interviews](../tasks/extraction/extract-stories-from-interviews.md) — Step 1
+- [story-mining-interviews](../tasks/research/story-mining-interviews.md) — Step 1
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

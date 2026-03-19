@@ -145,6 +145,13 @@ maximizing narrative impact.
 - **To Traffic Squad**: Data visualizations and proof points formatted for ad and social use
 - **To Analytics Squad**: Narrative interpretation feedback for future data analysis focus
 
+## Related Tasks
+- [write-data-story](../tasks/creation/write-data-story.md) — Steps 3-4
+- [add-proof-to-story](../tasks/refinement/add-proof-to-story.md) — Step 6
+- [improve-story-clarity](../tasks/refinement/improve-story-clarity.md) — Steps 2, 4
+- [story-review](../tasks/review/story-review.md) — Step 7
+- [maintain-story-bank](../tasks/operations/maintain-story-bank.md) — Step 8
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

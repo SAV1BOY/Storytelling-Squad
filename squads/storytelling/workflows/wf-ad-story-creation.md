@@ -141,6 +141,14 @@ narrative copy, and any paid media where story outperforms promotion.
 - **To Traffic Squad**: Approved ad variants with targeting recommendations and testing plan
 - **To Landing Page Squad**: CTA language continuity requirements and narrative expectations
 
+## Related Tasks
+- [strengthen-hook](../tasks/refinement/strengthen-hook.md) — Step 1
+- [write-ad-story](../tasks/creation/write-ad-story.md) — Step 2
+- [add-proof-to-story](../tasks/refinement/add-proof-to-story.md) — Step 3
+- [generate-hooks-from-story](../tasks/extraction/generate-hooks-from-story.md) — Steps 1, 6
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Steps 5-6
+- [story-review](../tasks/review/story-review.md) — Step 7
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

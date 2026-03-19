@@ -144,6 +144,14 @@ next quarter's storytelling priorities.
 - **To Traffic Squad**: Performance data identifying highest-performing narrative patterns for ads
 - **To All Squads**: Coverage gap map identifying where each squad's content needs story support
 
+## Related Tasks
+- [competitor-narrative-audit](../tasks/research/competitor-narrative-audit.md) — Steps 1-2
+- [story-bank-gap-analysis](../tasks/research/story-bank-gap-analysis.md) — Step 4
+- [narrative-consistency-review](../tasks/review/narrative-consistency-review.md) — Steps 2-3
+- [story-bank-review](../tasks/review/story-bank-review.md) — Steps 1, 5
+- [quarterly-narrative-review](../tasks/operations/quarterly-narrative-review.md) — Steps 7-8
+- [story-mining-interviews](../tasks/research/story-mining-interviews.md) — Step 6
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

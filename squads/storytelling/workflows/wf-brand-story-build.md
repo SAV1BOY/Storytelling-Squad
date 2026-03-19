@@ -122,6 +122,15 @@ market reality.
 - **To Traffic Squad**: Short-form narrative versions optimized for ad and distribution channels
 - **To Sales Squad**: Pitch-ready versions with proof points for sales enablement
 
+## Related Tasks
+- [brand-narrative-strategy](../tasks/strategy/brand-narrative-strategy.md) — Step 1
+- [create-brand-story](../tasks/creation/create-brand-story.md) — Steps 2-4
+- [add-proof-to-story](../tasks/refinement/add-proof-to-story.md) — Step 3
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Step 4
+- [calibrate-brand-voice](../tasks/operations/calibrate-brand-voice.md) — Step 5
+- [narrative-consistency-review](../tasks/review/narrative-consistency-review.md) — Steps 6-7
+- [train-team-on-storytelling](../tasks/operations/train-team-on-storytelling.md) — Step 8
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

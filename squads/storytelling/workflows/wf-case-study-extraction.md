@@ -127,6 +127,14 @@ authentic voice and specific details that make customer stories credible.
 - **To Traffic Squad**: Social-ready snippets and headline options for distribution
 - **To Sales Squad**: Slide-ready version and objection-handling quotes for pitch integration
 
+## Related Tasks
+- [story-mining-interviews](../tasks/research/story-mining-interviews.md) — Steps 1-2
+- [extract-stories-from-interviews](../tasks/extraction/extract-stories-from-interviews.md) — Step 3
+- [add-proof-to-story](../tasks/refinement/add-proof-to-story.md) — Step 4
+- [write-case-study-story](../tasks/creation/write-case-study-story.md) — Step 5
+- [story-review](../tasks/review/story-review.md) — Step 6
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Step 8
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

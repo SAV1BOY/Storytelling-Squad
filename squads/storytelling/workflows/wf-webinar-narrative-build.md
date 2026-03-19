@@ -146,6 +146,13 @@ depend on narrative quality.
 - **To Traffic Squad**: Webinar promotion hooks and replay distribution assets
 - **To Sales Squad**: Offer language and objection-handling approaches that converted
 
+## Related Tasks
+- [build-webinar-narrative](../tasks/creation/build-webinar-narrative.md) — Steps 1-4
+- [presentation-strategy](../tasks/strategy/presentation-strategy.md) — Steps 1, 5
+- [q-and-a-preparation](../tasks/delivery/q-and-a-preparation.md) — Step 6
+- [rehearse-presentation](../tasks/delivery/rehearse-presentation.md) — Step 7
+- [write-email-sequence-narrative](../tasks/creation/write-email-sequence-narrative.md) — Step 8
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

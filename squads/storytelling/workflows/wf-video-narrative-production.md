@@ -142,6 +142,13 @@ product stories, social content, and any video where narrative quality determine
 - **To Traffic Squad**: Video files, thumbnails, and caption variants for distribution
 - **To Design Squad**: Storyboard and visual style notes for related design work
 
+## Related Tasks
+- [write-video-story-script](../tasks/creation/write-video-story-script.md) — Steps 1-2
+- [fix-pacing-and-rhythm](../tasks/refinement/fix-pacing-and-rhythm.md) — Steps 6-7
+- [strengthen-hook](../tasks/refinement/strengthen-hook.md) — Step 4
+- [story-review](../tasks/review/story-review.md) — Steps 4, 6-7
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Step 8
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |

@@ -145,6 +145,13 @@ a completed story needs to be operationalized by other teams.
 - **To Traffic Squad**: Hooks, micro-stories, and targeting recommendations for distribution
 - **To All Squads**: Guardrail documentation and narrative integrity criteria
 
+## Related Tasks
+- [cross-squad-narrative-sync](../tasks/operations/cross-squad-narrative-sync.md) — Steps 1, 6
+- [adapt-story-for-channel](../tasks/refinement/adapt-story-for-channel.md) — Steps 2-4
+- [extract-social-snippets](../tasks/extraction/extract-social-snippets.md) — Step 4
+- [narrative-consistency-review](../tasks/review/narrative-consistency-review.md) — Steps 5, 7
+- [calibrate-brand-voice](../tasks/operations/calibrate-brand-voice.md) — Step 3
+
 ## Timeline
 
 | Step | Agent | Est. Duration | Cumulative |
